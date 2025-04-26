@@ -1,0 +1,883 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eab678c02d50042baa35d04cd0db48, type: 3}
+  m_Name: CyanTrigger_b844166e-f16d-4037-afd5-d1e8129ed5aa
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 216690a0efd2bff44a853805de4269c6,
+    type: 2}
+  udonAssembly: ".data_start\r\n  .export __CyanTrigger_ProgramName_SystemString\r\n 
+    .export WinerString\r\n  .export LoserString\r\n  .export WinerApi\r\n  .export
+    LoserApi\r\n  .export __18_ref_SystemString\r\n  .export __19_ref_VRCUdonUdonBehaviour\r\n 
+    .export __23_ref_SystemString\r\n  .export __24_ref_VRCUdonUdonBehaviour\r\n 
+    .export __32_ref_VRCUdonUdonBehaviour\r\n  .export __33_ref_SystemString\r\n 
+    .export __34_ref_VRCUdonUdonBehaviour\r\n  .export __35_ref_SystemString\r\n 
+    .export __36_ref_VRCUdonUdonBehaviour\r\n  .export __37_ref_SystemString\r\n 
+    .export __38_ref_VRCUdonUdonBehaviour\r\n  .export __39_ref_SystemString\r\n 
+    .export __40_ref_UnityEngineUIText\r\n  .export __41_ref_UnityEngineGameObject\r\n 
+    .export __42_ref_SystemBoolean\r\n  .export __47_ref_VRCUdonUdonBehaviour\r\n 
+    .export __48_ref_SystemString\r\n  .export __49_ref_VRCUdonUdonBehaviour\r\n 
+    .export __50_ref_SystemString\r\n  .export __51_ref_VRCUdonUdonBehaviour\r\n 
+    .export __52_ref_SystemString\r\n  .export __53_ref_VRCUdonUdonBehaviour\r\n 
+    .export __54_ref_SystemString\r\n  .export __55_ref_UnityEngineUIText\r\n  .export
+    __56_ref_UnityEngineGameObject\r\n  .export __57_ref_SystemBoolean\r\n  __CyanTrigger_ProgramName_SystemString:
+    %SystemString, null\r\n  __CyanTrigger_ProgramHash_SystemString: %SystemString,
+    null\r\n  __0_ra_SystemUInt32: %SystemUInt32, null\r\n  __1_ea_SystemUInt32:
+    %SystemUInt32, null\r\n  _this_gameobject: %UnityEngineGameObject, this\r\n 
+    _this_udonbehaviour: %VRCUdonUdonBehaviour, this\r\n  __2_bc_SystemUInt32: %SystemUInt32,
+    null\r\n  WinerString: %SystemString, null\r\n  LoserString: %SystemString, null\r\n 
+    WinerApi: %SystemString, null\r\n  LoserApi: %SystemString, null\r\n  __14___jump_return_0_SystemUInt32:
+    %SystemUInt32, null\r\n  __15_const_SystemString: %SystemString, null\r\n  __16_const_SystemSingle:
+    %SystemSingle, null\r\n  __17_const_VRCUdonCommonEnumsEventTiming: %VRCUdonCommonEnumsEventTiming,
+    null\r\n  __18_ref_SystemString: %SystemString, null\r\n  __19_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __20___jump_return_1_SystemUInt32: %SystemUInt32,
+    null\r\n  __21_const_SystemString: %SystemString, null\r\n  __22_const_SystemSingle:
+    %SystemSingle, null\r\n  __23_ref_SystemString: %SystemString, null\r\n  __24_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __25___jump_return_2_SystemUInt32: %SystemUInt32,
+    null\r\n  __26_const_SystemUInt32: %SystemUInt32, null\r\n  __27_temp_SystemBoolean:
+    %SystemBoolean, null\r\n  __28_const_SystemString: %SystemString, null\r\n  __29_const_VRCUdonCommonInterfacesNetworkEventTarget:
+    %VRCUdonCommonInterfacesNetworkEventTarget, null\r\n  __30_const_SystemString:
+    %SystemString, null\r\n  __31_const_SystemUInt32: %SystemUInt32, null\r\n  __32_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __33_ref_SystemString: %SystemString, null\r\n 
+    __34_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __35_ref_SystemString:
+    %SystemString, null\r\n  __36_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __37_ref_SystemString: %SystemString, null\r\n  __38_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __39_ref_SystemString: %SystemString, null\r\n 
+    __40_ref_UnityEngineUIText: %UnityEngineUIText, null\r\n  __41_ref_UnityEngineGameObject:
+    %UnityEngineGameObject, null\r\n  __42_ref_SystemBoolean: %SystemBoolean, null\r\n 
+    __43___jump_return_3_SystemUInt32: %SystemUInt32, null\r\n  __44_temp_SystemBoolean:
+    %SystemBoolean, null\r\n  __45_const_SystemString: %SystemString, null\r\n  __46_const_SystemString:
+    %SystemString, null\r\n  __47_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __48_ref_SystemString: %SystemString, null\r\n  __49_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __50_ref_SystemString: %SystemString, null\r\n 
+    __51_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __52_ref_SystemString:
+    %SystemString, null\r\n  __53_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __54_ref_SystemString: %SystemString, null\r\n  __55_ref_UnityEngineUIText:
+    %UnityEngineUIText, null\r\n  __56_ref_UnityEngineGameObject: %UnityEngineGameObject,
+    null\r\n  __57_ref_SystemBoolean: %SystemBoolean, null\r\n.data_end\r\n\n.code_start\r\n 
+    .export ResetGame\r\n  ResetGame:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __14___jump_return_0_SystemUInt32\r\n    JUMP, 0x00000044\r\n    PUSH, __20___jump_return_1_SystemUInt32\r\n   
+    JUMP, 0x000000BC\r\n    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT,
+    __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_0_debug_execute\r\n  __intern_event_0_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __15_const_SystemString\r\n   
+    PUSH, __16_const_SystemSingle\r\n    PUSH, __17_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_0_delayed_actions\r\n  __intern_event_0_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __19_ref_VRCUdonUdonBehaviour\r\n    PUSH,
+    __18_ref_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_1_debug_execute\r\n  __intern_event_1_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __21_const_SystemString\r\n   
+    PUSH, __22_const_SystemSingle\r\n    PUSH, __17_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_1_delayed_actions\r\n  __intern_event_1_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __24_ref_VRCUdonUdonBehaviour\r\n    PUSH,
+    __23_ref_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player1Win\r\n  Player1Win:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __25___jump_return_2_SystemUInt32\r\n    JUMP, 0x00000160\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_2_debug_execute\r\n 
+    __intern_event_2_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n    PUSH, __27_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemUInt32.__op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
+    PUSH, __27_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000001A8\r\n    PUSH, __28_const_SystemString\r\n   
+    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __29_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __30_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export intern_event_2_networked_actions\r\n  intern_event_2_networked_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __31_const_SystemUInt32\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    EXTERN, \"SystemUInt32.__op_Addition__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __32_ref_VRCUdonUdonBehaviour\r\n    PUSH, __33_ref_SystemString\r\n   
+    PUSH, WinerApi\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __34_ref_VRCUdonUdonBehaviour\r\n    PUSH, __35_ref_SystemString\r\n   
+    PUSH, WinerString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __36_ref_VRCUdonUdonBehaviour\r\n    PUSH, __37_ref_SystemString\r\n   
+    PUSH, LoserApi\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __38_ref_VRCUdonUdonBehaviour\r\n    PUSH, __39_ref_SystemString\r\n   
+    PUSH, LoserString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __40_ref_UnityEngineUIText\r\n    PUSH, WinerString\r\n    EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n   
+    PUSH, __41_ref_UnityEngineGameObject\r\n    PUSH, __42_ref_SystemBoolean\r\n   
+    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __31_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    EXTERN, \"SystemUInt32.__op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player2Win\r\n  Player2Win:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __43___jump_return_3_SystemUInt32\r\n    JUMP, 0x0000031C\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_3_debug_execute\r\n 
+    __intern_event_3_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n    PUSH, __44_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemUInt32.__op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
+    PUSH, __44_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000364\r\n    PUSH, __45_const_SystemString\r\n   
+    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __29_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __46_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export intern_event_3_networked_actions\r\n  intern_event_3_networked_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __31_const_SystemUInt32\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    EXTERN, \"SystemUInt32.__op_Addition__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __47_ref_VRCUdonUdonBehaviour\r\n    PUSH, __48_ref_SystemString\r\n   
+    PUSH, LoserApi\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __49_ref_VRCUdonUdonBehaviour\r\n    PUSH, __50_ref_SystemString\r\n   
+    PUSH, LoserString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __51_ref_VRCUdonUdonBehaviour\r\n    PUSH, __52_ref_SystemString\r\n   
+    PUSH, WinerApi\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __53_ref_VRCUdonUdonBehaviour\r\n    PUSH, __54_ref_SystemString\r\n   
+    PUSH, WinerString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __55_ref_UnityEngineUIText\r\n    PUSH, WinerString\r\n    EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n   
+    PUSH, __56_ref_UnityEngineGameObject\r\n    PUSH, __57_ref_SystemBoolean\r\n   
+    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __31_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    EXTERN, \"SystemUInt32.__op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n.code_end\r\n"
+  assemblyError: 
+  triggerHash: D73704F19FCA01778BD25BE74F95CAE4
+  shouldBeNetworked: 1
+  warningMessages: []
+  errorMessages: []
+  ctDataInstance:
+    version: 6
+    updateOrder: 0
+    autoSetSyncMode: 1
+    programSyncMode: 2
+    programName: 
+    events:
+    - name: ResetGame
+      eventId: 8d13eabd-f3f0-4f43-a4f6-27424d601402
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAE0AYQBpAG4AUgBlAHMAZQB0AAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAE0AYQBpAG4AUgBlAHMAZQB0ACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABNAGEAaQBuAFIAZQBzAGUAdAABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0.5
+        replay: 0
+      expanded: 1
+    - name: ResetGame
+      eventId: 8219131e-cfba-4f3b-a8d4-701f331c83d2
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAE0AYQBpAG4AUgBlAHMAZQB0AAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAE0AYQBpAG4AUgBlAHMAZQB0ACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABNAGEAaQBuAFIAZQBzAGUAdAABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 1.5
+        replay: 0
+      expanded: 1
+    - name: Player1Win
+      eventId: f7bd0f86-095b-40e1-be7c-594679d143ef
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADEAQQBwAGkABQ==
+            unityObjects: []
+        - isVariable: 1
+          name: WinerApi
+          variableID: ed54ac62-3ec9-4040-8cfb-91559b639f18
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCwAAAFAAbABhAHkAZQByADEATgBhAG0AZQAF
+            unityObjects: []
+        - isVariable: 1
+          name: WinerString
+          variableID: aa8fe08e-9790-43db-88d4-2649768fe328
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADIAQQBwAGkABQ==
+            unityObjects: []
+        - isVariable: 1
+          name: LoserApi
+          variableID: 1858e3f6-58fc-4a7f-83fe-84b1be188e0e
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCwAAAFAAbABhAHkAZQByADIATgBhAG0AZQAF
+            unityObjects: []
+        - isVariable: 1
+          name: LoserString
+          variableID: 41c9a9fb-50cf-4178-a81a-3931c06d7f87
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineUIText.__set_text__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: WinerString
+          variableID: aa8fe08e-9790-43db-88d4-2649768fe328
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAEF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 2
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: Player2Win
+      eventId: a1560b7f-d67b-42bf-8eea-db596eaf72ae
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADEAQQBwAGkABQ==
+            unityObjects: []
+        - isVariable: 1
+          name: LoserApi
+          variableID: 1858e3f6-58fc-4a7f-83fe-84b1be188e0e
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCwAAAFAAbABhAHkAZQByADEATgBhAG0AZQAF
+            unityObjects: []
+        - isVariable: 1
+          name: LoserString
+          variableID: 41c9a9fb-50cf-4178-a81a-3931c06d7f87
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADIAQQBwAGkABQ==
+            unityObjects: []
+        - isVariable: 1
+          name: WinerApi
+          variableID: ed54ac62-3ec9-4040-8cfb-91559b639f18
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCwAAAFAAbABhAHkAZQByADIATgBhAG0AZQAF
+            unityObjects: []
+        - isVariable: 1
+          name: WinerString
+          variableID: aa8fe08e-9790-43db-88d4-2649768fe328
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineUIText.__set_text__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: WinerString
+          variableID: aa8fe08e-9790-43db-88d4-2649768fe328
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAEF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 2
+        delay: 0
+        replay: 0
+      expanded: 1
+    variables:
+    - isVariable: 0
+      name: WinerString
+      variableID: aa8fe08e-9790-43db-88d4-2649768fe328
+      data:
+        objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: LoserString
+      variableID: 41c9a9fb-50cf-4178-a81a-3931c06d7f87
+      data:
+        objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: WinerApi
+      variableID: ed54ac62-3ec9-4040-8cfb-91559b639f18
+      data:
+        objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: LoserApi
+      variableID: 1858e3f6-58fc-4a7f-83fe-84b1be188e0e
+      data:
+        objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    comment:
+      comment: 
+    expandVariables: 0
+    expandOtherSettings: 1
+    expandSyncSection: 0
+    ignoreEventWarnings: 0
+  publicVariableReferences:
+    actionDataIndices:
+    - symbolName: __18_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __19_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __23_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __24_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __32_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __33_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __34_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __35_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 2
+      actionIndex: 1
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __36_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 2
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __37_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 2
+      actionIndex: 2
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __38_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 3
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __39_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 2
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __40_ref_UnityEngineUIText
+      type:
+        typeDef: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 4
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __41_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 5
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __42_ref_SystemBoolean
+      type:
+        typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 2
+      actionIndex: 5
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __47_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 3
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __48_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __49_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 3
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __50_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 1
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __51_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 3
+      actionIndex: 2
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __52_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 2
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __53_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 3
+      actionIndex: 3
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __54_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __55_ref_UnityEngineUIText
+      type:
+        typeDef: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventIndex: 3
+      actionIndex: 4
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __56_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 3
+      actionIndex: 5
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __57_ref_SystemBoolean
+      type:
+        typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 5
+      variableIndex: 1
+      multiVariableIndex: -1
+    userVariableNames:
+    - WinerString
+    - LoserString
+    - WinerApi
+    - LoserApi
+    userVariableTypes:
+    - typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  ignoreOdinData: 1
+  serializationDataOdin:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []

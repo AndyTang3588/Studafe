@@ -1,0 +1,652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eab678c02d50042baa35d04cd0db48, type: 3}
+  m_Name: CyanTrigger_a5555bc1-1a21-487e-b03a-b6dca3f3993e
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 734ac0c33ff0d5d4e817352e4d621d3c,
+    type: 2}
+  udonAssembly: ".data_start\r\n  .export __CyanTrigger_ProgramName_SystemString\r\n 
+    .export Player2Name\r\n  .sync Player2Name, none\r\n  .export _old_Player2Name\r\n 
+    .export Player2Api\r\n  .sync Player2Api, none\r\n  .export __13_ref_UnityEngineGameObject\r\n 
+    .export __16_ref_UnityEngineGameObject\r\n  .export __18_ref_UnityEngineUIText\r\n 
+    .export __19_ref_UnityEngineUIText\r\n  .export __20_ref_UnityEngineUIText\r\n 
+    .export __23_ref_SystemString\r\n  .export __24_ref_UnityEngineGameObject\r\n 
+    .export __25_ref_SystemBoolean\r\n  .export __26_ref_UnityEngineGameObject\r\n 
+    .export __27_ref_SystemBoolean\r\n  .export __29_ref_SystemString\r\n  .export
+    __31_ref_SystemString\r\n  __CyanTrigger_ProgramName_SystemString: %SystemString,
+    null\r\n  __CyanTrigger_ProgramHash_SystemString: %SystemString, null\r\n  __0_ra_SystemUInt32:
+    %SystemUInt32, null\r\n  __1_ea_SystemUInt32: %SystemUInt32, null\r\n  _this_gameobject:
+    %UnityEngineGameObject, this\r\n  _this_udonbehaviour: %VRCUdonUdonBehaviour,
+    this\r\n  _this_local_player: %VRCSDKBaseVRCPlayerApi, null\r\n  Player2Name:
+    %SystemString, null\r\n  _old_Player2Name: %SystemString, null\r\n  Player2Api:
+    %SystemString, null\r\n  __12___jump_return_0_SystemUInt32: %SystemUInt32, null\r\n 
+    __13_ref_UnityEngineGameObject: %UnityEngineGameObject, null\r\n  __14_temp_SystemBoolean:
+    %SystemBoolean, null\r\n  __15___jump_return_1_SystemUInt32: %SystemUInt32, null\r\n 
+    __16_ref_UnityEngineGameObject: %UnityEngineGameObject, null\r\n  __17___jump_return_2_SystemUInt32:
+    %SystemUInt32, null\r\n  __18_ref_UnityEngineUIText: %UnityEngineUIText, null\r\n 
+    __19_ref_UnityEngineUIText: %UnityEngineUIText, null\r\n  __20_ref_UnityEngineUIText:
+    %UnityEngineUIText, null\r\n  __21_local_var_SystemBoolean: %SystemBoolean, null\r\n 
+    __22_const_SystemBoolean: %SystemBoolean, null\r\n  __23_ref_SystemString: %SystemString,
+    null\r\n  __24_ref_UnityEngineGameObject: %UnityEngineGameObject, null\r\n  __25_ref_SystemBoolean:
+    %SystemBoolean, null\r\n  __26_ref_UnityEngineGameObject: %UnityEngineGameObject,
+    null\r\n  __27_ref_SystemBoolean: %SystemBoolean, null\r\n  __28___jump_return_3_SystemUInt32:
+    %SystemUInt32, null\r\n  __29_ref_SystemString: %SystemString, null\r\n  __30___jump_return_4_SystemUInt32:
+    %SystemUInt32, null\r\n  __31_ref_SystemString: %SystemString, null\r\n  __32___jump_return_5_SystemUInt32:
+    %SystemUInt32, null\r\n  __33_lp_init_SystemBoolean_ct_intern: %SystemBoolean,
+    null\r\n.data_end\r\n\n.code_start\r\n  .export _interact\r\n  _interact:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __12___jump_return_0_SystemUInt32\r\n   
+    JUMP, 0x00000034\r\n    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT,
+    __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_0_debug_execute\r\n  __intern_event_0_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __33_lp_init_SystemBoolean_ct_intern\r\n   
+    JUMP_IF_FALSE, 0x00000068\r\n    PUSH, __22_const_SystemBoolean\r\n    PUSH,
+    __33_lp_init_SystemBoolean_ct_intern\r\n    COPY\r\n    PUSH, _this_local_player\r\n   
+    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
+    PUSH, _this_local_player\r\n    PUSH, __13_ref_UnityEngineGameObject\r\n    EXTERN,
+    \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n   
+    PUSH, _this_local_player\r\n    PUSH, Player2Name\r\n    EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\"\r\n   
+    PUSH, _old_Player2Name\r\n    PUSH, Player2Name\r\n    PUSH, __14_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean\"\r\n   
+    PUSH, __14_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000000D8\r\n    PUSH, __15___jump_return_1_SystemUInt32\r\n   
+    JUMP, 0x00000134\r\n    PUSH, _this_local_player\r\n    PUSH, Player2Api\r\n   
+    EXTERN, \"VRCSDKBaseVRCPlayerApi.__ToString__SystemString\"\r\n    PUSH, _this_local_player\r\n   
+    PUSH, __16_ref_UnityEngineGameObject\r\n    EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export _onVarChange_Player2Name\r\n  _onVarChange_Player2Name:\r\n    PUSH,
+    __1_ea_SystemUInt32\r\n    PUSH, __17___jump_return_2_SystemUInt32\r\n    JUMP,
+    0x00000174\r\n    PUSH, Player2Name\r\n    PUSH, _old_Player2Name\r\n    COPY\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_1_debug_execute\r\n  __intern_event_1_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __18_ref_UnityEngineUIText\r\n    PUSH,
+    Player2Name\r\n    EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n   
+    PUSH, __19_ref_UnityEngineUIText\r\n    PUSH, Player2Name\r\n    EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n   
+    PUSH, __20_ref_UnityEngineUIText\r\n    PUSH, Player2Name\r\n    EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n   
+    PUSH, __22_const_SystemBoolean\r\n    PUSH, __21_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player2Name\r\n    PUSH, __23_ref_SystemString\r\n    PUSH,
+    __21_local_var_SystemBoolean\r\n    EXTERN, \"SystemString.__op_Equality__SystemString_SystemString__SystemBoolean\"\r\n   
+    PUSH, __21_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000220\r\n    PUSH,
+    __24_ref_UnityEngineGameObject\r\n    PUSH, __25_ref_SystemBoolean\r\n    EXTERN,
+    \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n    JUMP,
+    0x00000238\r\n    PUSH, __26_ref_UnityEngineGameObject\r\n    PUSH, __27_ref_SystemBoolean\r\n   
+    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export ClearPlayerName\r\n  ClearPlayerName:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __28___jump_return_3_SystemUInt32\r\n    JUMP, 0x00000280\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_2_debug_execute\r\n  __intern_event_2_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __33_lp_init_SystemBoolean_ct_intern\r\n   
+    JUMP_IF_FALSE, 0x000002B4\r\n    PUSH, __22_const_SystemBoolean\r\n    PUSH,
+    __33_lp_init_SystemBoolean_ct_intern\r\n    COPY\r\n    PUSH, _this_local_player\r\n   
+    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
+    PUSH, _this_local_player\r\n    PUSH, _this_gameobject\r\n    EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n   
+    PUSH, __29_ref_SystemString\r\n    PUSH, Player2Name\r\n    COPY\r\n    PUSH,
+    _old_Player2Name\r\n    PUSH, Player2Name\r\n    PUSH, __14_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean\"\r\n   
+    PUSH, __14_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000320\r\n    PUSH, __30___jump_return_4_SystemUInt32\r\n   
+    JUMP, 0x00000134\r\n    PUSH, __32___jump_return_5_SystemUInt32\r\n    JUMP,
+    0x00000134\r\n    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n.code_end\r\n"
+  assemblyError: 
+  triggerHash: 11100FA3C35CB030BBB5CBA6A2345BC4
+  shouldBeNetworked: 1
+  warningMessages: []
+  errorMessages: []
+  ctDataInstance:
+    version: 6
+    updateOrder: 0
+    autoSetSyncMode: 1
+    programSyncMode: 2
+    programName: 
+    events:
+    - name: _Unnamed
+      eventId: d9a1f2f3-4a59-41ad-9fa1-4cf85f19f933
+      eventInstance:
+        actionType:
+          directEvent: Event_Interact
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: Player2Name
+          variableID: 02183058-58d7-4ce3-a92f-30e04b6a5b62
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCSDKBaseVRCPlayerApi.__ToString__SystemString
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: Player2Api
+          variableID: 997e2211-f16c-4069-8079-8fe58b3b04e9
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: RefreshPlayerName
+      eventId: ad533a13-bfa5-41e7-ae56-f12c37962ee7
+      eventInstance:
+        actionType:
+          directEvent: Event_OnVariableChanged
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2Name
+          variableID: 02183058-58d7-4ce3-a92f-30e04b6a5b62
+          data:
+            objEncoded: Ai8AAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAGAwAAAAAAAAAoARAAAABfAG8AbABkAF8AUABsAGEAeQBlAHIAMgBOAGEAbQBlACgBWgAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcALAAgAG0AcwBjAG8AcgBsAGkAYgAsACAAVgBlAHIAcwBpAG8AbgA9ADQALgAwAC4AMAAuADAALAAgAEMAdQBsAHQAdQByAGUAPQBuAGUAdQB0AHIAYQBsACwAIABQAHUAYgBsAGkAYwBLAGUAeQBUAG8AawBlAG4APQBiADcANwBhADUAYwA1ADYAMQA5ADMANABlADAAOAA5ACgBJAAAADAAMgAxADgAMwAwADUAOAAtADUAOABkADcALQA0AGMAZQAzAC0AYQA5ADIAZgAtADMAMABlADAANABiADYAYQA1AGIANgAyAAcF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: UnityEngineUIText.__set_text__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: Player2Name
+          variableID: 02183058-58d7-4ce3-a92f-30e04b6a5b62
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 163ad044-fd9e-4688-8a7f-dcec4fb189d1
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCAAAAFAAbABhAHkAZQByAE8AbgAF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemString.__op_Equality__SystemString_SystemString__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2Name
+          variableID: 02183058-58d7-4ce3-a92f-30e04b6a5b62
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFAAbABhAHkAZQByADIABQ==
+            unityObjects: []
+        - isVariable: 1
+          name: PlayerOn
+          variableID: 163ad044-fd9e-4688-8a7f-dcec4fb189d1
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAAF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Else
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAEF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: ClearPlayerName
+      eventId: 2d605832-7034-4f64-ab8b-dbe86428283c
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: This GameObject
+          variableID: _this_gameobject
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemString__.Set__SystemString__SystemString
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFAAbABhAHkAZQByADIABQ==
+            unityObjects: []
+        - isVariable: 1
+          name: Player2Name
+          variableID: 02183058-58d7-4ce3-a92f-30e04b6a5b62
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAHMAdAByAGkAbgBnAFYAYQByAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBGAAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBOAGEAbQBlAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABGAAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBOAGEAbQBlAC0BEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    variables:
+    - isVariable: 0
+      name: Player2Name
+      variableID: 02183058-58d7-4ce3-a92f-30e04b6a5b62
+      data:
+        objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 1
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Player2Api
+      variableID: 997e2211-f16c-4069-8079-8fe58b3b04e9
+      data:
+        objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 1
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    comment:
+      comment: 
+    expandVariables: 0
+    expandOtherSettings: 1
+    expandSyncSection: 0
+    ignoreEventWarnings: 0
+  publicVariableReferences:
+    actionDataIndices:
+    - symbolName: __13_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __16_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __18_ref_UnityEngineUIText
+      type:
+        typeDef: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __19_ref_UnityEngineUIText
+      type:
+        typeDef: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 1
+    - symbolName: __20_ref_UnityEngineUIText
+      type:
+        typeDef: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 2
+    - symbolName: __23_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __24_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 6
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __25_ref_SystemBoolean
+      type:
+        typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __26_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 10
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __27_ref_SystemBoolean
+      type:
+        typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 10
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __29_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 2
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __31_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 2
+      actionIndex: 2
+      variableIndex: 1
+      multiVariableIndex: -1
+    userVariableNames:
+    - Player2Name
+    - Player2Api
+    userVariableTypes:
+    - typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  ignoreOdinData: 1
+  serializationDataOdin:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []

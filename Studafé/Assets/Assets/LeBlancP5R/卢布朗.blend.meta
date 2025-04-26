@@ -1,0 +1,1324 @@
+fileFormatVersion: 2
+guid: b423184a2b3f15641bd95e7ee9f72db9
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 26_part2-2 0 0 Leblanc MAIN.material75_0.1_0_0
+    second: {fileID: 2100000, guid: ed52ab658893de94daab78e5e8a9c5b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 26_part2-2 0 0 Leblanc MAIN.material84_0.1_0_0
+    second: {fileID: 2100000, guid: b4e7732b0f92f31499e047f93863f544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 26_part3-3 0 Leblanc GLASS.material31_0.1_0_0
+    second: {fileID: 2100000, guid: 77cfefa2e579b67459cbf5636450457b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 26_part3-3 0 Leblanc GLASS.material39_0.1_0_0
+    second: {fileID: 2100000, guid: 690dd95c271043b48905cb9521d6d521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_+part2-2 0 0 Leblanc MAIN.part2-material158_1_0_0
+    second: {fileID: 2100000, guid: cc77ff6f6e5900b4bbe3ff613ef87c44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part1-4 0 Leblanc LAMPS.material20_0.3_0_0
+    second: {fileID: 2100000, guid: f1784fe290bb9e14c9586f8111dcefa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part2-2 0 0 Leblanc MAIN.material132_0.2_0_0
+    second: {fileID: 2100000, guid: 2e7c085acc93fda40a0e1c0fc0d20de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part2-2 0 0 Leblanc MAIN.material137_0.2_0_0
+    second: {fileID: 2100000, guid: 447b02d5f84933a4e9de262a6402b22d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part2-2 0 0 Leblanc MAIN.material138_0.2_0_0
+    second: {fileID: 2100000, guid: 47e41e037c57e8943bc9761b70b7ada0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material09_0.2_0_0
+    second: {fileID: 2100000, guid: 91fc1ec0af70a444eb721f8dbcb5c340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material10_0.2_0_0
+    second: {fileID: 2100000, guid: 774548975d437e042af879779fba1785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material11_0.2_0_0
+    second: {fileID: 2100000, guid: 1aaa0d9c36d4b1e418a59d295061861d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material12_0.2_0_0
+    second: {fileID: 2100000, guid: f86161b5cf2f21b4887951723608b2a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material13_0.2_0_0
+    second: {fileID: 2100000, guid: 320d33e6eb6c80d47b97fafa50ffb3e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material15_0.2_0_0
+    second: {fileID: 2100000, guid: 0c3f0714cf952eb41b1668ece84a81d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material17_0.3_0_0
+    second: {fileID: 2100000, guid: 473c00ee3fe56584e86989d31c9f3d92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material19_0.3_0_0
+    second: {fileID: 2100000, guid: 83f2b19ac2740674ea4ba9f16299e95e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material21_0.3_0_0
+    second: {fileID: 2100000, guid: 8862ab5197879e0499f8cdb4bac9d893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material23_0.1_0_0
+    second: {fileID: 2100000, guid: f2477be5001de294babe88606303cec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material24_0.3_0_0
+    second: {fileID: 2100000, guid: f2260a690b81a1b4eaaf2af3c49cd58a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material25_0.2_0_0
+    second: {fileID: 2100000, guid: 3eeb9cc5a66cfac419aa703e37427630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material26_0.1_0_0
+    second: {fileID: 2100000, guid: 6679e799975dddd42a1d7cf241b6e092, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material27_0.2_0_0
+    second: {fileID: 2100000, guid: 4ca729bf55bf27443a3e8db3802508c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material28_0.3_0_0
+    second: {fileID: 2100000, guid: 4a4b9a92cf4b5d94dac2b38340d861a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material29_0.2_0_0
+    second: {fileID: 2100000, guid: aaf5285e45051ce48b02a543741e1398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material32_0.3_0_0
+    second: {fileID: 2100000, guid: 61e1be261982ca34fadffe1336b7a6e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material33_0.2_0_0
+    second: {fileID: 2100000, guid: 77f42aac77b2ca9468e3dd5aed4c3578, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material34_0.2_0_0
+    second: {fileID: 2100000, guid: d98b9e16c8f74304eb3df148184bb133, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material35_0.2_0_0
+    second: {fileID: 2100000, guid: 5e302de71a1be2245bcb2c24fe119e82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material36_0.3_0_0
+    second: {fileID: 2100000, guid: e8bcf816aa90bc849b8c8d80d0a56744, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material37_0.2_0_0
+    second: {fileID: 2100000, guid: 4b3ed8942c042574f9ee911ee89e4606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material40_0.3_0_0
+    second: {fileID: 2100000, guid: c40820339f792904cbe63ec054ae57d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material41_0.2_0_0
+    second: {fileID: 2100000, guid: 0983bc6261d3904458e61a3546f06070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material42_0.2_0_0
+    second: {fileID: 2100000, guid: 8240cb7657a1ecc49b0bc5167e03861b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material43_0.3_0_0
+    second: {fileID: 2100000, guid: 45d3052117148c54684b861832e8e63a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material44_0.2_0_0
+    second: {fileID: 2100000, guid: 9761bcf2b5c6d784986ebd830546d74a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27_part3-3 0 Leblanc GLASS.material45_0.2_0_0
+    second: {fileID: 2100000, guid: 51b6d5833b53c954eadd41c896aebddf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part1-4 0 Leblanc LAMPS.material01_1_0_0
+    second: {fileID: 2100000, guid: 2d179281eef0b094aa3e01d35daf400a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part1-4 0 Leblanc LAMPS.material02_1_0_0
+    second: {fileID: 2100000, guid: 032ae9e81ef848442bb8f1c890996a97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part1-4 0 Leblanc LAMPS.material03_1_0_0
+    second: {fileID: 2100000, guid: 119a257555751984e81802f5e7628a07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part1-4 0 Leblanc LAMPS.material04_1_0_0
+    second: {fileID: 2100000, guid: 6ed791e1520f6d3438c1fe56491f3c0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part1-4 0 Leblanc LAMPS_1_0_0
+    second: {fileID: 2100000, guid: 8bd4dd335dc38f64fa9b4a4294529638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material01_1_0_0
+    second: {fileID: 2100000, guid: ca609513852483e4db8fbfd76a87aa7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material02_1_0_0
+    second: {fileID: 2100000, guid: 9aa8fbcb1ed93874b93cf2b0a23677f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material03_1_0_0
+    second: {fileID: 2100000, guid: 25d68f39b220ee34ca308966db449da2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material04_1_0_0
+    second: {fileID: 2100000, guid: 7f3741f0e4fcb9b4ea1e5ca5befbc199, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material05_1_0_0
+    second: {fileID: 2100000, guid: 29a791a876843574597c1ee2ddbf4cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material06_1_0_0
+    second: {fileID: 2100000, guid: 17fd4dc59e8ace84d97d3c00f03949af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material07_1_0_0
+    second: {fileID: 2100000, guid: 4bc2d823e16601f4a92bf93732adb2ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material08_1_0_0
+    second: {fileID: 2100000, guid: 6e3778098f2b206498c7205d408971b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material09_1_0_0
+    second: {fileID: 2100000, guid: 1c1d39c3b7bb8fe46855703ed1eef1d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material100_1_0_0
+    second: {fileID: 2100000, guid: 67a44dadb29a9b0439c87c8444362031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material101_1_0_0
+    second: {fileID: 2100000, guid: ebeb89f7663d2084cb48cc8f5417139c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material102_1_0_0
+    second: {fileID: 2100000, guid: c2e44f6c7c0caf648bad0cfe560677f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material103_1_0_0
+    second: {fileID: 2100000, guid: 58ffcbdb83e00704686906ce3fa13cda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material104_1_0_0
+    second: {fileID: 2100000, guid: 4732faba80d5e5c4190cbd0987a69084, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material105_1_0_0
+    second: {fileID: 2100000, guid: a619643cce07a6e4dadfbbf1bc0a1cdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material106_1_0_0
+    second: {fileID: 2100000, guid: c2d3ef2fab33fc14c8b53d5c6b980ef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material107_1_0_0
+    second: {fileID: 2100000, guid: f8ee8e990f63ea641a166a7e81cdc2ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material108_1_0_0
+    second: {fileID: 2100000, guid: 92dbd40dcb8c1e4468ad5b216d03735b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material109_1_0_0
+    second: {fileID: 2100000, guid: 20c4e19a28c36cb418724df86622366f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material10_1_0_0
+    second: {fileID: 2100000, guid: f878f33b8f0889146bd856edec3210fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material110_1_0_0
+    second: {fileID: 2100000, guid: 7b7b743e2931b0f428b2553dd16f4245, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material111_1_0_0
+    second: {fileID: 2100000, guid: 385329c3d756dad45901769b0fd090c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material112_1_0_0
+    second: {fileID: 2100000, guid: 97cc2075aa9b09547bf937571ca091a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material113_1_0_0
+    second: {fileID: 2100000, guid: a939c36b676305341993fc5606adcbd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material115_1_0_0
+    second: {fileID: 2100000, guid: 149267a91e745fa43a74082b63b68f2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material116_1_0_0
+    second: {fileID: 2100000, guid: 3da1b1a523e7bcd41bedcb9ac3585926, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material117_1_0_0
+    second: {fileID: 2100000, guid: fcf095810fff6d24cafa9aca0460a1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material118_1_0_0
+    second: {fileID: 2100000, guid: 88458221ab86baf449a0b3a91d1a1903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material119_1_0_0
+    second: {fileID: 2100000, guid: a2f0aaf5ad730444393a6352fc03a323, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material11_1_0_0
+    second: {fileID: 2100000, guid: 19941ca4bdf27fe4b94dd9bb88732c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material120_1_0_0
+    second: {fileID: 2100000, guid: e60ff86e46527404cbedc18084cf0743, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material121_1_0_0
+    second: {fileID: 2100000, guid: 23e6d9adf05dbb247b420f2acba748d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material122_1_0_0
+    second: {fileID: 2100000, guid: 70e46ecd952f29d4386235171747fb7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material123_1_0_0
+    second: {fileID: 2100000, guid: 42ff825b849098f478c1248830aefc18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material124_1_0_0
+    second: {fileID: 2100000, guid: d06cee80f301ca34dac14d751988c170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material125_1_0_0
+    second: {fileID: 2100000, guid: 18c748ce97306f04aa3661a0a802e5e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material126_1_0_0
+    second: {fileID: 2100000, guid: 7364c309f11aefb4fb8fa1f73123c558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material127_1_0_0
+    second: {fileID: 2100000, guid: 838fc3bc78f8b0a4c8aff0d4ba6aeacb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material128_1_0_0
+    second: {fileID: 2100000, guid: ec936bf77c811224290ef7996a139edc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material129_1_0_0
+    second: {fileID: 2100000, guid: 2b44049ccf1a9ce40988e2513e5af1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material12_1_0_0
+    second: {fileID: 2100000, guid: 32611b11c64c03c4e96da5c3dc7966f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material130_1_0_0
+    second: {fileID: 2100000, guid: 7ab9da92970618446add707befef6cf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material133_1_0_0
+    second: {fileID: 2100000, guid: b9c514e8888adb946884d3df6a7d43b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material135_1_0_0
+    second: {fileID: 2100000, guid: e70cd65caf0b2da46b2bb7757cdaa3f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material136_1_0_0
+    second: {fileID: 2100000, guid: 1a4f961c9b944db42842c812936ca14e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material139_1_0_0
+    second: {fileID: 2100000, guid: cd214239cf4f9ec469e9a2b4e1f089f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material13_1_0_0
+    second: {fileID: 2100000, guid: 2c9dbe1f72c627746895d10f22329dd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material140_1_0_0
+    second: {fileID: 2100000, guid: 2acd88c14d729d247a3be13fae17a43f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material141_1_0_0
+    second: {fileID: 2100000, guid: a8841e24a43cd984a9ea3c49e957651c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material142_1_0_0
+    second: {fileID: 2100000, guid: 995bdde4a5461f9449b2a90e99a67c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material143_1_0_0
+    second: {fileID: 2100000, guid: a150be142044f1041bac8465ff571e15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material146_1_0_0
+    second: {fileID: 2100000, guid: b3384a26c50ae8d41b21c85b7c5c846f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material147_1_0_0
+    second: {fileID: 2100000, guid: ba0259a1205c07b489bfebf8e412d9d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material148_1_0_0
+    second: {fileID: 2100000, guid: 5ec752559752ca94cac70f45c3c7c462, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material149_1_0_0
+    second: {fileID: 2100000, guid: e009c212803a58344b5b30bfe2dca9f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material14_1_0_0
+    second: {fileID: 2100000, guid: 053fc8f64e31c5b4e876b54393ce7044, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material150_1_0_0
+    second: {fileID: 2100000, guid: b2b6ffe39a18bb741a473cccccfba5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material151_1_0_0
+    second: {fileID: 2100000, guid: df5b924028f0e2948a9e40992939b7d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material152_1_0_0
+    second: {fileID: 2100000, guid: 0dd0fc21d3ad0ee44ac92696e6a94039, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material153_1_0_0
+    second: {fileID: 2100000, guid: 2b5d02af81c64f04d9825525c0c53ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material15_1_0_0
+    second: {fileID: 2100000, guid: c66e26f0fa0c5fa46bacb94bdb231017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material161_1_0_0
+    second: {fileID: 2100000, guid: e3514c7a48009204ca3b6282108d9349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material162_1_0_0
+    second: {fileID: 2100000, guid: 0f6e2193e661ef641b6b64cf064fa505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material16_1_0_0
+    second: {fileID: 2100000, guid: eed3dd5949fb041488f081508db458d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material17_1_0_0
+    second: {fileID: 2100000, guid: 6e3fb188d7ffd3c4e9e8bc2e9e47bad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material18_1_0_0
+    second: {fileID: 2100000, guid: 2f2286e555ecd734882267b864485f3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material19_1_0_0
+    second: {fileID: 2100000, guid: 7224bc95bb2d92a419a92ab14dd392d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material20_1_0_0
+    second: {fileID: 2100000, guid: 258e13b0cebef8a49a946540d118b7c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material21_1_0_0
+    second: {fileID: 2100000, guid: b4dd1965ef7a0d746966fba259b7983a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material22_1_0_0
+    second: {fileID: 2100000, guid: 11e0d9ffdbe8e6842907bb47c8684cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material23_1_0_0
+    second: {fileID: 2100000, guid: 03c8e9c496b09974f82b2d46f8007e3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material25_1_0_0
+    second: {fileID: 2100000, guid: a286126185da3a940b9a2f3ba4be389b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material26_1_0_0
+    second: {fileID: 2100000, guid: a9fe955c9727cb8499d59a44b592c46d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material27_1_0_0
+    second: {fileID: 2100000, guid: 9a50d890073be8f4b9adbe844e93dacf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material28_1_0_0
+    second: {fileID: 2100000, guid: dbde91a9fbf1f334bab55994597574a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material29_1_0_0
+    second: {fileID: 2100000, guid: 19cb9648fd3925d4f9291dbf5a1a203e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material30_1_0_0
+    second: {fileID: 2100000, guid: 61a18c8ade409d04dbc22794ffd901c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material31_1_0_0
+    second: {fileID: 2100000, guid: 4058d9cfb694868498217d1105ccb937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material32_1_0_0
+    second: {fileID: 2100000, guid: 3153735075f73ce41895af874cf94be9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material33_1_0_0
+    second: {fileID: 2100000, guid: 89ef37135460c0c43af4aefc4cd1c8e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material34_1_0_0
+    second: {fileID: 2100000, guid: 38a5a01b0d2b7ad47bcea1eee26e9b61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material35_1_0_0
+    second: {fileID: 2100000, guid: 0d93c131684552148b95f12fcb3556b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material36_1_0_0
+    second: {fileID: 2100000, guid: c64afc01ef5062748b28123cc5bef924, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material37_1_0_0
+    second: {fileID: 2100000, guid: 9757b907194e4f14791cba2c88e10df6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material38_1_0_0
+    second: {fileID: 2100000, guid: cffb6b0c08acc5e469d644df3f0be601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material39_1_0_0
+    second: {fileID: 2100000, guid: 39494dca4875d3d4abf0490865f52ad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material40_1_0_0
+    second: {fileID: 2100000, guid: 960191f28e386d649b8c06903caa75fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material41_1_0_0
+    second: {fileID: 2100000, guid: d7ead117af56cdf46add5f5854623c79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material42_1_0_0
+    second: {fileID: 2100000, guid: 6961debe06259d54a87b7b562aa68da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material44_1_0_0
+    second: {fileID: 2100000, guid: ebf33bf630d28cc4d99571ea78832dc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material46_1_0_0
+    second: {fileID: 2100000, guid: 64fd893bf97186c42a25fe0e345de302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material47_1_0_0
+    second: {fileID: 2100000, guid: 49a64a6d3fb222d40b1ed606384de8b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material48_1_0_0
+    second: {fileID: 2100000, guid: 573aa3a118e1eab4592a99a8621c3f21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material49_1_0_0
+    second: {fileID: 2100000, guid: 461374b82aa86614bbc9a1a2a24af5d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material50_1_0_0
+    second: {fileID: 2100000, guid: 694ae37e7d40b9b4d97e20149663f252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material51_1_0_0
+    second: {fileID: 2100000, guid: 8c00757b28e52b84ca3d9aa326cb9385, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material52_1_0_0
+    second: {fileID: 2100000, guid: be2f5c28ee31203428b8711d08912872, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material53_1_0_0
+    second: {fileID: 2100000, guid: a59e04fec749e34429514a644de2e110, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material54_1_0_0
+    second: {fileID: 2100000, guid: 90b5f4df5540aad489e29bccb2a9769e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material55_1_0_0
+    second: {fileID: 2100000, guid: f484d1e18363e9843afb3f152c51fd8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material56_1_0_0
+    second: {fileID: 2100000, guid: f18e8d211c2fd0047bb0b3afb1e38e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material57_1_0_0
+    second: {fileID: 2100000, guid: 25b028e0413c63a4280dbb57cc536319, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material58_1_0_0
+    second: {fileID: 2100000, guid: 5aa9018c54307004a80047c63155b6d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material59_1_0_0
+    second: {fileID: 2100000, guid: e33554fce007c1643bca3677e30f26b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material60_1_0_0
+    second: {fileID: 2100000, guid: 19b2ae20781b8424988f9f66933e673c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material61_1_0_0
+    second: {fileID: 2100000, guid: 5dc8708ead7a81947898993e21bbc4c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material62_1_0_0
+    second: {fileID: 2100000, guid: 153f7e4eb4323584a8d530e9478651d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material63_1_0_0
+    second: {fileID: 2100000, guid: 1eea0bd8c74a8d043a28967a85246236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material64_1_0_0
+    second: {fileID: 2100000, guid: 3318d413f73e45442a6912bfffcafbcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material65_1_0_0
+    second: {fileID: 2100000, guid: 9f3119b6eafceda43b1fe56973933e68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material66_1_0_0
+    second: {fileID: 2100000, guid: 18ada1a523bd1e64485788e1377cc4ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material67_1_0_0
+    second: {fileID: 2100000, guid: 35162608f0ccad94ba094f6943f8290a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material68_1_0_0
+    second: {fileID: 2100000, guid: 8576ed222d64d1a4e971b6397dc5e981, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material69_1_0_0
+    second: {fileID: 2100000, guid: eb58787b7f8b68c49800dc537c31a693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material70_1_0_0
+    second: {fileID: 2100000, guid: 71327205e4bc3f74380ac6a9d3181aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material71_1_0_0
+    second: {fileID: 2100000, guid: 55d97b8e425ddfc4d96c29bfdf7cef36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material72_1_0_0
+    second: {fileID: 2100000, guid: 5ae159d2def83b34babd2858e73cfc83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material73_1_0_0
+    second: {fileID: 2100000, guid: 7df65a9e409af2346a57528f975d6bbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material74_1_0_0
+    second: {fileID: 2100000, guid: d06881ca27124454a92f5045eba8b95a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material76_1_0_0
+    second: {fileID: 2100000, guid: 864ba501ddc581e4d9551ec5fef5c4dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material77_1_0_0
+    second: {fileID: 2100000, guid: 881ad1edc9f05fa4f9d75dc1a0e439ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material78_1_0_0
+    second: {fileID: 2100000, guid: d7c2fd9781387fe4bbd0270ec7257de6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material79_1_0_0
+    second: {fileID: 2100000, guid: 3b6cca6532c17be41b53c9858d353564, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material80_1_0_0
+    second: {fileID: 2100000, guid: c4b74e87c71e4194ca8c332d2fc7a3df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material81_1_0_0
+    second: {fileID: 2100000, guid: c16e4c4b35ef54c428e83a526a344f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material82_1_0_0
+    second: {fileID: 2100000, guid: ed7d6436be8697f4db8e940149c32e83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material83_1_0_0
+    second: {fileID: 2100000, guid: 7950173c6b4882040b2f9fea1cce2b2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material85_1_0_0
+    second: {fileID: 2100000, guid: 1036393150f0cc148a33ad1c0aceb7c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material86_1_0_0
+    second: {fileID: 2100000, guid: 8948e1135fed5f349bcbf86e8f6f739b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material87_1_0_0
+    second: {fileID: 2100000, guid: ab174c9d4d73dbd4bad28eba3d2c7d83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material88_1_0_0
+    second: {fileID: 2100000, guid: dd03e644fd39f5d408f71910842ac467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material89_1_0_0
+    second: {fileID: 2100000, guid: 4fdecdcffba0f1d43ba7d7bd4571e71e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material90_1_0_0
+    second: {fileID: 2100000, guid: ab07e183ac2affe4f95937f348b3c33f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material91_1_0_0
+    second: {fileID: 2100000, guid: 97bf7a9967f3ae64f885eb8dff4af7b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material92_1_0_0
+    second: {fileID: 2100000, guid: fc87b78c6c60a6b4da460ece314eef9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material93_1_0_0
+    second: {fileID: 2100000, guid: a498b6f12d15d984dbcce3f4fb681ccb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material94_1_0_0
+    second: {fileID: 2100000, guid: d32860e9d3c1d3d4398bea0e1739bae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material95_1_0_0
+    second: {fileID: 2100000, guid: d1d883065014f504d940d28659d9d333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material96_1_0_0
+    second: {fileID: 2100000, guid: 599c70b24ccb56e488bfa6033755a71c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material97_1_0_0
+    second: {fileID: 2100000, guid: 923443f5aba33bb4186f1382f739c84a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material98_1_0_0
+    second: {fileID: 2100000, guid: da2af7623a45f694c8f6d221b172607e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part2-2 0 0 Leblanc MAIN.material99_1_0_0
+    second: {fileID: 2100000, guid: 0d408cb9c008bf142b583df1d4a48a6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material01_1_0_0
+    second: {fileID: 2100000, guid: ba18cd9821330624fa7494285255b137, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material02_1_0_0
+    second: {fileID: 2100000, guid: 4cb8b9ec4dcf1c2458dbe04b29840431, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material04_1_0_0
+    second: {fileID: 2100000, guid: 9209aa38bdd656c47a54937f1869d714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material05_1_0_0
+    second: {fileID: 2100000, guid: d1cf22e271ad90047ba675110a74bdde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material06_1_0_0
+    second: {fileID: 2100000, guid: 207dbf29f26912c46a4a40714ba9876f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material07_1_0_0
+    second: {fileID: 2100000, guid: 9a4ce0c92dc647447bdc3443cb3d222d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material08_1_0_0
+    second: {fileID: 2100000, guid: 5b0e959378876b543a4e5460e1e50f8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material22_1_0_0
+    second: {fileID: 2100000, guid: 576a1eaa610ae874e87bfd0755403b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS.material30_1_0_0
+    second: {fileID: 2100000, guid: dcc63a41baa4d9140a3cd1fb6782b3e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part3-3 0 Leblanc GLASS_1_0_0
+    second: {fileID: 2100000, guid: d4e02d15f01fb6e498668c1c1437da8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material01_1_0_0
+    second: {fileID: 2100000, guid: a0b47d4a6e2729d4b948ceed43710ed0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material02_1_0_0
+    second: {fileID: 2100000, guid: 77a661d4674d3fb49809a48a1400151e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material03_1_0_0
+    second: {fileID: 2100000, guid: dc9a93449b1bdd04d98de60747ac4f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material04_1_0_0
+    second: {fileID: 2100000, guid: cde646e1f0954c74c9bde3c2eb449285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material05_1_0_0
+    second: {fileID: 2100000, guid: c2df87ac138afeb43bd0deab20e7df50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material06_1_0_0
+    second: {fileID: 2100000, guid: 70846299e86978844b215b62a76e8588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material07_1_0_0
+    second: {fileID: 2100000, guid: 5c4484811fb853d40b21be8c1bc8304f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material08_1_0_0
+    second: {fileID: 2100000, guid: 3f7f3621c58f53647a8c8999f603e46a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material09_1_0_0
+    second: {fileID: 2100000, guid: 2626c4ae42f933a4b9411cfade7f288d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material10_1_0_0
+    second: {fileID: 2100000, guid: 2ed1a28d7c3e84d4d881ac03786a41e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material11_1_0_0
+    second: {fileID: 2100000, guid: 490491e124add02439c31883b786f214, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material12_1_0_0
+    second: {fileID: 2100000, guid: ab3ec56cd9a1f0e40b089f2c419f318e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material13_1_0_0
+    second: {fileID: 2100000, guid: 1842d77baef945946b323e3720984e29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material14_1_0_0
+    second: {fileID: 2100000, guid: 11960158f754d7f4592a2f26541b5bdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material15_1_0_0
+    second: {fileID: 2100000, guid: 74958720f70efb94fbbf28a546adf52a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material16_1_0_0
+    second: {fileID: 2100000, guid: 048354d39316bb141b75717eb697b197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material17_1_0_0
+    second: {fileID: 2100000, guid: 6e54053333c56a04799d9c503fe3bc98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material18_1_0_0
+    second: {fileID: 2100000, guid: 1ee5274ef9e89994095e689e512dfe12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material19_1_0_0
+    second: {fileID: 2100000, guid: 532dd459e387e4b4583b5723a77e784b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material20_1_0_0
+    second: {fileID: 2100000, guid: 0c1680d8f054e7043811caafd39e526d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material21_1_0_0
+    second: {fileID: 2100000, guid: 18bb28f273030864da254ae62e1fb554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material22_1_0_0
+    second: {fileID: 2100000, guid: 94634e90ccb9f7f43bf66c772eeee7ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material23_1_0_0
+    second: {fileID: 2100000, guid: 11090fa2059c3ea46bcc7af13f31547e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material24_1_0_0
+    second: {fileID: 2100000, guid: 0ef7043cc8bb87b47b7d10d33918c407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material25_1_0_0
+    second: {fileID: 2100000, guid: 2ac1b8e74b510254c8195d5c670308d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material26_1_0_0
+    second: {fileID: 2100000, guid: 089f97aafbe5e8747ab198088ec5376a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day).material27_1_0_0
+    second: {fileID: 2100000, guid: 2ed84ce51524bf64b93f8891c0f33698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_part4-1 1 Leblanc OUTSIDE (Day)_1_0_0
+    second: {fileID: 2100000, guid: c875f4fbcb1bb0549b8be15515097018, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_+part2-2 0 0 Leblanc MAIN.part2-material160_1_0_0
+    second: {fileID: 2100000, guid: 11fac9c33a0e8ef42aaa046cb139a44f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part1-4 0 Leblanc LAMPS.material05_1_0_0
+    second: {fileID: 2100000, guid: ba24c9115add31f43a58bb2e8e060358, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part1-4 0 Leblanc LAMPS.material16_1_0_0
+    second: {fileID: 2100000, guid: 38f710d6624a8854da833d24358941b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part1-4 0 Leblanc LAMPS.material27_1_0_0
+    second: {fileID: 2100000, guid: e6ca545631a4fa04bb35eeb96cdf44e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material114_1_0_0
+    second: {fileID: 2100000, guid: f0514e6b6b7bda2449d15099e298c206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material145_1_0_0
+    second: {fileID: 2100000, guid: 9c639aff173bbb24993ccd75cb44fb40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material154_1_0_0
+    second: {fileID: 2100000, guid: 5835f3a8e5a41da40bf8bf010e2daf02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material155_1_0_0
+    second: {fileID: 2100000, guid: d1034b7fdde604a44b962e39be7362a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material156_1_0_0
+    second: {fileID: 2100000, guid: f72c4387bf25b1744a7c38faf6c9a4fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material159_1_0_0
+    second: {fileID: 2100000, guid: a6d6b5b7910f42e4984770e690c9d0a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material163_1_0_0
+    second: {fileID: 2100000, guid: baa3cf608e011e045b5d0051ad3eda0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material164_1_0_0
+    second: {fileID: 2100000, guid: c93be0ce3c9fd8a43ada0678ca52b491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material24_1_0_0
+    second: {fileID: 2100000, guid: 58f1ee88bda52004c8a26ccddc102434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material43_1_0_0
+    second: {fileID: 2100000, guid: a4c1eb2e9254d4147abab0a49803d63a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part2-2 0 0 Leblanc MAIN.material45_1_0_0
+    second: {fileID: 2100000, guid: 1ad457290d6e4e947b9cf37de88ad09d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part3-3 0 Leblanc GLASS.material03_1_0_0
+    second: {fileID: 2100000, guid: 1afd8033b9cb75f49a4b2dbbd5aeda06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part3-3 0 Leblanc GLASS.material14_1_0_0
+    second: {fileID: 2100000, guid: a69f266b125703a40b2c25499a20e997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part3-3 0 Leblanc GLASS.material16_1_0_0
+    second: {fileID: 2100000, guid: c7c38a9224d412c42861937bb33fc8e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part3-3 0 Leblanc GLASS.material18_1_0_0
+    second: {fileID: 2100000, guid: 79b7122eba3a24b499dcb4e034c64172, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part3-3 0 Leblanc GLASS.material20_1_0_0
+    second: {fileID: 2100000, guid: d5fa648b53841cb4f8c3a918f223baa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_part3-3 0 Leblanc GLASS.material38_1_0_0
+    second: {fileID: 2100000, guid: 0559db7eab9d5284197e4fabcb8e3434, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

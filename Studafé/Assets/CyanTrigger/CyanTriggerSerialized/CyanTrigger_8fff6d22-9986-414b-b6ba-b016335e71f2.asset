@@ -1,0 +1,3782 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eab678c02d50042baa35d04cd0db48, type: 3}
+  m_Name: CyanTrigger_8fff6d22-9986-414b-b6ba-b016335e71f2
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: f7e6bd4fdaad8184594e4b209ed1de72,
+    type: 2}
+  udonAssembly: ".data_start\r\n  .export __CyanTrigger_ProgramName_SystemString\r\n 
+    .export item1\r\n  .export Item2\r\n  .export Item3\r\n  .export Item4\r\n  .export
+    Item5\r\n  .export Item6\r\n  .export Item7\r\n  .export ReceivedItem\r\n  .export
+    __18_ref_VRCUdonUdonBehaviour\r\n  .export __19_ref_SystemString\r\n  .export
+    __20_ref_VRCUdonUdonBehaviour\r\n  .export __21_ref_SystemString\r\n  .export
+    __22_ref_VRCUdonUdonBehaviour\r\n  .export __23_ref_SystemString\r\n  .export
+    __24_ref_VRCUdonUdonBehaviour\r\n  .export __25_ref_SystemString\r\n  .export
+    __26_ref_VRCUdonUdonBehaviour\r\n  .export __27_ref_SystemString\r\n  .export
+    __28_ref_VRCUdonUdonBehaviour\r\n  .export __29_ref_SystemString\r\n  .export
+    __30_ref_VRCUdonUdonBehaviour\r\n  .export __31_ref_SystemString\r\n  .export
+    __34_ref_SystemInt32\r\n  .export __35_ref_SystemString\r\n  .export __36_ref_VRCUdonUdonBehaviour\r\n 
+    .export __37_ref_SystemString\r\n  .export __38_ref_VRCUdonUdonBehaviour\r\n 
+    .export __40_ref_SystemInt32\r\n  .export __41_ref_SystemString\r\n  .export
+    __42_ref_VRCUdonUdonBehaviour\r\n  .export __43_ref_SystemString\r\n  .export
+    __44_ref_VRCUdonUdonBehaviour\r\n  .export __46_ref_SystemInt32\r\n  .export
+    __47_ref_SystemString\r\n  .export __48_ref_VRCUdonUdonBehaviour\r\n  .export
+    __49_ref_SystemString\r\n  .export __50_ref_VRCUdonUdonBehaviour\r\n  .export
+    __52_ref_SystemInt32\r\n  .export __53_ref_SystemString\r\n  .export __54_ref_VRCUdonUdonBehaviour\r\n 
+    .export __55_ref_SystemString\r\n  .export __56_ref_VRCUdonUdonBehaviour\r\n 
+    .export __58_ref_SystemInt32\r\n  .export __59_ref_SystemString\r\n  .export
+    __60_ref_VRCUdonUdonBehaviour\r\n  .export __61_ref_SystemString\r\n  .export
+    __62_ref_VRCUdonUdonBehaviour\r\n  .export __64_ref_SystemInt32\r\n  .export
+    __65_ref_SystemString\r\n  .export __66_ref_VRCUdonUdonBehaviour\r\n  .export
+    __67_ref_SystemString\r\n  .export __68_ref_VRCUdonUdonBehaviour\r\n  .export
+    __70_ref_SystemInt32\r\n  .export __71_ref_SystemString\r\n  .export __72_ref_VRCUdonUdonBehaviour\r\n 
+    .export __73_ref_SystemString\r\n  .export __74_ref_VRCUdonUdonBehaviour\r\n 
+    .export __79_ref_VRCUdonUdonBehaviour\r\n  .export __80_ref_SystemString\r\n 
+    .export __81_ref_VRCUdonUdonBehaviour\r\n  .export __82_ref_SystemString\r\n 
+    .export __83_ref_VRCUdonUdonBehaviour\r\n  .export __84_ref_SystemString\r\n 
+    .export __85_ref_VRCUdonUdonBehaviour\r\n  .export __86_ref_SystemString\r\n 
+    .export __87_ref_VRCUdonUdonBehaviour\r\n  .export __88_ref_SystemString\r\n 
+    .export __89_ref_VRCUdonUdonBehaviour\r\n  .export __90_ref_SystemString\r\n 
+    .export __91_ref_VRCUdonUdonBehaviour\r\n  .export __92_ref_SystemString\r\n 
+    .export __94_ref_SystemInt32\r\n  .export __95_ref_SystemString\r\n  .export
+    __96_ref_VRCUdonUdonBehaviour\r\n  .export __97_ref_SystemString\r\n  .export
+    __98_ref_VRCUdonUdonBehaviour\r\n  .export __100_ref_SystemInt32\r\n  .export
+    __101_ref_SystemString\r\n  .export __102_ref_VRCUdonUdonBehaviour\r\n  .export
+    __103_ref_SystemString\r\n  .export __104_ref_VRCUdonUdonBehaviour\r\n  .export
+    __106_ref_SystemInt32\r\n  .export __107_ref_SystemString\r\n  .export __108_ref_VRCUdonUdonBehaviour\r\n 
+    .export __109_ref_SystemString\r\n  .export __110_ref_VRCUdonUdonBehaviour\r\n 
+    .export __112_ref_SystemInt32\r\n  .export __113_ref_SystemString\r\n  .export
+    __114_ref_VRCUdonUdonBehaviour\r\n  .export __115_ref_SystemString\r\n  .export
+    __116_ref_VRCUdonUdonBehaviour\r\n  .export __118_ref_SystemInt32\r\n  .export
+    __119_ref_SystemString\r\n  .export __120_ref_VRCUdonUdonBehaviour\r\n  .export
+    __121_ref_SystemString\r\n  .export __122_ref_VRCUdonUdonBehaviour\r\n  .export
+    __124_ref_SystemInt32\r\n  .export __125_ref_SystemString\r\n  .export __126_ref_VRCUdonUdonBehaviour\r\n 
+    .export __127_ref_SystemString\r\n  .export __128_ref_VRCUdonUdonBehaviour\r\n 
+    .export __130_ref_SystemInt32\r\n  .export __131_ref_SystemString\r\n  .export
+    __132_ref_VRCUdonUdonBehaviour\r\n  .export __133_ref_SystemString\r\n  .export
+    __134_ref_VRCUdonUdonBehaviour\r\n  .export __136_ref_SystemString\r\n  .export
+    __137_ref_VRCUdonUdonBehaviour\r\n  .export __138_ref_VRCUdonUdonBehaviour\r\n 
+    .export __139_ref_VRCUdonUdonBehaviour\r\n  .export __140_ref_VRCUdonUdonBehaviour\r\n 
+    .export __141_ref_VRCUdonUdonBehaviour\r\n  .export __142_ref_VRCUdonUdonBehaviour\r\n 
+    .export __143_ref_VRCUdonUdonBehaviour\r\n  __CyanTrigger_ProgramName_SystemString:
+    %SystemString, null\r\n  __CyanTrigger_ProgramHash_SystemString: %SystemString,
+    null\r\n  __0_ra_SystemUInt32: %SystemUInt32, null\r\n  __1_ea_SystemUInt32:
+    %SystemUInt32, null\r\n  _this_udonbehaviour: %VRCUdonUdonBehaviour, this\r\n 
+    item1: %SystemInt32, null\r\n  Item2: %SystemInt32, null\r\n  Item3: %SystemInt32,
+    null\r\n  Item4: %SystemInt32, null\r\n  Item5: %SystemInt32, null\r\n  Item6:
+    %SystemInt32, null\r\n  Item7: %SystemInt32, null\r\n  ReceivedItem: %SystemInt32,
+    null\r\n  __17___jump_return_0_SystemUInt32: %SystemUInt32, null\r\n  __18_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __19_ref_SystemString: %SystemString, null\r\n 
+    __20_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __21_ref_SystemString:
+    %SystemString, null\r\n  __22_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __23_ref_SystemString: %SystemString, null\r\n  __24_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __25_ref_SystemString: %SystemString, null\r\n 
+    __26_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __27_ref_SystemString:
+    %SystemString, null\r\n  __28_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __29_ref_SystemString: %SystemString, null\r\n  __30_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __31_ref_SystemString: %SystemString, null\r\n 
+    __32_local_var_SystemBoolean: %SystemBoolean, null\r\n  __33_const_SystemBoolean:
+    %SystemBoolean, null\r\n  __34_ref_SystemInt32: %SystemInt32, null\r\n  __35_ref_SystemString:
+    %SystemString, null\r\n  __36_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __37_ref_SystemString: %SystemString, null\r\n  __38_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __39_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __40_ref_SystemInt32: %SystemInt32, null\r\n  __41_ref_SystemString:
+    %SystemString, null\r\n  __42_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __43_ref_SystemString: %SystemString, null\r\n  __44_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __45_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __46_ref_SystemInt32: %SystemInt32, null\r\n  __47_ref_SystemString:
+    %SystemString, null\r\n  __48_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __49_ref_SystemString: %SystemString, null\r\n  __50_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __51_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __52_ref_SystemInt32: %SystemInt32, null\r\n  __53_ref_SystemString:
+    %SystemString, null\r\n  __54_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __55_ref_SystemString: %SystemString, null\r\n  __56_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __57_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __58_ref_SystemInt32: %SystemInt32, null\r\n  __59_ref_SystemString:
+    %SystemString, null\r\n  __60_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __61_ref_SystemString: %SystemString, null\r\n  __62_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __63_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __64_ref_SystemInt32: %SystemInt32, null\r\n  __65_ref_SystemString:
+    %SystemString, null\r\n  __66_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __67_ref_SystemString: %SystemString, null\r\n  __68_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __69_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __70_ref_SystemInt32: %SystemInt32, null\r\n  __71_ref_SystemString:
+    %SystemString, null\r\n  __72_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __73_ref_SystemString: %SystemString, null\r\n  __74_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __75___jump_return_1_SystemUInt32: %SystemUInt32,
+    null\r\n  __76_const_SystemString: %SystemString, null\r\n  __77_const_SystemSingle:
+    %SystemSingle, null\r\n  __78_const_VRCUdonCommonEnumsEventTiming: %VRCUdonCommonEnumsEventTiming,
+    null\r\n  __79_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __80_ref_SystemString:
+    %SystemString, null\r\n  __81_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __82_ref_SystemString: %SystemString, null\r\n  __83_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __84_ref_SystemString: %SystemString, null\r\n 
+    __85_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __86_ref_SystemString:
+    %SystemString, null\r\n  __87_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __88_ref_SystemString: %SystemString, null\r\n  __89_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __90_ref_SystemString: %SystemString, null\r\n 
+    __91_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __92_ref_SystemString:
+    %SystemString, null\r\n  __93_local_var_SystemBoolean: %SystemBoolean, null\r\n 
+    __94_ref_SystemInt32: %SystemInt32, null\r\n  __95_ref_SystemString: %SystemString,
+    null\r\n  __96_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __97_ref_SystemString:
+    %SystemString, null\r\n  __98_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __99_local_var_SystemBoolean: %SystemBoolean, null\r\n  __100_ref_SystemInt32:
+    %SystemInt32, null\r\n  __101_ref_SystemString: %SystemString, null\r\n  __102_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __103_ref_SystemString: %SystemString, null\r\n 
+    __104_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __105_local_var_SystemBoolean:
+    %SystemBoolean, null\r\n  __106_ref_SystemInt32: %SystemInt32, null\r\n  __107_ref_SystemString:
+    %SystemString, null\r\n  __108_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __109_ref_SystemString: %SystemString, null\r\n  __110_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __111_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __112_ref_SystemInt32: %SystemInt32, null\r\n  __113_ref_SystemString:
+    %SystemString, null\r\n  __114_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __115_ref_SystemString: %SystemString, null\r\n  __116_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __117_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __118_ref_SystemInt32: %SystemInt32, null\r\n  __119_ref_SystemString:
+    %SystemString, null\r\n  __120_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __121_ref_SystemString: %SystemString, null\r\n  __122_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __123_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __124_ref_SystemInt32: %SystemInt32, null\r\n  __125_ref_SystemString:
+    %SystemString, null\r\n  __126_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __127_ref_SystemString: %SystemString, null\r\n  __128_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __129_local_var_SystemBoolean: %SystemBoolean,
+    null\r\n  __130_ref_SystemInt32: %SystemInt32, null\r\n  __131_ref_SystemString:
+    %SystemString, null\r\n  __132_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __133_ref_SystemString: %SystemString, null\r\n  __134_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __135___jump_return_2_SystemUInt32: %SystemUInt32,
+    null\r\n  __136_ref_SystemString: %SystemString, null\r\n  __137_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __138_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __139_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __140_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __141_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __142_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __143_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n.data_end\r\n\n.code_start\r\n  .export AddFirstItem\r\n 
+    AddFirstItem:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __17___jump_return_0_SystemUInt32\r\n   
+    JUMP, 0x00000034\r\n    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT,
+    __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_0_debug_execute\r\n  __intern_event_0_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __18_ref_VRCUdonUdonBehaviour\r\n    PUSH,
+    __19_ref_SystemString\r\n    PUSH, item1\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __20_ref_VRCUdonUdonBehaviour\r\n    PUSH, __21_ref_SystemString\r\n   
+    PUSH, Item2\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __22_ref_VRCUdonUdonBehaviour\r\n    PUSH, __23_ref_SystemString\r\n   
+    PUSH, Item3\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __24_ref_VRCUdonUdonBehaviour\r\n    PUSH, __25_ref_SystemString\r\n   
+    PUSH, Item4\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __26_ref_VRCUdonUdonBehaviour\r\n    PUSH, __27_ref_SystemString\r\n   
+    PUSH, Item5\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __28_ref_VRCUdonUdonBehaviour\r\n    PUSH, __29_ref_SystemString\r\n   
+    PUSH, Item6\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __30_ref_VRCUdonUdonBehaviour\r\n    PUSH, __31_ref_SystemString\r\n   
+    PUSH, Item7\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __33_const_SystemBoolean\r\n    PUSH, __32_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, item1\r\n    PUSH, __34_ref_SystemInt32\r\n    PUSH, __32_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __32_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000190\r\n    PUSH,
+    __36_ref_VRCUdonUdonBehaviour\r\n    PUSH, __35_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __38_ref_VRCUdonUdonBehaviour\r\n    PUSH, __37_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x00000204\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __39_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item2\r\n    PUSH, __40_ref_SystemInt32\r\n    PUSH, __39_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __39_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x0000020C\r\n    PUSH,
+    __42_ref_VRCUdonUdonBehaviour\r\n    PUSH, __41_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __44_ref_VRCUdonUdonBehaviour\r\n    PUSH, __43_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x00000280\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __45_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item3\r\n    PUSH, __46_ref_SystemInt32\r\n    PUSH, __45_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __45_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000288\r\n    PUSH,
+    __48_ref_VRCUdonUdonBehaviour\r\n    PUSH, __47_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __50_ref_VRCUdonUdonBehaviour\r\n    PUSH, __49_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x000002FC\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __51_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item4\r\n    PUSH, __52_ref_SystemInt32\r\n    PUSH, __51_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __51_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000304\r\n    PUSH,
+    __54_ref_VRCUdonUdonBehaviour\r\n    PUSH, __53_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __56_ref_VRCUdonUdonBehaviour\r\n    PUSH, __55_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x00000378\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __57_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item5\r\n    PUSH, __58_ref_SystemInt32\r\n    PUSH, __57_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __57_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000380\r\n    PUSH,
+    __60_ref_VRCUdonUdonBehaviour\r\n    PUSH, __59_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __62_ref_VRCUdonUdonBehaviour\r\n    PUSH, __61_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x000003F4\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __63_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item6\r\n    PUSH, __64_ref_SystemInt32\r\n    PUSH, __63_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __63_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000003FC\r\n    PUSH,
+    __66_ref_VRCUdonUdonBehaviour\r\n    PUSH, __65_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __68_ref_VRCUdonUdonBehaviour\r\n    PUSH, __67_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x00000470\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __69_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item7\r\n    PUSH, __70_ref_SystemInt32\r\n    PUSH, __69_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __69_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000470\r\n    PUSH,
+    __72_ref_VRCUdonUdonBehaviour\r\n    PUSH, __71_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __74_ref_VRCUdonUdonBehaviour\r\n    PUSH, __73_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export AddGivenItem\r\n  AddGivenItem:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __75___jump_return_1_SystemUInt32\r\n    JUMP, 0x000004B8\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_1_debug_execute\r\n  __intern_event_1_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __76_const_SystemString\r\n   
+    PUSH, __77_const_SystemSingle\r\n    PUSH, __78_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_1_delayed_actions\r\n  __intern_event_1_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __79_ref_VRCUdonUdonBehaviour\r\n    PUSH,
+    __80_ref_SystemString\r\n    PUSH, item1\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __81_ref_VRCUdonUdonBehaviour\r\n    PUSH, __82_ref_SystemString\r\n   
+    PUSH, Item2\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __83_ref_VRCUdonUdonBehaviour\r\n    PUSH, __84_ref_SystemString\r\n   
+    PUSH, Item3\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __85_ref_VRCUdonUdonBehaviour\r\n    PUSH, __86_ref_SystemString\r\n   
+    PUSH, Item4\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __87_ref_VRCUdonUdonBehaviour\r\n    PUSH, __88_ref_SystemString\r\n   
+    PUSH, Item5\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __89_ref_VRCUdonUdonBehaviour\r\n    PUSH, __90_ref_SystemString\r\n   
+    PUSH, Item6\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __91_ref_VRCUdonUdonBehaviour\r\n    PUSH, __92_ref_SystemString\r\n   
+    PUSH, Item7\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __33_const_SystemBoolean\r\n    PUSH, __93_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, item1\r\n    PUSH, __94_ref_SystemInt32\r\n    PUSH, __93_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __93_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000658\r\n    PUSH,
+    __96_ref_VRCUdonUdonBehaviour\r\n    PUSH, __95_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __98_ref_VRCUdonUdonBehaviour\r\n    PUSH, __97_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x000006CC\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __99_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item2\r\n    PUSH, __100_ref_SystemInt32\r\n    PUSH, __99_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __99_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000006D4\r\n    PUSH,
+    __102_ref_VRCUdonUdonBehaviour\r\n    PUSH, __101_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __104_ref_VRCUdonUdonBehaviour\r\n    PUSH, __103_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x00000748\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __105_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item3\r\n    PUSH, __106_ref_SystemInt32\r\n    PUSH, __105_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __105_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000750\r\n    PUSH,
+    __108_ref_VRCUdonUdonBehaviour\r\n    PUSH, __107_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __110_ref_VRCUdonUdonBehaviour\r\n    PUSH, __109_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x000007C4\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __111_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item4\r\n    PUSH, __112_ref_SystemInt32\r\n    PUSH, __111_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __111_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000007CC\r\n    PUSH,
+    __114_ref_VRCUdonUdonBehaviour\r\n    PUSH, __113_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __116_ref_VRCUdonUdonBehaviour\r\n    PUSH, __115_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x00000840\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __117_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item5\r\n    PUSH, __118_ref_SystemInt32\r\n    PUSH, __117_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __117_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000848\r\n    PUSH,
+    __120_ref_VRCUdonUdonBehaviour\r\n    PUSH, __119_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __122_ref_VRCUdonUdonBehaviour\r\n    PUSH, __121_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x000008BC\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __123_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item6\r\n    PUSH, __124_ref_SystemInt32\r\n    PUSH, __123_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __123_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000008C4\r\n    PUSH,
+    __126_ref_VRCUdonUdonBehaviour\r\n    PUSH, __125_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __128_ref_VRCUdonUdonBehaviour\r\n    PUSH, __127_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    JUMP, 0x00000938\r\n    PUSH, __33_const_SystemBoolean\r\n    PUSH, __129_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Item7\r\n    PUSH, __130_ref_SystemInt32\r\n    PUSH, __129_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __129_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000938\r\n    PUSH,
+    __132_ref_VRCUdonUdonBehaviour\r\n    PUSH, __131_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __134_ref_VRCUdonUdonBehaviour\r\n    PUSH, __133_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export ResetItem\r\n  ResetItem:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __135___jump_return_2_SystemUInt32\r\n    JUMP, 0x00000980\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_2_debug_execute\r\n 
+    __intern_event_2_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __137_ref_VRCUdonUdonBehaviour\r\n    PUSH, __136_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __138_ref_VRCUdonUdonBehaviour\r\n    PUSH, __136_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __139_ref_VRCUdonUdonBehaviour\r\n    PUSH, __136_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __140_ref_VRCUdonUdonBehaviour\r\n    PUSH, __136_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __141_ref_VRCUdonUdonBehaviour\r\n    PUSH, __136_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __142_ref_VRCUdonUdonBehaviour\r\n    PUSH, __136_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __143_ref_VRCUdonUdonBehaviour\r\n    PUSH, __136_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n.code_end\r\n"
+  assemblyError: 
+  triggerHash: F161A6E1B4D5E3436AD1A248C7100FE1
+  shouldBeNetworked: 0
+  warningMessages: []
+  errorMessages: []
+  ctDataInstance:
+    version: 6
+    updateOrder: 0
+    autoSetSyncMode: 1
+    programSyncMode: 2
+    programName: 
+    events:
+    - name: AddFirstItem
+      eventId: e560d65f-6a9e-4da5-a210-5243a6a8b4d2
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: item1
+          variableID: 1d05b5dc-0b44-435b-8921-a8e1ecee9a4d
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item2
+          variableID: e1d4ebb6-f302-4d77-b9f6-488fd9ee4210
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item3
+          variableID: 12cc5906-3f0b-4bc8-bdb5-ee138473e3a1
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item4
+          variableID: 1fc92e53-9326-40cc-8791-827864697472
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item5
+          variableID: 030a1106-ea17-47e0-b74a-553fa678eb45
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item6
+          variableID: 7345213c-d5fa-4d35-846c-e078d66f98bb
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item7
+          variableID: e8ba9d55-f857-4966-b008-1d13956f31d5
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: eb135748-beae-4185-ba0e-be411a249048
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwAxAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: item1
+          variableID: 1d05b5dc-0b44-435b-8921-a8e1ecee9a4d
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero1
+          variableID: eb135748-beae-4185-ba0e-be411a249048
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAYQBkAG8AbQBJAHQAZQBtAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAYQBkAG8AbQBJAHQAZQBtACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGEAZABvAG0ASQB0AGUAbQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: d61f3c18-874b-4176-b75f-a7fc527caa7d
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwAyAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item2
+          variableID: e1d4ebb6-f302-4d77-b9f6-488fd9ee4210
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero2
+          variableID: d61f3c18-874b-4176-b75f-a7fc527caa7d
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAYQBkAG8AbQBJAHQAZQBtAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAYQBkAG8AbQBJAHQAZQBtACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGEAZABvAG0ASQB0AGUAbQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: bcb2997e-a5d3-4f39-8de5-f1bab9fcdb78
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwAzAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item3
+          variableID: 12cc5906-3f0b-4bc8-bdb5-ee138473e3a1
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero3
+          variableID: bcb2997e-a5d3-4f39-8de5-f1bab9fcdb78
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAYQBkAG8AbQBJAHQAZQBtAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAYQBkAG8AbQBJAHQAZQBtACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGEAZABvAG0ASQB0AGUAbQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 4b90f4ae-f17a-45ac-855f-3fd5557a00ee
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwA0AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item4
+          variableID: 1fc92e53-9326-40cc-8791-827864697472
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero4
+          variableID: 4b90f4ae-f17a-45ac-855f-3fd5557a00ee
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAYQBkAG8AbQBJAHQAZQBtAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAYQBkAG8AbQBJAHQAZQBtACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGEAZABvAG0ASQB0AGUAbQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: fbf8200b-d0b2-4f46-8039-da02976d313a
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwA1AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item5
+          variableID: 030a1106-ea17-47e0-b74a-553fa678eb45
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero5
+          variableID: fbf8200b-d0b2-4f46-8039-da02976d313a
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAYQBkAG8AbQBJAHQAZQBtAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAYQBkAG8AbQBJAHQAZQBtACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGEAZABvAG0ASQB0AGUAbQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 7fc6b301-1bdf-4cef-b45a-ca6326906fdc
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwA2AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item6
+          variableID: 7345213c-d5fa-4d35-846c-e078d66f98bb
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero6
+          variableID: 7fc6b301-1bdf-4cef-b45a-ca6326906fdc
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAYQBkAG8AbQBJAHQAZQBtAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAYQBkAG8AbQBJAHQAZQBtACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGEAZABvAG0ASQB0AGUAbQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: bcf5502c-1302-4664-8a10-035e99075324
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwA3AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item7
+          variableID: e8ba9d55-f857-4966-b008-1d13956f31d5
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero7
+          variableID: bcf5502c-1302-4664-8a10-035e99075324
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAYQBkAG8AbQBJAHQAZQBtAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAYQBkAG8AbQBJAHQAZQBtACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGEAZABvAG0ASQB0AGUAbQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: AddGivenItem
+      eventId: 196c7ad3-ec20-41d7-bf78-d3f5054dd785
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: item1
+          variableID: 1d05b5dc-0b44-435b-8921-a8e1ecee9a4d
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item2
+          variableID: e1d4ebb6-f302-4d77-b9f6-488fd9ee4210
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item3
+          variableID: 12cc5906-3f0b-4bc8-bdb5-ee138473e3a1
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item4
+          variableID: 1fc92e53-9326-40cc-8791-827864697472
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item5
+          variableID: 030a1106-ea17-47e0-b74a-553fa678eb45
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item6
+          variableID: 7345213c-d5fa-4d35-846c-e078d66f98bb
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBgAAAEkAdABlAG0ATgBvAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Item7
+          variableID: e8ba9d55-f857-4966-b008-1d13956f31d5
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 19b971d5-3746-498b-bf83-44975b701c94
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwAxAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: item1
+          variableID: 1d05b5dc-0b44-435b-8921-a8e1ecee9a4d
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero1
+          variableID: 19b971d5-3746-498b-bf83-44975b701c94
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFMAZQB0AEkAdABlAG0ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 67866153-6a1b-40f1-a1cf-226d00f44762
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwAyAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item2
+          variableID: e1d4ebb6-f302-4d77-b9f6-488fd9ee4210
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero2
+          variableID: 67866153-6a1b-40f1-a1cf-226d00f44762
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFMAZQB0AEkAdABlAG0ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: af8dafec-7c77-4ba2-a8db-2aeb1f3fb8a1
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwAzAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item3
+          variableID: 12cc5906-3f0b-4bc8-bdb5-ee138473e3a1
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero3
+          variableID: af8dafec-7c77-4ba2-a8db-2aeb1f3fb8a1
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFMAZQB0AEkAdABlAG0ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 78bc24ee-d65b-46ab-9a11-28f8c58676f7
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwA0AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item4
+          variableID: 1fc92e53-9326-40cc-8791-827864697472
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero4
+          variableID: 78bc24ee-d65b-46ab-9a11-28f8c58676f7
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFMAZQB0AEkAdABlAG0ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 0233b08b-7bf8-4d50-86e1-629b7431aecb
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwA1AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item5
+          variableID: 030a1106-ea17-47e0-b74a-553fa678eb45
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero5
+          variableID: 0233b08b-7bf8-4d50-86e1-629b7431aecb
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFMAZQB0AEkAdABlAG0ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 1797e4ea-7032-4d0c-86e0-f861653979ba
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwA2AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item6
+          variableID: 7345213c-d5fa-4d35-846c-e078d66f98bb
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero6
+          variableID: 1797e4ea-7032-4d0c-86e0-f861653979ba
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFMAZQB0AEkAdABlAG0ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ElseIf
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 1709b9d8-f65e-4557-b14a-94d9466455a9
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAEkAdABlAG0AWgBlAHIAbwA3AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Item7
+          variableID: e8ba9d55-f857-4966-b008-1d13956f31d5
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: ItemZero7
+          variableID: 1709b9d8-f65e-4557-b14a-94d9466455a9
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBwAAAFMAZQB0AEkAdABlAG0ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABBwAAAFMAZQB0AEkAdABlAG0AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAAljLpXwWOaJ0VMF
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABBQAAAAljLpXwWOaJ0VMnARAAAABlAHYAZQBuAHQARABpAHMAcABsAGEAeQBOAGEAbQBlAAEFAAAACWMulfBY5onRUwEBDQAAAHYAYQByAGkAYQBiAGwAZQBOAGEAbQBlAHMALwEAAAABGQAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAQAAAAYAAAAAAAAAAAcFCQERAAAAdgBhAHIAaQBhAGIAbABlAFUAZABvAG4ATgBhAG0AZQBzAAEAAAABAQwAAAB2AGEAcgBpAGEAYgBsAGUATwB1AHQAcwAvAgAAAAEaAAAAUwB5AHMAdABlAG0ALgBCAG8AbwBsAGUAYQBuAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAIAAAAIAAAAAAEAAAAFAQENAAAAdgBhAHIAaQBhAGIAbABlAFQAeQBwAGUAcwAvAwAAAAEXAAAAUwB5AHMAdABlAG0ALgBUAHkAcABlAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAMAAAAGAAAAAAAAAAAHBQU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 1
+        replay: 0
+      expanded: 1
+    - name: ResetItem
+      eventId: c819df3e-4ad6-4751-a7a5-c17b5ce5f3eb
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAZQBzAGUAdABJAHQAZQBtAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAZQBzAGUAdABJAHQAZQBtACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGUAcwBlAHQASQB0AGUAbQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    variables:
+    - isVariable: 0
+      name: item1
+      variableID: 1d05b5dc-0b44-435b-8921-a8e1ecee9a4d
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Item2
+      variableID: e1d4ebb6-f302-4d77-b9f6-488fd9ee4210
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Item3
+      variableID: 12cc5906-3f0b-4bc8-bdb5-ee138473e3a1
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Item4
+      variableID: 1fc92e53-9326-40cc-8791-827864697472
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Item5
+      variableID: 030a1106-ea17-47e0-b74a-553fa678eb45
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Item6
+      variableID: 7345213c-d5fa-4d35-846c-e078d66f98bb
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Item7
+      variableID: e8ba9d55-f857-4966-b008-1d13956f31d5
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: ReceivedItem
+      variableID: b4dce6e2-5b73-4f75-b142-7df403235e38
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    comment:
+      comment: 
+    expandVariables: 0
+    expandOtherSettings: 1
+    expandSyncSection: 0
+    ignoreEventWarnings: 0
+  publicVariableReferences:
+    actionDataIndices:
+    - symbolName: __18_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __19_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __20_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __21_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __22_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 2
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __23_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 2
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __24_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 3
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __25_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __26_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 4
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __27_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 4
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __28_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 5
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __29_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 5
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __30_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 6
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __31_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __34_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 9
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __35_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 12
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __36_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 12
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __37_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 13
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __38_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 13
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __40_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 18
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __41_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 21
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __42_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 21
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __43_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 22
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __44_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 22
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __46_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 27
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __47_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 30
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __48_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 30
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __49_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 31
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __50_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 31
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __52_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 36
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __53_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 39
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __54_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 39
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __55_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 40
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __56_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 40
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __58_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 45
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __59_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 48
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __60_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 48
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __61_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 49
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __62_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 49
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __64_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 54
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __65_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 57
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __66_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 57
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __67_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 58
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __68_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 58
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __70_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 63
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __71_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 66
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __72_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 66
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __73_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 67
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __74_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 67
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __79_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __80_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __81_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __82_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 1
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __83_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 2
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __84_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 2
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __85_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 3
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __86_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __87_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 4
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __88_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 4
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __89_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 5
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __90_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 5
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __91_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 6
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __92_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __94_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 9
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __95_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 12
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __96_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 12
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __97_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 13
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __98_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 13
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __100_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 18
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __101_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 21
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __102_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 21
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __103_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 22
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __104_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 22
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __106_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 27
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __107_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 30
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __108_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 30
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __109_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 31
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __110_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 31
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __112_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 36
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __113_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 39
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __114_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 39
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __115_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 40
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __116_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 40
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __118_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 45
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __119_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 48
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __120_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 48
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __121_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 49
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __122_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 49
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __124_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 54
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __125_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 57
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __126_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 57
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __127_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 58
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __128_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 58
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __130_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 63
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __131_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 66
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __132_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 66
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __133_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 67
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __134_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 67
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __136_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __137_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __138_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 1
+    - symbolName: __139_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 2
+    - symbolName: __140_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 3
+    - symbolName: __141_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 4
+    - symbolName: __142_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 5
+    - symbolName: __143_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 2
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 6
+    userVariableNames:
+    - item1
+    - Item2
+    - Item3
+    - Item4
+    - Item5
+    - Item6
+    - Item7
+    - ReceivedItem
+    userVariableTypes:
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  ignoreOdinData: 1
+  serializationDataOdin:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []

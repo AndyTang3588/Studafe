@@ -1,0 +1,4191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eab678c02d50042baa35d04cd0db48, type: 3}
+  m_Name: CyanTrigger_b10267cf-27e6-430c-a782-54a306c4007f
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: eda72ec37c7a784459b8ad5d63c09f2b,
+    type: 2}
+  udonAssembly: ".data_start\r\n  .export __CyanTrigger_ProgramName_SystemString\r\n 
+    .export Player1HP\r\n  .sync Player1HP, none\r\n  .export _old_Player1HP\r\n 
+    .export Player2HP\r\n  .sync Player2HP, none\r\n  .export _old_Player2HP\r\n 
+    .export Player1DoubleDamage\r\n  .sync Player1DoubleDamage, none\r\n  .export
+    Player2DoubleDamage\r\n  .sync Player2DoubleDamage, none\r\n  .export DamagePlayerName\r\n 
+    .export LocalPlayerName\r\n  .export MaxHP\r\n  .sync MaxHP, none\r\n  .export
+    _old_MaxHP\r\n  .export __27_ref_UnityEngineAnimator\r\n  .export __28_ref_SystemString\r\n 
+    .export __29_ref_UnityEngineAnimator\r\n  .export __31_ref_UnityEngineAnimator\r\n 
+    .export __32_ref_SystemString\r\n  .export __33_ref_UnityEngineAnimator\r\n 
+    .export __39_ref_SystemString\r\n  .export __43_ref_SystemInt32\r\n  .export
+    __44_ref_SystemInt32\r\n  .export __46_ref_SystemString\r\n  .export __49_ref_SystemInt32\r\n 
+    .export __50_ref_SystemString\r\n  .export __51_ref_VRCUdonUdonBehaviour\r\n 
+    .export __52_ref_SystemString\r\n  .export __53_ref_VRCUdonUdonBehaviour\r\n 
+    .export __58_ref_SystemString\r\n  .export __61_ref_SystemInt32\r\n  .export
+    __62_ref_SystemInt32\r\n  .export __64_ref_SystemString\r\n  .export __67_ref_SystemInt32\r\n 
+    .export __68_ref_SystemString\r\n  .export __69_ref_VRCUdonUdonBehaviour\r\n 
+    .export __70_ref_SystemString\r\n  .export __71_ref_VRCUdonUdonBehaviour\r\n 
+    .export __73_ref_SystemString\r\n  .export __76_ref_SystemInt32\r\n  .export
+    __77_ref_SystemInt32\r\n  .export __79_ref_SystemString\r\n  .export __82_ref_SystemInt32\r\n 
+    .export __83_ref_SystemString\r\n  .export __84_ref_VRCUdonUdonBehaviour\r\n 
+    .export __85_ref_SystemString\r\n  .export __86_ref_VRCUdonUdonBehaviour\r\n 
+    .export __89_ref_SystemString\r\n  .export __92_ref_SystemInt32\r\n  .export
+    __93_ref_SystemInt32\r\n  .export __95_ref_SystemString\r\n  .export __98_ref_SystemInt32\r\n 
+    .export __99_ref_SystemString\r\n  .export __100_ref_VRCUdonUdonBehaviour\r\n 
+    .export __101_ref_SystemString\r\n  .export __102_ref_VRCUdonUdonBehaviour\r\n 
+    .export __106_ref_SystemInt32\r\n  .export __108_ref_SystemString\r\n  .export
+    __114_ref_SystemInt32\r\n  .export __116_ref_SystemString\r\n  .export __121_ref_SystemInt32\r\n 
+    .export __123_ref_SystemString\r\n  .export __128_ref_SystemInt32\r\n  .export
+    __130_ref_SystemString\r\n  .export __135_ref_UnityEngineAnimator\r\n  .export
+    __136_ref_SystemString\r\n  .export __141_ref_UnityEngineAnimator\r\n  .export
+    __142_ref_SystemString\r\n  .export __147_ref_UnityEngineAnimator\r\n  .export
+    __148_ref_SystemString\r\n  .export __153_ref_VRCUdonUdonBehaviour\r\n  .export
+    __154_ref_SystemString\r\n  .export __156_ref_UnityEngineAnimator\r\n  .export
+    __157_ref_SystemString\r\n  .export __162_ref_VRCUdonUdonBehaviour\r\n  .export
+    __163_ref_SystemString\r\n  .export __165_ref_UnityEngineAnimator\r\n  .export
+    __166_ref_SystemString\r\n  .export __169_ref_SystemInt32\r\n  .export __170_ref_SystemInt32\r\n 
+    .export __175_ref_SystemInt32\r\n  .export __176_ref_SystemInt32\r\n  .export
+    __180_ref_UnityEngineUIText\r\n  __CyanTrigger_ProgramName_SystemString: %SystemString,
+    null\r\n  __CyanTrigger_ProgramHash_SystemString: %SystemString, null\r\n  __0_ra_SystemUInt32:
+    %SystemUInt32, null\r\n  __1_ea_SystemUInt32: %SystemUInt32, null\r\n  _this_gameobject:
+    %UnityEngineGameObject, this\r\n  _this_udonbehaviour: %VRCUdonUdonBehaviour,
+    this\r\n  _this_local_player: %VRCSDKBaseVRCPlayerApi, null\r\n  __2_bc_SystemUInt32:
+    %SystemUInt32, null\r\n  Player1HP: %SystemInt32, null\r\n  _old_Player1HP: %SystemInt32,
+    null\r\n  Player2HP: %SystemInt32, null\r\n  _old_Player2HP: %SystemInt32, null\r\n 
+    Player1DoubleDamage: %SystemBoolean, null\r\n  Player2DoubleDamage: %SystemBoolean,
+    null\r\n  DamagePlayerName: %SystemString, null\r\n  LocalPlayerName: %SystemString,
+    null\r\n  MaxHP: %SystemInt32, null\r\n  _old_MaxHP: %SystemInt32, null\r\n 
+    __20___jump_return_0_SystemUInt32: %SystemUInt32, null\r\n  __21_const_SystemUInt32:
+    %SystemUInt32, null\r\n  __22_temp_SystemBoolean: %SystemBoolean, null\r\n  __23_const_SystemString:
+    %SystemString, null\r\n  __24_const_VRCUdonCommonInterfacesNetworkEventTarget:
+    %VRCUdonCommonInterfacesNetworkEventTarget, null\r\n  __25_const_SystemString:
+    %SystemString, null\r\n  __26_const_SystemUInt32: %SystemUInt32, null\r\n  __27_ref_UnityEngineAnimator:
+    %UnityEngineAnimator, null\r\n  __28_ref_SystemString: %SystemString, null\r\n 
+    __29_ref_UnityEngineAnimator: %UnityEngineAnimator, null\r\n  __30___jump_return_1_SystemUInt32:
+    %SystemUInt32, null\r\n  __31_ref_UnityEngineAnimator: %UnityEngineAnimator,
+    null\r\n  __32_ref_SystemString: %SystemString, null\r\n  __33_ref_UnityEngineAnimator:
+    %UnityEngineAnimator, null\r\n  __34___jump_return_2_SystemUInt32: %SystemUInt32,
+    null\r\n  __35_temp_SystemBoolean: %SystemBoolean, null\r\n  __36___jump_return_3_SystemUInt32:
+    %SystemUInt32, null\r\n  __37___jump_return_4_SystemUInt32: %SystemUInt32, null\r\n 
+    __38___jump_return_5_SystemUInt32: %SystemUInt32, null\r\n  __39_ref_SystemString:
+    %SystemString, null\r\n  __40___jump_return_6_SystemUInt32: %SystemUInt32, null\r\n 
+    __41_local_var_SystemBoolean: %SystemBoolean, null\r\n  __42_const_SystemBoolean:
+    %SystemBoolean, null\r\n  __43_ref_SystemInt32: %SystemInt32, null\r\n  __44_ref_SystemInt32:
+    %SystemInt32, null\r\n  __45___jump_return_7_SystemUInt32: %SystemUInt32, null\r\n 
+    __46_ref_SystemString: %SystemString, null\r\n  __47___jump_return_8_SystemUInt32:
+    %SystemUInt32, null\r\n  __48_local_var_SystemBoolean: %SystemBoolean, null\r\n 
+    __49_ref_SystemInt32: %SystemInt32, null\r\n  __50_ref_SystemString: %SystemString,
+    null\r\n  __51_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __52_ref_SystemString:
+    %SystemString, null\r\n  __53_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __54___jump_return_9_SystemUInt32: %SystemUInt32, null\r\n  __55_const_SystemString:
+    %SystemString, null\r\n  __56_const_SystemSingle: %SystemSingle, null\r\n  __57_const_VRCUdonCommonEnumsEventTiming:
+    %VRCUdonCommonEnumsEventTiming, null\r\n  __58_ref_SystemString: %SystemString,
+    null\r\n  __59___jump_return_10_SystemUInt32: %SystemUInt32, null\r\n  __60_local_var_SystemBoolean:
+    %SystemBoolean, null\r\n  __61_ref_SystemInt32: %SystemInt32, null\r\n  __62_ref_SystemInt32:
+    %SystemInt32, null\r\n  __63___jump_return_11_SystemUInt32: %SystemUInt32, null\r\n 
+    __64_ref_SystemString: %SystemString, null\r\n  __65___jump_return_12_SystemUInt32:
+    %SystemUInt32, null\r\n  __66_local_var_SystemBoolean: %SystemBoolean, null\r\n 
+    __67_ref_SystemInt32: %SystemInt32, null\r\n  __68_ref_SystemString: %SystemString,
+    null\r\n  __69_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __70_ref_SystemString:
+    %SystemString, null\r\n  __71_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __72___jump_return_13_SystemUInt32: %SystemUInt32, null\r\n  __73_ref_SystemString:
+    %SystemString, null\r\n  __74___jump_return_14_SystemUInt32: %SystemUInt32, null\r\n 
+    __75_local_var_SystemBoolean: %SystemBoolean, null\r\n  __76_ref_SystemInt32:
+    %SystemInt32, null\r\n  __77_ref_SystemInt32: %SystemInt32, null\r\n  __78___jump_return_15_SystemUInt32:
+    %SystemUInt32, null\r\n  __79_ref_SystemString: %SystemString, null\r\n  __80___jump_return_16_SystemUInt32:
+    %SystemUInt32, null\r\n  __81_local_var_SystemBoolean: %SystemBoolean, null\r\n 
+    __82_ref_SystemInt32: %SystemInt32, null\r\n  __83_ref_SystemString: %SystemString,
+    null\r\n  __84_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __85_ref_SystemString:
+    %SystemString, null\r\n  __86_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __87___jump_return_17_SystemUInt32: %SystemUInt32, null\r\n  __88_const_SystemString:
+    %SystemString, null\r\n  __89_ref_SystemString: %SystemString, null\r\n  __90___jump_return_18_SystemUInt32:
+    %SystemUInt32, null\r\n  __91_local_var_SystemBoolean: %SystemBoolean, null\r\n 
+    __92_ref_SystemInt32: %SystemInt32, null\r\n  __93_ref_SystemInt32: %SystemInt32,
+    null\r\n  __94___jump_return_19_SystemUInt32: %SystemUInt32, null\r\n  __95_ref_SystemString:
+    %SystemString, null\r\n  __96___jump_return_20_SystemUInt32: %SystemUInt32, null\r\n 
+    __97_local_var_SystemBoolean: %SystemBoolean, null\r\n  __98_ref_SystemInt32:
+    %SystemInt32, null\r\n  __99_ref_SystemString: %SystemString, null\r\n  __100_ref_VRCUdonUdonBehaviour:
+    %VRCUdonUdonBehaviour, null\r\n  __101_ref_SystemString: %SystemString, null\r\n 
+    __102_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __103___jump_return_21_SystemUInt32:
+    %SystemUInt32, null\r\n  __104_const_SystemString: %SystemString, null\r\n  __105_local_var_SystemBoolean:
+    %SystemBoolean, null\r\n  __106_ref_SystemInt32: %SystemInt32, null\r\n  __107___jump_return_22_SystemUInt32:
+    %SystemUInt32, null\r\n  __108_ref_SystemString: %SystemString, null\r\n  __109___jump_return_23_SystemUInt32:
+    %SystemUInt32, null\r\n  __110___jump_return_24_SystemUInt32: %SystemUInt32,
+    null\r\n  __111_const_SystemString: %SystemString, null\r\n  __112_const_SystemSingle:
+    %SystemSingle, null\r\n  __113_local_var_SystemBoolean: %SystemBoolean, null\r\n 
+    __114_ref_SystemInt32: %SystemInt32, null\r\n  __115___jump_return_25_SystemUInt32:
+    %SystemUInt32, null\r\n  __116_ref_SystemString: %SystemString, null\r\n  __117___jump_return_26_SystemUInt32:
+    %SystemUInt32, null\r\n  __118___jump_return_27_SystemUInt32: %SystemUInt32,
+    null\r\n  __119_const_SystemString: %SystemString, null\r\n  __120_local_var_SystemBoolean:
+    %SystemBoolean, null\r\n  __121_ref_SystemInt32: %SystemInt32, null\r\n  __122___jump_return_28_SystemUInt32:
+    %SystemUInt32, null\r\n  __123_ref_SystemString: %SystemString, null\r\n  __124___jump_return_29_SystemUInt32:
+    %SystemUInt32, null\r\n  __125___jump_return_30_SystemUInt32: %SystemUInt32,
+    null\r\n  __126_const_SystemString: %SystemString, null\r\n  __127_local_var_SystemBoolean:
+    %SystemBoolean, null\r\n  __128_ref_SystemInt32: %SystemInt32, null\r\n  __129___jump_return_31_SystemUInt32:
+    %SystemUInt32, null\r\n  __130_ref_SystemString: %SystemString, null\r\n  __131___jump_return_32_SystemUInt32:
+    %SystemUInt32, null\r\n  __132___jump_return_33_SystemUInt32: %SystemUInt32,
+    null\r\n  __133_const_SystemString: %SystemString, null\r\n  __134_const_SystemString:
+    %SystemString, null\r\n  __135_ref_UnityEngineAnimator: %UnityEngineAnimator,
+    null\r\n  __136_ref_SystemString: %SystemString, null\r\n  __137___jump_return_34_SystemUInt32:
+    %SystemUInt32, null\r\n  __138_temp_SystemBoolean: %SystemBoolean, null\r\n 
+    __139_const_SystemString: %SystemString, null\r\n  __140_const_SystemString:
+    %SystemString, null\r\n  __141_ref_UnityEngineAnimator: %UnityEngineAnimator,
+    null\r\n  __142_ref_SystemString: %SystemString, null\r\n  __143___jump_return_35_SystemUInt32:
+    %SystemUInt32, null\r\n  __144_temp_SystemBoolean: %SystemBoolean, null\r\n 
+    __145_const_SystemString: %SystemString, null\r\n  __146_const_SystemString:
+    %SystemString, null\r\n  __147_ref_UnityEngineAnimator: %UnityEngineAnimator,
+    null\r\n  __148_ref_SystemString: %SystemString, null\r\n  __149___jump_return_36_SystemUInt32:
+    %SystemUInt32, null\r\n  __150_temp_SystemBoolean: %SystemBoolean, null\r\n 
+    __151_const_SystemString: %SystemString, null\r\n  __152_const_SystemString:
+    %SystemString, null\r\n  __153_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __154_ref_SystemString: %SystemString, null\r\n  __155_local_var_SystemBoolean:
+    %SystemBoolean, null\r\n  __156_ref_UnityEngineAnimator: %UnityEngineAnimator,
+    null\r\n  __157_ref_SystemString: %SystemString, null\r\n  __158___jump_return_37_SystemUInt32:
+    %SystemUInt32, null\r\n  __159_temp_SystemBoolean: %SystemBoolean, null\r\n 
+    __160_const_SystemString: %SystemString, null\r\n  __161_const_SystemString:
+    %SystemString, null\r\n  __162_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour,
+    null\r\n  __163_ref_SystemString: %SystemString, null\r\n  __164_local_var_SystemBoolean:
+    %SystemBoolean, null\r\n  __165_ref_UnityEngineAnimator: %UnityEngineAnimator,
+    null\r\n  __166_ref_SystemString: %SystemString, null\r\n  __167___jump_return_38_SystemUInt32:
+    %SystemUInt32, null\r\n  __168_local_var_SystemBoolean: %SystemBoolean, null\r\n 
+    __169_ref_SystemInt32: %SystemInt32, null\r\n  __170_ref_SystemInt32: %SystemInt32,
+    null\r\n  __171_temp_SystemBoolean: %SystemBoolean, null\r\n  __172___jump_return_39_SystemUInt32:
+    %SystemUInt32, null\r\n  __173___jump_return_40_SystemUInt32: %SystemUInt32,
+    null\r\n  __174_local_var_SystemBoolean: %SystemBoolean, null\r\n  __175_ref_SystemInt32:
+    %SystemInt32, null\r\n  __176_ref_SystemInt32: %SystemInt32, null\r\n  __177___jump_return_41_SystemUInt32:
+    %SystemUInt32, null\r\n  __178___jump_return_42_SystemUInt32: %SystemUInt32,
+    null\r\n  __179_local_var_SystemString: %SystemString, null\r\n  __180_ref_UnityEngineUIText:
+    %UnityEngineUIText, null\r\n  __181_lp_init_SystemBoolean_ct_intern: %SystemBoolean,
+    null\r\n.data_end\r\n\n.code_start\r\n  .export _onVarChange_Player1HP\r\n  _onVarChange_Player1HP:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __20___jump_return_0_SystemUInt32\r\n   
+    JUMP, 0x00000048\r\n    PUSH, Player1HP\r\n    PUSH, _old_Player1HP\r\n    COPY\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_0_debug_execute\r\n  __intern_event_0_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __21_const_SystemUInt32\r\n   
+    PUSH, __22_temp_SystemBoolean\r\n    EXTERN, \"SystemUInt32.__op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
+    PUSH, __22_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000090\r\n    PUSH, __23_const_SystemString\r\n   
+    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __24_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __25_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export intern_event_0_networked_actions\r\n  intern_event_0_networked_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    EXTERN, \"SystemUInt32.__op_Addition__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __27_ref_UnityEngineAnimator\r\n    PUSH, __28_ref_SystemString\r\n   
+    PUSH, Player1HP\r\n    EXTERN, \"UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid\"\r\n   
+    PUSH, __29_ref_UnityEngineAnimator\r\n    PUSH, __28_ref_SystemString\r\n   
+    PUSH, Player1HP\r\n    EXTERN, \"UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid\"\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    EXTERN, \"SystemUInt32.__op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export _onVarChange_Player2HP\r\n  _onVarChange_Player2HP:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __30___jump_return_1_SystemUInt32\r\n    JUMP, 0x000001A8\r\n    PUSH,
+    Player2HP\r\n    PUSH, _old_Player2HP\r\n    COPY\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_1_debug_execute\r\n 
+    __intern_event_1_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __31_ref_UnityEngineAnimator\r\n    PUSH, __32_ref_SystemString\r\n    PUSH,
+    Player2HP\r\n    EXTERN, \"UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid\"\r\n   
+    PUSH, __33_ref_UnityEngineAnimator\r\n    PUSH, __32_ref_SystemString\r\n   
+    PUSH, Player2HP\r\n    EXTERN, \"UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export ResetHP\r\n  ResetHP:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __34___jump_return_2_SystemUInt32\r\n   
+    JUMP, 0x00000230\r\n    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT,
+    __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_2_debug_execute\r\n  __intern_event_2_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, MaxHP\r\n    PUSH, Player1HP\r\n    COPY\r\n   
+    PUSH, _old_Player1HP\r\n    PUSH, Player1HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000284\r\n    PUSH, __36___jump_return_3_SystemUInt32\r\n   
+    JUMP, 0x00000008\r\n    PUSH, MaxHP\r\n    PUSH, Player2HP\r\n    COPY\r\n   
+    PUSH, _old_Player2HP\r\n    PUSH, Player2HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000002D8\r\n    PUSH, __37___jump_return_4_SystemUInt32\r\n   
+    JUMP, 0x00000168\r\n    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player1HPDamage\r\n  Player1HPDamage:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __38___jump_return_5_SystemUInt32\r\n    JUMP, 0x00000330\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_3_debug_execute\r\n  __intern_event_3_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __40___jump_return_6_SystemUInt32\r\n   
+    JUMP, 0x00001278\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH, __41_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player1HP\r\n    PUSH, __43_ref_SystemInt32\r\n    PUSH, __41_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __41_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000003F4\r\n    PUSH,
+    Player1HP\r\n    PUSH, __44_ref_SystemInt32\r\n    PUSH, Player1HP\r\n    EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n    PUSH,
+    _old_Player1HP\r\n    PUSH, Player1HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000003E4\r\n    PUSH, __45___jump_return_7_SystemUInt32\r\n   
+    JUMP, 0x00000008\r\n    PUSH, __47___jump_return_8_SystemUInt32\r\n    JUMP,
+    0x00000008\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH, __48_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player1HP\r\n    PUSH, __49_ref_SystemInt32\r\n    PUSH, __48_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __48_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000468\r\n    PUSH,
+    __51_ref_VRCUdonUdonBehaviour\r\n    PUSH, __50_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __53_ref_VRCUdonUdonBehaviour\r\n    PUSH, __52_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player1HPDamagePill\r\n  Player1HPDamagePill:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __54___jump_return_9_SystemUInt32\r\n    JUMP, 0x000004C0\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_4_debug_execute\r\n  __intern_event_4_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __55_const_SystemString\r\n   
+    PUSH, __56_const_SystemSingle\r\n    PUSH, __57_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_4_delayed_actions\r\n  __intern_event_4_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __59___jump_return_10_SystemUInt32\r\n   
+    JUMP, 0x00001278\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH, __60_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player1HP\r\n    PUSH, __61_ref_SystemInt32\r\n    PUSH, __60_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __60_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000005C8\r\n    PUSH,
+    Player1HP\r\n    PUSH, __62_ref_SystemInt32\r\n    PUSH, Player1HP\r\n    EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n    PUSH,
+    _old_Player1HP\r\n    PUSH, Player1HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000005B8\r\n    PUSH, __63___jump_return_11_SystemUInt32\r\n   
+    JUMP, 0x00000008\r\n    PUSH, __65___jump_return_12_SystemUInt32\r\n    JUMP,
+    0x00000008\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH, __66_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player1HP\r\n    PUSH, __67_ref_SystemInt32\r\n    PUSH, __66_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __66_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x0000063C\r\n    PUSH,
+    __69_ref_VRCUdonUdonBehaviour\r\n    PUSH, __68_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __71_ref_VRCUdonUdonBehaviour\r\n    PUSH, __70_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player2HPDamage\r\n  Player2HPDamage:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __72___jump_return_13_SystemUInt32\r\n    JUMP, 0x00000694\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_5_debug_execute\r\n  __intern_event_5_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __74___jump_return_14_SystemUInt32\r\n   
+    JUMP, 0x0000144C\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH, __75_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player2HP\r\n    PUSH, __76_ref_SystemInt32\r\n    PUSH, __75_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __75_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000758\r\n    PUSH,
+    Player2HP\r\n    PUSH, __77_ref_SystemInt32\r\n    PUSH, Player2HP\r\n    EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n    PUSH,
+    _old_Player2HP\r\n    PUSH, Player2HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000748\r\n    PUSH, __78___jump_return_15_SystemUInt32\r\n   
+    JUMP, 0x00000168\r\n    PUSH, __80___jump_return_16_SystemUInt32\r\n    JUMP,
+    0x00000168\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH, __81_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player2HP\r\n    PUSH, __82_ref_SystemInt32\r\n    PUSH, __81_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __81_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000007CC\r\n    PUSH,
+    __84_ref_VRCUdonUdonBehaviour\r\n    PUSH, __83_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __86_ref_VRCUdonUdonBehaviour\r\n    PUSH, __85_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player2HPDamagePill\r\n  Player2HPDamagePill:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __87___jump_return_17_SystemUInt32\r\n    JUMP, 0x00000824\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_6_debug_execute\r\n  __intern_event_6_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __88_const_SystemString\r\n   
+    PUSH, __56_const_SystemSingle\r\n    PUSH, __57_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_6_delayed_actions\r\n  __intern_event_6_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __90___jump_return_18_SystemUInt32\r\n   
+    JUMP, 0x0000144C\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH, __91_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player2HP\r\n    PUSH, __92_ref_SystemInt32\r\n    PUSH, __91_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __91_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x0000092C\r\n    PUSH,
+    Player2HP\r\n    PUSH, __93_ref_SystemInt32\r\n    PUSH, Player2HP\r\n    EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n    PUSH,
+    _old_Player2HP\r\n    PUSH, Player2HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x0000091C\r\n    PUSH, __94___jump_return_19_SystemUInt32\r\n   
+    JUMP, 0x00000168\r\n    PUSH, __96___jump_return_20_SystemUInt32\r\n    JUMP,
+    0x00000168\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH, __97_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, Player2HP\r\n    PUSH, __98_ref_SystemInt32\r\n    PUSH, __97_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __97_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000009A0\r\n    PUSH,
+    __100_ref_VRCUdonUdonBehaviour\r\n    PUSH, __99_ref_SystemString\r\n    EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __102_ref_VRCUdonUdonBehaviour\r\n    PUSH, __101_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player1HPHeal\r\n  Player1HPHeal:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __103___jump_return_21_SystemUInt32\r\n    JUMP, 0x000009F8\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_7_debug_execute\r\n  __intern_event_7_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __104_const_SystemString\r\n   
+    PUSH, __56_const_SystemSingle\r\n    PUSH, __57_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_7_delayed_actions\r\n  __intern_event_7_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH,
+    __105_local_var_SystemBoolean\r\n    COPY\r\n    PUSH, Player1HP\r\n    PUSH,
+    MaxHP\r\n    PUSH, __105_local_var_SystemBoolean\r\n    EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __105_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000AF0\r\n    PUSH,
+    Player1HP\r\n    PUSH, __106_ref_SystemInt32\r\n    PUSH, Player1HP\r\n    EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n    PUSH,
+    _old_Player1HP\r\n    PUSH, Player1HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000AE0\r\n    PUSH, __107___jump_return_22_SystemUInt32\r\n   
+    JUMP, 0x00000008\r\n    PUSH, __109___jump_return_23_SystemUInt32\r\n    JUMP,
+    0x00000008\r\n    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player1HPHealPill\r\n  Player1HPHealPill:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __110___jump_return_24_SystemUInt32\r\n    JUMP, 0x00000B48\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_8_debug_execute\r\n  __intern_event_8_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __111_const_SystemString\r\n   
+    PUSH, __112_const_SystemSingle\r\n    PUSH, __57_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_8_delayed_actions\r\n  __intern_event_8_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH,
+    __113_local_var_SystemBoolean\r\n    COPY\r\n    PUSH, Player1HP\r\n    PUSH,
+    MaxHP\r\n    PUSH, __113_local_var_SystemBoolean\r\n    EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __113_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000C40\r\n    PUSH,
+    Player1HP\r\n    PUSH, __114_ref_SystemInt32\r\n    PUSH, Player1HP\r\n    EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n    PUSH,
+    _old_Player1HP\r\n    PUSH, Player1HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000C30\r\n    PUSH, __115___jump_return_25_SystemUInt32\r\n   
+    JUMP, 0x00000008\r\n    PUSH, __117___jump_return_26_SystemUInt32\r\n    JUMP,
+    0x00000008\r\n    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player2HPHeal\r\n  Player2HPHeal:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __118___jump_return_27_SystemUInt32\r\n    JUMP, 0x00000C98\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_9_debug_execute\r\n  __intern_event_9_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __119_const_SystemString\r\n   
+    PUSH, __56_const_SystemSingle\r\n    PUSH, __57_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_9_delayed_actions\r\n  __intern_event_9_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH,
+    __120_local_var_SystemBoolean\r\n    COPY\r\n    PUSH, Player2HP\r\n    PUSH,
+    MaxHP\r\n    PUSH, __120_local_var_SystemBoolean\r\n    EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __120_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000D90\r\n    PUSH,
+    Player2HP\r\n    PUSH, __121_ref_SystemInt32\r\n    PUSH, Player2HP\r\n    EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n    PUSH,
+    _old_Player2HP\r\n    PUSH, Player2HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000D80\r\n    PUSH, __122___jump_return_28_SystemUInt32\r\n   
+    JUMP, 0x00000168\r\n    PUSH, __124___jump_return_29_SystemUInt32\r\n    JUMP,
+    0x00000168\r\n    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export Player2HPHealPill\r\n  Player2HPHealPill:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __125___jump_return_30_SystemUInt32\r\n    JUMP, 0x00000DE8\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_10_debug_execute\r\n  __intern_event_10_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __126_const_SystemString\r\n   
+    PUSH, __112_const_SystemSingle\r\n    PUSH, __57_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_10_delayed_actions\r\n  __intern_event_10_delayed_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH,
+    __127_local_var_SystemBoolean\r\n    COPY\r\n    PUSH, Player2HP\r\n    PUSH,
+    MaxHP\r\n    PUSH, __127_local_var_SystemBoolean\r\n    EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __127_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000EE0\r\n    PUSH,
+    Player2HP\r\n    PUSH, __128_ref_SystemInt32\r\n    PUSH, Player2HP\r\n    EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n    PUSH,
+    _old_Player2HP\r\n    PUSH, Player2HP\r\n    PUSH, __35_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000ED0\r\n    PUSH, __129___jump_return_31_SystemUInt32\r\n   
+    JUMP, 0x00000168\r\n    PUSH, __131___jump_return_32_SystemUInt32\r\n    JUMP,
+    0x00000168\r\n    PUSH, _this_udonbehaviour\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export SmokingAnimation\r\n  SmokingAnimation:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __132___jump_return_33_SystemUInt32\r\n    JUMP, 0x00000F38\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_11_debug_execute\r\n  __intern_event_11_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __21_const_SystemUInt32\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    EXTERN, \"SystemUInt32.__op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
+    PUSH, __35_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00000F80\r\n    PUSH, __133_const_SystemString\r\n   
+    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __24_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __134_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export intern_event_11_networked_actions\r\n  intern_event_11_networked_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    EXTERN, \"SystemUInt32.__op_Addition__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __135_ref_UnityEngineAnimator\r\n    PUSH, __136_ref_SystemString\r\n   
+    EXTERN, \"UnityEngineAnimator.__Play__SystemString__SystemVoid\"\r\n    PUSH,
+    __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    EXTERN, \"SystemUInt32.__op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export PillAnimation\r\n  PillAnimation:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __137___jump_return_34_SystemUInt32\r\n    JUMP, 0x0000105C\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_12_debug_execute\r\n  __intern_event_12_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __21_const_SystemUInt32\r\n   
+    PUSH, __138_temp_SystemBoolean\r\n    EXTERN, \"SystemUInt32.__op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
+    PUSH, __138_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000010A4\r\n    PUSH,
+    __139_const_SystemString\r\n    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __24_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __140_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export intern_event_12_networked_actions\r\n  intern_event_12_networked_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    EXTERN, \"SystemUInt32.__op_Addition__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __141_ref_UnityEngineAnimator\r\n    PUSH, __142_ref_SystemString\r\n   
+    EXTERN, \"UnityEngineAnimator.__Play__SystemString__SystemVoid\"\r\n    PUSH,
+    __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    EXTERN, \"SystemUInt32.__op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export ChangingAnimation\r\n  ChangingAnimation:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __143___jump_return_35_SystemUInt32\r\n    JUMP, 0x00001180\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_13_debug_execute\r\n  __intern_event_13_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __21_const_SystemUInt32\r\n   
+    PUSH, __144_temp_SystemBoolean\r\n    EXTERN, \"SystemUInt32.__op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
+    PUSH, __144_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000011C8\r\n    PUSH,
+    __145_const_SystemString\r\n    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __24_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __146_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export intern_event_13_networked_actions\r\n  intern_event_13_networked_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    EXTERN, \"SystemUInt32.__op_Addition__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __147_ref_UnityEngineAnimator\r\n    PUSH, __148_ref_SystemString\r\n   
+    EXTERN, \"UnityEngineAnimator.__Play__SystemString__SystemVoid\"\r\n    PUSH,
+    __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    EXTERN, \"SystemUInt32.__op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export DamageAnimation1\r\n  DamageAnimation1:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __149___jump_return_36_SystemUInt32\r\n    JUMP, 0x000012A4\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_14_debug_execute\r\n  __intern_event_14_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __21_const_SystemUInt32\r\n   
+    PUSH, __150_temp_SystemBoolean\r\n    EXTERN, \"SystemUInt32.__op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
+    PUSH, __150_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000012EC\r\n    PUSH,
+    __151_const_SystemString\r\n    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __24_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __152_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export intern_event_14_networked_actions\r\n  intern_event_14_networked_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __181_lp_init_SystemBoolean_ct_intern\r\n   
+    JUMP_IF_FALSE, 0x0000135C\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH,
+    __181_lp_init_SystemBoolean_ct_intern\r\n    COPY\r\n    PUSH, _this_local_player\r\n   
+    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    EXTERN, \"SystemUInt32.__op_Addition__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, _this_local_player\r\n    PUSH, LocalPlayerName\r\n    EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\"\r\n   
+    PUSH, __153_ref_VRCUdonUdonBehaviour\r\n    PUSH, __154_ref_SystemString\r\n   
+    PUSH, DamagePlayerName\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __42_const_SystemBoolean\r\n    PUSH, __155_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, DamagePlayerName\r\n    PUSH, LocalPlayerName\r\n    PUSH,
+    __155_local_var_SystemBoolean\r\n    EXTERN, \"SystemString.__op_Equality__SystemString_SystemString__SystemBoolean\"\r\n   
+    PUSH, __155_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00001410\r\n    PUSH,
+    __156_ref_UnityEngineAnimator\r\n    PUSH, __157_ref_SystemString\r\n    EXTERN,
+    \"UnityEngineAnimator.__Play__SystemString__SystemVoid\"\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    PUSH, __26_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    EXTERN,
+    \"SystemUInt32.__op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export DamageAnimation2\r\n  DamageAnimation2:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __158___jump_return_37_SystemUInt32\r\n    JUMP, 0x00001478\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export __intern_event_15_debug_execute\r\n  __intern_event_15_debug_execute:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __21_const_SystemUInt32\r\n   
+    PUSH, __159_temp_SystemBoolean\r\n    EXTERN, \"SystemUInt32.__op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
+    PUSH, __159_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000014C0\r\n    PUSH,
+    __160_const_SystemString\r\n    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __24_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __161_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export intern_event_15_networked_actions\r\n  intern_event_15_networked_actions:\r\n   
+    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __181_lp_init_SystemBoolean_ct_intern\r\n   
+    JUMP_IF_FALSE, 0x00001530\r\n    PUSH, __42_const_SystemBoolean\r\n    PUSH,
+    __181_lp_init_SystemBoolean_ct_intern\r\n    COPY\r\n    PUSH, _this_local_player\r\n   
+    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
+    PUSH, __2_bc_SystemUInt32\r\n    PUSH, __26_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    EXTERN, \"SystemUInt32.__op_Addition__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, _this_local_player\r\n    PUSH, LocalPlayerName\r\n    EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\"\r\n   
+    PUSH, __162_ref_VRCUdonUdonBehaviour\r\n    PUSH, __163_ref_SystemString\r\n   
+    PUSH, DamagePlayerName\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n   
+    PUSH, __42_const_SystemBoolean\r\n    PUSH, __164_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, DamagePlayerName\r\n    PUSH, LocalPlayerName\r\n    PUSH,
+    __164_local_var_SystemBoolean\r\n    EXTERN, \"SystemString.__op_Equality__SystemString_SystemString__SystemBoolean\"\r\n   
+    PUSH, __164_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x000015E4\r\n    PUSH,
+    __165_ref_UnityEngineAnimator\r\n    PUSH, __166_ref_SystemString\r\n    EXTERN,
+    \"UnityEngineAnimator.__Play__SystemString__SystemVoid\"\r\n    PUSH, __2_bc_SystemUInt32\r\n   
+    PUSH, __26_const_SystemUInt32\r\n    PUSH, __2_bc_SystemUInt32\r\n    EXTERN,
+    \"SystemUInt32.__op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export MaxHP_Plus\r\n  MaxHP_Plus:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __167___jump_return_38_SystemUInt32\r\n    JUMP, 0x0000164C\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_16_debug_execute\r\n 
+    __intern_event_16_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __181_lp_init_SystemBoolean_ct_intern\r\n    JUMP_IF_FALSE, 0x00001680\r\n   
+    PUSH, __42_const_SystemBoolean\r\n    PUSH, __181_lp_init_SystemBoolean_ct_intern\r\n   
+    COPY\r\n    PUSH, _this_local_player\r\n    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
+    PUSH, _this_local_player\r\n    PUSH, _this_gameobject\r\n    EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n   
+    PUSH, __42_const_SystemBoolean\r\n    PUSH, __168_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, MaxHP\r\n    PUSH, __169_ref_SystemInt32\r\n    PUSH, __168_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __168_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x0000173C\r\n    PUSH,
+    MaxHP\r\n    PUSH, __170_ref_SystemInt32\r\n    PUSH, MaxHP\r\n    EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n   
+    PUSH, _old_MaxHP\r\n    PUSH, MaxHP\r\n    PUSH, __171_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __171_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x0000173C\r\n    PUSH,
+    __172___jump_return_39_SystemUInt32\r\n    JUMP, 0x000018B0\r\n    PUSH, _this_udonbehaviour\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export MaxHP_Less\r\n  MaxHP_Less:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __173___jump_return_40_SystemUInt32\r\n    JUMP, 0x00001794\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_17_debug_execute\r\n 
+    __intern_event_17_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __181_lp_init_SystemBoolean_ct_intern\r\n    JUMP_IF_FALSE, 0x000017C8\r\n   
+    PUSH, __42_const_SystemBoolean\r\n    PUSH, __181_lp_init_SystemBoolean_ct_intern\r\n   
+    COPY\r\n    PUSH, _this_local_player\r\n    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
+    PUSH, _this_local_player\r\n    PUSH, _this_gameobject\r\n    EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n   
+    PUSH, __42_const_SystemBoolean\r\n    PUSH, __174_local_var_SystemBoolean\r\n   
+    COPY\r\n    PUSH, MaxHP\r\n    PUSH, __175_ref_SystemInt32\r\n    PUSH, __174_local_var_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __174_local_var_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00001884\r\n    PUSH,
+    MaxHP\r\n    PUSH, __176_ref_SystemInt32\r\n    PUSH, MaxHP\r\n    EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n   
+    PUSH, _old_MaxHP\r\n    PUSH, MaxHP\r\n    PUSH, __171_temp_SystemBoolean\r\n   
+    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n   
+    PUSH, __171_temp_SystemBoolean\r\n    JUMP_IF_FALSE, 0x00001884\r\n    PUSH,
+    __177___jump_return_41_SystemUInt32\r\n    JUMP, 0x000018B0\r\n    PUSH, _this_udonbehaviour\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
+    .export _onVarChange_MaxHP\r\n  _onVarChange_MaxHP:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
+    PUSH, __178___jump_return_42_SystemUInt32\r\n    JUMP, 0x000018F0\r\n    PUSH,
+    MaxHP\r\n    PUSH, _old_MaxHP\r\n    COPY\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_18_debug_execute\r\n 
+    __intern_event_18_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    MaxHP\r\n    PUSH, __179_local_var_SystemString\r\n    EXTERN, \"SystemInt32.__ToString__SystemString\"\r\n   
+    PUSH, __180_ref_UnityEngineUIText\r\n    PUSH, __179_local_var_SystemString\r\n   
+    EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n.code_end\r\n"
+  assemblyError: 
+  triggerHash: E27856E59E550269615DAC37AB12BDFF
+  shouldBeNetworked: 1
+  warningMessages: []
+  errorMessages: []
+  ctDataInstance:
+    version: 6
+    updateOrder: 0
+    autoSetSyncMode: 1
+    programSyncMode: 2
+    programName: 
+    events:
+    - name: _Unnamed
+      eventId: a180ba8c-a0c9-462b-9ba7-587f1ac8c484
+      eventInstance:
+        actionType:
+          directEvent: Event_OnVariableChanged
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAGAwAAAAAAAAAoAQ4AAABfAG8AbABkAF8AUABsAGEAeQBlAHIAMQBIAFAAKAFZAAAAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgAsACAAVgBlAHIAcwBpAG8AbgA9ADQALgAwAC4AMAAuADAALAAgAEMAdQBsAHQAdQByAGUAPQBuAGUAdQB0AHIAYQBsACwAIABQAHUAYgBsAGkAYwBLAGUAeQBUAG8AawBlAG4APQBiADcANwBhADUAYwA1ADYAMQA5ADMANABlADAAOAA5ACgBJAAAADcANwBmAGMAMwAyADgAYwAtADMAMgAxADQALQA0ADQAYQA1AC0AOAAxAGEAOQAtADMAOQAzAGMAYgA3AGUAYQA5AGUAOAAyAAcF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFAAbABhAHkAZQByADEASABQAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 2
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: _Unnamed
+      eventId: 5a253c9a-42e5-4f64-80f3-48c514ab031b
+      eventInstance:
+        actionType:
+          directEvent: Event_OnVariableChanged
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAGAwAAAAAAAAAoAQ4AAABfAG8AbABkAF8AUABsAGEAeQBlAHIAMgBIAFAAKAFZAAAAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgAsACAAVgBlAHIAcwBpAG8AbgA9ADQALgAwAC4AMAAuADAALAAgAEMAdQBsAHQAdQByAGUAPQBuAGUAdQB0AHIAYQBsACwAIABQAHUAYgBsAGkAYwBLAGUAeQBUAG8AawBlAG4APQBiADcANwBhADUAYwA1ADYAMQA5ADMANABlADAAOAA5ACgBJAAAADYANgBiAGMAMQAwADQAYgAtAGIAZQA5ADgALQA0ADgAMwA1AC0AYQAxADUAYwAtADcAZABjADUAOABiADUAYwAxADIAYgAyAAcF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFAAbABhAHkAZQByADIASABQAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: ResetHP
+      eventId: fe6af6e3-a977-4152-a9de-85afdc062982
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: SystemInt32__.Set__SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYBAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAgAAAF8AMwAF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32__.Set__SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYBAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAgAAAF8AMwAF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: Player1HPDamage
+      eventId: c69f78da-5faf-4d3d-ad45-a446c3126682
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADEABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADEAJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADEAAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 4efd1fc2-f814-427d-8393-ed6479597e66
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAFAAbABhAHkAZQByADEASABQAE0AaQBuAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HPMin
+          variableID: 4efd1fc2-f814-427d-8393-ed6479597e66
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAY/////wU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMQBIAFAABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMQBIAFAALQEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 8e6c4213-613c-4571-80e7-4d7916fd6663
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADEARABpAGUABQ==
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1Die
+          variableID: 8e6c4213-613c-4571-80e7-4d7916fd6663
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADIAVwBpAG4ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCgAAAFAAbABhAHkAZQByADIAVwBpAG4AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABCgAAAFAAbABhAHkAZQByADIAVwBpAG4AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAZQBzAGUAdABHAGEAbQBlAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAZQBzAGUAdABHAGEAbQBlACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGUAcwBlAHQARwBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: Player1HPDamagePill
+      eventId: a1c998b9-6cc4-40ec-9d41-b03f0573f207
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADEABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADEAJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADEAAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 518c5c78-ec1a-4759-af9d-09ce707ceca6
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAFAAbABhAHkAZQByADEASABQAE0AaQBuAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HPMin
+          variableID: 518c5c78-ec1a-4759-af9d-09ce707ceca6
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAY/////wU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMQBIAFAABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMQBIAFAALQEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: e36912bc-038c-466c-89a8-d934e1257d13
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADEARABpAGUABQ==
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1Die
+          variableID: e36912bc-038c-466c-89a8-d934e1257d13
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADIAVwBpAG4ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCgAAAFAAbABhAHkAZQByADIAVwBpAG4AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABCgAAAFAAbABhAHkAZQByADIAVwBpAG4AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAZQBzAGUAdABHAGEAbQBlAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAZQBzAGUAdABHAGEAbQBlACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGUAcwBlAHQARwBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 2.5
+        replay: 0
+      expanded: 1
+    - name: Player2HPDamage
+      eventId: ed62f85e-4bdf-4d44-8688-47d9d2410917
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADIABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADIAJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADIAAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 65ccc336-dda0-4369-a35c-8d677ee0ce2c
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAFAAbABhAHkAZQByADIASABQAE0AaQBuAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HPMin
+          variableID: 65ccc336-dda0-4369-a35c-8d677ee0ce2c
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAY/////wU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBIAFAABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBIAFAALQEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 8e2b0655-bcd1-481a-8e66-29a9f00725a0
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADIARABpAGUABQ==
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2Die
+          variableID: 8e2b0655-bcd1-481a-8e66-29a9f00725a0
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADEAVwBpAG4ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCgAAAFAAbABhAHkAZQByADEAVwBpAG4AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABCgAAAFAAbABhAHkAZQByADEAVwBpAG4AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAZQBzAGUAdABHAGEAbQBlAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAZQBzAGUAdABHAGEAbQBlACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGUAcwBlAHQARwBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: Player2HPDamagePill
+      eventId: 388cd873-5e2b-47b6-99b9-42e951498e3e
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADIABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADIAJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABEAAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuADIAAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: df1f3427-a962-4cb5-82a7-5ec94f46f47b
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAFAAbABhAHkAZQByADIASABQAE0AaQBuAAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HPMin
+          variableID: df1f3427-a962-4cb5-82a7-5ec94f46f47b
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAY/////wU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBIAFAABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBIAFAALQEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 8fbc654d-a285-4962-8bb2-6ad8cff59b59
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADIARABpAGUABQ==
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2Die
+          variableID: 8fbc654d-a285-4962-8bb2-6ad8cff59b59
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCgAAAFAAbABhAHkAZQByADEAVwBpAG4ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCgAAAFAAbABhAHkAZQByADEAVwBpAG4AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABCgAAAFAAbABhAHkAZQByADEAVwBpAG4AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCQAAAFIAZQBzAGUAdABHAGEAbQBlAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABCQAAAFIAZQBzAGUAdABHAGEAbQBlACcBEAAAAGUAdgBlAG4AdABEAGkAcwBwAGwAYQB5AE4AYQBtAGUAAQkAAABSAGUAcwBlAHQARwBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 2.5
+        replay: 0
+      expanded: 1
+    - name: Player1HPHeal
+      eventId: f4649219-dc4d-4b60-9423-f68f35568a91
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 4f718065-6acc-4ca2-91ea-36b3f544f733
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAFAAbABhAHkAZQByADEASABQAE0AYQB4AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYBAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HPMax
+          variableID: 4f718065-6acc-4ca2-91ea-36b3f544f733
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAQAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMQBIAFAABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMQBIAFAALQEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 2.5
+        replay: 0
+      expanded: 1
+    - name: Player1HPHealPill
+      eventId: 7334779c-3a13-46f7-988c-6286cf408810
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: b01b75da-50b3-4602-ae48-e3031035d255
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAFAAbABhAHkAZQByADEASABQAE0AYQB4AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYBAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HPMax
+          variableID: b01b75da-50b3-4602-ae48-e3031035d255
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAQAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player1HP
+          variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMQBIAFAABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMQBIAFAALQEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 3
+        replay: 0
+      expanded: 1
+    - name: Player2HPHeal
+      eventId: 5aa9639a-6610-46bb-874a-bafba4c8d22e
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 1fb6169b-af99-4a35-a16d-52eb3a0f40a0
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAFAAbABhAHkAZQByADIASABQAE0AYQB4AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYBAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HPMax
+          variableID: 1fb6169b-af99-4a35-a16d-52eb3a0f40a0
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAQAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBIAFAABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBIAFAALQEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 2.5
+        replay: 0
+      expanded: 1
+    - name: Player2HPHealPill
+      eventId: 4b84f182-7f93-4638-8134-f0ad9b710c77
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 5dd3e4ac-c28c-4c93-9a6d-07fc4702a00a
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAFAAbABhAHkAZQByADIASABQAE0AYQB4AAU=
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYBAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HPMax
+          variableID: 5dd3e4ac-c28c-4c93-9a6d-07fc4702a00a
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAQAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: Player2HP
+          variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBIAFAABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABFgAAAF8AbwBuAFYAYQByAEMAaABhAG4AZwBlAF8AUABsAGEAeQBlAHIAMgBIAFAALQEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABAQ0AAAB2AGEAcgBpAGEAYgBsAGUATgBhAG0AZQBzAC8BAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAEAAAAGAAAAAAAAAAAHBQkBEQAAAHYAYQByAGkAYQBiAGwAZQBVAGQAbwBuAE4AYQBtAGUAcwABAAAAAQEMAAAAdgBhAHIAaQBhAGIAbABlAE8AdQB0AHMALwIAAAABGgAAAFMAeQBzAHQAZQBtAC4AQgBvAG8AbABlAGEAbgBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgACAAAACAAAAAABAAAABQEBDQAAAHYAYQByAGkAYQBiAGwAZQBUAHkAcABlAHMALwMAAAABFwAAAFMAeQBzAHQAZQBtAC4AVAB5AHAAZQBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgADAAAABgAAAAAAAAAABwUF
+            unityObjects: []
+        multiInput:
+        - isVariable: 1
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 3
+        replay: 0
+      expanded: 1
+    - name: SmokingAnimation
+      eventId: 4631101d-8617-46e9-a57b-af7f2b82c2df
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: UnityEngineAnimator.__Play__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCwAAAEcAdQBuACAAUwBtAG8AawBpAG4AZwAF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 2
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: PillAnimation
+      eventId: 5f864693-9079-40a0-8214-bbe7189a827d
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: UnityEngineAnimator.__Play__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCAAAAEcAdQBuACAAcABpAGwAbAAF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 2
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: ChangingAnimation
+      eventId: 8b7656be-c3bd-4774-952d-909ca4b4cf8c
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: UnityEngineAnimator.__Play__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDAAAAEcAdQBuACAAYwBoAGEAbgBnAGkAbgBnAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 2
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: DamageAnimation1
+      eventId: 58aa3c89-e864-4e7f-ba92-8487694914a8
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: LocalPlayerName
+          variableID: 9f1fd276-9800-4cce-ba1f-7bd6ce52b50e
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCwAAAFAAbABhAHkAZQByADEATgBhAG0AZQAF
+            unityObjects: []
+        - isVariable: 1
+          name: DamagePlayerName
+          variableID: 8d5167c5-e918-4818-9ca5-0c21e9ac4cd9
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 4fcad277-359e-4501-9d5c-88425b1f9a1d
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDQAAAEMAbwByAHIAZQBjAHQAUABsAGEAeQBlAHIABQ==
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemString.__op_Equality__SystemString_SystemString__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: DamagePlayerName
+          variableID: 8d5167c5-e918-4818-9ca5-0c21e9ac4cd9
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: LocalPlayerName
+          variableID: 9f1fd276-9800-4cce-ba1f-7bd6ce52b50e
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: CorrectPlayer
+          variableID: 4fcad277-359e-4501-9d5c-88425b1f9a1d
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineAnimator.__Play__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDwAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 2
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: DamageAnimation2
+      eventId: 1a9a053e-f252-4ece-bc46-1c75fc669531
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: LocalPlayerName
+          variableID: 9f1fd276-9800-4cce-ba1f-7bd6ce52b50e
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCwAAAFAAbABhAHkAZQByADIATgBhAG0AZQAF
+            unityObjects: []
+        - isVariable: 1
+          name: DamagePlayerName
+          variableID: 8d5167c5-e918-4818-9ca5-0c21e9ac4cd9
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: c68c9cba-5506-42c1-92fc-82fc78fb3063
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDQAAAEMAbwByAHIAZQBjAHQAUABsAGEAeQBlAHIABQ==
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemString.__op_Equality__SystemString_SystemString__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: DamagePlayerName
+          variableID: 8d5167c5-e918-4818-9ca5-0c21e9ac4cd9
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: LocalPlayerName
+          variableID: 9f1fd276-9800-4cce-ba1f-7bd6ce52b50e
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: CorrectPlayer
+          variableID: c68c9cba-5506-42c1-92fc-82fc78fb3063
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineAnimator.__Play__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDwAAAEQAYQBtAGEAZwBlAEEAbgBpAG0AYQB0AGkAbwBuAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 2
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: MaxHP_Plus
+      eventId: 933e7a56-0857-4111-ae45-32a0848ae173
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: This GameObject
+          variableID: _this_gameobject
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: c9427b64-29e9-4cf7-a297-25b26a4f3880
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCAAAAHIAZQBhAGMAaABNAGEAeAAF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYBAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: reachMax
+          variableID: c9427b64-29e9-4cf7-a297-25b26a4f3880
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAQAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: MaxHP_Less
+      eventId: 7e66e45c-8753-472f-b776-284395bb8b8c
+      eventInstance:
+        actionType:
+          directEvent: Event_Custom
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: This GameObject
+          variableID: _this_gameobject
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_If
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_Condition
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: 
+          variableID: 38b7749e-6fd6-4cea-a9e2-43589fc6e88e
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBCAAAAHIAZQBhAGMAaABNAGkAbgAF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAQAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: reachMin
+          variableID: 38b7749e-6fd6-4cea-a9e2-43589fc6e88e
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_ConditionBody
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAY/////wU=
+            unityObjects: []
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: CyanTriggerSpecial_BlockEnd
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    - name: _Unnamed
+      eventId: bf67fac5-e87a-4e8a-910d-4bda8abc7eea
+      eventInstance:
+        actionType:
+          directEvent: Event_OnVariableChanged
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARkAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnAFsAXQAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAGAwAAAAAAAAAoAQoAAABfAG8AbABkAF8ATQBhAHgASABQACgBWQAAAFMAeQBzAHQAZQBtAC4ASQBuAHQAMwAyACwAIABtAHMAYwBvAHIAbABpAGIALAAgAFYAZQByAHMAaQBvAG4APQA0AC4AMAAuADAALgAwACwAIABDAHUAbAB0AHUAcgBlAD0AbgBlAHUAdAByAGEAbAAsACAAUAB1AGIAbABpAGMASwBlAHkAVABvAGsAZQBuAD0AYgA3ADcAYQA1AGMANQA2ADEAOQAzADQAZQAwADgAOQAoASQAAAA2ADgAYgBlADAANgA0ADkALQBiAGUAYgBjAC0ANABlAGQAOAAtADgANQAxAGYALQAwAGEAZABhADEAYQA3ADEAMABmAGMAMwAHBQ==
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: SystemInt32.__ToString__SystemString
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: MaxHP
+          variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+          data:
+            objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+            unityObjects: []
+        - isVariable: 1
+          name: 
+          variableID: 58250ebc-8b0a-4b26-be6f-93db91a99ce3
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBBQAAAE0AYQB4AEgAcAAF
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineUIText.__set_text__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: MaxHp
+          variableID: 58250ebc-8b0a-4b26-be6f-93db91a99ce3
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    variables:
+    - isVariable: 0
+      name: Player1HP
+      variableID: 77fc328c-3214-44a5-81a9-393cb7ea9e82
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 1
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Player2HP
+      variableID: 66bc104b-be98-4835-a15c-7dc58b5c12b2
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 1
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Player1DoubleDamage
+      variableID: 54392915-691a-469a-8f86-56b0dabdb942
+      data:
+        objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAAF
+        unityObjects: []
+      type:
+        typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 1
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: Player2DoubleDamage
+      variableID: 07789502-b117-4485-9fa1-437ef1019e66
+      data:
+        objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAAF
+        unityObjects: []
+      type:
+        typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 1
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: DamagePlayerName
+      variableID: 8d5167c5-e918-4818-9ca5-0c21e9ac4cd9
+      data:
+        objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: LocalPlayerName
+      variableID: 9f1fd276-9800-4cce-ba1f-7bd6ce52b50e
+      data:
+        objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBAAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 0
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    - isVariable: 0
+      name: MaxHP
+      variableID: 68be0649-bebc-4ed8-851f-0ada1a710fc3
+      data:
+        objEncoded: Ai8AAAAAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiAAAAAAAYBAAAAAU=
+        unityObjects: []
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      sync: 1
+      showInInspector: 1
+      typeInfo: 0
+      comment:
+        comment: 
+    comment:
+      comment: 
+    expandVariables: 0
+    expandOtherSettings: 1
+    expandSyncSection: 0
+    ignoreEventWarnings: 0
+  publicVariableReferences:
+    actionDataIndices:
+    - symbolName: __27_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __28_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __29_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 1
+    - symbolName: __31_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __32_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __33_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 1
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 1
+    - symbolName: __39_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __43_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __44_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __46_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 7
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __49_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 12
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __50_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 15
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __51_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 3
+      actionIndex: 15
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __52_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 3
+      actionIndex: 16
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __53_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 3
+      actionIndex: 16
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __58_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 4
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __61_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 4
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __62_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 4
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __64_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 4
+      actionIndex: 7
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __67_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 4
+      actionIndex: 12
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __68_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 4
+      actionIndex: 15
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __69_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 4
+      actionIndex: 15
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __70_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 4
+      actionIndex: 16
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __71_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 4
+      actionIndex: 16
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __73_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 5
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __76_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 5
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __77_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 5
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __79_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 5
+      actionIndex: 7
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __82_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 5
+      actionIndex: 12
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __83_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 5
+      actionIndex: 15
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __84_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 5
+      actionIndex: 15
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __85_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 5
+      actionIndex: 16
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __86_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 5
+      actionIndex: 16
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __89_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 6
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __92_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 6
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __93_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 6
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __95_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 6
+      actionIndex: 7
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __98_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 6
+      actionIndex: 12
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __99_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 6
+      actionIndex: 15
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __100_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 6
+      actionIndex: 15
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __101_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 6
+      actionIndex: 16
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __102_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 6
+      actionIndex: 16
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __106_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 7
+      actionIndex: 5
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __108_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 7
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __114_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 8
+      actionIndex: 5
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __116_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 8
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __121_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 9
+      actionIndex: 5
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __123_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 9
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __128_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 10
+      actionIndex: 5
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __130_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 10
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __135_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 11
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __136_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 11
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __141_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 12
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __142_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 12
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __147_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 13
+      actionIndex: 0
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __148_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 13
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __153_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 14
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __154_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 14
+      actionIndex: 1
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __156_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 14
+      actionIndex: 7
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __157_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 14
+      actionIndex: 7
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __162_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 15
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: -1
+    - symbolName: __163_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 15
+      actionIndex: 1
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __165_ref_UnityEngineAnimator
+      type:
+        typeDef: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 15
+      actionIndex: 7
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __166_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 15
+      actionIndex: 7
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __169_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 16
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __170_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 16
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __175_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 17
+      actionIndex: 3
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __176_ref_SystemInt32
+      type:
+        typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 17
+      actionIndex: 6
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __180_ref_UnityEngineUIText
+      type:
+        typeDef: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventIndex: 18
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: 0
+    userVariableNames:
+    - Player1HP
+    - Player2HP
+    - Player1DoubleDamage
+    - Player2DoubleDamage
+    - DamagePlayerName
+    - LocalPlayerName
+    - MaxHP
+    userVariableTypes:
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - typeDef: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  ignoreOdinData: 1
+  serializationDataOdin:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []

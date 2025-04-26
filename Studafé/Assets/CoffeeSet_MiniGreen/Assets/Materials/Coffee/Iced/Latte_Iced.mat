@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Latte_Iced
+  m_Shader: {fileID: 4800000, guid: acd8f18eacbd22840ae619eb44aadee4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendScale: 17.5
+    - _Botm_Blend: 0.086
+    - _Botm_Pos: -4.8
+    - _BumpScale: 1
+    - _Color_Top1Noise: 27.49
+    - _Color_Top1NoiseStr: 15
+    - _Color_Top2Blend: 0.16
+    - _Color_Top2Pos: -8
+    - _Color_TopBlend: 0.168
+    - _Color_TopGradValue: 0.6
+    - _Color_TopPos: -8
+    - _Contact_Distance: 20
+    - _Contact_Power: 5
+    - _Contact_Sharp: 4
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Devide: 1.27
+    - _Dissolve: 0.061
+    - _Dist_DetailScale: 0
+    - _Dist_DetailScale1: 1
+    - _Dist_DetailStrength: 1
+    - _Dist_Lerp: 40
+    - _Dist_Multiply: 3.07
+    - _Dist_Scale: 40
+    - _Dist_Smooth: 1
+    - _Dist_Strength: 70
+    - _DstBlend: 0
+    - _Float0: 45.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseScale: 79.8
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Pos: 6.53
+    - _Power: 0.46
+    - _Smooth: 0.5
+    - _Smoothness: 0.044
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Top_Blend: 0.162
+    - _Top_BlendScale: 54.4
+    - _Top_Pos: 5.91
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_Botm: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_Top: {r: 0.5372549, g: 0.27450982, b: 0.10980393, a: 1}
+    - _Color_Top1: {r: 0.672, g: 0.34670058, b: 0.1369681, a: 1}
+    - _Color_Top2: {r: 0.92156863, g: 0.8358143, b: 0.71790195, a: 1}
+    - _Dist_Offset: {r: 1, g: 2, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Noise: {r: 5, g: 5, b: 5, a: 1.82}
+    - _NoiseUV: {r: 100, g: 100, b: 100, a: 0}
+    - _Vector1: {r: 1, g: 1, b: 0, a: 0}

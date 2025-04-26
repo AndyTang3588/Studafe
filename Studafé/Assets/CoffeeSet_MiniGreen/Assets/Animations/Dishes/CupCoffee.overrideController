@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CupCoffee
+  m_Controller: {fileID: 9100000, guid: 34e5c53a63b17e64ca25a467dc6344fc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7634c85559a4c8846b6e0370e2728bd4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 104b8b1ba2d04064ea8292c2e87ceeca, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 01c5371ba32ea1a4587646f884031658, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: efed2cb55b2c9424db1c69375d9e7dcc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fb0b880b86f182e49a2243f6a11db76f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cf137efed0d753f4f8eb728f02f94cce, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ab6e82fed5555b8498763c1d0660cc70, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3e5c341c82f1a5a40bf8d3568497d0a3, type: 2}

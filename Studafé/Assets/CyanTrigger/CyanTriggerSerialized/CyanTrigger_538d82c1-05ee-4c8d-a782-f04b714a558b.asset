@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eab678c02d50042baa35d04cd0db48, type: 3}
+  m_Name: CyanTrigger_538d82c1-05ee-4c8d-a782-f04b714a558b
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: a22cda75ec8ca7146bd5bfffe42783b0,
+    type: 2}
+  udonAssembly: ".data_start\r\n  .export __CyanTrigger_ProgramName_SystemString\r\n 
+    .export __10_ref_UnityEngineGameObject\r\n  .export __11_ref_SystemString\r\n 
+    .export __12_ref_VRCUdonUdonBehaviour\r\n  __CyanTrigger_ProgramName_SystemString:
+    %SystemString, null\r\n  __CyanTrigger_ProgramHash_SystemString: %SystemString,
+    null\r\n  __0_ra_SystemUInt32: %SystemUInt32, null\r\n  __1_ea_SystemUInt32:
+    %SystemUInt32, null\r\n  _this_local_player: %VRCSDKBaseVRCPlayerApi, null\r\n 
+    __9___jump_return_0_SystemUInt32: %SystemUInt32, null\r\n  __10_ref_UnityEngineGameObject:
+    %UnityEngineGameObject, null\r\n  __11_ref_SystemString: %SystemString, null\r\n 
+    __12_ref_VRCUdonUdonBehaviour: %VRCUdonUdonBehaviour, null\r\n  __13_lp_init_SystemBoolean_ct_intern:
+    %SystemBoolean, null\r\n  __14_const_SystemBoolean: %SystemBoolean, null\r\n.data_end\r\n\n.code_start\r\n 
+    .export _interact\r\n  _interact:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __9___jump_return_0_SystemUInt32\r\n    JUMP, 0x00000034\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_0_debug_execute\r\n 
+    __intern_event_0_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __13_lp_init_SystemBoolean_ct_intern\r\n    JUMP_IF_FALSE, 0x00000068\r\n   
+    PUSH, __14_const_SystemBoolean\r\n    PUSH, __13_lp_init_SystemBoolean_ct_intern\r\n   
+    COPY\r\n    PUSH, _this_local_player\r\n    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
+    PUSH, _this_local_player\r\n    PUSH, __10_ref_UnityEngineGameObject\r\n    EXTERN,
+    \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n   
+    PUSH, __12_ref_VRCUdonUdonBehaviour\r\n    PUSH, __11_ref_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n   
+    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n.code_end\r\n"
+  assemblyError: 
+  triggerHash: AB1CB60C24BC4124F28603B71DE103CA
+  shouldBeNetworked: 0
+  warningMessages: []
+  errorMessages: []
+  ctDataInstance:
+    version: 6
+    updateOrder: 0
+    autoSetSyncMode: 1
+    programSyncMode: 2
+    programName: 
+    events:
+    - name: _Unnamed
+      eventId: 37b44e6f-95ab-422b-90d4-4e7a3ad21a44
+      eventInstance:
+        actionType:
+          directEvent: Event_Interact
+          guid: 
+        inputs: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      actionInstances:
+      - actionType:
+          directEvent: VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 1
+          name: Local Player
+          variableID: _this_local_player
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        multiInput: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAAAAAACgBDQAAAEMAYQBjAHUAbABhAHQAZQBSAGEAdABpAG8ABQ==
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAATEAAABDAHkAYQBuAC4AQwBUAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAEUAdgBlAG4AdABBAHIAZwBEAGEAdABhACwAIABDAHkAYQBuAC4AQwB5AGEAbgBUAHIAaQBnAGcAZQByAAAAAAAnAQkAAABlAHYAZQBuAHQATgBhAG0AZQABDQAAAEMAYQBjAHUAbABhAHQAZQBSAGEAdABpAG8AJwEQAAAAZQB2AGUAbgB0AEQAaQBzAHAAbABhAHkATgBhAG0AZQABDQAAAEMAYQBjAHUAbABhAHQAZQBSAGEAdABpAG8AAQENAAAAdgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAvAQAAAAEZAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwBbAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUJAREAAAB2AGEAcgBpAGEAYgBsAGUAVQBkAG8AbgBOAGEAbQBlAHMAAQAAAAEBDAAAAHYAYQByAGkAYQBiAGwAZQBPAHUAdABzAC8CAAAAARoAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4AWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAgAAAAgAAAAAAQAAAAUBAQ0AAAB2AGEAcgBpAGEAYgBsAGUAVAB5AHAAZQBzAC8DAAAAARcAAABTAHkAcwB0AGUAbQAuAFQAeQBwAGUAWwBdACwAIABtAHMAYwBvAHIAbABpAGIAAwAAAAYAAAAAAAAAAAcFBQ==
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: This UdonBehaviour
+          variableID: _this_udonbehaviour
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      eventOptions:
+        userGate: 0
+        userGateExtraData: []
+        broadcast: 0
+        delay: 0
+        replay: 0
+      expanded: 1
+    variables: []
+    comment:
+      comment: 
+    expandVariables: 0
+    expandOtherSettings: 1
+    expandSyncSection: 0
+    ignoreEventWarnings: 0
+  publicVariableReferences:
+    actionDataIndices:
+    - symbolName: __10_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __11_ref_SystemString
+      type:
+        typeDef: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __12_ref_VRCUdonUdonBehaviour
+      type:
+        typeDef: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: 0
+    userVariableNames: []
+    userVariableTypes: []
+  ignoreOdinData: 1
+  serializationDataOdin:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
