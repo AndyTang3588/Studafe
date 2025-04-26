@@ -1,0 +1,70 @@
+.data_start
+    .export FpsGraph
+    .export Message
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    FpsGraph: %UnityEngineGameObject, null
+    Message: %UnityEngineGameObject, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# FpsViewer2_PickupUse_Local.Start()
+# 
+        PUSH, Message
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickup
+    _onPickup:
+        PUSH, __const_SystemUInt32_0
+# 
+# FpsViewer2_PickupUse_Local.OnPickup()
+# 
+        PUSH, Message
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickupUseDown
+    _onPickupUseDown:
+        PUSH, __const_SystemUInt32_0
+# 
+# FpsViewer2_PickupUse_Local.OnPickupUseDown()
+# 
+        PUSH, FpsGraph
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, FpsGraph
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDrop
+    _onDrop:
+        PUSH, __const_SystemUInt32_0
+# 
+# FpsViewer2_PickupUse_Local.OnDrop()
+# 
+        PUSH, Message
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

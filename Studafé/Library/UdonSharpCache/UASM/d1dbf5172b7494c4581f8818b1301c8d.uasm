@@ -1,0 +1,142 @@
+.data_start
+    .export animTable
+    .export particleWater
+    .sync stateWater, none
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    animTable: %UnityEngineAnimator, null
+    particleWater: %UnityEngineParticleSystem, null
+    stateWater: %SystemBoolean, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemType_0: %SystemType, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __const_SystemString_0: %SystemString, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __intnl_VRCSDK3ComponentsVRCPickup_0: %VRCSDK3ComponentsVRCPickup, null
+    __intnl_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_UnityEngineComponent_1: %UnityEngineComponent, null
+    __intnl_VRCSDK3ComponentsVRCPickup_1: %VRCSDK3ComponentsVRCPickup, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Table_Sink.Start()
+# 
+        PUSH, __gintnl_SystemUInt32_0
+# Calling VRCCoffeeSet.Table_Sink.SetWater()
+        JUMP, 0x000001A8
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000000e4
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsUserInVR__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000098
+        JUMP, 0x000000E4
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_0
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_0
+        COPY
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__set_pickupable__SystemBoolean"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Table_Sink.OnDeserialization()
+# 
+        PUSH, __gintnl_SystemUInt32_1
+# Calling VRCCoffeeSet.Table_Sink.SetWater()
+        JUMP, 0x000001A8
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _interact
+    _interact:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Table_Sink.Interact()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __this_UnityEngineGameObject_0
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, stateWater
+        PUSH, stateWater
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_2
+# Calling VRCCoffeeSet.Table_Sink.SetWater()
+        JUMP, 0x000001A8
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Table_Sink.SetWater()
+# 
+        PUSH, animTable
+        PUSH, __const_SystemString_0
+        PUSH, stateWater
+        EXTERN, "UnityEngineAnimator.__SetBool__SystemString_SystemBoolean__SystemVoid"
+        PUSH, stateWater
+        JUMP_IF_FALSE, 0x000001f0
+        PUSH, particleWater
+        EXTERN, "UnityEngineParticleSystem.__Play__SystemVoid"
+        JUMP, 0x00000200
+        PUSH, particleWater
+        EXTERN, "UnityEngineParticleSystem.__Stop__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickup
+    _onPickup:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Table_Sink.OnPickup()
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_1
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_1
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_1
+        COPY
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_1
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__Drop__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

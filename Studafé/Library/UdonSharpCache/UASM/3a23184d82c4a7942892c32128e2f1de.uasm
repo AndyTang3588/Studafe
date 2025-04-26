@@ -1,0 +1,66 @@
+.data_start
+    .export Yodo_isReceiveSliderValueChangeEvent
+    .export Yodo_PPWeight
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    Yodo_isReceiveSliderValueChangeEvent: %SystemBoolean, null
+    Yodo_PPWeight: %SystemSingle, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemType_0: %SystemType, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemString_0: %SystemString, null
+    __lcl_animator_UnityEngineAnimator_0: %UnityEngineAnimator, null
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+.data_end
+.code_start
+    .export _onEnable
+    _onEnable:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodo_HapticSliderReceiver_PP.OnEnable()
+# 
+        PUSH, __gintnl_SystemUInt32_0
+# Calling Yodo_HapticSliderReceiver_PP.Yodo_OnSliderValueChanged()
+        JUMP, 0x00000034
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Yodo_OnSliderValueChanged
+    Yodo_OnSliderValueChanged:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodo_HapticSliderReceiver_PP.Yodo_OnSliderValueChanged()
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_0
+        PUSH, __lcl_animator_UnityEngineAnimator_0
+        COPY
+        PUSH, __lcl_animator_UnityEngineAnimator_0
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000000e0
+        PUSH, __lcl_animator_UnityEngineAnimator_0
+        PUSH, __const_SystemString_0
+        PUSH, Yodo_PPWeight
+        EXTERN, "UnityEngineAnimator.__SetFloat__SystemString_SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

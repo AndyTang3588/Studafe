@@ -1,0 +1,825 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - FpsViewer2_ForClient
+    - FpsViewer2_ForMaster
+    - FpsViewer2_OwnerManager
+    - NanaseWorks.UdonJoinAlert
+    - SoundproofArea
+    - VRCCoffeeSet.Cup_Coffee
+    - VRCCoffeeSet.Cup_Plate
+    - VRCCoffeeSet.Machine
+    - VRCCoffeeSet.Machine_Button
+    - VRCCoffeeSet.Machine_Component
+    - VRCCoffeeSet.Machine_Display
+    - VRCCoffeeSet.MainController
+    - VRCCoffeeSet.Menu_Deposit
+    - VRCCoffeeSet.Menu_Plate
+    - VRCCoffeeSet.Pad
+    - VRCCoffeeSet.PositionSaveTarget
+    - VRCCoffeeSet.Table_Sink
+    - VRCCoffeeSet.Tool
+    - VRCCoffeeSet.VariableHolder
+    - VowganVR.SpinTheBottle
+    - Yodokorochan.HapticSliderPersistenceManager
+    - Yodokorochan.Yodo_HapticSlider
+    - aki_lua87.UdonScripts.marubatu.marubatsugame
+    - aki_lua87.UdonScripts.marubatu.uGUIConnector
+    QvPen.dll:
+    - QvPen.Udon.UI.QvPen_ClearButton
+    - QvPen.Udon.UI.QvPen_InteractButton
+    - QvPen.UdonScript.QvPen_Eraser
+    - QvPen.UdonScript.QvPen_EraserManager
+    - QvPen.UdonScript.QvPen_LateSync
+    - QvPen.UdonScript.QvPen_Manager
+    - QvPen.UdonScript.QvPen_Pen
+    - QvPen.UdonScript.QvPen_PenManager
+    - QvPen.UdonScript.QvPen_Settings
+    - QvPen.UdonScript.UI.QvPen_ClearAllButton
+    - QvPen.UdonScript.UI.QvPen_ResetAllButton
+    - QvPen.UdonScript.UI.QvPen_ShowOrHideButton
+    - QvPen.UdonScript.UI.QvPen_ToggleModeButton
+    UdonSharp.Editor.dll:
+    - UdonSharp.UdonSharpProgramAsset
+    - UdonSharpEditor.UdonSharpAssemblyDefinition
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.ProBuilderEditor
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+    VRC.ClientSim.dll:
+    - VRC.SDK3.ClientSim.ClientSimDesktopTrackingProvider
+    - VRC.SDK3.ClientSim.ClientSimHighlightProxy
+    - VRC.SDK3.ClientSim.ClientSimPlayer
+    - VRC.SDK3.ClientSim.ClientSimPlayerAvatarManager
+    - VRC.SDK3.ClientSim.ClientSimPlayerController
+    - VRC.SDK3.ClientSim.ClientSimPlayerHand
+    - VRC.SDK3.ClientSim.ClientSimPlayerRaycaster
+    - VRC.SDK3.ClientSim.ClientSimPlayerStationManager
+    - VRC.SDK3.ClientSim.ClientSimProxyObjects
+    - VRC.SDK3.ClientSim.ClientSimReticle
+    - VRC.SDK3.ClientSim.ClientSimStackedCamera
+    - VRC.SDK3.ClientSim.ClientSimTooltip
+    - VRC.SDK3.ClientSim.Persistence.ClientSimPlayerDataStorage
+    - VRC.SDK3.ClientSim.Persistence.ClientSimPlayerObjectStorage
+    VRC.SDKBase.Editor.dll:
+    - VRCSdkControlPanel
+    VRC.Udon.Editor.dll:
+    - VRC.Udon.Editor.ProgramSources.UdonGraphProgram.UI.GraphView.UdonGraphWindow
+    - VRC.Udon.Editor.ProgramSources.UdonGraphProgram.UdonGraphProgramAsset
+    VRC.Udon.dll:
+    - VRC.Udon.ProgramSources.SerializedUdonProgramAsset
+    - VRC.Udon.UdonBehaviour
+    VRCCore-Editor.dll:
+    - BestHTTP.HTTPUpdateDelegator
+    - VRC.Core.PipelineManager
+    - VRC.Core.Pool.PoolManager
+    - VRCProjectSettings
+    VRCSDK3.dll:
+    - VRC.SDK3.Components.VRCEnablePersistence
+    - VRC.SDK3.Components.VRCMirrorReflection
+    - VRC.SDK3.Components.VRCObjectSync
+    - VRC.SDK3.Components.VRCPickup
+    - VRC.SDK3.Components.VRCPlayerObject
+    - VRC.SDK3.Components.VRCPortalMarker
+    - VRC.SDK3.Components.VRCSceneDescriptor
+    - VRC.SDK3.Components.VRCSpatialAudioSource
+    - VRC.SDK3.Components.VRCStation
+    - VRC.SDK3.Components.VRCUiShape
+    - VRC.SDK3.Components.VRCUrlInputField
+    - VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer
+    - VRC.SDK3.Video.Components.AVPro.VRCAVProVideoScreen
+    - VRC.SDK3.Video.Components.AVPro.VRCAVProVideoSpeaker
+    - VRC.SDK3.Video.Components.VRCUnityVideoPlayer
+    VRCSDKBase.dll:
+    - VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevel
+    - VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevelSet
+  serializedClasses:
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    Unity.Postprocessing.Runtime:
+    - UnityEngine.Rendering.PostProcessing.BoolParameter
+    - UnityEngine.Rendering.PostProcessing.ColorParameter
+    - UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
+    - UnityEngine.Rendering.PostProcessing.FloatParameter
+    - UnityEngine.Rendering.PostProcessing.Fog
+    - UnityEngine.Rendering.PostProcessing.GradingModeParameter
+    - UnityEngine.Rendering.PostProcessing.HistogramMonitor
+    - UnityEngine.Rendering.PostProcessing.LightMeterMonitor
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
+    - UnityEngine.Rendering.PostProcessing.Spline
+    - UnityEngine.Rendering.PostProcessing.SplineParameter
+    - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TextureParameter
+    - UnityEngine.Rendering.PostProcessing.TonemapperParameter
+    - UnityEngine.Rendering.PostProcessing.Vector4Parameter
+    - UnityEngine.Rendering.PostProcessing.VectorscopeMonitor
+    - UnityEngine.Rendering.PostProcessing.WaveformMonitor
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.Dropdown/DropdownEvent
+    - UnityEngine.UI.Dropdown/OptionData
+    - UnityEngine.UI.Dropdown/OptionDataList
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+    VRCSDK3:
+    - VRC.SDK3.Components.VRCUrlInputField/OnChangeEvent
+    - VRC.SDK3.Components.VRCUrlInputField/SubmitEvent
+    - VRC.SDK3.Video.Components.AVPro.VRCAVProVideoSpeaker/ChannelMode
+    VRCSDKBase:
+    - VRC.SDKBase.Network.NetworkIDPair
+    - VRC.SDKBase.VRCUrl
+  methodsToPreserve:
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  sceneClasses:
+    Assets/Scenes/VRCDefaultWorldScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 29
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 86
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1864}
+    - Class: 114
+      Script: {instanceID: 1866}
+    - Class: 114
+      Script: {instanceID: 1868}
+    - Class: 114
+      Script: {instanceID: 1874}
+    - Class: 114
+      Script: {instanceID: 1878}
+    - Class: 114
+      Script: {instanceID: 1880}
+    - Class: 114
+      Script: {instanceID: 1884}
+    - Class: 114
+      Script: {instanceID: 1886}
+    - Class: 114
+      Script: {instanceID: 1946}
+    - Class: 114
+      Script: {instanceID: 2080}
+    - Class: 114
+      Script: {instanceID: 2906}
+    - Class: 114
+      Script: {instanceID: 3198}
+    - Class: 114
+      Script: {instanceID: 3208}
+    - Class: 114
+      Script: {instanceID: 3444}
+    - Class: 114
+      Script: {instanceID: 3942}
+    - Class: 114
+      Script: {instanceID: 4362}
+    - Class: 114
+      Script: {instanceID: 4374}
+    - Class: 114
+      Script: {instanceID: 4580}
+    - Class: 114
+      Script: {instanceID: 4790}
+    - Class: 114
+      Script: {instanceID: 5110}
+    - Class: 114
+      Script: {instanceID: 5764}
+    - Class: 114
+      Script: {instanceID: 5792}
+    - Class: 114
+      Script: {instanceID: 5968}
+    - Class: 114
+      Script: {instanceID: 6230}
+    - Class: 114
+      Script: {instanceID: 6310}
+    - Class: 114
+      Script: {instanceID: 6400}
+    - Class: 114
+      Script: {instanceID: 6614}
+    - Class: 114
+      Script: {instanceID: 6616}
+    - Class: 114
+      Script: {instanceID: 6618}
+    - Class: 114
+      Script: {instanceID: 6620}
+    - Class: 114
+      Script: {instanceID: 6632}
+    - Class: 114
+      Script: {instanceID: 6638}
+    - Class: 114
+      Script: {instanceID: 6640}
+    - Class: 114
+      Script: {instanceID: 6642}
+    - Class: 114
+      Script: {instanceID: 6644}
+    - Class: 114
+      Script: {instanceID: 6646}
+    - Class: 114
+      Script: {instanceID: 6648}
+    - Class: 114
+      Script: {instanceID: 6650}
+    - Class: 114
+      Script: {instanceID: 6652}
+    - Class: 114
+      Script: {instanceID: 7412}
+    - Class: 114
+      Script: {instanceID: 7460}
+    - Class: 114
+      Script: {instanceID: 7850}
+    - Class: 114
+      Script: {instanceID: 7866}
+    - Class: 114
+      Script: {instanceID: 8510}
+    - Class: 114
+      Script: {instanceID: 8550}
+    - Class: 114
+      Script: {instanceID: 8894}
+    - Class: 114
+      Script: {instanceID: 8960}
+    - Class: 114
+      Script: {instanceID: 9314}
+    - Class: 114
+      Script: {instanceID: 9328}
+    - Class: 114
+      Script: {instanceID: 9362}
+    - Class: 114
+      Script: {instanceID: 9710}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 363
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    - Class: 895512359
+      Script: {instanceID: 0}
+    - Class: 1773428102
+      Script: {instanceID: 0}
+    - Class: 1818360608
+      Script: {instanceID: 0}
+    - Class: 1818360609
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 1af2dd76dbd64d67abba95cf5490d63e
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCPortalMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 1497bf18a213bc4220c0f6f484b80edc
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCPickup
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: ff086b2fc4609f8b094e7c0435c6db0a
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 3b9001cbca23f4b5e07a8e8488edf80c
+    assemblyName: VRC.Udon
+    namespaceName: VRC.Udon.ProgramSources
+    className: SerializedUdonProgramAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ff3967b4ae1f2491c2ed250d1c5a695a
+    assemblyName: Assembly-CSharp
+    namespaceName: VRCCoffeeSet
+    className: PositionSaveTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 960935b102b3064f4b924de16426e340
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b462ce9b96d7f3f3a8a18557fbf44071
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 42284ecb06b05bfc619be3758fa5dd7a
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: ffaaa6b08bc8a8928411e8e402432358
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 83d7a967ea9b430906a16df823c2ef60
+    assemblyName: VRC.Udon
+    namespaceName: VRC.Udon
+    className: UdonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b6792907b61f32faaf3e23f55e750107
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 63a3d99a610bbd41cb8c4eade8494ffa
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Video.Components.AVPro
+    className: VRCAVProVideoPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 863c599686672b3709ab02354cb783eb
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Video.Components.AVPro
+    className: VRCAVProVideoScreen
+  - hash:
+      serializedVersion: 2
+      Hash: c98226d4c00fad9b232d2dc279a32308
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Video.Components.AVPro
+    className: VRCAVProVideoSpeaker
+  - hash:
+      serializedVersion: 2
+      Hash: 2c3f79f565260c8d5fa582f7d9cc0c5a
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCEnablePersistence
+  - hash:
+      serializedVersion: 2
+      Hash: 1f33598959b6a5e1a711904f35508428
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCMirrorReflection
+  - hash:
+      serializedVersion: 2
+      Hash: 7e7d4688c40d22ce5ec91e2dd5ccbcc5
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCObjectSync
+  - hash:
+      serializedVersion: 2
+      Hash: e8a006a4ae0331e8668c63474e3a260c
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCPlayerObject
+  - hash:
+      serializedVersion: 2
+      Hash: b19f8151adc1db9184b5dd220dedc97c
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCSceneDescriptor
+  - hash:
+      serializedVersion: 2
+      Hash: a3196bf8d1494ac10303fd9d77d47ee1
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCSpatialAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 5d5370501fbe9921638d15b34d9b6435
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCStation
+  - hash:
+      serializedVersion: 2
+      Hash: 3332c17a59502852aed71e9e25ee638d
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCUiShape
+  - hash:
+      serializedVersion: 2
+      Hash: dc3c25375941dbdaf38d6a101834d4f2
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Video.Components
+    className: VRCUnityVideoPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 8d3f3c5847492f22a7140a24032397ad
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCUrlInputField
+  - hash:
+      serializedVersion: 2
+      Hash: 9637dcdf3068a91dfe653e61bb82f13d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 3607af82c896f922ab108a0c63b749dd
+    assemblyName: VRCCore-Editor.dll
+    namespaceName: VRC.Core
+    className: PipelineManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 33eb495d99aa9bea4dbe8b4c4e02c7bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 2fd42819c69acefd80a2bbcd49cbe8cf
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: dbe80c9dc024d18e75107a0b4da06133
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 0237607a3a697cf130c195c13cb63a88
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/VRCDefaultWorldScene.unity
+  playerPath: "C:/Users/tangh/AppData/Local/Temp/DefaultCompany/Studaf\xE9/scene-standalonewindows64-vrcdefaultworldscene.vrcw"

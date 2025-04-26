@@ -1,0 +1,685 @@
+.data_start
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    isErasing: %SystemBoolean, null
+    sphereCollider: %UnityEngineSphereCollider, null
+    eraserRadius: %SystemSingle, null
+    manager: %VRCUdonUdonBehaviour, null
+    eraser: %VRCUdonUdonBehaviour, null
+    results: %UnityEngineColliderArray, null
+    logColor: %UnityEngineColor, null
+    _logPrefix: %SystemString, null
+    __0_manager__param: %VRCUdonUdonBehaviour, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemType_0: %SystemType, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0__intnlparam: %VRCUdonUdonBehaviour, null
+    __1__intnlparam: %UnityEngineComponent, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_VRCUdonCommonInterfacesNetworkEventTarget_0: %VRCUdonCommonInterfacesNetworkEventTarget, null
+    __const_SystemString_0: %SystemString, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_1: %SystemString, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemString_3: %SystemString, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_UnityEngineQueryTriggerInteraction_0: %UnityEngineQueryTriggerInteraction, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __2__intnlparam: %VRCUdonUdonBehaviour, null
+    __3__intnlparam: %UnityEngineComponent, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __0_o__param: %SystemObject, null
+    __const_SystemString_4: %SystemString, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __0_index__param: %SystemInt32, null
+    __const_SystemString_5: %SystemString, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __const_SystemString_6: %SystemString, null
+    __const_SystemString_7: %SystemString, null
+    __const_SystemString_8: %SystemString, null
+    __const_SystemString_9: %SystemString, null
+    __1_o__param: %SystemObject, null
+    __const_SystemString_10: %SystemString, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __0_get_logPrefix__ret: %SystemString, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __2_o__param: %SystemObject, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    __0___0_ColorBeginTag__ret: %SystemString, null
+    __0_c__param: %UnityEngineColor, null
+    __const_SystemString_11: %SystemString, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __0___0_ToHtmlStringRGB__ret: %SystemString, null
+    __1_c__param: %UnityEngineColor, null
+    __const_SystemString_12: %SystemString, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __const_SystemString_13: %SystemString, null
+    __const_SystemString_14: %SystemString, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_SystemString_15: %SystemString, null
+    __const_SystemType_1: %SystemType, null
+    __const_SystemInt64_0: %SystemInt64, null
+    __const_SystemString_16: %SystemString, null
+    __const_SystemInt64_1: %SystemInt64, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __lcl_count_SystemInt32_0: %SystemInt32, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_UnityEngineCollider_0: %UnityEngineCollider, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __lcl_board_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineCollider_1: %UnityEngineCollider, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_UnityEngineObject_3: %UnityEngineObject, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemObject_1: %SystemObject, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemObject_2: %SystemObject, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_UnityEngineObject_4: %UnityEngineObject, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_UnityEngineObject_5: %UnityEngineObject, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __lcl_udonBehaviours_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __lcl_targetID_SystemInt64_0: %SystemInt64, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_0: %SystemType, null
+    __intnl_SystemType_1: %SystemType, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __lcl_idValue_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemInt64_0: %SystemInt64, null
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __lcl_udonBehaviours_UnityEngineComponentArray_1: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_1: %UnityEngineComponentArray, null
+    __lcl_targetID_SystemInt64_1: %SystemInt64, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_2: %SystemType, null
+    __intnl_SystemType_3: %SystemType, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __lcl_idValue_SystemObject_1: %SystemObject, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_SystemInt64_1: %SystemInt64, null
+    __intnl_UnityEngineComponent_1: %UnityEngineComponent, null
+.data_end
+.code_start
+    .export __0__Init
+    __0__Init:
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser._Init(yue.QvBoard_EraserManager)
+# 
+        PUSH, __0_manager__param
+        PUSH, manager
+        COPY
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __const_SystemType_0
+        PUSH, sphereCollider
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, sphereCollider
+        PUSH, eraserRadius
+        EXTERN, "UnityEngineSphereCollider.__get_radius__SystemSingle"
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __1__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponent<QvPen.UdonScript.QvPen_Eraser>(UnityEngine.Component)
+        JUMP, 0x0000092C
+        PUSH, __0__intnlparam
+        PUSH, eraser
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickupUseDown
+    _onPickupUseDown:
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.OnPickupUseDown()
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickupUseUp
+    _onPickupUseUp:
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.OnPickupUseUp()
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export StartErasing
+    StartErasing:
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.StartErasing()
+# 
+        PUSH, __const_SystemBoolean_0
+        PUSH, isErasing
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export FinishErasing
+    FinishErasing:
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.FinishErasing()
+# 
+        PUSH, __const_SystemBoolean_1
+        PUSH, isErasing
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _postLateUpdate
+    _postLateUpdate:
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.PostLateUpdate()
+# 
+        PUSH, isErasing
+        PUSH, __intnl_SystemBoolean_0
+        COPY
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000218
+        PUSH, eraser
+# Cow dirty
+        PUSH, eraser
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __const_SystemString_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, eraser
+        PUSH, __const_SystemString_3
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_SystemBoolean_1
+        COPY
+        PUSH, __intnl_SystemBoolean_1
+        PUSH, __intnl_SystemBoolean_0
+        COPY
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000004e4
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__get_position__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_0
+        PUSH, eraserRadius
+        PUSH, results
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_UnityEngineQueryTriggerInteraction_0
+        PUSH, __lcl_count_SystemInt32_0
+        EXTERN, "UnityEnginePhysics.__OverlapSphereNonAlloc__UnityEngineVector3_SystemSingle_UnityEngineColliderArray_SystemInt32_UnityEngineQueryTriggerInteraction__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000004e4
+        PUSH, results
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineCollider_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineCollider_0
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x0000033c
+        JUMP, 0x000004BC
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, results
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineCollider_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineCollider_1
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __3__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponent<yue.QvBoard>(UnityEngine.Component)
+        JUMP, 0x00000B94
+        PUSH, __2__intnlparam
+        PUSH, __lcl_board_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_2
+        PUSH, __const_SystemString_4
+        PUSH, __lcl_board_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_0
+        PUSH, __0_o__param
+        COPY
+# Calling yue.QvBoard_Eraser.Log(object)
+        JUMP, 0x000005E0
+        PUSH, __lcl_board_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_3
+        COPY
+        PUSH, __intnl_UnityEngineObject_2
+        PUSH, __intnl_UnityEngineObject_3
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000004bc
+        PUSH, __gintnl_SystemUInt32_3
+        PUSH, __lcl_board_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_5
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __0_index__param
+        COPY
+# Calling yue.QvBoard_Eraser.EraseSyncBoard(int)
+        JUMP, 0x00000500
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000028C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.EraseSyncBoard(int)
+# 
+        PUSH, __gintnl_SystemUInt32_4
+        PUSH, __const_SystemString_6
+        PUSH, __0_index__param
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        PUSH, __0_o__param
+        COPY
+# Calling yue.QvBoard_Eraser.Log(object)
+        JUMP, 0x000005E0
+        PUSH, manager
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        COPY
+# Cow dirty
+        PUSH, __0_index__param
+        PUSH, __intnl_SystemInt32_1
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_8
+        PUSH, __0_index__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_9
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.Log(object)
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.Warning(object)
+# 
+        PUSH, __gintnl_SystemUInt32_5
+# Calling yue.QvBoard_Eraser.logPrefix.get
+        JUMP, 0x0000075C
+        PUSH, __const_SystemString_10
+        PUSH, __0_get_logPrefix__ret
+        PUSH, __1_o__param
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        PUSH, __intnl_UnityEngineObject_4
+        COPY
+        PUSH, __intnl_SystemString_2
+        PUSH, __intnl_UnityEngineObject_4
+        EXTERN, "UnityEngineDebug.__LogWarning__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.Error(object)
+# 
+        PUSH, __gintnl_SystemUInt32_6
+# Calling yue.QvBoard_Eraser.logPrefix.get
+        JUMP, 0x0000075C
+        PUSH, __const_SystemString_10
+        PUSH, __0_get_logPrefix__ret
+        PUSH, __2_o__param
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        PUSH, __intnl_UnityEngineObject_5
+        COPY
+        PUSH, __intnl_SystemString_3
+        PUSH, __intnl_UnityEngineObject_5
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.ColorBeginTag(UnityEngine.Color)
+# 
+        PUSH, __gintnl_SystemUInt32_7
+        PUSH, __0_c__param
+        PUSH, __1_c__param
+        COPY
+# Calling yue.QvBoard_Eraser.ToHtmlStringRGB(UnityEngine.Color)
+        JUMP, 0x00000824
+        PUSH, __const_SystemString_11
+        PUSH, __0___0_ToHtmlStringRGB__ret
+        PUSH, __0___0_ColorBeginTag__ret
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.logPrefix.get
+# 
+        PUSH, _logPrefix
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x000007f4
+        PUSH, __gintnl_SystemUInt32_8
+        PUSH, logColor
+        PUSH, __0_c__param
+        COPY
+# Calling yue.QvBoard_Eraser.ColorBeginTag(UnityEngine.Color)
+        JUMP, 0x000006FC
+        PUSH, __const_SystemString_12
+        PUSH, __0___0_ColorBeginTag__ret
+        PUSH, __const_SystemString_13
+        PUSH, __const_SystemString_14
+        PUSH, _logPrefix
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString"
+        PUSH, _logPrefix
+        PUSH, __0_get_logPrefix__ret
+        COPY
+        JUMP, 0x00000808
+        PUSH, _logPrefix
+        PUSH, __0_get_logPrefix__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# yue.QvBoard_Eraser.ToHtmlStringRGB(UnityEngine.Color)
+# 
+        PUSH, __1_c__param
+        PUSH, __const_SystemSingle_0
+        PUSH, __1_c__param
+        EXTERN, "UnityEngineColor.__op_Multiply__UnityEngineColor_SystemSingle__UnityEngineColor"
+        PUSH, __1_c__param
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineColor.__get_r__SystemSingle"
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32"
+        PUSH, __1_c__param
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "UnityEngineColor.__get_g__SystemSingle"
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32"
+        PUSH, __1_c__param
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "UnityEngineColor.__get_b__SystemSingle"
+        PUSH, __intnl_SystemSingle_2
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32"
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __0___0_ToHtmlStringRGB__ret
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponent<QvPen.UdonScript.QvPen_Eraser>(UnityEngine.Component)
+# 
+        PUSH, __1__intnlparam
+        PUSH, __const_SystemType_1
+        PUSH, __intnl_UnityEngineComponentArray_0
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_0
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        COPY
+        PUSH, __const_SystemInt64_0
+        PUSH, __lcl_targetID_SystemInt64_0
+        COPY
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_6
+        COPY
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000b58
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemType_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_1
+        COPY
+        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_1
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x00000a5c
+        JUMP, 0x00000B30
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_16
+        PUSH, __lcl_idValue_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_0
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000ae4
+        PUSH, __lcl_idValue_SystemObject_0
+        PUSH, __intnl_SystemInt64_0
+        EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
+        PUSH, __intnl_SystemInt64_0
+        PUSH, __lcl_targetID_SystemInt64_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000b30
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineComponent_0
+        COPY
+        PUSH, __intnl_UnityEngineComponent_0
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000009A0
+        PUSH, __const_SystemObject_0
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponent<yue.QvBoard>(UnityEngine.Component)
+# 
+        PUSH, __3__intnlparam
+        PUSH, __const_SystemType_1
+        PUSH, __intnl_UnityEngineComponentArray_1
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_1
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_1
+        COPY
+        PUSH, __const_SystemInt64_1
+        PUSH, __lcl_targetID_SystemInt64_1
+        COPY
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_1
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_8
+        COPY
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000dc0
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_1
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemType_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_3
+        COPY
+        PUSH, __intnl_SystemType_2
+        PUSH, __intnl_SystemType_3
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000cc4
+        JUMP, 0x00000D98
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_16
+        PUSH, __lcl_idValue_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_1
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000d4c
+        PUSH, __lcl_idValue_SystemObject_1
+        PUSH, __intnl_SystemInt64_1
+        EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
+        PUSH, __intnl_SystemInt64_1
+        PUSH, __lcl_targetID_SystemInt64_1
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000d98
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __intnl_UnityEngineComponent_1
+        COPY
+        PUSH, __intnl_UnityEngineComponent_1
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000C08
+        PUSH, __const_SystemObject_0
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

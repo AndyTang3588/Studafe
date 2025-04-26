@@ -1,0 +1,420 @@
+.data_start
+    .export SwitchWithHands
+    .export SwitchWithFoots
+    .export SwitchWithHead
+    .export LeftHandObject
+    .export RightHandObject
+    .export LeftFootObject
+    .export RightFootObject
+    .export HeadObject
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    SwitchWithHands: %SystemBoolean, null
+    SwitchWithFoots: %SystemBoolean, null
+    SwitchWithHead: %SystemBoolean, null
+    LeftHandObject: %UnityEngineGameObject, null
+    RightHandObject: %UnityEngineGameObject, null
+    LeftFootObject: %UnityEngineGameObject, null
+    RightFootObject: %UnityEngineGameObject, null
+    HeadObject: %UnityEngineGameObject, null
+    targetBoneLeftHand: %UnityEngineHumanBodyBones, null
+    targetBoneRightHand: %UnityEngineHumanBodyBones, null
+    targetBoneLeftFoot: %UnityEngineHumanBodyBones, null
+    targetBoneRightFoot: %UnityEngineHumanBodyBones, null
+    boneResetInterval: %SystemSingle, null
+    boneResetCounter: %SystemSingle, null
+    _localPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemString_0: %SystemString, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_1: %SystemString, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_2: %SystemString, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __const_SystemString_3: %SystemString, null
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    __const_SystemString_4: %SystemString, null
+    __this_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, this
+    __const_SystemSingle_0: %SystemSingle, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __const_UnityEngineVector3_0: %UnityEngineVector3, null
+    __const_UnityEngineHumanBodyBones_0: %UnityEngineHumanBodyBones, null
+    __const_UnityEngineHumanBodyBones_1: %UnityEngineHumanBodyBones, null
+    __const_UnityEngineHumanBodyBones_2: %UnityEngineHumanBodyBones, null
+    __const_UnityEngineHumanBodyBones_3: %UnityEngineHumanBodyBones, null
+    __const_UnityEngineHumanBodyBones_4: %UnityEngineHumanBodyBones, null
+    __const_UnityEngineHumanBodyBones_5: %UnityEngineHumanBodyBones, null
+    __const_UnityEngineHumanBodyBones_6: %UnityEngineHumanBodyBones, null
+    __const_UnityEngineHumanBodyBones_7: %UnityEngineHumanBodyBones, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_UnityEngineHumanBodyBones_8: %UnityEngineHumanBodyBones, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __lcl_noBone_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_newPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_newBone_UnityEngineHumanBodyBones_0: %UnityEngineHumanBodyBones, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_2: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_3: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticHandProvider.Start()
+# 
+        PUSH, SwitchWithHands
+        JUMP_IF_FALSE, 0x00000108
+        PUSH, LeftHandObject
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000048
+        JUMP, 0x00000090
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, RightHandObject
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000000c0
+        JUMP, 0x00000108
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, SwitchWithFoots
+        JUMP_IF_FALSE, 0x00000208
+        PUSH, LeftFootObject
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000148
+        JUMP, 0x00000190
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, RightFootObject
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000001c0
+        JUMP, 0x00000208
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_3
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, SwitchWithHead
+        JUMP_IF_FALSE, 0x00000290
+        PUSH, HeadObject
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000248
+        JUMP, 0x00000290
+        PUSH, __this_VRCUdonUdonBehaviour_4
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_4
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, _localPlayer
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _update
+    _update:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticHandProvider.Update()
+# 
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineTime.__get_deltaTime__SystemSingle"
+        PUSH, boneResetCounter
+        PUSH, __intnl_SystemSingle_0
+        PUSH, boneResetCounter
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, boneResetCounter
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000340
+        PUSH, __gintnl_SystemUInt32_0
+# Calling Yodokorochan.Yodo_HapticHandProvider.SetupLocalHandBones()
+        JUMP, 0x0000036C
+        PUSH, boneResetInterval
+        PUSH, boneResetCounter
+        COPY
+        PUSH, __gintnl_SystemUInt32_1
+# Calling Yodokorochan.Yodo_HapticHandProvider.UpdateColliderPositions()
+        JUMP, 0x000006B4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticHandProvider.SetupLocalHandBones()
+# 
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __lcl_noBone_UnityEngineVector3_0
+        COPY
+        PUSH, SwitchWithHands
+        JUMP_IF_FALSE, 0x00000698
+        PUSH, __const_UnityEngineHumanBodyBones_0
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        COPY
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        PUSH, __lcl_noBone_UnityEngineVector3_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000500
+        PUSH, __const_UnityEngineHumanBodyBones_1
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        COPY
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        PUSH, __lcl_noBone_UnityEngineVector3_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000500
+        PUSH, __const_UnityEngineHumanBodyBones_2
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        COPY
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        PUSH, __lcl_noBone_UnityEngineVector3_0
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x00000500
+        PUSH, __const_UnityEngineHumanBodyBones_3
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        COPY
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        PUSH, targetBoneRightHand
+        COPY
+        PUSH, __const_UnityEngineHumanBodyBones_4
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        COPY
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        PUSH, __lcl_noBone_UnityEngineVector3_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000684
+        PUSH, __const_UnityEngineHumanBodyBones_5
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        COPY
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        PUSH, __lcl_noBone_UnityEngineVector3_0
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x00000684
+        PUSH, __const_UnityEngineHumanBodyBones_6
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        COPY
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __lcl_newPos_UnityEngineVector3_0
+        PUSH, __lcl_noBone_UnityEngineVector3_0
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000684
+        PUSH, __const_UnityEngineHumanBodyBones_7
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        COPY
+        PUSH, __lcl_newBone_UnityEngineHumanBodyBones_0
+        PUSH, targetBoneLeftHand
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticHandProvider.UpdateColliderPositions()
+# 
+        PUSH, _localPlayer
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x000006f8
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _localPlayer
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsValid__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000728
+        JUMP, 0x0000073C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, SwitchWithHands
+        JUMP_IF_FALSE, 0x0000083c
+        PUSH, LeftHandObject
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x000007c4
+        PUSH, LeftHandObject
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _localPlayer
+        PUSH, targetBoneLeftHand
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid"
+        PUSH, RightHandObject
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x0000083c
+        PUSH, RightHandObject
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _localPlayer
+        PUSH, targetBoneRightHand
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid"
+        PUSH, SwitchWithFoots
+        JUMP_IF_FALSE, 0x0000093c
+        PUSH, LeftFootObject
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x000008c4
+        PUSH, LeftFootObject
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _localPlayer
+        PUSH, targetBoneLeftFoot
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid"
+        PUSH, RightFootObject
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x0000093c
+        PUSH, RightFootObject
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _localPlayer
+        PUSH, targetBoneRightFoot
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid"
+        PUSH, SwitchWithHead
+        JUMP_IF_FALSE, 0x000009c4
+        PUSH, HeadObject
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x000009c4
+        PUSH, HeadObject
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _localPlayer
+        PUSH, __const_UnityEngineHumanBodyBones_8
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

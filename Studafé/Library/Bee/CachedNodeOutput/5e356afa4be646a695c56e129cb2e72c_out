@@ -1,0 +1,1 @@
+Packages\com.vrchat.worlds\Integrations\ClientSim\Editor\Windows\ClientSimPlayerObjectWindow.cs(43,29): warning CS0414: The field 'ClientSimPlayerObjectWindow._sortingMode' is assigned but its value is never used

@@ -1,0 +1,55 @@
+.data_start
+    .export walkSpeed
+    .export runSpeed
+    .export strafeSpeed
+    .export jumpImpulse
+    .export gravityStrength
+    .export useLegacyLocomotion
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    walkSpeed: %SystemSingle, null
+    runSpeed: %SystemSingle, null
+    strafeSpeed: %SystemSingle, null
+    jumpImpulse: %SystemSingle, null
+    gravityStrength: %SystemSingle, null
+    useLegacyLocomotion: %SystemBoolean, null
+    onPlayerJoinedPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+.data_end
+.code_start
+    .export _onPlayerJoined
+    _onPlayerJoined:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.World.QvPen_PlayerMods.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, onPlayerJoinedPlayer
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000000c8
+        PUSH, onPlayerJoinedPlayer
+        PUSH, runSpeed
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetRunSpeed__SystemSingle__SystemVoid"
+        PUSH, onPlayerJoinedPlayer
+        PUSH, walkSpeed
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetWalkSpeed__SystemSingle__SystemVoid"
+        PUSH, onPlayerJoinedPlayer
+        PUSH, strafeSpeed
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetStrafeSpeed__SystemSingle__SystemVoid"
+        PUSH, onPlayerJoinedPlayer
+        PUSH, jumpImpulse
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetJumpImpulse__SystemSingle__SystemVoid"
+        PUSH, onPlayerJoinedPlayer
+        PUSH, gravityStrength
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetGravityStrength__SystemSingle__SystemVoid"
+        PUSH, useLegacyLocomotion
+        JUMP_IF_FALSE, 0x000000c8
+        PUSH, onPlayerJoinedPlayer
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__UseLegacyLocomotion__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

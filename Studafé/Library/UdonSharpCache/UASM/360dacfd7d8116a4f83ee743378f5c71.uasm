@@ -1,0 +1,3910 @@
+.data_start
+    .export AutoRetrySendOnFailure
+    .export PauseSynchronization
+    .export Severity
+    .export EventInstigator
+    .export Pool
+    .export PoolableInUse
+    .export OnIndicator
+    .export OffIndicator
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __refl_typeids: %SystemInt64Array, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    AutoRetrySendOnFailure: %SystemBoolean, null
+    PauseSynchronization: %SystemBoolean, null
+    Severity: %SystemInt32, null
+    PendingSerializations: %SystemInt32, null
+    _IsReceivingStart_k__BackingField: %SystemBoolean, null
+    _HasReceivedStart_k__BackingField: %SystemBoolean, null
+    _hasStartedSuccessfully: %SystemBoolean, null
+    _isEarlyStart: %SystemBoolean, null
+    _hadLogger: %SystemBoolean, null
+    _Logger_k__BackingField: %VRCUdonUdonBehaviour, null
+    EventInstigator: %VRCUdonUdonBehaviour, null
+    Pool: %VRCUdonUdonBehaviour, null
+    PoolableInUse: %SystemBoolean, null
+    _CriticalError_k__BackingField: %SystemString, null
+    _IsViewInitialized_k__BackingField: %SystemBoolean, null
+    _Model_k__BackingField: %VRCUdonUdonBehaviour, null
+    _Controller_k__BackingField: %VRCUdonUdonBehaviour, null
+    _modelChangeEvent: %VRCUdonUdonBehaviour, null
+    _micModel: %VRCUdonUdonBehaviour, null
+    _micController: %VRCUdonUdonBehaviour, null
+    OnIndicator: %UnityEngineGameObject, null
+    OffIndicator: %UnityEngineGameObject, null
+    __0_get_ExecutionOrderReadOnly__ret: %SystemInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __0_get_SyncPaused__ret: %SystemBoolean, null
+    __0_value__param: %SystemBoolean, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0_MarkNetworkDirty__ret: %SystemBoolean, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_VRCUdonCommonInterfacesNetworkEventTarget_0: %VRCUdonCommonInterfacesNetworkEventTarget, null
+    __const_SystemString_0: %SystemString, null
+    __0_IsPendingSerialization__ret: %SystemBoolean, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __0_DropPendingSerializations__ret: %SystemBoolean, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __2_message__param: %SystemString, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemString_3: %SystemString, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_4: %SystemString, null
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    onPostSerializationResult: %VRCUdonCommonSerializationResult, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    onDeserializationResult: %VRCUdonCommonDeserializationResult, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __1_value__param: %SystemBoolean, null
+    __0_get_IsReceivingStart__ret: %SystemBoolean, null
+    __2_value__param: %SystemBoolean, null
+    __0_get_HasReceivedStart__ret: %SystemBoolean, null
+    __0_get_HasStartedOk__ret: %SystemBoolean, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __gintnl_SystemUInt32_9: %SystemUInt32, null
+    __const_SystemString_5: %SystemString, null
+    __const_SystemString_6: %SystemString, null
+    __const_SystemString_7: %SystemString, null
+    __gintnl_SystemUInt32_10: %SystemUInt32, null
+    __6_message__param: %SystemString, null
+    __const_SystemString_8: %SystemString, null
+    __const_SystemString_9: %SystemString, null
+    __gintnl_SystemUInt32_11: %SystemUInt32, null
+    __3_value__param: %SystemBoolean, null
+    __gintnl_SystemUInt32_12: %SystemUInt32, null
+    __0_get_IsActiveAndEnabled__ret: %SystemBoolean, null
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    __this_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, this
+    __0_get_HasFailedToStart__ret: %SystemBoolean, null
+    __gintnl_SystemUInt32_13: %SystemUInt32, null
+    __gintnl_SystemUInt32_14: %SystemUInt32, null
+    __gintnl_SystemUInt32_15: %SystemUInt32, null
+    __gintnl_SystemUInt32_16: %SystemUInt32, null
+    __gintnl_SystemUInt32_17: %SystemUInt32, null
+    __gintnl_SystemUInt32_18: %SystemUInt32, null
+    __0_SetupAndValidate__ret: %SystemBoolean, null
+    __gintnl_SystemUInt32_19: %SystemUInt32, null
+    __gintnl_SystemUInt32_20: %SystemUInt32, null
+    __gintnl_SystemUInt32_21: %SystemUInt32, null
+    __4_message__param: %SystemString, null
+    __const_SystemString_10: %SystemString, null
+    __const_SystemString_11: %SystemString, null
+    __gintnl_SystemUInt32_22: %SystemUInt32, null
+    __0__intnlparam: %SystemString, null
+    __1__intnlparam: %UnityEngineTransform, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __gintnl_SystemUInt32_23: %SystemUInt32, null
+    __gintnl_SystemUInt32_24: %SystemUInt32, null
+    __gintnl_SystemUInt32_25: %SystemUInt32, null
+    __2__intnlparam: %SystemBoolean, null
+    __gintnl_SystemUInt32_26: %SystemUInt32, null
+    __3__intnlparam: %SystemBoolean, null
+    __4__intnlparam: %UnityEngineGameObject, null
+    __gintnl_SystemUInt32_27: %SystemUInt32, null
+    __const_SystemString_12: %SystemString, null
+    __0_get_LOGPrefix__ret: %SystemString, null
+    __const_SystemString_13: %SystemString, null
+    __gintnl_SystemUInt32_28: %SystemUInt32, null
+    __gintnl_SystemUInt32_29: %SystemUInt32, null
+    __5__intnlparam: %SystemString, null
+    __6__intnlparam: %VRCUdonUdonBehaviour, null
+    __this_VRCUdonUdonBehaviour_5: %VRCUdonUdonBehaviour, this
+    __4_value__param: %VRCUdonUdonBehaviour, null
+    __0_get_Logger__ret: %VRCUdonUdonBehaviour, null
+    __0_message__param: %SystemString, null
+    __1_message__param: %SystemString, null
+    __const_SystemInt32_3: %SystemInt32, null
+    __gintnl_SystemUInt32_30: %SystemUInt32, null
+    __0_GetLogger__ret: %SystemBoolean, null
+    __gintnl_SystemUInt32_31: %SystemUInt32, null
+    __gintnl_SystemUInt32_32: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_6: %VRCUdonUdonBehaviour, this
+    __const_SystemString_14: %SystemString, null
+    __const_SystemString_15: %SystemString, null
+    __const_SystemString_16: %SystemString, null
+    __const_SystemString_17: %SystemString, null
+    __gintnl_SystemUInt32_33: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_7: %VRCUdonUdonBehaviour, this
+    __const_SystemInt32_4: %SystemInt32, null
+    __gintnl_SystemUInt32_34: %SystemUInt32, null
+    __gintnl_SystemUInt32_35: %SystemUInt32, null
+    __gintnl_SystemUInt32_36: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_8: %VRCUdonUdonBehaviour, this
+    __const_SystemString_18: %SystemString, null
+    __const_SystemString_19: %SystemString, null
+    __const_SystemString_20: %SystemString, null
+    __const_SystemString_21: %SystemString, null
+    __gintnl_SystemUInt32_37: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_9: %VRCUdonUdonBehaviour, this
+    __3_message__param: %SystemString, null
+    __gintnl_SystemUInt32_38: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_10: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_39: %SystemUInt32, null
+    __5_message__param: %SystemString, null
+    __gintnl_SystemUInt32_40: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_11: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_41: %SystemUInt32, null
+    __gintnl_SystemUInt32_42: %SystemUInt32, null
+    __gintnl_SystemUInt32_43: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_12: %VRCUdonUdonBehaviour, this
+    __const_SystemString_22: %SystemString, null
+    __const_SystemString_23: %SystemString, null
+    __const_SystemString_24: %SystemString, null
+    __const_SystemString_25: %SystemString, null
+    __gintnl_SystemUInt32_44: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_13: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_45: %SystemUInt32, null
+    __gintnl_SystemUInt32_46: %SystemUInt32, null
+    __7__intnlparam: %SystemString, null
+    __gintnl_SystemUInt32_47: %SystemUInt32, null
+    __8__intnlparam: %SystemBoolean, null
+    __gintnl_SystemUInt32_48: %SystemUInt32, null
+    __const_SystemString_26: %SystemString, null
+    __gintnl_SystemUInt32_49: %SystemUInt32, null
+    __gintnl_SystemUInt32_50: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_14: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_51: %SystemUInt32, null
+    __gintnl_SystemUInt32_52: %SystemUInt32, null
+    __9__intnlparam: %VRCUdonUdonBehaviour, null
+    __10__intnlparam: %UnityEngineComponent, null
+    __gintnl_SystemUInt32_53: %SystemUInt32, null
+    __0___0_Assert__ret: %SystemBoolean, null
+    __0_condition__param: %SystemBoolean, null
+    __7_message__param: %SystemString, null
+    __0_context__param: %UnityEngineObject, null
+    __1_condition__param: %SystemBoolean, null
+    __8_message__param: %SystemString, null
+    __gintnl_SystemUInt32_54: %SystemUInt32, null
+    __const_SystemString_27: %SystemString, null
+    __const_SystemString_28: %SystemString, null
+    __0_eventName__param: %SystemString, null
+    __const_SystemString_29: %SystemString, null
+    __gintnl_SystemUInt32_55: %SystemUInt32, null
+    __gintnl_SystemUInt32_56: %SystemUInt32, null
+    __11__intnlparam: %SystemString, null
+    __const_SystemString_30: %SystemString, null
+    __const_SystemString_31: %SystemString, null
+    __const_SystemString_32: %SystemString, null
+    __gintnl_SystemUInt32_57: %SystemUInt32, null
+    __0_lastFrameStart__param: %SystemString, null
+    __0_lastStarted__param: %SystemString, null
+    __0_lastBehaviour__param: %SystemString, null
+    __gintnl_SystemUInt32_58: %SystemUInt32, null
+    __gintnl_SystemUInt32_59: %SystemUInt32, null
+    __12__intnlparam: %SystemString, null
+    __13__intnlparam: %VRCUdonUdonBehaviour, null
+    __this_VRCUdonUdonBehaviour_15: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_60: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_16: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_61: %SystemUInt32, null
+    __gintnl_SystemUInt32_62: %SystemUInt32, null
+    __const_SystemString_33: %SystemString, null
+    __const_SystemString_34: %SystemString, null
+    __gintnl_SystemUInt32_63: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_17: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_64: %SystemUInt32, null
+    __const_SystemString_35: %SystemString, null
+    __0_get_CriticalError__ret: %SystemString, null
+    __5_value__param: %SystemString, null
+    __0_InitializeInternal__ret: %SystemBoolean, null
+    __gintnl_SystemUInt32_65: %SystemUInt32, null
+    __0_get_Model__ret: %VRCUdonUdonBehaviour, null
+    __gintnl_SystemUInt32_66: %SystemUInt32, null
+    __const_SystemString_36: %SystemString, null
+    __const_SystemString_37: %SystemString, null
+    __const_SystemString_38: %SystemString, null
+    __gintnl_SystemUInt32_67: %SystemUInt32, null
+    __0_get_Controller__ret: %VRCUdonUdonBehaviour, null
+    __gintnl_SystemUInt32_68: %SystemUInt32, null
+    __const_SystemString_39: %SystemString, null
+    __const_SystemString_40: %SystemString, null
+    __gintnl_SystemUInt32_69: %SystemUInt32, null
+    __gintnl_SystemUInt32_70: %SystemUInt32, null
+    __14__intnlparam: %SystemBoolean, null
+    __0_DeInitializeInternal__ret: %SystemBoolean, null
+    __0_get_IsViewInitialized__ret: %SystemBoolean, null
+    __6_value__param: %SystemBoolean, null
+    __7_value__param: %VRCUdonUdonBehaviour, null
+    __8_value__param: %VRCUdonUdonBehaviour, null
+    __gintnl_SystemUInt32_71: %SystemUInt32, null
+    __0_DeInitialize__ret: %SystemBoolean, null
+    __0___0_Initialize__ret: %SystemBoolean, null
+    __0_optionalController__param: %VRCUdonUdonBehaviour, null
+    __1_model__param: %VRCUdonUdonBehaviour, null
+    __gintnl_SystemUInt32_72: %SystemUInt32, null
+    __gintnl_SystemUInt32_73: %SystemUInt32, null
+    __const_SystemString_41: %SystemString, null
+    __gintnl_SystemUInt32_74: %SystemUInt32, null
+    __gintnl_SystemUInt32_75: %SystemUInt32, null
+    __gintnl_SystemUInt32_76: %SystemUInt32, null
+    __const_SystemString_42: %SystemString, null
+    __gintnl_SystemUInt32_77: %SystemUInt32, null
+    __const_SystemString_43: %SystemString, null
+    __const_SystemString_44: %SystemString, null
+    __const_SystemString_45: %SystemString, null
+    __const_SystemString_46: %SystemString, null
+    __gintnl_SystemUInt32_78: %SystemUInt32, null
+    __const_SystemString_47: %SystemString, null
+    __const_SystemString_48: %SystemString, null
+    __const_SystemString_49: %SystemString, null
+    __gintnl_SystemUInt32_79: %SystemUInt32, null
+    __const_SystemString_50: %SystemString, null
+    __gintnl_SystemUInt32_80: %SystemUInt32, null
+    __const_SystemString_51: %SystemString, null
+    __const_SystemString_52: %SystemString, null
+    __const_SystemString_53: %SystemString, null
+    __gintnl_SystemUInt32_81: %SystemUInt32, null
+    __gintnl_SystemUInt32_82: %SystemUInt32, null
+    __gintnl_SystemUInt32_83: %SystemUInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemString_54: %SystemString, null
+    __const_SystemString_55: %SystemString, null
+    __gintnl_SystemUInt32_84: %SystemUInt32, null
+    __const_SystemString_56: %SystemString, null
+    __gintnl_SystemUInt32_85: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_18: %VRCUdonUdonBehaviour, this
+    __const_SystemString_57: %SystemString, null
+    __const_SystemString_58: %SystemString, null
+    __const_SystemString_59: %SystemString, null
+    __const_SystemString_60: %SystemString, null
+    __const_SystemString_61: %SystemString, null
+    __gintnl_SystemUInt32_86: %SystemUInt32, null
+    __gintnl_SystemUInt32_87: %SystemUInt32, null
+    __gintnl_SystemUInt32_88: %SystemUInt32, null
+    __const_SystemString_62: %SystemString, null
+    __const_SystemString_63: %SystemString, null
+    __gintnl_SystemUInt32_89: %SystemUInt32, null
+    __gintnl_SystemUInt32_90: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_19: %VRCUdonUdonBehaviour, this
+    __const_SystemString_64: %SystemString, null
+    __const_SystemString_65: %SystemString, null
+    __const_SystemString_66: %SystemString, null
+    __const_SystemString_67: %SystemString, null
+    __gintnl_SystemUInt32_91: %SystemUInt32, null
+    __gintnl_SystemUInt32_92: %SystemUInt32, null
+    __gintnl_SystemUInt32_93: %SystemUInt32, null
+    __gintnl_SystemUInt32_94: %SystemUInt32, null
+    __gintnl_SystemUInt32_95: %SystemUInt32, null
+    __const_SystemString_68: %SystemString, null
+    __gintnl_SystemUInt32_96: %SystemUInt32, null
+    __gintnl_SystemUInt32_97: %SystemUInt32, null
+    __gintnl_SystemUInt32_98: %SystemUInt32, null
+    __gintnl_SystemUInt32_99: %SystemUInt32, null
+    __const_SystemString_69: %SystemString, null
+    __gintnl_SystemUInt32_100: %SystemUInt32, null
+    __const_SystemString_70: %SystemString, null
+    __const_SystemString_71: %SystemString, null
+    __gintnl_SystemUInt32_101: %SystemUInt32, null
+    __gintnl_SystemUInt32_102: %SystemUInt32, null
+    __gintnl_SystemUInt32_103: %SystemUInt32, null
+    __const_SystemString_72: %SystemString, null
+    __gintnl_SystemUInt32_104: %SystemUInt32, null
+    __const_SystemString_73: %SystemString, null
+    __this_VRCUdonUdonBehaviour_20: %VRCUdonUdonBehaviour, this
+    __const_SystemString_74: %SystemString, null
+    __const_SystemString_75: %SystemString, null
+    __const_SystemString_76: %SystemString, null
+    __const_SystemString_77: %SystemString, null
+    __const_SystemString_78: %SystemString, null
+    __gintnl_SystemUInt32_105: %SystemUInt32, null
+    __15__intnlparam: %SystemBoolean, null
+    __16__intnlparam: %VRCUdonUdonBehaviour, null
+    __17__intnlparam: %VRCUdonUdonBehaviour, null
+    __18__intnlparam: %VRCUdonUdonBehaviour, null
+    __19__intnlparam: %VRCUdonUdonBehaviour, null
+    __gintnl_SystemUInt32_106: %SystemUInt32, null
+    __20__intnlparam: %VRCUdonUdonBehaviour, null
+    __21__intnlparam: %UnityEngineComponent, null
+    __gintnl_SystemUInt32_107: %SystemUInt32, null
+    __22__intnlparam: %VRCUdonUdonBehaviour, null
+    __23__intnlparam: %UnityEngineComponent, null
+    __gintnl_SystemUInt32_108: %SystemUInt32, null
+    __24__intnlparam: %VRCUdonUdonBehaviour, null
+    __25__intnlparam: %UnityEngineComponent, null
+    __gintnl_SystemUInt32_109: %SystemUInt32, null
+    __26__intnlparam: %VRCUdonUdonBehaviour, null
+    __27__intnlparam: %UnityEngineComponent, null
+    __const_SystemString_79: %SystemString, null
+    __gintnl_SystemUInt32_110: %SystemUInt32, null
+    __const_SystemString_80: %SystemString, null
+    __gintnl_SystemUInt32_111: %SystemUInt32, null
+    __gintnl_SystemUInt32_112: %SystemUInt32, null
+    __28__intnlparam: %SystemString, null
+    __29__intnlparam: %SystemString, null
+    __gintnl_SystemUInt32_113: %SystemUInt32, null
+    __const_SystemString_81: %SystemString, null
+    __const_SystemString_82: %SystemString, null
+    __const_SystemString_83: %SystemString, null
+    __const_SystemType_0: %SystemType, null
+    __const_SystemInt64_0: %SystemInt64, null
+    __const_SystemString_84: %SystemString, null
+    __gintnl_SystemUInt32_114: %SystemUInt32, null
+    __const_SystemString_85: %SystemString, null
+    __const_SystemString_86: %SystemString, null
+    __gintnl_SystemUInt32_115: %SystemUInt32, null
+    __30__intnlparam: %SystemString, null
+    __31__intnlparam: %SystemType, null
+    __32__intnlparam: %UnityEngineObject, null
+    __gintnl_SystemUInt32_116: %SystemUInt32, null
+    __const_SystemString_87: %SystemString, null
+    __const_SystemString_88: %SystemString, null
+    __gintnl_SystemUInt32_117: %SystemUInt32, null
+    __const_SystemString_89: %SystemString, null
+    __const_SystemString_90: %SystemString, null
+    __const_SystemString_91: %SystemString, null
+    __const_SystemString_92: %SystemString, null
+    __const_SystemString_93: %SystemString, null
+    __const_SystemString_94: %SystemString, null
+    __const_SystemString_95: %SystemString, null
+    __gintnl_SystemUInt32_118: %SystemUInt32, null
+    __33__intnlparam: %VRCUdonUdonBehaviour, null
+    __34__intnlparam: %UnityEngineComponentArray, null
+    __gintnl_SystemUInt32_119: %SystemUInt32, null
+    __35__intnlparam: %VRCUdonUdonBehaviour, null
+    __36__intnlparam: %UnityEngineComponentArray, null
+    __gintnl_SystemUInt32_120: %SystemUInt32, null
+    __37__intnlparam: %VRCUdonUdonBehaviour, null
+    __38__intnlparam: %UnityEngineComponentArray, null
+    __gintnl_SystemUInt32_121: %SystemUInt32, null
+    __39__intnlparam: %VRCUdonUdonBehaviour, null
+    __40__intnlparam: %UnityEngineComponentArray, null
+    __const_SystemChar_0: %SystemChar, null
+    __const_SystemStringSplitOptions_0: %SystemStringSplitOptions, null
+    __const_SystemString_96: %SystemString, null
+    __const_SystemString_97: %SystemString, null
+    __const_SystemInt64_1: %SystemInt64, null
+    __const_SystemString_98: %SystemString, null
+    __const_SystemInt32_5: %SystemInt32, null
+    __const_SystemInt64_2: %SystemInt64, null
+    __const_SystemInt64_3: %SystemInt64, null
+    __const_SystemInt64_4: %SystemInt64, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __lcl_hadPending_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __lcl_unused_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_SystemString_5: %SystemString, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemString_6: %SystemString, null
+    __intnl_SystemString_7: %SystemString, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_SystemString_8: %SystemString, null
+    __intnl_SystemString_9: %SystemString, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __lcl_logger_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_SystemString_10: %SystemString, null
+    __intnl_SystemString_11: %SystemString, null
+    __intnl_UnityEngineObject_3: %UnityEngineObject, null
+    __intnl_SystemBoolean_17: %SystemBoolean, null
+    __intnl_SystemString_12: %SystemString, null
+    __intnl_SystemString_13: %SystemString, null
+    __intnl_SystemBoolean_18: %SystemBoolean, null
+    __lcl_lastStarted_SystemString_0: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __lcl_lastFrameStart_SystemString_0: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_2: %VRCSDKBaseVRCPlayerApi, null
+    __lcl_lastFrameBehaviour_SystemString_0: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_3: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_VRCSDKBaseVRCPlayerApi_4: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemString_14: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_5: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemString_15: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_6: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_19: %SystemBoolean, null
+    __lcl_savedFrame_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_20: %SystemBoolean, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemBoolean_21: %SystemBoolean, null
+    __intnl_SystemBoolean_22: %SystemBoolean, null
+    __lcl_execOrder_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_23: %SystemBoolean, null
+    __intnl_SystemBoolean_24: %SystemBoolean, null
+    __intnl_SystemString_16: %SystemString, null
+    __intnl_SystemString_17: %SystemString, null
+    __intnl_SystemString_18: %SystemString, null
+    __intnl_SystemString_19: %SystemString, null
+    __intnl_SystemString_20: %SystemString, null
+    __intnl_SystemString_21: %SystemString, null
+    __intnl_SystemBoolean_25: %SystemBoolean, null
+    __intnl_SystemBoolean_26: %SystemBoolean, null
+    __intnl_SystemString_22: %SystemString, null
+    __intnl_SystemBoolean_27: %SystemBoolean, null
+    __intnl_SystemBoolean_28: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, null
+    __intnl_SystemString_23: %SystemString, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_29: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_30: %SystemBoolean, null
+    __intnl_SystemObject_1: %SystemObject, null
+    __intnl_SystemBoolean_31: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_5: %VRCUdonUdonBehaviour, null
+    __intnl_VRCUdonUdonBehaviour_6: %VRCUdonUdonBehaviour, null
+    __intnl_SystemObject_2: %SystemObject, null
+    __intnl_SystemBoolean_32: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_7: %VRCUdonUdonBehaviour, null
+    __intnl_VRCUdonUdonBehaviour_8: %VRCUdonUdonBehaviour, null
+    __intnl_SystemObject_3: %SystemObject, null
+    __intnl_VRCUdonUdonBehaviour_9: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_33: %SystemBoolean, null
+    __intnl_SystemObject_4: %SystemObject, null
+    __intnl_SystemString_24: %SystemString, null
+    __intnl_SystemString_25: %SystemString, null
+    __intnl_SystemString_26: %SystemString, null
+    __intnl_SystemBoolean_34: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_10: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_35: %SystemBoolean, null
+    __intnl_SystemObject_5: %SystemObject, null
+    __intnl_SystemString_27: %SystemString, null
+    __lcl_isOn_SystemBoolean_0: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_11: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_36: %SystemBoolean, null
+    __intnl_SystemObject_6: %SystemObject, null
+    __intnl_SystemBoolean_37: %SystemBoolean, null
+    __intnl_SystemString_28: %SystemString, null
+    __intnl_UnityEngineObject_4: %UnityEngineObject, null
+    __intnl_SystemBoolean_38: %SystemBoolean, null
+    __lcl_path_SystemString_0: %SystemString, null
+    __intnl_UnityEngineObject_5: %UnityEngineObject, null
+    __intnl_UnityEngineObject_6: %UnityEngineObject, null
+    __intnl_SystemBoolean_39: %SystemBoolean, null
+    __intnl_SystemString_29: %SystemString, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemBoolean_40: %SystemBoolean, null
+    __intnl_SystemString_30: %SystemString, null
+    __intnl_UnityEngineTransform_1: %UnityEngineTransform, null
+    __intnl_SystemBoolean_41: %SystemBoolean, null
+    __intnl_UnityEngineTransform_2: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_3: %UnityEngineTransform, null
+    __intnl_VRCUdonUdonBehaviour_12: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineTransform_4: %UnityEngineTransform, null
+    __intnl_VRCUdonUdonBehaviour_13: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineTransform_5: %UnityEngineTransform, null
+    __intnl_VRCUdonUdonBehaviour_14: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineTransform_6: %UnityEngineTransform, null
+    __intnl_SystemString_31: %SystemString, null
+    __intnl_UnityEngineObject_7: %UnityEngineObject, null
+    __intnl_SystemBoolean_42: %SystemBoolean, null
+    __intnl_UnityEngineTransform_7: %UnityEngineTransform, null
+    __intnl_SystemString_32: %SystemString, null
+    __lcl_localPlayer_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_43: %SystemBoolean, null
+    __intnl_SystemString_33: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_7: %VRCSDKBaseVRCPlayerApi, null
+    __lcl_udonBehaviours_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __lcl_targetID_SystemInt64_0: %SystemInt64, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemBoolean_44: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_0: %SystemType, null
+    __intnl_SystemType_1: %SystemType, null
+    __intnl_SystemBoolean_45: %SystemBoolean, null
+    __lcl_idValue_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_46: %SystemBoolean, null
+    __intnl_SystemInt64_0: %SystemInt64, null
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __intnl_SystemString_34: %SystemString, null
+    __intnl_SystemObject_7: %SystemObject, null
+    __intnl_SystemBoolean_47: %SystemBoolean, null
+    __intnl_SystemBoolean_48: %SystemBoolean, null
+    __intnl_SystemBoolean_49: %SystemBoolean, null
+    __intnl_SystemBoolean_50: %SystemBoolean, null
+    __intnl_SystemBoolean_51: %SystemBoolean, null
+    __intnl_SystemBoolean_52: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_15: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_53: %SystemBoolean, null
+    __intnl_SystemObject_8: %SystemObject, null
+    __intnl_VRCUdonUdonBehaviour_16: %VRCUdonUdonBehaviour, null
+    __intnl_VRCUdonUdonBehaviour_17: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_54: %SystemBoolean, null
+    __intnl_SystemObject_9: %SystemObject, null
+    __intnl_VRCUdonUdonBehaviour_18: %VRCUdonUdonBehaviour, null
+    __intnl_VRCUdonUdonBehaviour_19: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_55: %SystemBoolean, null
+    __intnl_SystemObject_10: %SystemObject, null
+    __intnl_SystemString_35: %SystemString, null
+    __intnl_SystemType_2: %SystemType, null
+    __intnl_UnityEngineObject_8: %UnityEngineObject, null
+    __intnl_UnityEngineComponentArray_1: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_2: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_3: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_4: %UnityEngineComponentArray, null
+    __intnl_SystemBoolean_56: %SystemBoolean, null
+    __lcl_productTypeName_SystemStringArray_0: %SystemStringArray, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemBoolean_57: %SystemBoolean, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __intnl_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemString_36: %SystemString, null
+    __lcl_targetID_SystemInt64_1: %SystemInt64, null
+    __intnl_UnityEngineComponentArray_5: %UnityEngineComponentArray, null
+    __intnl_SystemInt32_10: %SystemInt32, null
+    __intnl_SystemInt32_11: %SystemInt32, null
+    __intnl_SystemBoolean_58: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_3: %SystemType, null
+    __intnl_SystemType_4: %SystemType, null
+    __intnl_SystemBoolean_59: %SystemBoolean, null
+    __lcl_idValue_SystemObject_1: %SystemObject, null
+    __intnl_SystemBoolean_60: %SystemBoolean, null
+    __intnl_SystemArray_0: %SystemArray, null
+    __intnl_SystemInt32_12: %SystemInt32, null
+    __intnl_SystemBoolean_61: %SystemBoolean, null
+    __intnl_UnityEngineComponent_1: %UnityEngineComponent, null
+    __lcl_targetID_SystemInt64_2: %SystemInt64, null
+    __intnl_UnityEngineComponentArray_6: %UnityEngineComponentArray, null
+    __intnl_SystemInt32_13: %SystemInt32, null
+    __intnl_SystemInt32_14: %SystemInt32, null
+    __intnl_SystemBoolean_62: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_5: %SystemType, null
+    __intnl_SystemType_6: %SystemType, null
+    __intnl_SystemBoolean_63: %SystemBoolean, null
+    __lcl_idValue_SystemObject_2: %SystemObject, null
+    __intnl_SystemBoolean_64: %SystemBoolean, null
+    __intnl_SystemArray_1: %SystemArray, null
+    __intnl_SystemInt32_15: %SystemInt32, null
+    __intnl_SystemBoolean_65: %SystemBoolean, null
+    __intnl_UnityEngineComponent_2: %UnityEngineComponent, null
+    __lcl_targetID_SystemInt64_3: %SystemInt64, null
+    __intnl_UnityEngineComponentArray_7: %UnityEngineComponentArray, null
+    __intnl_SystemInt32_16: %SystemInt32, null
+    __intnl_SystemInt32_17: %SystemInt32, null
+    __intnl_SystemBoolean_66: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_7: %SystemType, null
+    __intnl_SystemType_8: %SystemType, null
+    __intnl_SystemBoolean_67: %SystemBoolean, null
+    __lcl_idValue_SystemObject_3: %SystemObject, null
+    __intnl_SystemBoolean_68: %SystemBoolean, null
+    __intnl_SystemArray_2: %SystemArray, null
+    __intnl_SystemInt32_18: %SystemInt32, null
+    __intnl_SystemBoolean_69: %SystemBoolean, null
+    __intnl_UnityEngineComponent_3: %UnityEngineComponent, null
+    __lcl_targetID_SystemInt64_4: %SystemInt64, null
+    __intnl_UnityEngineComponentArray_8: %UnityEngineComponentArray, null
+    __intnl_SystemInt32_19: %SystemInt32, null
+    __intnl_SystemInt32_20: %SystemInt32, null
+    __intnl_SystemBoolean_70: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_9: %SystemType, null
+    __intnl_SystemType_10: %SystemType, null
+    __intnl_SystemBoolean_71: %SystemBoolean, null
+    __lcl_idValue_SystemObject_4: %SystemObject, null
+    __intnl_SystemBoolean_72: %SystemBoolean, null
+    __intnl_SystemArray_3: %SystemArray, null
+    __intnl_SystemInt32_21: %SystemInt32, null
+    __intnl_SystemBoolean_73: %SystemBoolean, null
+    __intnl_UnityEngineComponent_4: %UnityEngineComponent, null
+.data_end
+.code_start
+.update_order 155404
+    .export get_ExecutionOrderReadOnly
+    get_ExecutionOrderReadOnly:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonVoiceUtils.Runtime.Examples.Microphone.MicView.ExecutionOrderReadOnly.get
+# 
+        PUSH, __const_SystemInt32_0
+        PUSH, __0_get_ExecutionOrderReadOnly__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_SyncPaused
+    get_SyncPaused:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.SyncPaused.get
+# 
+        PUSH, PauseSynchronization
+        PUSH, __0_get_SyncPaused__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_set_SyncPaused
+    __0_set_SyncPaused:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.SyncPaused.set
+# 
+        PUSH, __0_value__param
+        PUSH, PauseSynchronization
+        COPY
+        PUSH, PauseSynchronization
+        JUMP_IF_FALSE, 0x000000a0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000000ec
+        PUSH, __gintnl_SystemUInt32_0
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.MarkNetworkDirty()
+        JUMP, 0x000001F4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export IsPendingSerialization
+    IsPendingSerialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsPendingSerialization()
+# 
+        PUSH, PendingSerializations
+        PUSH, __const_SystemInt32_1
+        PUSH, __0_IsPendingSerialization__ret
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export DropPendingSerializations
+    DropPendingSerializations:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.DropPendingSerializations()
+# 
+        PUSH, __gintnl_SystemUInt32_1
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsPendingSerialization()
+        JUMP, 0x00000128
+        PUSH, __0_IsPendingSerialization__ret
+        PUSH, __lcl_hadPending_SystemBoolean_0
+        COPY
+        PUSH, __const_SystemInt32_1
+        PUSH, PendingSerializations
+        COPY
+        PUSH, __lcl_hadPending_SystemBoolean_0
+        PUSH, __0_DropPendingSerializations__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export MarkNetworkDirty
+    MarkNetworkDirty:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.MarkNetworkDirty()
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000224
+        JUMP, 0x00000270
+        PUSH, __gintnl_SystemUInt32_2
+        PUSH, __const_SystemString_1
+        PUSH, __2_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Warn(string)
+        JUMP, 0x00001098
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_MarkNetworkDirty__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_3
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.SyncPaused.get
+        JUMP, 0x00000038
+        PUSH, __0_get_SyncPaused__ret
+        JUMP_IF_FALSE, 0x000002fc
+        PUSH, __gintnl_SystemUInt32_4
+        PUSH, __const_SystemString_2
+        PUSH, __const_SystemString_3
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_0
+        PUSH, __2_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Warn(string)
+        JUMP, 0x00001098
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_MarkNetworkDirty__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, PendingSerializations
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_0
+        PUSH, PendingSerializations
+        EXTERN, "SystemMath.__Max__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_4
+        PUSH, __const_SystemInt32_1
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_MarkNetworkDirty__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export ExecuteScheduledSerialization
+    ExecuteScheduledSerialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.ExecuteScheduledSerialization()
+# 
+        PUSH, PendingSerializations
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000003ec
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x0000041c
+        JUMP, 0x00000444
+        PUSH, __const_SystemInt32_1
+        PUSH, PendingSerializations
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPreSerialization
+    _onPreSerialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnPreSerialization()
+# 
+        PUSH, PendingSerializations
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000004b4
+        PUSH, __const_SystemInt32_2
+        PUSH, PendingSerializations
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPostSerialization
+    _onPostSerialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnPostSerialization(VRC.Udon.Common.SerializationResult)
+# 
+        PUSH, onPostSerializationResult
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "VRCUdonCommonSerializationResult.__get_success__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x00000520
+        PUSH, __const_SystemInt32_1
+        PUSH, PendingSerializations
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, AutoRetrySendOnFailure
+        JUMP_IF_FALSE, 0x00000540
+        PUSH, __gintnl_SystemUInt32_5
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.MarkNetworkDirty()
+        JUMP, 0x000001F4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnDeserialization(VRC.Udon.Common.DeserializationResult)
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export RPC_RequestSerialization
+    RPC_RequestSerialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.RPC_RequestSerialization()
+# 
+        PUSH, __gintnl_SystemUInt32_6
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.MarkNetworkDirty()
+        JUMP, 0x000001F4
+        PUSH, __0_MarkNetworkDirty__ret
+        PUSH, __lcl_unused_SystemBoolean_0
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsReceivingStart.set
+# 
+        PUSH, __1_value__param
+        PUSH, _IsReceivingStart_k__BackingField
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_IsReceivingStart
+    get_IsReceivingStart:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsReceivingStart.get
+# 
+        PUSH, _IsReceivingStart_k__BackingField
+        PUSH, __0_get_IsReceivingStart__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasReceivedStart.set
+# 
+        PUSH, __2_value__param
+        PUSH, _HasReceivedStart_k__BackingField
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_HasReceivedStart
+    get_HasReceivedStart:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasReceivedStart.get
+# 
+        PUSH, _HasReceivedStart_k__BackingField
+        PUSH, __0_get_HasReceivedStart__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_HasStartedOk
+    get_HasStartedOk:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasStartedOk.get
+# 
+        PUSH, _hasStartedSuccessfully
+        JUMP_IF_FALSE, 0x000006d8
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_get_HasStartedOk__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_7
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasReceivedStart.get
+        JUMP, 0x0000065C
+        PUSH, __0_get_HasReceivedStart__ret
+        PUSH, __intnl_SystemBoolean_6
+        COPY
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000714
+        JUMP, 0x00000738
+        PUSH, __gintnl_SystemUInt32_8
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsReceivingStart.get
+        JUMP, 0x000005E8
+        PUSH, __0_get_IsReceivingStart__ret
+        PUSH, __intnl_SystemBoolean_6
+        COPY
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x000007bc
+        PUSH, __gintnl_SystemUInt32_9
+        PUSH, __const_SystemString_5
+        PUSH, __const_SystemString_6
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        PUSH, __2_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Warn(string)
+        JUMP, 0x00001098
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_get_HasStartedOk__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x000007fc
+        JUMP, 0x00000870
+        PUSH, __gintnl_SystemUInt32_10
+        PUSH, __const_SystemString_8
+        PUSH, __const_SystemString_6
+        PUSH, __const_SystemString_9
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_get_HasStartedOk__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemBoolean_1
+        PUSH, _isEarlyStart
+        COPY
+        PUSH, __gintnl_SystemUInt32_11
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Start()
+        JUMP, 0x00000AE0
+        PUSH, __const_SystemBoolean_0
+        PUSH, _isEarlyStart
+        COPY
+        PUSH, _hasStartedSuccessfully
+        PUSH, __0_get_HasStartedOk__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_set_HasStartedOk
+    __0_set_HasStartedOk:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasStartedOk.set
+# 
+        PUSH, __3_value__param
+        JUMP_IF_FALSE, 0x00000904
+        JUMP, 0x00000928
+        PUSH, __gintnl_SystemUInt32_12
+        PUSH, __const_SystemBoolean_0
+        PUSH, __2_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasReceivedStart.set
+        JUMP, 0x0000062C
+        PUSH, __3_value__param
+        PUSH, _hasStartedSuccessfully
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_IsActiveAndEnabled
+    get_IsActiveAndEnabled:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsActiveAndEnabled.get
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000998
+        PUSH, __this_VRCUdonUdonBehaviour_4
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__get_enabled__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        PUSH, __intnl_SystemBoolean_8
+        COPY
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x000009d4
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "UnityEngineGameObject.__get_activeInHierarchy__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        PUSH, __0_get_IsActiveAndEnabled__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_HasFailedToStart
+    get_HasFailedToStart:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasFailedToStart.get
+# 
+        PUSH, __gintnl_SystemUInt32_13
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsReceivingStart.get
+        JUMP, 0x000005E8
+        PUSH, __0_get_IsReceivingStart__ret
+        PUSH, __intnl_SystemBoolean_11
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000a40
+        JUMP, 0x00000A64
+        PUSH, __gintnl_SystemUInt32_14
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasReceivedStart.get
+        JUMP, 0x0000065C
+        PUSH, __0_get_HasReceivedStart__ret
+        PUSH, __intnl_SystemBoolean_11
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        PUSH, __intnl_SystemBoolean_10
+        COPY
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000ab0
+        PUSH, __gintnl_SystemUInt32_15
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasStartedOk.get
+        JUMP, 0x000006A0
+        PUSH, __0_get_HasStartedOk__ret
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        PUSH, __0_get_HasFailedToStart__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.Start()
+# 
+        PUSH, __gintnl_SystemUInt32_16
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasReceivedStart.get
+        JUMP, 0x0000065C
+        PUSH, __0_get_HasReceivedStart__ret
+        JUMP_IF_FALSE, 0x00000b14
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_17
+        PUSH, __const_SystemBoolean_1
+        PUSH, __1_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsReceivingStart.set
+        JUMP, 0x000005B8
+        PUSH, __gintnl_SystemUInt32_18
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.SetupAndValidate()
+        JUMP, 0x00000C94
+        PUSH, __0_SetupAndValidate__ret
+        JUMP_IF_FALSE, 0x00000b84
+        PUSH, __gintnl_SystemUInt32_19
+        PUSH, __const_SystemBoolean_1
+        PUSH, __3_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasStartedOk.set
+        JUMP, 0x000008EC
+        JUMP, 0x00000C30
+        PUSH, __gintnl_SystemUInt32_20
+        PUSH, __const_SystemBoolean_0
+        PUSH, __3_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasStartedOk.set
+        JUMP, 0x000008EC
+        PUSH, __gintnl_SystemUInt32_21
+        PUSH, __gintnl_SystemUInt32_22
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __1__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.Common.UdonCommon.GetPathInScene(UnityEngine.Transform)
+        JUMP, 0x000032EC
+        PUSH, __const_SystemString_11
+        PUSH, __0__intnlparam
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __const_SystemString_10
+        PUSH, __intnl_SystemString_2
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_3
+        PUSH, __4_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.ErrorAndDisableGameObject(string)
+        JUMP, 0x000012BC
+        PUSH, __gintnl_SystemUInt32_23
+        PUSH, __const_SystemBoolean_0
+        PUSH, __1_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.IsReceivingStart.set
+        JUMP, 0x000005B8
+        PUSH, __gintnl_SystemUInt32_24
+        PUSH, __const_SystemBoolean_1
+        PUSH, __2_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasReceivedStart.set
+        JUMP, 0x0000062C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonVoiceUtils.Runtime.Examples.Microphone.MicView.SetupAndValidate()
+# 
+        PUSH, __gintnl_SystemUInt32_25
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.SetupAndValidate()
+        JUMP, 0x000031AC
+        PUSH, __2__intnlparam
+        JUMP_IF_FALSE, 0x00000cbc
+        JUMP, 0x00000CE4
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_SetupAndValidate__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_26
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __4__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.InitializeMvcSingleGameObject(UnityEngine.GameObject)
+        JUMP, 0x000034DC
+        PUSH, __3__intnlparam
+        JUMP_IF_FALSE, 0x00000d20
+        JUMP, 0x00000D6C
+        PUSH, __gintnl_SystemUInt32_27
+        PUSH, __const_SystemString_12
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_SetupAndValidate__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_SetupAndValidate__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+# 
+        PUSH, __gintnl_SystemUInt32_28
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.ExecutionOrderReadOnly.get
+        JUMP, 0x00000008
+        PUSH, __gintnl_SystemUInt32_29
+        PUSH, __this_VRCUdonUdonBehaviour_5
+        PUSH, __6__intnlparam
+        COPY
+# Cow dirty
+        PUSH, __0_get_ExecutionOrderReadOnly__ret
+        PUSH, __intnl_SystemInt32_1
+        COPY
+# Calling TLP.UdonUtils.Runtime.Common.UdonCommon.GetScriptPathInScene(UdonSharp.UdonSharpBehaviour)
+        JUMP, 0x000037F4
+        PUSH, __const_SystemString_13
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __5__intnlparam
+        PUSH, __0_get_LOGPrefix__ret
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.Logger.set
+# 
+        PUSH, __4_value__param
+        PUSH, _Logger_k__BackingField
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.Logger.get
+# 
+        PUSH, _Logger_k__BackingField
+        PUSH, __0_get_Logger__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.DebugLog(string)
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.Info(string)
+# 
+        PUSH, Severity
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00000f10
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_30
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.GetLogger()
+        JUMP, 0x00001550
+        PUSH, __0_GetLogger__ret
+        JUMP_IF_FALSE, 0x00001020
+        PUSH, __gintnl_SystemUInt32_31
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Logger.get
+        JUMP, 0x00000E6C
+        PUSH, __gintnl_SystemUInt32_32
+# Cow dirty
+        PUSH, __0_get_Logger__ret
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+        JUMP, 0x00000DB0
+        PUSH, __this_VRCUdonUdonBehaviour_6
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+# Cow dirty
+        PUSH, __0_get_LOGPrefix__ret
+        PUSH, __intnl_SystemString_4
+        COPY
+# Cow dirty
+        PUSH, __1_message__param
+        PUSH, __intnl_SystemString_5
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_14
+        PUSH, __0_get_LOGPrefix__ret
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_15
+        PUSH, __1_message__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_UnityEngineObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_17
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        JUMP, 0x0000107C
+        PUSH, __gintnl_SystemUInt32_33
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+        JUMP, 0x00000DB0
+        PUSH, __0_get_LOGPrefix__ret
+        PUSH, __1_message__param
+        PUSH, __intnl_SystemString_4
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_7
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __intnl_SystemString_4
+        PUSH, __intnl_UnityEngineObject_0
+        EXTERN, "UnityEngineDebug.__Log__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.Warn(string)
+# 
+        PUSH, Severity
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x000010dc
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_34
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.GetLogger()
+        JUMP, 0x00001550
+        PUSH, __0_GetLogger__ret
+        JUMP_IF_FALSE, 0x000011ec
+        PUSH, __gintnl_SystemUInt32_35
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Logger.get
+        JUMP, 0x00000E6C
+        PUSH, __gintnl_SystemUInt32_36
+# Cow dirty
+        PUSH, __0_get_Logger__ret
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+        JUMP, 0x00000DB0
+        PUSH, __this_VRCUdonUdonBehaviour_8
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+# Cow dirty
+        PUSH, __2_message__param
+        PUSH, __intnl_SystemString_6
+        COPY
+# Cow dirty
+        PUSH, __0_get_LOGPrefix__ret
+        PUSH, __intnl_SystemString_7
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_18
+        PUSH, __0_get_LOGPrefix__ret
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_19
+        PUSH, __2_message__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_20
+        PUSH, __intnl_UnityEngineObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_21
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        JUMP, 0x00001248
+        PUSH, __gintnl_SystemUInt32_37
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+        JUMP, 0x00000DB0
+        PUSH, __0_get_LOGPrefix__ret
+        PUSH, __2_message__param
+        PUSH, __intnl_SystemString_6
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_9
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_SystemString_6
+        PUSH, __intnl_UnityEngineObject_1
+        EXTERN, "UnityEngineDebug.__LogWarning__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.ErrorAndDisableComponent(string)
+# 
+        PUSH, __gintnl_SystemUInt32_38
+        PUSH, __3_message__param
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __this_VRCUdonUdonBehaviour_10
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__set_enabled__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.ErrorAndDisableGameObject(string)
+# 
+        PUSH, __gintnl_SystemUInt32_39
+        PUSH, __4_message__param
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.ErrorAndDisableComponentAndGameObject(string)
+# 
+        PUSH, __gintnl_SystemUInt32_40
+        PUSH, __5_message__param
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __this_VRCUdonUdonBehaviour_11
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__set_enabled__SystemBoolean__SystemVoid"
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+# 
+        PUSH, Severity
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x000013c8
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_41
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.GetLogger()
+        JUMP, 0x00001550
+        PUSH, __0_GetLogger__ret
+        JUMP_IF_FALSE, 0x000014d8
+        PUSH, __gintnl_SystemUInt32_42
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Logger.get
+        JUMP, 0x00000E6C
+        PUSH, __gintnl_SystemUInt32_43
+# Cow dirty
+        PUSH, __0_get_Logger__ret
+        PUSH, __intnl_VRCUdonUdonBehaviour_2
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+        JUMP, 0x00000DB0
+        PUSH, __this_VRCUdonUdonBehaviour_12
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+# Cow dirty
+        PUSH, __6_message__param
+        PUSH, __intnl_SystemString_8
+        COPY
+# Cow dirty
+        PUSH, __0_get_LOGPrefix__ret
+        PUSH, __intnl_SystemString_9
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_22
+        PUSH, __0_get_LOGPrefix__ret
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_23
+        PUSH, __6_message__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_24
+        PUSH, __intnl_UnityEngineObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_25
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        JUMP, 0x00001534
+        PUSH, __gintnl_SystemUInt32_44
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+        JUMP, 0x00000DB0
+        PUSH, __0_get_LOGPrefix__ret
+        PUSH, __6_message__param
+        PUSH, __intnl_SystemString_8
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_13
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __intnl_SystemString_8
+        PUSH, __intnl_UnityEngineObject_2
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.GetLogger()
+# 
+        PUSH, __gintnl_SystemUInt32_45
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Logger.get
+        JUMP, 0x00000E6C
+        PUSH, __0_get_Logger__ret
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x000015b0
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_GetLogger__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_46
+# Calling TLP.UdonUtils.Runtime.Logger.TlpLogger.ExpectedGameObjectName()
+        JUMP, 0x00003934
+        PUSH, __7__intnlparam
+        PUSH, __lcl_logger_UnityEngineGameObject_0
+        EXTERN, "UnityEngineGameObject.__Find__SystemString__UnityEngineGameObject"
+        PUSH, __lcl_logger_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        JUMP_IF_FALSE, 0x00001608
+        JUMP, 0x00001708
+        PUSH, _hadLogger
+        JUMP_IF_FALSE, 0x00001620
+        JUMP, 0x000016E0
+        PUSH, __gintnl_SystemUInt32_47
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.MissingLoggerLogged()
+        JUMP, 0x00003970
+        PUSH, __8__intnlparam
+        JUMP_IF_FALSE, 0x00001648
+        JUMP, 0x000016E0
+        PUSH, __gintnl_SystemUInt32_48
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.GloballyRememberMissingLoggerLogged()
+        JUMP, 0x00003A40
+        PUSH, __gintnl_SystemUInt32_49
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+        JUMP, 0x00000DB0
+        PUSH, __gintnl_SystemUInt32_50
+# Cow dirty
+        PUSH, __0_get_LOGPrefix__ret
+        PUSH, __intnl_SystemString_10
+        COPY
+# Calling TLP.UdonUtils.Runtime.Logger.TlpLogger.ExpectedGameObjectName()
+        JUMP, 0x00003934
+        PUSH, __const_SystemString_26
+        PUSH, __intnl_SystemString_10
+        PUSH, __7__intnlparam
+        PUSH, __intnl_SystemString_11
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_14
+        PUSH, __intnl_UnityEngineObject_3
+        COPY
+        PUSH, __intnl_SystemString_11
+        PUSH, __intnl_UnityEngineObject_3
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_GetLogger__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_51
+        PUSH, __gintnl_SystemUInt32_52
+        PUSH, __lcl_logger_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __10__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponent<TLP.UdonUtils.Runtime.Logger.TlpLogger>(UnityEngine.Component)
+        JUMP, 0x00003A84
+        PUSH, __9__intnlparam
+        PUSH, __4_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Logger.set
+        JUMP, 0x00000E3C
+        PUSH, __const_SystemBoolean_1
+        PUSH, _hadLogger
+        COPY
+        PUSH, __gintnl_SystemUInt32_53
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Logger.get
+        JUMP, 0x00000E6C
+        PUSH, __0_get_Logger__ret
+        PUSH, __0_GetLogger__ret
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.Assert(bool, string, UnityEngine.Object)
+# 
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Assert__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.Assert(bool, string)
+# 
+        PUSH, Severity
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_17
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_17
+        JUMP_IF_FALSE, 0x0000185c
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __1_condition__param
+        JUMP_IF_FALSE, 0x00001880
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_54
+        PUSH, __const_SystemString_27
+        PUSH, __8_message__param
+        PUSH, __intnl_SystemString_12
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_12
+        PUSH, __const_SystemString_28
+        PUSH, __intnl_SystemString_13
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_13
+        PUSH, __5_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.ErrorAndDisableComponentAndGameObject(string)
+        JUMP, 0x00001314
+        PUSH, __1_condition__param
+        PUSH, __8_message__param
+        EXTERN, "UnityEngineDebug.__Assert__SystemBoolean_SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_OnEvent
+    __0_OnEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.OnEvent(string)
+# 
+        PUSH, __0_eventName__param
+        PUSH, __const_SystemString_29
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "SystemString.__op_Equality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        JUMP_IF_FALSE, 0x000019a0
+        PUSH, __gintnl_SystemUInt32_55
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.OnModelChanged()
+        JUMP, 0x00003048
+        JUMP, 0x000019A8
+        JUMP, 0x000019A0
+        PUSH, __gintnl_SystemUInt32_56
+        PUSH, __0_eventName__param
+        PUSH, __11__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnEvent(string)
+        JUMP, 0x00003CF4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x00001968
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnCreated
+    OnCreated:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnCreated()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnReadyForUse
+    OnReadyForUse:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnReadyForUse()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnPrepareForReturnToPool
+    OnPrepareForReturnToPool:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnPrepareForReturnToPool()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.AssertExecutionOrderCorrect()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_SystemString_30
+        PUSH, __lcl_lastStarted_SystemString_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerTag__SystemString__SystemString"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        PUSH, __const_SystemString_31
+        PUSH, __lcl_lastFrameStart_SystemString_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerTag__SystemString__SystemString"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        PUSH, __const_SystemString_32
+        PUSH, __lcl_lastFrameBehaviour_SystemString_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerTag__SystemString__SystemString"
+        PUSH, __gintnl_SystemUInt32_57
+        PUSH, __lcl_lastFrameStart_SystemString_0
+        PUSH, __0_lastFrameStart__param
+        COPY
+        PUSH, __lcl_lastStarted_SystemString_0
+        PUSH, __0_lastStarted__param
+        COPY
+        PUSH, __lcl_lastFrameBehaviour_SystemString_0
+        PUSH, __0_lastBehaviour__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.ValidateStartOrder(string, string, string)
+        JUMP, 0x00001C14
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_4
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __gintnl_SystemUInt32_58
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.ExecutionOrderReadOnly.get
+        JUMP, 0x00000008
+        PUSH, __0_get_ExecutionOrderReadOnly__ret
+        PUSH, __intnl_SystemString_14
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_4
+        PUSH, __const_SystemString_30
+        PUSH, __intnl_SystemString_14
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetPlayerTag__SystemString_SystemString__SystemVoid"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_5
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "UnityEngineTime.__get_frameCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemString_15
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_5
+        PUSH, __const_SystemString_31
+        PUSH, __intnl_SystemString_15
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetPlayerTag__SystemString_SystemString__SystemVoid"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_6
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __gintnl_SystemUInt32_59
+        PUSH, __this_VRCUdonUdonBehaviour_15
+        PUSH, __13__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+        JUMP, 0x00003D4C
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_6
+        PUSH, __const_SystemString_32
+        PUSH, __12__intnlparam
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetPlayerTag__SystemString_SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.ValidateStartOrder(string, string, string)
+# 
+        PUSH, __0_lastFrameStart__param
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001c50
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0_lastFrameStart__param
+        PUSH, __lcl_savedFrame_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "SystemInt32.__TryParse__SystemString_SystemInt32Ref__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x00001c88
+        JUMP, 0x00001C9C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "UnityEngineTime.__get_frameCount__SystemInt32"
+        PUSH, __lcl_savedFrame_SystemInt32_0
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x00001cf0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0_lastStarted__param
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        JUMP_IF_FALSE, 0x00001d2c
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0_lastStarted__param
+        PUSH, __lcl_execOrder_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_23
+        EXTERN, "SystemInt32.__TryParse__SystemString_SystemInt32Ref__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x00001d64
+        JUMP, 0x00001D78
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_60
+        PUSH, __this_VRCUdonUdonBehaviour_16
+        PUSH, __13__intnlparam
+        COPY
+# Cow dirty
+        PUSH, __0_lastBehaviour__param
+        PUSH, __intnl_SystemString_16
+        COPY
+# Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+        JUMP, 0x00003D4C
+        PUSH, __intnl_SystemString_16
+        PUSH, __12__intnlparam
+        PUSH, __intnl_SystemBoolean_24
+        EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_24
+        JUMP_IF_FALSE, 0x00001e10
+        PUSH, __gintnl_SystemUInt32_61
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.ExecutionOrderReadOnly.get
+        JUMP, 0x00000008
+        PUSH, __0_get_ExecutionOrderReadOnly__ret
+        PUSH, __lcl_execOrder_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_24
+        EXTERN, "SystemInt32.__op_LessThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_24
+        JUMP_IF_FALSE, 0x00001f1c
+        PUSH, __gintnl_SystemUInt32_62
+        PUSH, __const_SystemString_33
+        PUSH, __0_lastBehaviour__param
+        PUSH, __intnl_SystemString_17
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __gintnl_SystemUInt32_63
+        PUSH, __this_VRCUdonUdonBehaviour_17
+        PUSH, __13__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+        JUMP, 0x00003D4C
+        PUSH, __gintnl_SystemUInt32_64
+# Cow dirty
+        PUSH, __12__intnlparam
+        PUSH, __intnl_SystemString_18
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.ExecutionOrderReadOnly.get
+        JUMP, 0x00000008
+        PUSH, __const_SystemString_34
+        PUSH, __lcl_execOrder_SystemInt32_0
+        PUSH, __intnl_SystemString_18
+        PUSH, __0_get_ExecutionOrderReadOnly__ret
+        PUSH, __intnl_SystemString_19
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_17
+        PUSH, __intnl_SystemString_19
+        PUSH, __intnl_SystemString_20
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_20
+        PUSH, __const_SystemString_35
+        PUSH, __intnl_SystemString_21
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_21
+        PUSH, __2_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Warn(string)
+        JUMP, 0x00001098
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_CriticalError
+    get_CriticalError:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.CriticalError.get
+# 
+        PUSH, _CriticalError_k__BackingField
+        PUSH, __0_get_CriticalError__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.CriticalError.set
+# 
+        PUSH, __5_value__param
+        PUSH, _CriticalError_k__BackingField
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonVoiceUtils.Runtime.Examples.Microphone.MicView.InitializeInternal()
+# 
+        PUSH, __gintnl_SystemUInt32_65
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Model.get
+        JUMP, 0x00002258
+        PUSH, __0_get_Model__ret
+        PUSH, _micModel
+        COPY
+        PUSH, _micModel
+        PUSH, __intnl_SystemBoolean_25
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_25
+        JUMP_IF_FALSE, 0x00002000
+        JUMP, 0x00002074
+        PUSH, __gintnl_SystemUInt32_66
+        PUSH, __const_SystemString_36
+        PUSH, __const_SystemString_37
+        PUSH, __const_SystemString_38
+        PUSH, __intnl_SystemString_22
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_22
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_InitializeInternal__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_67
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Controller.get
+        JUMP, 0x000022CC
+        PUSH, __0_get_Controller__ret
+        PUSH, _micController
+        COPY
+        PUSH, _micController
+        PUSH, __intnl_SystemBoolean_26
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_26
+        JUMP_IF_FALSE, 0x000020c8
+        JUMP, 0x0000213C
+        PUSH, __gintnl_SystemUInt32_68
+        PUSH, __const_SystemString_36
+        PUSH, __const_SystemString_39
+        PUSH, __const_SystemString_40
+        PUSH, __intnl_SystemString_22
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_22
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_InitializeInternal__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_69
+# Calling TLP.UdonVoiceUtils.Runtime.Examples.Microphone.MicView.UpdateVisuals()
+        JUMP, 0x000030D4
+        PUSH, __gintnl_SystemUInt32_70
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.InitializeInternal()
+        JUMP, 0x00003DB0
+        PUSH, __14__intnlparam
+        PUSH, __0_InitializeInternal__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.DeInitializeInternal()
+# 
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_DeInitializeInternal__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_IsViewInitialized
+    get_IsViewInitialized:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.IsViewInitialized.get
+# 
+        PUSH, _IsViewInitialized_k__BackingField
+        PUSH, __0_get_IsViewInitialized__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.IsViewInitialized.set
+# 
+        PUSH, __6_value__param
+        PUSH, _IsViewInitialized_k__BackingField
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_Model
+    get_Model:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Model.get
+# 
+        PUSH, _Model_k__BackingField
+        PUSH, __0_get_Model__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Model.set
+# 
+        PUSH, __7_value__param
+        PUSH, _Model_k__BackingField
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_Controller
+    get_Controller:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Controller.get
+# 
+        PUSH, _Controller_k__BackingField
+        PUSH, __0_get_Controller__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Controller.set
+# 
+        PUSH, __8_value__param
+        PUSH, _Controller_k__BackingField
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDestroy
+    _onDestroy:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.OnDestroy()
+# 
+        PUSH, __gintnl_SystemUInt32_71
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.DeInitialize()
+        JUMP, 0x00002DA4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_Initialize
+    __0_Initialize:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Initialize(TLP.UdonUtils.Runtime.DesignPatterns.MVC.Controller, TLP.UdonUtils.Runtime.DesignPatterns.MVC.Model)
+# 
+        PUSH, __gintnl_SystemUInt32_72
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.CriticalError.get
+        JUMP, 0x00001F38
+        PUSH, __0_get_CriticalError__ret
+        PUSH, __intnl_SystemBoolean_27
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_27
+        JUMP_IF_FALSE, 0x000023ac
+        JUMP, 0x00002428
+        PUSH, __gintnl_SystemUInt32_73
+        PUSH, __gintnl_SystemUInt32_74
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.CriticalError.get
+        JUMP, 0x00001F38
+        PUSH, __const_SystemString_41
+        PUSH, __0_get_CriticalError__ret
+        PUSH, __intnl_SystemString_23
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_23
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_75
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.IsViewInitialized.get
+        JUMP, 0x000021E4
+        PUSH, __0_get_IsViewInitialized__ret
+        JUMP_IF_FALSE, 0x00002494
+        PUSH, __gintnl_SystemUInt32_76
+        PUSH, __const_SystemString_42
+        PUSH, __2_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Warn(string)
+        JUMP, 0x00001098
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __1_model__param
+        PUSH, __intnl_SystemBoolean_28
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_28
+        JUMP_IF_FALSE, 0x000024c4
+        JUMP, 0x00002530
+        PUSH, __gintnl_SystemUInt32_77
+        PUSH, __const_SystemString_43
+        PUSH, __const_SystemString_44
+        PUSH, __intnl_SystemString_23
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_23
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __1_model__param
+# Cow dirty
+        PUSH, __1_model__param
+        PUSH, __intnl_VRCUdonUdonBehaviour_3
+        COPY
+        PUSH, __const_SystemString_45
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __1_model__param
+        PUSH, __const_SystemString_46
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_SystemString_23
+        COPY
+        PUSH, __intnl_SystemString_23
+        PUSH, __intnl_SystemBoolean_29
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_29
+        JUMP_IF_FALSE, 0x000025c0
+        JUMP, 0x00002694
+        PUSH, __gintnl_SystemUInt32_78
+        PUSH, __1_model__param
+# Cow dirty
+        PUSH, __1_model__param
+        PUSH, __intnl_VRCUdonUdonBehaviour_4
+        COPY
+        PUSH, __const_SystemString_45
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __1_model__param
+        PUSH, __const_SystemString_46
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_SystemString_24
+        COPY
+        PUSH, __const_SystemString_47
+        PUSH, __const_SystemString_44
+        PUSH, __intnl_SystemString_24
+        PUSH, __intnl_SystemString_25
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_25
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __1_model__param
+# Cow dirty
+        PUSH, __1_model__param
+        PUSH, __intnl_VRCUdonUdonBehaviour_4
+        COPY
+        PUSH, __const_SystemString_48
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __1_model__param
+        PUSH, __const_SystemString_49
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_SystemBoolean_30
+        COPY
+        PUSH, __intnl_SystemBoolean_30
+        JUMP_IF_FALSE, 0x0000270c
+        JUMP, 0x00002778
+        PUSH, __gintnl_SystemUInt32_79
+        PUSH, __const_SystemString_50
+        PUSH, __const_SystemString_44
+        PUSH, __intnl_SystemString_24
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_24
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0_optionalController__param
+        PUSH, __intnl_SystemBoolean_31
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_31
+        JUMP_IF_FALSE, 0x00002a14
+        PUSH, __0_optionalController__param
+# Cow dirty
+        PUSH, __0_optionalController__param
+        PUSH, __intnl_VRCUdonUdonBehaviour_5
+        COPY
+        PUSH, __const_SystemString_45
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_optionalController__param
+        PUSH, __const_SystemString_46
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_SystemString_24
+        COPY
+        PUSH, __intnl_SystemString_24
+        PUSH, __intnl_SystemBoolean_32
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_32
+        JUMP_IF_FALSE, 0x00002830
+        JUMP, 0x00002904
+        PUSH, __gintnl_SystemUInt32_80
+        PUSH, __0_optionalController__param
+# Cow dirty
+        PUSH, __0_optionalController__param
+        PUSH, __intnl_VRCUdonUdonBehaviour_6
+        COPY
+        PUSH, __const_SystemString_45
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_optionalController__param
+        PUSH, __const_SystemString_46
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemString_25
+        COPY
+        PUSH, __const_SystemString_47
+        PUSH, __const_SystemString_51
+        PUSH, __intnl_SystemString_25
+        PUSH, __intnl_SystemString_26
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_26
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0_optionalController__param
+# Cow dirty
+        PUSH, __0_optionalController__param
+        PUSH, __intnl_VRCUdonUdonBehaviour_6
+        COPY
+        PUSH, __const_SystemString_52
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_optionalController__param
+        PUSH, __const_SystemString_53
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemBoolean_33
+        COPY
+        PUSH, __intnl_SystemBoolean_33
+        JUMP_IF_FALSE, 0x0000297c
+        JUMP, 0x000029E8
+        PUSH, __gintnl_SystemUInt32_81
+        PUSH, __const_SystemString_50
+        PUSH, __const_SystemString_51
+        PUSH, __intnl_SystemString_25
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_25
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_82
+        PUSH, __0_optionalController__param
+        PUSH, __8_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Controller.set
+        JUMP, 0x00002310
+        JUMP, 0x00002A4C
+        PUSH, __gintnl_SystemUInt32_83
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_VRCUdonUdonBehaviour_5
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_5
+        PUSH, __8_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Controller.set
+        JUMP, 0x00002310
+        PUSH, __1_model__param
+# Cow dirty
+        PUSH, __1_model__param
+        PUSH, __intnl_VRCUdonUdonBehaviour_5
+        COPY
+        PUSH, __const_SystemString_54
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __1_model__param
+        PUSH, __const_SystemString_55
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_VRCUdonUdonBehaviour_6
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_6
+        PUSH, __intnl_SystemBoolean_32
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_32
+        JUMP_IF_FALSE, 0x00002adc
+        JUMP, 0x00002B48
+        PUSH, __gintnl_SystemUInt32_84
+        PUSH, __const_SystemString_43
+        PUSH, __const_SystemString_56
+        PUSH, __intnl_SystemString_24
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_24
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_85
+        PUSH, __1_model__param
+        PUSH, __7_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Model.set
+        JUMP, 0x0000229C
+        PUSH, __1_model__param
+# Cow dirty
+        PUSH, __1_model__param
+        PUSH, __intnl_VRCUdonUdonBehaviour_7
+        COPY
+        PUSH, __const_SystemString_54
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __1_model__param
+        PUSH, __const_SystemString_55
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_VRCUdonUdonBehaviour_8
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_8
+        PUSH, _modelChangeEvent
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_18
+        PUSH, __intnl_VRCUdonUdonBehaviour_9
+        COPY
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_57
+        PUSH, __intnl_VRCUdonUdonBehaviour_9
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_58
+        PUSH, __const_SystemString_29
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_59
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_60
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_61
+        PUSH, __intnl_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_4
+        PUSH, __intnl_SystemBoolean_33
+        COPY
+        PUSH, __gintnl_SystemUInt32_86
+        PUSH, __const_SystemBoolean_1
+        PUSH, __6_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.IsViewInitialized.set
+        JUMP, 0x00002228
+        PUSH, __gintnl_SystemUInt32_87
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.InitializeInternal()
+        JUMP, 0x00001FAC
+        PUSH, __0_InitializeInternal__ret
+        JUMP_IF_FALSE, 0x00002d0c
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_88
+        PUSH, __const_SystemString_62
+        PUSH, __const_SystemString_63
+        PUSH, __intnl_SystemString_24
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_24
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __gintnl_SystemUInt32_89
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.DeInitialize()
+        JUMP, 0x00002DA4
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0___0_Initialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export DeInitialize
+    DeInitialize:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.DeInitialize()
+# 
+        PUSH, __gintnl_SystemUInt32_90
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.IsViewInitialized.get
+        JUMP, 0x000021E4
+        PUSH, __0_get_IsViewInitialized__ret
+        JUMP_IF_FALSE, 0x00002dcc
+        JUMP, 0x00002DF4
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_DeInitialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _modelChangeEvent
+        PUSH, __intnl_SystemBoolean_34
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_34
+        JUMP_IF_FALSE, 0x00002ed0
+        PUSH, __this_VRCUdonUdonBehaviour_19
+        PUSH, __intnl_VRCUdonUdonBehaviour_10
+        COPY
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_64
+        PUSH, __intnl_VRCUdonUdonBehaviour_10
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_65
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_66
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _modelChangeEvent
+        PUSH, __const_SystemString_67
+        PUSH, __intnl_SystemObject_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_5
+        PUSH, __intnl_SystemBoolean_35
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, _modelChangeEvent
+        COPY
+        PUSH, __gintnl_SystemUInt32_91
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_VRCUdonUdonBehaviour_10
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_10
+        PUSH, __7_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.Model.set
+        JUMP, 0x0000229C
+        PUSH, __gintnl_SystemUInt32_92
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.DeInitializeInternal()
+        JUMP, 0x000021A0
+        PUSH, __0_DeInitializeInternal__ret
+        JUMP_IF_FALSE, 0x00002fac
+        PUSH, __gintnl_SystemUInt32_93
+        PUSH, __const_SystemBoolean_0
+        PUSH, __6_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.View.IsViewInitialized.set
+        JUMP, 0x00002228
+        PUSH, __gintnl_SystemUInt32_94
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemString_27
+        COPY
+        PUSH, __intnl_SystemString_27
+        PUSH, __5_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.CriticalError.set
+        JUMP, 0x00001F7C
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_DeInitialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_95
+        PUSH, __const_SystemString_68
+        PUSH, __5_value__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.CriticalError.set
+        JUMP, 0x00001F7C
+        PUSH, __gintnl_SystemUInt32_96
+        PUSH, __gintnl_SystemUInt32_97
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.CriticalError.get
+        JUMP, 0x00001F38
+        PUSH, __0_get_CriticalError__ret
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_DeInitialize__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnModelChanged
+    OnModelChanged:
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonVoiceUtils.Runtime.Examples.Microphone.MicView.OnModelChanged()
+# 
+        PUSH, __gintnl_SystemUInt32_98
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.HasStartedOk.get
+        JUMP, 0x000006A0
+        PUSH, __0_get_HasStartedOk__ret
+        JUMP_IF_FALSE, 0x00003070
+        JUMP, 0x000030A8
+        PUSH, __gintnl_SystemUInt32_99
+        PUSH, __const_SystemString_69
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_100
+# Calling TLP.UdonVoiceUtils.Runtime.Examples.Microphone.MicView.UpdateVisuals()
+        JUMP, 0x000030D4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonVoiceUtils.Runtime.Examples.Microphone.MicView.UpdateVisuals()
+# 
+        PUSH, _micModel
+# Cow dirty
+        PUSH, _micModel
+        PUSH, __intnl_VRCUdonUdonBehaviour_11
+        COPY
+        PUSH, __const_SystemString_70
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _micModel
+        PUSH, __const_SystemString_71
+        PUSH, __intnl_SystemObject_6
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_6
+        PUSH, __intnl_SystemBoolean_36
+        COPY
+        PUSH, __intnl_SystemBoolean_36
+        PUSH, __lcl_isOn_SystemBoolean_0
+        COPY
+        PUSH, OnIndicator
+        PUSH, __lcl_isOn_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __lcl_isOn_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_37
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, OffIndicator
+        PUSH, __intnl_SystemBoolean_37
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.SetupAndValidate()
+# 
+        PUSH, __gintnl_SystemUInt32_101
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.GetLogger()
+        JUMP, 0x00001550
+        PUSH, __0_GetLogger__ret
+        JUMP_IF_FALSE, 0x000031f4
+        PUSH, __const_SystemBoolean_1
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_102
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.MissingLoggerLogged()
+        JUMP, 0x00003970
+        PUSH, __8__intnlparam
+        JUMP_IF_FALSE, 0x0000323c
+        PUSH, __const_SystemBoolean_1
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_103
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.GloballyRememberMissingLoggerLogged()
+        JUMP, 0x00003A40
+        PUSH, __gintnl_SystemUInt32_104
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.LOGPrefix.get
+        JUMP, 0x00000DB0
+        PUSH, __const_SystemString_72
+        PUSH, __0_get_LOGPrefix__ret
+        PUSH, __const_SystemString_73
+        PUSH, __intnl_SystemString_28
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_20
+        PUSH, __intnl_UnityEngineObject_4
+        COPY
+        PUSH, __intnl_SystemString_28
+        PUSH, __intnl_UnityEngineObject_4
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __const_SystemBoolean_0
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.Common.UdonCommon.GetPathInScene(UnityEngine.Transform)
+# 
+        PUSH, __1__intnlparam
+        PUSH, __intnl_SystemBoolean_38
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_38
+        JUMP_IF_FALSE, 0x0000331c
+        JUMP, 0x00003344
+        PUSH, __const_SystemString_74
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemString_74
+        PUSH, __lcl_path_SystemString_0
+        COPY
+        PUSH, __1__intnlparam
+        PUSH, __intnl_UnityEngineObject_5
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_6
+        COPY
+        PUSH, __intnl_UnityEngineObject_5
+        PUSH, __intnl_UnityEngineObject_6
+        PUSH, __intnl_SystemBoolean_39
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_39
+        JUMP_IF_FALSE, 0x000034a0
+        PUSH, __1__intnlparam
+        PUSH, __intnl_SystemString_29
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __lcl_path_SystemString_0
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_40
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+# Cow dirty
+        PUSH, __1__intnlparam
+        PUSH, __intnl_UnityEngineTransform_1
+        COPY
+        PUSH, __intnl_SystemBoolean_40
+        JUMP_IF_FALSE, 0x0000344c
+        PUSH, __const_SystemString_75
+        PUSH, __lcl_path_SystemString_0
+        PUSH, __intnl_SystemString_30
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        JUMP, 0x00003460
+        PUSH, __const_SystemString_74
+        PUSH, __intnl_SystemString_30
+        COPY
+        PUSH, __intnl_SystemString_29
+        PUSH, __intnl_SystemString_30
+        PUSH, __lcl_path_SystemString_0
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __1__intnlparam
+        PUSH, __1__intnlparam
+        EXTERN, "UnityEngineTransform.__get_parent__UnityEngineTransform"
+        JUMP, 0x00003358
+        PUSH, __lcl_path_SystemString_0
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.InitializeMvcSingleGameObject(UnityEngine.GameObject)
+# 
+        PUSH, __4__intnlparam
+        PUSH, __intnl_SystemBoolean_41
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_41
+        JUMP_IF_FALSE, 0x0000350c
+        JUMP, 0x0000356C
+        PUSH, __const_SystemString_76
+        PUSH, __const_SystemString_77
+        PUSH, __const_SystemString_78
+        PUSH, __intnl_SystemString_31
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_31
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __const_SystemBoolean_0
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_105
+        PUSH, __gintnl_SystemUInt32_106
+        PUSH, __4__intnlparam
+        PUSH, __intnl_UnityEngineTransform_2
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_2
+        PUSH, __21__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.DesignPatterns.MVC.Model>(UnityEngine.Component)
+        JUMP, 0x000043CC
+        PUSH, __gintnl_SystemUInt32_107
+        PUSH, __4__intnlparam
+        PUSH, __intnl_UnityEngineTransform_3
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_3
+        PUSH, __23__intnlparam
+        COPY
+# Cow dirty
+        PUSH, __20__intnlparam
+        PUSH, __intnl_VRCUdonUdonBehaviour_12
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.DesignPatterns.MVC.View>(UnityEngine.Component)
+        JUMP, 0x0000444C
+        PUSH, __gintnl_SystemUInt32_108
+        PUSH, __4__intnlparam
+        PUSH, __intnl_UnityEngineTransform_4
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_4
+        PUSH, __25__intnlparam
+        COPY
+# Cow dirty
+        PUSH, __22__intnlparam
+        PUSH, __intnl_VRCUdonUdonBehaviour_13
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.DesignPatterns.MVC.Controller>(UnityEngine.Component)
+        JUMP, 0x000044CC
+        PUSH, __gintnl_SystemUInt32_109
+        PUSH, __4__intnlparam
+        PUSH, __intnl_UnityEngineTransform_5
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_5
+        PUSH, __27__intnlparam
+        COPY
+# Cow dirty
+        PUSH, __24__intnlparam
+        PUSH, __intnl_VRCUdonUdonBehaviour_14
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.Events.UdonEvent>(UnityEngine.Component)
+        JUMP, 0x0000454C
+        PUSH, __intnl_VRCUdonUdonBehaviour_12
+        PUSH, __16__intnlparam
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_13
+        PUSH, __17__intnlparam
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_14
+        PUSH, __18__intnlparam
+        COPY
+        PUSH, __26__intnlparam
+        PUSH, __19__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.InitializeMvc(TLP.UdonUtils.Runtime.DesignPatterns.MVC.Model, TLP.UdonUtils.Runtime.DesignPatterns.MVC.View, TLP.UdonUtils.Runtime.DesignPatterns.MVC.Controller, TLP.UdonUtils.Runtime.Events.UdonEvent)
+        JUMP, 0x00003DEC
+        PUSH, __15__intnlparam
+        JUMP_IF_FALSE, 0x00003730
+        PUSH, __const_SystemBoolean_1
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_110
+        PUSH, __4__intnlparam
+        PUSH, __intnl_UnityEngineTransform_6
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_6
+        PUSH, __1__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.Common.UdonCommon.GetPathInScene(UnityEngine.Transform)
+        JUMP, 0x000032EC
+        PUSH, __const_SystemString_79
+        PUSH, __0__intnlparam
+        PUSH, __intnl_SystemString_31
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __4__intnlparam
+        PUSH, __intnl_UnityEngineObject_7
+        COPY
+        PUSH, __intnl_SystemString_31
+        PUSH, __intnl_UnityEngineObject_7
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __const_SystemBoolean_0
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.Common.UdonCommon.GetScriptPathInScene(UdonSharp.UdonSharpBehaviour)
+# 
+        PUSH, __6__intnlparam
+        PUSH, __intnl_SystemBoolean_42
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_42
+        JUMP_IF_FALSE, 0x00003824
+        JUMP, 0x0000384C
+        PUSH, __const_SystemString_74
+        PUSH, __5__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_111
+        PUSH, __6__intnlparam
+        PUSH, __intnl_UnityEngineTransform_7
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_7
+        PUSH, __1__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.Common.UdonCommon.GetPathInScene(UnityEngine.Transform)
+        JUMP, 0x000032EC
+        PUSH, __gintnl_SystemUInt32_112
+        PUSH, __gintnl_SystemUInt32_113
+        PUSH, __6__intnlparam
+        PUSH, __13__intnlparam
+        COPY
+# Cow dirty
+        PUSH, __0__intnlparam
+        PUSH, __intnl_SystemString_32
+        COPY
+# Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+        JUMP, 0x00003D4C
+        PUSH, __12__intnlparam
+        PUSH, __29__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.Common.UdonCommon.UdonTypeNameShort(string)
+        JUMP, 0x000045CC
+        PUSH, __const_SystemString_80
+        PUSH, __intnl_SystemString_32
+        PUSH, __28__intnlparam
+        PUSH, __5__intnlparam
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.Logger.TlpLogger.ExpectedGameObjectName()
+# 
+        PUSH, __const_SystemString_81
+        PUSH, __7__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.MissingLoggerLogged()
+# 
+        PUSH, __lcl_localPlayer_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_localPlayer_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __intnl_SystemBoolean_43
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_43
+        JUMP_IF_FALSE, 0x000039b0
+        JUMP, 0x000039D8
+        PUSH, __const_SystemBoolean_0
+        PUSH, __8__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_localPlayer_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_SystemString_82
+        PUSH, __intnl_SystemString_33
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerTag__SystemString__SystemString"
+        PUSH, __intnl_SystemString_33
+        PUSH, __const_SystemString_83
+        PUSH, __8__intnlparam
+        EXTERN, "SystemString.__op_Equality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.GloballyRememberMissingLoggerLogged()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_7
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_7
+        PUSH, __const_SystemString_82
+        PUSH, __const_SystemString_83
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetPlayerTag__SystemString_SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponent<TLP.UdonUtils.Runtime.Logger.TlpLogger>(UnityEngine.Component)
+# 
+        PUSH, __10__intnlparam
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponentArray_0
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_0
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        COPY
+        PUSH, __const_SystemInt64_0
+        PUSH, __lcl_targetID_SystemInt64_0
+        COPY
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_6
+        COPY
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_44
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_44
+        JUMP_IF_FALSE, 0x00003cb0
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_84
+        PUSH, __intnl_SystemType_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_1
+        COPY
+        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_1
+        PUSH, __intnl_SystemBoolean_45
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_45
+        JUMP_IF_FALSE, 0x00003bb4
+        JUMP, 0x00003C88
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_84
+        PUSH, __lcl_idValue_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_0
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_46
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_46
+        JUMP_IF_FALSE, 0x00003c3c
+        PUSH, __lcl_idValue_SystemObject_0
+        PUSH, __intnl_SystemInt64_0
+        EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
+        PUSH, __intnl_SystemInt64_0
+        PUSH, __lcl_targetID_SystemInt64_0
+        PUSH, __intnl_SystemBoolean_46
+        EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_46
+        JUMP_IF_FALSE, 0x00003c88
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineComponent_0
+        COPY
+        PUSH, __intnl_UnityEngineComponent_0
+        PUSH, __9__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00003AF8
+        PUSH, __const_SystemObject_0
+        PUSH, __9__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnEvent(string)
+# 
+        PUSH, __gintnl_SystemUInt32_114
+        PUSH, __const_SystemString_85
+        PUSH, __11__intnlparam
+        PUSH, __intnl_SystemString_34
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_34
+        PUSH, __6_message__param
+        COPY
+# Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.Error(string)
+        JUMP, 0x00001384
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+# 
+        PUSH, __13__intnlparam
+        PUSH, __const_SystemString_86
+        PUSH, __intnl_SystemObject_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_7
+        PUSH, __12__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.InitializeInternal()
+# 
+        PUSH, __const_SystemBoolean_1
+        PUSH, __14__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.InitializeMvc(TLP.UdonUtils.Runtime.DesignPatterns.MVC.Model, TLP.UdonUtils.Runtime.DesignPatterns.MVC.View, TLP.UdonUtils.Runtime.DesignPatterns.MVC.Controller, TLP.UdonUtils.Runtime.Events.UdonEvent)
+# 
+        PUSH, __16__intnlparam
+        PUSH, __intnl_SystemBoolean_47
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_47
+        JUMP_IF_FALSE, 0x00003e1c
+        JUMP, 0x00003ED8
+        PUSH, __gintnl_SystemUInt32_115
+        PUSH, __const_SystemString_43
+        PUSH, __const_SystemString_44
+        PUSH, __intnl_SystemString_35
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_2
+        COPY
+        PUSH, __16__intnlparam
+        PUSH, __intnl_UnityEngineObject_8
+        COPY
+        PUSH, __intnl_SystemString_35
+        PUSH, __30__intnlparam
+        COPY
+        PUSH, __intnl_SystemType_2
+        PUSH, __31__intnlparam
+        COPY
+        PUSH, __intnl_UnityEngineObject_8
+        PUSH, __32__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.Logger.TlpLogger.StaticError(string, System.Type, UnityEngine.Object)
+        JUMP, 0x00004728
+        PUSH, __const_SystemBoolean_0
+        PUSH, __15__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __17__intnlparam
+        PUSH, __intnl_SystemBoolean_48
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_48
+        JUMP_IF_FALSE, 0x00003f08
+        JUMP, 0x00003FC4
+        PUSH, __gintnl_SystemUInt32_116
+        PUSH, __const_SystemString_43
+        PUSH, __const_SystemString_87
+        PUSH, __intnl_SystemString_35
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_2
+        COPY
+        PUSH, __17__intnlparam
+        PUSH, __intnl_UnityEngineObject_8
+        COPY
+        PUSH, __intnl_SystemString_35
+        PUSH, __30__intnlparam
+        COPY
+        PUSH, __intnl_SystemType_2
+        PUSH, __31__intnlparam
+        COPY
+        PUSH, __intnl_UnityEngineObject_8
+        PUSH, __32__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.Logger.TlpLogger.StaticError(string, System.Type, UnityEngine.Object)
+        JUMP, 0x00004728
+        PUSH, __const_SystemBoolean_0
+        PUSH, __15__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __18__intnlparam
+        PUSH, __intnl_SystemBoolean_49
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_49
+        JUMP_IF_FALSE, 0x00003ff4
+        JUMP, 0x0000404C
+        PUSH, __const_SystemString_43
+        PUSH, __const_SystemString_88
+        PUSH, __intnl_SystemString_35
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_35
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __const_SystemBoolean_0
+        PUSH, __15__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __19__intnlparam
+        PUSH, __intnl_SystemBoolean_50
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_50
+        JUMP_IF_FALSE, 0x0000407c
+        JUMP, 0x00004138
+        PUSH, __gintnl_SystemUInt32_117
+        PUSH, __const_SystemString_43
+        PUSH, __const_SystemString_89
+        PUSH, __intnl_SystemString_35
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_2
+        COPY
+        PUSH, __19__intnlparam
+        PUSH, __intnl_UnityEngineObject_8
+        COPY
+        PUSH, __intnl_SystemString_35
+        PUSH, __30__intnlparam
+        COPY
+        PUSH, __intnl_SystemType_2
+        PUSH, __31__intnlparam
+        COPY
+        PUSH, __intnl_UnityEngineObject_8
+        PUSH, __32__intnlparam
+        COPY
+# Calling TLP.UdonUtils.Runtime.Logger.TlpLogger.StaticError(string, System.Type, UnityEngine.Object)
+        JUMP, 0x00004728
+        PUSH, __const_SystemBoolean_0
+        PUSH, __15__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# Cow dirty
+        PUSH, __19__intnlparam
+        PUSH, __intnl_VRCUdonUdonBehaviour_15
+        COPY
+        PUSH, __16__intnlparam
+        PUSH, __const_SystemString_90
+        PUSH, __19__intnlparam
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __16__intnlparam
+        PUSH, __const_SystemString_91
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __16__intnlparam
+        PUSH, __const_SystemString_92
+        PUSH, __intnl_SystemObject_8
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_8
+        PUSH, __intnl_SystemBoolean_53
+        COPY
+        PUSH, __intnl_SystemBoolean_53
+        PUSH, __intnl_SystemBoolean_52
+        COPY
+        PUSH, __intnl_SystemBoolean_52
+        JUMP_IF_FALSE, 0x000042a4
+# Cow dirty
+        PUSH, __16__intnlparam
+        PUSH, __intnl_VRCUdonUdonBehaviour_16
+        COPY
+# Cow dirty
+        PUSH, __17__intnlparam
+        PUSH, __intnl_VRCUdonUdonBehaviour_17
+        COPY
+        PUSH, __18__intnlparam
+        PUSH, __const_SystemString_93
+        PUSH, __16__intnlparam
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __18__intnlparam
+        PUSH, __const_SystemString_94
+        PUSH, __17__intnlparam
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __18__intnlparam
+        PUSH, __const_SystemString_91
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __18__intnlparam
+        PUSH, __const_SystemString_92
+        PUSH, __intnl_SystemObject_9
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_9
+        PUSH, __intnl_SystemBoolean_54
+        COPY
+        PUSH, __intnl_SystemBoolean_54
+        PUSH, __intnl_SystemBoolean_52
+        COPY
+        PUSH, __intnl_SystemBoolean_52
+        PUSH, __intnl_SystemBoolean_51
+        COPY
+        PUSH, __intnl_SystemBoolean_51
+        JUMP_IF_FALSE, 0x00004390
+# Cow dirty
+        PUSH, __16__intnlparam
+        PUSH, __intnl_VRCUdonUdonBehaviour_18
+        COPY
+# Cow dirty
+        PUSH, __18__intnlparam
+        PUSH, __intnl_VRCUdonUdonBehaviour_19
+        COPY
+        PUSH, __17__intnlparam
+        PUSH, __const_SystemString_95
+        PUSH, __18__intnlparam
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __17__intnlparam
+        PUSH, __const_SystemString_93
+        PUSH, __16__intnlparam
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __17__intnlparam
+        PUSH, __const_SystemString_91
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __17__intnlparam
+        PUSH, __const_SystemString_92
+        PUSH, __intnl_SystemObject_10
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_10
+        PUSH, __intnl_SystemBoolean_55
+        COPY
+        PUSH, __intnl_SystemBoolean_55
+        PUSH, __intnl_SystemBoolean_51
+        COPY
+        PUSH, __intnl_SystemBoolean_51
+        PUSH, __15__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.DesignPatterns.MVC.Model>(UnityEngine.Component)
+# 
+        PUSH, __gintnl_SystemUInt32_118
+        PUSH, __21__intnlparam
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponentArray_1
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_1
+        PUSH, __34__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.DesignPatterns.MVC.Model>(UnityEngine.Component[])
+        JUMP, 0x00004784
+        PUSH, __33__intnlparam
+        PUSH, __20__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.DesignPatterns.MVC.View>(UnityEngine.Component)
+# 
+        PUSH, __gintnl_SystemUInt32_119
+        PUSH, __23__intnlparam
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponentArray_2
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_2
+        PUSH, __36__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.DesignPatterns.MVC.View>(UnityEngine.Component[])
+        JUMP, 0x000049E8
+        PUSH, __35__intnlparam
+        PUSH, __22__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.DesignPatterns.MVC.Controller>(UnityEngine.Component)
+# 
+        PUSH, __gintnl_SystemUInt32_120
+        PUSH, __25__intnlparam
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponentArray_3
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_3
+        PUSH, __38__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.DesignPatterns.MVC.Controller>(UnityEngine.Component[])
+        JUMP, 0x00004C4C
+        PUSH, __37__intnlparam
+        PUSH, __24__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.Events.UdonEvent>(UnityEngine.Component)
+# 
+        PUSH, __gintnl_SystemUInt32_121
+        PUSH, __27__intnlparam
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponentArray_4
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_4
+        PUSH, __40__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.Events.UdonEvent>(UnityEngine.Component[])
+        JUMP, 0x00004EB0
+        PUSH, __39__intnlparam
+        PUSH, __26__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.Common.UdonCommon.UdonTypeNameShort(string)
+# 
+        PUSH, __29__intnlparam
+        PUSH, __intnl_SystemBoolean_56
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_56
+        JUMP_IF_FALSE, 0x0000461c
+        PUSH, __const_SystemString_74
+        PUSH, __28__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __29__intnlparam
+        PUSH, __const_SystemChar_0
+        PUSH, __const_SystemStringSplitOptions_0
+        PUSH, __lcl_productTypeName_SystemStringArray_0
+        EXTERN, "SystemString.__Split__SystemChar_SystemStringSplitOptions__SystemStringArray"
+        PUSH, __lcl_productTypeName_SystemStringArray_0
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_57
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_57
+        JUMP_IF_FALSE, 0x000046ec
+        PUSH, __lcl_productTypeName_SystemStringArray_0
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_9
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_productTypeName_SystemStringArray_0
+        PUSH, __intnl_SystemInt32_9
+        PUSH, __28__intnlparam
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        JUMP, 0x00004700
+        PUSH, __29__intnlparam
+        PUSH, __28__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# TLP.UdonUtils.Runtime.Logger.TlpLogger.StaticError(string, System.Type, UnityEngine.Object)
+# 
+        PUSH, __const_SystemString_96
+        PUSH, __const_SystemString_97
+        PUSH, __31__intnlparam
+        PUSH, __30__intnlparam
+        PUSH, __intnl_SystemString_36
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_36
+        PUSH, __32__intnlparam
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.DesignPatterns.MVC.Model>(UnityEngine.Component[])
+# 
+        PUSH, __const_SystemInt64_1
+        PUSH, __lcl_targetID_SystemInt64_1
+        COPY
+        PUSH, __34__intnlparam
+        PUSH, __intnl_UnityEngineComponentArray_5
+        COPY
+        PUSH, __intnl_UnityEngineComponentArray_5
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_11
+        COPY
+        PUSH, __intnl_SystemInt32_11
+        PUSH, __intnl_SystemInt32_10
+        PUSH, __intnl_SystemBoolean_58
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_58
+        JUMP_IF_FALSE, 0x000049ac
+        PUSH, __intnl_UnityEngineComponentArray_5
+        PUSH, __intnl_SystemInt32_11
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_98
+        PUSH, __intnl_SystemType_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_4
+        COPY
+        PUSH, __intnl_SystemType_3
+        PUSH, __intnl_SystemType_4
+        PUSH, __intnl_SystemBoolean_59
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_59
+        JUMP_IF_FALSE, 0x00004894
+        JUMP, 0x00004984
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_98
+        PUSH, __lcl_idValue_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_1
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_60
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_60
+        JUMP_IF_FALSE, 0x00004984
+        PUSH, __lcl_idValue_SystemObject_1
+        PUSH, __intnl_SystemArray_0
+        COPY
+        PUSH, __intnl_SystemArray_0
+        PUSH, __lcl_targetID_SystemInt64_1
+        PUSH, __intnl_SystemInt32_12
+        EXTERN, "SystemArray.__IndexOf__SystemArray_SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_12
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_61
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_61
+        JUMP_IF_FALSE, 0x00004984
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __intnl_UnityEngineComponent_1
+        COPY
+        PUSH, __intnl_UnityEngineComponent_1
+        PUSH, __33__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_11
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_11
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000047D8
+        PUSH, __const_SystemObject_0
+        PUSH, __33__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.DesignPatterns.MVC.View>(UnityEngine.Component[])
+# 
+        PUSH, __const_SystemInt64_2
+        PUSH, __lcl_targetID_SystemInt64_2
+        COPY
+        PUSH, __36__intnlparam
+        PUSH, __intnl_UnityEngineComponentArray_6
+        COPY
+        PUSH, __intnl_UnityEngineComponentArray_6
+        PUSH, __intnl_SystemInt32_13
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_14
+        COPY
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __intnl_SystemInt32_13
+        PUSH, __intnl_SystemBoolean_62
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_62
+        JUMP_IF_FALSE, 0x00004c10
+        PUSH, __intnl_UnityEngineComponentArray_6
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_2
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_98
+        PUSH, __intnl_SystemType_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_6
+        COPY
+        PUSH, __intnl_SystemType_5
+        PUSH, __intnl_SystemType_6
+        PUSH, __intnl_SystemBoolean_63
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_63
+        JUMP_IF_FALSE, 0x00004af8
+        JUMP, 0x00004BE8
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_98
+        PUSH, __lcl_idValue_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_2
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_64
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_64
+        JUMP_IF_FALSE, 0x00004be8
+        PUSH, __lcl_idValue_SystemObject_2
+        PUSH, __intnl_SystemArray_1
+        COPY
+        PUSH, __intnl_SystemArray_1
+        PUSH, __lcl_targetID_SystemInt64_2
+        PUSH, __intnl_SystemInt32_15
+        EXTERN, "SystemArray.__IndexOf__SystemArray_SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_65
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_65
+        JUMP_IF_FALSE, 0x00004be8
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_2
+        PUSH, __intnl_UnityEngineComponent_2
+        COPY
+        PUSH, __intnl_UnityEngineComponent_2
+        PUSH, __35__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_14
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00004A3C
+        PUSH, __const_SystemObject_0
+        PUSH, __35__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.DesignPatterns.MVC.Controller>(UnityEngine.Component[])
+# 
+        PUSH, __const_SystemInt64_3
+        PUSH, __lcl_targetID_SystemInt64_3
+        COPY
+        PUSH, __38__intnlparam
+        PUSH, __intnl_UnityEngineComponentArray_7
+        COPY
+        PUSH, __intnl_UnityEngineComponentArray_7
+        PUSH, __intnl_SystemInt32_16
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_17
+        COPY
+        PUSH, __intnl_SystemInt32_17
+        PUSH, __intnl_SystemInt32_16
+        PUSH, __intnl_SystemBoolean_66
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_66
+        JUMP_IF_FALSE, 0x00004e74
+        PUSH, __intnl_UnityEngineComponentArray_7
+        PUSH, __intnl_SystemInt32_17
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_3
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_3
+        PUSH, __const_SystemString_98
+        PUSH, __intnl_SystemType_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_8
+        COPY
+        PUSH, __intnl_SystemType_7
+        PUSH, __intnl_SystemType_8
+        PUSH, __intnl_SystemBoolean_67
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_67
+        JUMP_IF_FALSE, 0x00004d5c
+        JUMP, 0x00004E4C
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_3
+        PUSH, __const_SystemString_98
+        PUSH, __lcl_idValue_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_3
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_68
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_68
+        JUMP_IF_FALSE, 0x00004e4c
+        PUSH, __lcl_idValue_SystemObject_3
+        PUSH, __intnl_SystemArray_2
+        COPY
+        PUSH, __intnl_SystemArray_2
+        PUSH, __lcl_targetID_SystemInt64_3
+        PUSH, __intnl_SystemInt32_18
+        EXTERN, "SystemArray.__IndexOf__SystemArray_SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_18
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_69
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_69
+        JUMP_IF_FALSE, 0x00004e4c
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_3
+        PUSH, __intnl_UnityEngineComponent_3
+        COPY
+        PUSH, __intnl_UnityEngineComponent_3
+        PUSH, __37__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_17
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_17
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00004CA0
+        PUSH, __const_SystemObject_0
+        PUSH, __37__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.Events.UdonEvent>(UnityEngine.Component[])
+# 
+        PUSH, __const_SystemInt64_4
+        PUSH, __lcl_targetID_SystemInt64_4
+        COPY
+        PUSH, __40__intnlparam
+        PUSH, __intnl_UnityEngineComponentArray_8
+        COPY
+        PUSH, __intnl_UnityEngineComponentArray_8
+        PUSH, __intnl_SystemInt32_19
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_20
+        COPY
+        PUSH, __intnl_SystemInt32_20
+        PUSH, __intnl_SystemInt32_19
+        PUSH, __intnl_SystemBoolean_70
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_70
+        JUMP_IF_FALSE, 0x000050d8
+        PUSH, __intnl_UnityEngineComponentArray_8
+        PUSH, __intnl_SystemInt32_20
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_4
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_4
+        PUSH, __const_SystemString_98
+        PUSH, __intnl_SystemType_9
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_10
+        COPY
+        PUSH, __intnl_SystemType_9
+        PUSH, __intnl_SystemType_10
+        PUSH, __intnl_SystemBoolean_71
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_71
+        JUMP_IF_FALSE, 0x00004fc0
+        JUMP, 0x000050B0
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_4
+        PUSH, __const_SystemString_98
+        PUSH, __lcl_idValue_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_4
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_72
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_72
+        JUMP_IF_FALSE, 0x000050b0
+        PUSH, __lcl_idValue_SystemObject_4
+        PUSH, __intnl_SystemArray_3
+        COPY
+        PUSH, __intnl_SystemArray_3
+        PUSH, __lcl_targetID_SystemInt64_4
+        PUSH, __intnl_SystemInt32_21
+        EXTERN, "SystemArray.__IndexOf__SystemArray_SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_21
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_73
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_73
+        JUMP_IF_FALSE, 0x000050b0
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_4
+        PUSH, __intnl_UnityEngineComponent_4
+        COPY
+        PUSH, __intnl_UnityEngineComponent_4
+        PUSH, __39__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_20
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_20
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00004F04
+        PUSH, __const_SystemObject_0
+        PUSH, __39__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

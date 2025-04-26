@@ -1,0 +1,177 @@
+.data_start
+    .export SpinBottle
+    .sync SpinBottle, none
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    SpinBottle: %SystemByte, null
+    root: %UnityEngineTransform, null
+    playerLocal: %VRCSDKBaseVRCPlayerApi, null
+    objectSync: %VRCSDK3ComponentsVRCObjectSync, null
+    anim: %UnityEngineAnimator, null
+    hashSpin: %SystemInt32, null
+    __0_get_SpinBottleCallback__ret: %SystemByte, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __0_value__param: %SystemByte, null
+    _old_SpinBottle: %SystemByte, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemType_0: %SystemType, null
+    __const_SystemType_1: %SystemType, null
+    __const_SystemString_0: %SystemString, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __const_SystemByte_0: %SystemByte, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __const_SystemByte_1: %SystemByte, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemByte_0: %SystemByte, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+.data_end
+.code_start
+    .export get_SpinBottleCallback
+    get_SpinBottleCallback:
+        PUSH, __const_SystemUInt32_0
+# 
+# VowganVR.SpinTheBottle.SpinBottleCallback.get
+# 
+        PUSH, SpinBottle
+        PUSH, __0_get_SpinBottleCallback__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onVarChange_SpinBottle
+    _onVarChange_SpinBottle:
+        PUSH, SpinBottle
+        PUSH, __0_value__param
+        COPY
+        PUSH, _old_SpinBottle
+        PUSH, SpinBottle
+        COPY
+    .export __0_set_SpinBottleCallback
+    __0_set_SpinBottleCallback:
+        PUSH, __const_SystemUInt32_0
+# 
+# VowganVR.SpinTheBottle.SpinBottleCallback.set
+# 
+        PUSH, __0_value__param
+        PUSH, SpinBottle
+        COPY
+        PUSH, anim
+        PUSH, hashSpin
+        EXTERN, "UnityEngineAnimator.__SetTrigger__SystemInt32__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# VowganVR.SpinTheBottle.Start()
+# 
+        PUSH, playerLocal
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, root
+        EXTERN, "UnityEngineTransform.__get_parent__UnityEngineTransform"
+        PUSH, root
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_0
+        PUSH, objectSync
+        COPY
+        PUSH, root
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __const_SystemType_1
+        PUSH, anim
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __const_SystemString_0
+        PUSH, hashSpin
+        EXTERN, "UnityEngineAnimator.__StringToHash__SystemString__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _interact
+    _interact:
+        PUSH, __const_SystemUInt32_0
+# 
+# VowganVR.SpinTheBottle.Interact()
+# 
+        PUSH, playerLocal
+        PUSH, __this_UnityEngineGameObject_0
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, root
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, playerLocal
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineRandom.__Range__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        PUSH, root
+        PUSH, __intnl_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineTransform.__set_rotation__UnityEngineQuaternion__SystemVoid"
+        PUSH, objectSync
+        EXTERN, "VRCSDK3ComponentsVRCObjectSync.__FlagDiscontinuity__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_1
+# Calling VowganVR.SpinTheBottle.SpinBottleCallback.get
+        JUMP, 0x00000008
+        PUSH, __0_get_SpinBottleCallback__ret
+        PUSH, __const_SystemByte_0
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemByte.__op_Addition__SystemByte_SystemByte__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemByte_0
+        EXTERN, "SystemConvert.__ToByte__SystemInt32__SystemByte"
+        PUSH, __intnl_SystemByte_0
+        PUSH, __0_value__param
+        COPY
+# Calling VowganVR.SpinTheBottle.SpinBottleCallback.set
+        JUMP, 0x00000060
+        PUSH, __gintnl_SystemUInt32_2
+# Calling VowganVR.SpinTheBottle.SpinBottleCallback.get
+        JUMP, 0x00000008
+        PUSH, __0_get_SpinBottleCallback__ret
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000310
+        PUSH, __gintnl_SystemUInt32_3
+        PUSH, __const_SystemByte_1
+        PUSH, __0_value__param
+        COPY
+# Calling VowganVR.SpinTheBottle.SpinBottleCallback.set
+        JUMP, 0x00000060
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

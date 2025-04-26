@@ -1,0 +1,1120 @@
+.data_start
+    .export core
+    .export controller
+    .export _canvas1
+    .export _lockOn
+    .export _lockOnButton
+    .export _lockOff
+    .export _lockOffButton
+    .export _videoButton
+    .export _liveButton
+    .export _canvas2
+    .export _address
+    .export _addressInput
+    .export _message
+    .export _messageText
+    .export _close
+    .export _closeButton
+    .sync _on, none
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __refl_typeids: %SystemInt64Array, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    core: %VRCUdonUdonBehaviour, null
+    controller: %VRCUdonUdonBehaviour, null
+    _canvas1: %UnityEngineGameObject, null
+    _lockOn: %UnityEngineGameObject, null
+    _lockOnButton: %UnityEngineUIButton, null
+    _lockOff: %UnityEngineGameObject, null
+    _lockOffButton: %UnityEngineUIButton, null
+    _videoButton: %UnityEngineUIButton, null
+    _liveButton: %UnityEngineUIButton, null
+    _canvas2: %UnityEngineGameObject, null
+    _address: %UnityEngineGameObject, null
+    _addressInput: %VRCSDK3ComponentsVRCUrlInputField, null
+    _message: %UnityEngineGameObject, null
+    _messageText: %UnityEngineUIText, null
+    _close: %UnityEngineGameObject, null
+    _closeButton: %UnityEngineUIButton, null
+    _localPlayer: %VRCSDKBaseVRCPlayerApi, null
+    _local: %SystemBoolean, null
+    _mode: %SystemUInt32, null
+    _on: %SystemBoolean, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    onVideoErrorVideoError: %VRCSDK3ComponentsVideoVideoError, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __gintnl_SystemUInt32_9: %SystemUInt32, null
+    __const_SystemString_0: %SystemString, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemString_2: %SystemString, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_3: %SystemString, null
+    __const_SystemString_4: %SystemString, null
+    onPlayerJoinedPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_10: %SystemUInt32, null
+    onPlayerLeftPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_11: %SystemUInt32, null
+    __0_get_isOwner__ret: %SystemBoolean, null
+    __gintnl_SystemUInt32_12: %SystemUInt32, null
+    __gintnl_SystemUInt32_13: %SystemUInt32, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __const_SystemString_5: %SystemString, null
+    __const_SystemString_6: %SystemString, null
+    __const_SystemString_7: %SystemString, null
+    __const_SystemString_8: %SystemString, null
+    __const_SystemString_9: %SystemString, null
+    __const_SystemString_10: %SystemString, null
+    __const_SystemString_11: %SystemString, null
+    __const_SystemString_12: %SystemString, null
+    __const_SystemString_13: %SystemString, null
+    __const_SystemString_14: %SystemString, null
+    __gintnl_SystemUInt32_14: %SystemUInt32, null
+    __gintnl_SystemUInt32_15: %SystemUInt32, null
+    __gintnl_SystemUInt32_16: %SystemUInt32, null
+    __gintnl_SystemUInt32_17: %SystemUInt32, null
+    __const_SystemString_15: %SystemString, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemString_16: %SystemString, null
+    __const_SystemString_17: %SystemString, null
+    __0_get_on__ret: %SystemBoolean, null
+    __0_value__param: %SystemBoolean, null
+    _old__on: %SystemBoolean, null
+    __gintnl_SystemUInt32_18: %SystemUInt32, null
+    __gintnl_SystemUInt32_19: %SystemUInt32, null
+    __const_SystemString_18: %SystemString, null
+    __gintnl_SystemUInt32_20: %SystemUInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemString_19: %SystemString, null
+    __const_SystemString_20: %SystemString, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_21: %SystemUInt32, null
+    __const_SystemString_21: %SystemString, null
+    __gintnl_SystemUInt32_22: %SystemUInt32, null
+    __const_SystemString_22: %SystemString, null
+    __const_SystemString_23: %SystemString, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_23: %SystemUInt32, null
+    __const_SystemString_24: %SystemString, null
+    __const_SystemString_25: %SystemString, null
+    __const_SystemString_26: %SystemString, null
+    __const_SystemString_27: %SystemString, null
+    __const_SystemString_28: %SystemString, null
+    __gintnl_SystemUInt32_24: %SystemUInt32, null
+    __const_SystemString_29: %SystemString, null
+    __gintnl_SystemUInt32_25: %SystemUInt32, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_26: %SystemUInt32, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __lcl_locked_SystemBoolean_0: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __lcl_master_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemObject_1: %SystemObject, null
+    __lcl_privilege_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __lcl_flag1_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_SystemObject_2: %SystemObject, null
+    __intnl_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_SystemObject_3: %SystemObject, null
+    __intnl_VRCUdonUdonBehaviour_5: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_SystemObject_4: %SystemObject, null
+    __lcl_flag2_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __lcl_nlocked_SystemBoolean_0: %SystemBoolean, null
+    __lcl_flag3_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __lcl_nisOwner_SystemBoolean_0: %SystemBoolean, null
+    __lcl_flag4_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+    __intnl_SystemBoolean_17: %SystemBoolean, null
+    __intnl_SystemBoolean_18: %SystemBoolean, null
+    __intnl_SystemBoolean_19: %SystemBoolean, null
+    __intnl_SystemBoolean_20: %SystemBoolean, null
+    __intnl_SystemBoolean_21: %SystemBoolean, null
+    __intnl_SystemBoolean_22: %SystemBoolean, null
+    __intnl_SystemBoolean_23: %SystemBoolean, null
+    __intnl_SystemBoolean_24: %SystemBoolean, null
+    __intnl_SystemBoolean_25: %SystemBoolean, null
+    __intnl_SystemBoolean_26: %SystemBoolean, null
+    __intnl_SystemBoolean_27: %SystemBoolean, null
+    __intnl_SystemBoolean_28: %SystemBoolean, null
+    __intnl_SystemBoolean_29: %SystemBoolean, null
+    __intnl_SystemBoolean_30: %SystemBoolean, null
+    __intnl_SystemBoolean_31: %SystemBoolean, null
+    __intnl_SystemBoolean_32: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_SystemBoolean_33: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __intnl_SystemBoolean_34: %SystemBoolean, null
+    __intnl_SystemBoolean_35: %SystemBoolean, null
+    __lcl_player_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_36: %SystemBoolean, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_UnityEngineUIText_0: %UnityEngineUIText, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_SystemBoolean_37: %SystemBoolean, null
+    __intnl_SystemBoolean_38: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_6: %VRCUdonUdonBehaviour, null
+    __intnl_VRCUdonUdonBehaviour_7: %VRCUdonUdonBehaviour, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_VRCUdonUdonBehaviour_8: %VRCUdonUdonBehaviour, null
+    __intnl_SystemUInt32_0: %SystemUInt32, null
+    __intnl_SystemObject_5: %SystemObject, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_VRCUdonUdonBehaviour_9: %VRCUdonUdonBehaviour, null
+    __intnl_SystemUInt32_1: %SystemUInt32, null
+    __intnl_SystemObject_6: %SystemObject, null
+    __intnl_VRCSDKBaseVRCUrl_0: %VRCSDKBaseVRCUrl, null
+    __intnl_SystemString_5: %SystemString, null
+    __intnl_SystemString_6: %SystemString, null
+    __intnl_VRCUdonUdonBehaviour_10: %VRCUdonUdonBehaviour, null
+    __intnl_VRCSDKBaseVRCUrl_1: %VRCSDKBaseVRCUrl, null
+    __intnl_VRCSDK3ComponentsVRCUrlInputField_0: %VRCSDK3ComponentsVRCUrlInputField, null
+    __intnl_SystemUInt32_2: %SystemUInt32, null
+    __intnl_VRCSDKBaseVRCUrl_2: %VRCSDKBaseVRCUrl, null
+    __intnl_SystemString_7: %SystemString, null
+.data_end
+.code_start
+    .export _onVideoEnd
+    _onVideoEnd:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnVideoEnd()
+# 
+        PUSH, __gintnl_SystemUInt32_0
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onVideoError
+    _onVideoError:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnVideoError(VRC.SDK3.Components.Video.VideoError)
+# 
+        PUSH, __gintnl_SystemUInt32_1
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onVideoLoop
+    _onVideoLoop:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnVideoLoop()
+# 
+        PUSH, __gintnl_SystemUInt32_2
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onVideoReady
+    _onVideoReady:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnVideoReady()
+# 
+        PUSH, __gintnl_SystemUInt32_3
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onVideoStart
+    _onVideoStart:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnVideoStart()
+# 
+        PUSH, __gintnl_SystemUInt32_4
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnPlayerPlay
+    OnPlayerPlay:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnPlayerPlay()
+# 
+        PUSH, __gintnl_SystemUInt32_5
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnPlayerPause
+    OnPlayerPause:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnPlayerPause()
+# 
+        PUSH, __gintnl_SystemUInt32_6
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnPlayerStop
+    OnPlayerStop:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnPlayerStop()
+# 
+        PUSH, __gintnl_SystemUInt32_7
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeURL
+    OnChangeURL:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnChangeURL()
+# 
+        PUSH, __gintnl_SystemUInt32_8
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeLoop
+    OnChangeLoop:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.VideoCoreEventListener.OnChangeLoop()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeLive
+    OnChangeLive:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.VideoCoreEventListener.OnChangeLive()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeSpeed
+    OnChangeSpeed:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.VideoCoreEventListener.OnChangeSpeed()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeMaximumResolution
+    OnChangeMaximumResolution:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.VideoCoreEventListener.OnChangeMaximumResolution()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeMessage
+    OnChangeMessage:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.VideoCoreEventListener.OnChangeMessage()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeLock
+    OnChangeLock:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnChangeLock()
+# 
+        PUSH, __gintnl_SystemUInt32_9
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeMute
+    OnChangeMute:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.VideoCoreEventListener.OnChangeMute()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeVolume
+    OnChangeVolume:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.VideoCoreEventListener.OnChangeVolume()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnChangeBrightness
+    OnChangeBrightness:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.VideoCoreEventListener.OnChangeBrightness()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.Start()
+# 
+        PUSH, __const_SystemString_0
+        PUSH, __const_SystemString_1
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, core
+        PUSH, __const_SystemString_3
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _localPlayer
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerJoined
+    _onPlayerJoined:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __gintnl_SystemUInt32_10
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerLeft
+    _onPlayerLeft:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnPlayerLeft(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __gintnl_SystemUInt32_11
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.isOwner.get
+        JUMP, 0x00000490
+        PUSH, __0_get_isOwner__ret
+        PUSH, __intnl_SystemBoolean_1
+        COPY
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000003c4
+        PUSH, _on
+        PUSH, __intnl_SystemBoolean_1
+        COPY
+        PUSH, __intnl_SystemBoolean_1
+        PUSH, __intnl_SystemBoolean_0
+        COPY
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000400
+        PUSH, _local
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000420
+        PUSH, __gintnl_SystemUInt32_12
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.Close()
+        JUMP, 0x00001424
+        PUSH, __gintnl_SystemUInt32_13
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export TakeOwnership
+    TakeOwnership:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.TakeOwnership()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __this_UnityEngineGameObject_0
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_isOwner
+    get_isOwner:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.isOwner.get
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __0_get_isOwner__ret
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+# 
+        PUSH, core
+# Cow dirty
+        PUSH, core
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, __const_SystemString_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_6
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_SystemBoolean_2
+        COPY
+        PUSH, __intnl_SystemBoolean_2
+        PUSH, __lcl_locked_SystemBoolean_0
+        COPY
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "VRCSDKBaseNetworking.__get_IsMaster__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000560
+        JUMP, 0x00000610
+        PUSH, core
+# Cow dirty
+        PUSH, core
+        PUSH, __intnl_VRCUdonUdonBehaviour_2
+        COPY
+        PUSH, __const_SystemString_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_8
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_SystemBoolean_5
+        COPY
+        PUSH, __intnl_SystemBoolean_5
+        PUSH, __intnl_SystemBoolean_4
+        COPY
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000005fc
+        PUSH, _localPlayer
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isInstanceOwner__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        PUSH, __intnl_SystemBoolean_3
+        COPY
+        PUSH, __intnl_SystemBoolean_3
+        PUSH, __lcl_master_SystemBoolean_0
+        COPY
+        PUSH, __lcl_locked_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_7
+        COPY
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x0000065c
+        PUSH, __lcl_master_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_7
+        COPY
+        PUSH, __intnl_SystemBoolean_7
+        PUSH, __intnl_SystemBoolean_6
+        COPY
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000688
+        JUMP, 0x000006A0
+        PUSH, __lcl_locked_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        PUSH, __lcl_privilege_SystemBoolean_0
+        COPY
+        PUSH, core
+# Cow dirty
+        PUSH, core
+        PUSH, __intnl_VRCUdonUdonBehaviour_3
+        COPY
+        PUSH, __const_SystemString_9
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_10
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_SystemBoolean_10
+        COPY
+        PUSH, __intnl_SystemBoolean_10
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x000007b4
+        PUSH, core
+# Cow dirty
+        PUSH, core
+        PUSH, __intnl_VRCUdonUdonBehaviour_4
+        COPY
+        PUSH, __const_SystemString_11
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_12
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemBoolean_11
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        PUSH, __intnl_SystemBoolean_8
+        COPY
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000850
+        PUSH, core
+# Cow dirty
+        PUSH, core
+        PUSH, __intnl_VRCUdonUdonBehaviour_5
+        COPY
+        PUSH, __const_SystemString_13
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_14
+        PUSH, __intnl_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_4
+        PUSH, __intnl_SystemBoolean_12
+        COPY
+        PUSH, __intnl_SystemBoolean_12
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        PUSH, __lcl_flag1_SystemBoolean_0
+        COPY
+        PUSH, __lcl_flag1_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_13
+        COPY
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x000008a0
+        PUSH, _on
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        PUSH, __lcl_flag2_SystemBoolean_0
+        COPY
+        PUSH, __lcl_locked_SystemBoolean_0
+        PUSH, __lcl_nlocked_SystemBoolean_0
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __lcl_flag1_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_14
+        COPY
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00000904
+        PUSH, _on
+        PUSH, __intnl_SystemBoolean_14
+        COPY
+        PUSH, __intnl_SystemBoolean_14
+        PUSH, __lcl_flag3_SystemBoolean_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_14
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.isOwner.get
+        JUMP, 0x00000490
+        PUSH, __0_get_isOwner__ret
+        PUSH, __lcl_nisOwner_SystemBoolean_0
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __gintnl_SystemUInt32_15
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.isOwner.get
+        JUMP, 0x00000490
+        PUSH, __0_get_isOwner__ret
+        PUSH, __intnl_SystemBoolean_15
+        COPY
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x0000097c
+        JUMP, 0x00000990
+        PUSH, __lcl_privilege_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_15
+        COPY
+        PUSH, __intnl_SystemBoolean_15
+        PUSH, __lcl_flag4_SystemBoolean_0
+        COPY
+        PUSH, _canvas1
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        PUSH, __lcl_flag2_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_17
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_17
+        JUMP_IF_FALSE, 0x00000a04
+        PUSH, _canvas1
+        PUSH, __lcl_flag2_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, _lockOn
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        PUSH, __lcl_nlocked_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00000a64
+        PUSH, _lockOn
+        PUSH, __lcl_nlocked_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, _lockOnButton
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "UnityEngineUISelectable.__get_interactable__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        PUSH, __lcl_master_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x00000ac4
+        PUSH, _lockOnButton
+        PUSH, __lcl_master_SystemBoolean_0
+        EXTERN, "UnityEngineUISelectable.__set_interactable__SystemBoolean__SystemVoid"
+        PUSH, _lockOff
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        PUSH, __lcl_locked_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_23
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x00000b24
+        PUSH, _lockOff
+        PUSH, __lcl_locked_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, _lockOffButton
+        PUSH, __intnl_SystemBoolean_24
+        EXTERN, "UnityEngineUISelectable.__get_interactable__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_24
+        PUSH, __lcl_master_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_25
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_25
+        JUMP_IF_FALSE, 0x00000b84
+        PUSH, _lockOffButton
+        PUSH, __lcl_master_SystemBoolean_0
+        EXTERN, "UnityEngineUISelectable.__set_interactable__SystemBoolean__SystemVoid"
+        PUSH, _videoButton
+        PUSH, __intnl_SystemBoolean_26
+        EXTERN, "UnityEngineUISelectable.__get_interactable__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_26
+        PUSH, __lcl_privilege_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_27
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_27
+        JUMP_IF_FALSE, 0x00000be4
+        PUSH, _videoButton
+        PUSH, __lcl_privilege_SystemBoolean_0
+        EXTERN, "UnityEngineUISelectable.__set_interactable__SystemBoolean__SystemVoid"
+        PUSH, _liveButton
+        PUSH, __intnl_SystemBoolean_28
+        EXTERN, "UnityEngineUISelectable.__get_interactable__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_28
+        PUSH, __lcl_privilege_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_29
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_29
+        JUMP_IF_FALSE, 0x00000c44
+        PUSH, _liveButton
+        PUSH, __lcl_privilege_SystemBoolean_0
+        EXTERN, "UnityEngineUISelectable.__set_interactable__SystemBoolean__SystemVoid"
+        PUSH, _canvas2
+        PUSH, __intnl_SystemBoolean_30
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_30
+        PUSH, __lcl_flag3_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_31
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_31
+        JUMP_IF_FALSE, 0x00000ca4
+        PUSH, _canvas2
+        PUSH, __lcl_flag3_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, _address
+        PUSH, __intnl_SystemBoolean_32
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __gintnl_SystemUInt32_16
+# Cow dirty
+        PUSH, _address
+        PUSH, __intnl_UnityEngineGameObject_0
+        COPY
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.isOwner.get
+        JUMP, 0x00000490
+        PUSH, __intnl_SystemBoolean_32
+        PUSH, __0_get_isOwner__ret
+        PUSH, __intnl_SystemBoolean_33
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_33
+        JUMP_IF_FALSE, 0x00000d4c
+        PUSH, __gintnl_SystemUInt32_17
+# Cow dirty
+        PUSH, _address
+        PUSH, __intnl_UnityEngineGameObject_1
+        COPY
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.isOwner.get
+        JUMP, 0x00000490
+        PUSH, __intnl_UnityEngineGameObject_1
+        PUSH, __0_get_isOwner__ret
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, _message
+        PUSH, __intnl_SystemBoolean_34
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_34
+        PUSH, __lcl_nisOwner_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_35
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_35
+        JUMP_IF_FALSE, 0x00000dac
+        PUSH, _message
+        PUSH, __lcl_nisOwner_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__GetOwner__UnityEngineGameObject__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+# Cow dirty
+        PUSH, _messageText
+        PUSH, __intnl_UnityEngineUIText_0
+        COPY
+        PUSH, __intnl_SystemBoolean_36
+        JUMP_IF_FALSE, 0x00000e20
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__get_Empty__SystemString"
+        JUMP, 0x00000E38
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString"
+        PUSH, __const_SystemString_15
+        PUSH, __intnl_SystemString_1
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_UnityEngineUIText_0
+        PUSH, __intnl_SystemString_2
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, _closeButton
+        PUSH, __intnl_SystemBoolean_37
+        EXTERN, "UnityEngineUISelectable.__get_interactable__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_37
+        PUSH, __lcl_flag4_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_38
+        EXTERN, "SystemBoolean.__op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_38
+        JUMP_IF_FALSE, 0x00000ed0
+        PUSH, _closeButton
+        PUSH, __lcl_flag4_SystemBoolean_0
+        EXTERN, "UnityEngineUISelectable.__set_interactable__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export LockOn
+    LockOn:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.LockOn()
+# 
+        PUSH, controller
+# Cow dirty
+        PUSH, controller
+        PUSH, __intnl_VRCUdonUdonBehaviour_6
+        COPY
+        PUSH, __const_SystemString_16
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export LockOff
+    LockOff:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.LockOff()
+# 
+        PUSH, controller
+# Cow dirty
+        PUSH, controller
+        PUSH, __intnl_VRCUdonUdonBehaviour_7
+        COPY
+        PUSH, __const_SystemString_17
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_on
+    get_on:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.on.get
+# 
+        PUSH, _on
+        PUSH, __0_get_on__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onVarChange__on
+    _onVarChange__on:
+        PUSH, _on
+        PUSH, __0_value__param
+        COPY
+        PUSH, _old__on
+        PUSH, _on
+        COPY
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.on.set
+# 
+        PUSH, __0_value__param
+        PUSH, _on
+        COPY
+        PUSH, __gintnl_SystemUInt32_18
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.UpdateOn()
+        JUMP, 0x00001014
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.UpdateOn()
+# 
+        PUSH, __gintnl_SystemUInt32_19
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export ModeVideo
+    ModeVideo:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.ModeVideo()
+# 
+        PUSH, __const_SystemString_18
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_3
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_20
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.TakeOwnership()
+        JUMP, 0x0000044C
+        PUSH, __const_SystemBoolean_0
+        PUSH, _local
+        COPY
+        PUSH, core
+# Cow dirty
+        PUSH, core
+        PUSH, __intnl_VRCUdonUdonBehaviour_8
+        COPY
+        PUSH, __const_SystemString_19
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_20
+        PUSH, __intnl_SystemObject_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_5
+        PUSH, __intnl_SystemUInt32_0
+        EXTERN, "SystemConvert.__ToUInt32__SystemObject__SystemUInt32"
+        PUSH, __intnl_SystemUInt32_0
+        PUSH, _mode
+        COPY
+        PUSH, __const_SystemBoolean_0
+        PUSH, _on
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_21
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export ModeLive
+    ModeLive:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.ModeLive()
+# 
+        PUSH, __const_SystemString_21
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_4
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_4
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_22
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.TakeOwnership()
+        JUMP, 0x0000044C
+        PUSH, __const_SystemBoolean_0
+        PUSH, _local
+        COPY
+        PUSH, core
+# Cow dirty
+        PUSH, core
+        PUSH, __intnl_VRCUdonUdonBehaviour_9
+        COPY
+        PUSH, __const_SystemString_22
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_23
+        PUSH, __intnl_SystemObject_6
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_6
+        PUSH, __intnl_SystemUInt32_1
+        EXTERN, "SystemConvert.__ToUInt32__SystemObject__SystemUInt32"
+        PUSH, __intnl_SystemUInt32_1
+        PUSH, _mode
+        COPY
+        PUSH, __const_SystemBoolean_0
+        PUSH, _on
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_23
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnURLChanged
+    OnURLChanged:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.OnURLChanged()
+# 
+        PUSH, _addressInput
+        PUSH, __intnl_VRCSDKBaseVRCUrl_0
+        EXTERN, "VRCSDK3ComponentsVRCUrlInputField.__GetUrl__VRCSDKBaseVRCUrl"
+        PUSH, __intnl_VRCSDKBaseVRCUrl_0
+        PUSH, __intnl_SystemString_5
+        EXTERN, "VRCSDKBaseVRCUrl.__Get__SystemString"
+        PUSH, __const_SystemString_24
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_5
+        PUSH, __intnl_SystemString_6
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_6
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, core
+# Cow dirty
+        PUSH, core
+        PUSH, __intnl_VRCUdonUdonBehaviour_10
+        COPY
+        PUSH, __const_SystemString_25
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _addressInput
+        PUSH, __intnl_VRCSDKBaseVRCUrl_1
+        EXTERN, "VRCSDK3ComponentsVRCUrlInputField.__GetUrl__VRCSDKBaseVRCUrl"
+# Cow dirty
+        PUSH, _addressInput
+        PUSH, __intnl_VRCSDK3ComponentsVRCUrlInputField_0
+        COPY
+# Cow dirty
+        PUSH, _mode
+        PUSH, __intnl_SystemUInt32_2
+        COPY
+        PUSH, core
+        PUSH, __const_SystemString_26
+        PUSH, _mode
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_27
+        PUSH, __intnl_VRCSDKBaseVRCUrl_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, core
+        PUSH, __const_SystemString_28
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, core
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_24
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export ClearURL
+    ClearURL:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.ClearURL()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCUrl_2
+        EXTERN, "VRCSDKBaseVRCUrl.__get_Empty__VRCSDKBaseVRCUrl"
+        PUSH, _addressInput
+        PUSH, __intnl_VRCSDKBaseVRCUrl_2
+        EXTERN, "VRCSDK3ComponentsVRCUrlInputField.__SetUrl__VRCSDKBaseVRCUrl__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Close
+    Close:
+        PUSH, __const_SystemUInt32_0
+# 
+# HoshinoLabs.IwaSync3.Udon.IwaSync3.Close()
+# 
+        PUSH, __const_SystemString_29
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_7
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_7
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_25
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.TakeOwnership()
+        JUMP, 0x0000044C
+        PUSH, __const_SystemBoolean_1
+        PUSH, _local
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, _on
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_26
+# Calling HoshinoLabs.IwaSync3.Udon.IwaSync3.ValidateView()
+        JUMP, 0x000004C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

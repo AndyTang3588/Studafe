@@ -1,0 +1,247 @@
+.data_start
+    .export TextItems
+    .export ParentSpriteObj
+    .export TextTfm
+    .export ChatHeightTfms
+    .export HeadlineTfm
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    TextItems: %UnityEngineUITextArray, null
+    ParentSpriteObj: %UnityEngineGameObject, null
+    TextTfm: %UnityEngineRectTransform, null
+    ChatHeightTfms: %UnityEngineRectTransformArray, null
+    HeadlineTfm: %UnityEngineRectTransform, null
+    _fitFlag: %SystemBoolean, null
+    _millis: %SystemSingle, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_SystemType_0: %SystemType, null
+    __const_SystemType_1: %SystemType, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __0_argTime__param: %SystemDateTime, null
+    __0_dispName__param: %SystemString, null
+    __0_argText__param: %SystemString, null
+    __const_SystemString_0: %SystemString, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __lcl_parentTmf_UnityEngineRectTransform_0: %UnityEngineRectTransform, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __lcl_parentRenderer_UnityEngineSpriteRenderer_0: %UnityEngineSpriteRenderer, null
+    __intnl_UnityEngineTransform_1: %UnityEngineTransform, null
+    __lcl_h_SystemSingle_0: %SystemSingle, null
+    __intnl_UnityEngineVector2_0: %UnityEngineVector2, null
+    __intnl_UnityEngineVector2_1: %UnityEngineVector2, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_UnityEngineVector2_2: %UnityEngineVector2, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_UnityEngineVector2_3: %UnityEngineVector2, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_UnityEngineVector2_4: %UnityEngineVector2, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_UnityEngineRectTransform_0: %UnityEngineRectTransform, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __intnl_UnityEngineRectTransform_1: %UnityEngineRectTransform, null
+    __intnl_UnityEngineVector2_5: %UnityEngineVector2, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_UnityEngineVector2_6: %UnityEngineVector2, null
+    __intnl_SystemSingle_6: %SystemSingle, null
+    __intnl_UnityEngineVector2_7: %UnityEngineVector2, null
+    __intnl_SystemSingle_7: %SystemSingle, null
+    __intnl_UnityEngineVector2_8: %UnityEngineVector2, null
+    __intnl_UnityEngineUIText_0: %UnityEngineUIText, null
+    __intnl_SystemDateTime_0: %SystemDateTime, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_UnityEngineUIText_1: %UnityEngineUIText, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_UnityEngineUIText_2: %UnityEngineUIText, null
+.data_end
+.code_start
+    .export _update
+    _update:
+        PUSH, __const_SystemUInt32_0
+# 
+# OhaLogChat.LineChat.Update()
+# 
+        PUSH, _fitFlag
+        JUMP_IF_FALSE, 0x000003f0
+        PUSH, _millis
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000080
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineTime.__get_deltaTime__SystemSingle"
+        PUSH, _millis
+        PUSH, __intnl_SystemSingle_0
+        PUSH, _millis
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        JUMP, 0x000003F0
+        PUSH, ParentSpriteObj
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __const_SystemType_0
+        PUSH, __lcl_parentTmf_UnityEngineRectTransform_0
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, ParentSpriteObj
+        PUSH, __intnl_UnityEngineTransform_1
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_1
+        PUSH, __const_SystemType_1
+        PUSH, __lcl_parentRenderer_UnityEngineSpriteRenderer_0
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, TextTfm
+        PUSH, __intnl_UnityEngineVector2_0
+        EXTERN, "UnityEngineRectTransform.__get_sizeDelta__UnityEngineVector2"
+        PUSH, __intnl_UnityEngineVector2_0
+        PUSH, __lcl_h_SystemSingle_0
+        EXTERN, "UnityEngineVector2.__get_y__SystemSingle"
+        PUSH, __lcl_parentTmf_UnityEngineRectTransform_0
+        PUSH, __intnl_UnityEngineVector2_1
+        EXTERN, "UnityEngineRectTransform.__get_sizeDelta__UnityEngineVector2"
+        PUSH, __intnl_UnityEngineVector2_1
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineVector2.__get_x__SystemSingle"
+        PUSH, __lcl_h_SystemSingle_0
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __intnl_UnityEngineVector2_2
+        EXTERN, "UnityEngineVector2.__ctor__SystemSingle_SystemSingle__UnityEngineVector2"
+        PUSH, __lcl_parentTmf_UnityEngineRectTransform_0
+        PUSH, __intnl_UnityEngineVector2_2
+        EXTERN, "UnityEngineRectTransform.__set_sizeDelta__UnityEngineVector2__SystemVoid"
+        PUSH, __lcl_parentRenderer_UnityEngineSpriteRenderer_0
+        PUSH, __intnl_UnityEngineVector2_3
+        EXTERN, "UnityEngineSpriteRenderer.__get_size__UnityEngineVector2"
+        PUSH, __intnl_UnityEngineVector2_3
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "UnityEngineVector2.__get_x__SystemSingle"
+        PUSH, __lcl_h_SystemSingle_0
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_2
+        PUSH, __intnl_SystemSingle_3
+        PUSH, __intnl_UnityEngineVector2_4
+        EXTERN, "UnityEngineVector2.__ctor__SystemSingle_SystemSingle__UnityEngineVector2"
+        PUSH, __lcl_parentRenderer_UnityEngineSpriteRenderer_0
+        PUSH, __intnl_UnityEngineVector2_4
+        EXTERN, "UnityEngineSpriteRenderer.__set_size__UnityEngineVector2__SystemVoid"
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, ChatHeightTfms
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000003dc
+        PUSH, ChatHeightTfms
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineRectTransform_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, ChatHeightTfms
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineRectTransform_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineRectTransform_1
+        PUSH, __intnl_UnityEngineVector2_5
+        EXTERN, "UnityEngineRectTransform.__get_sizeDelta__UnityEngineVector2"
+        PUSH, __intnl_UnityEngineVector2_5
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "UnityEngineVector2.__get_x__SystemSingle"
+        PUSH, HeadlineTfm
+        PUSH, __intnl_UnityEngineVector2_6
+        EXTERN, "UnityEngineRectTransform.__get_sizeDelta__UnityEngineVector2"
+        PUSH, __intnl_UnityEngineVector2_6
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "UnityEngineVector2.__get_y__SystemSingle"
+        PUSH, __lcl_parentTmf_UnityEngineRectTransform_0
+        PUSH, __intnl_UnityEngineVector2_7
+        EXTERN, "UnityEngineRectTransform.__get_sizeDelta__UnityEngineVector2"
+        PUSH, __intnl_UnityEngineVector2_7
+        PUSH, __intnl_SystemSingle_6
+        EXTERN, "UnityEngineVector2.__get_y__SystemSingle"
+        PUSH, __intnl_SystemSingle_5
+        PUSH, __intnl_SystemSingle_6
+        PUSH, __intnl_SystemSingle_7
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __intnl_SystemSingle_7
+        PUSH, __intnl_UnityEngineVector2_8
+        EXTERN, "UnityEngineVector2.__ctor__SystemSingle_SystemSingle__UnityEngineVector2"
+        PUSH, __intnl_UnityEngineRectTransform_0
+        PUSH, __intnl_UnityEngineVector2_8
+        EXTERN, "UnityEngineRectTransform.__set_sizeDelta__UnityEngineVector2__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000244
+        PUSH, __const_SystemBoolean_0
+        PUSH, _fitFlag
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_UpdateElements
+    __0_UpdateElements:
+        PUSH, __const_SystemUInt32_0
+# 
+# OhaLogChat.LineChat.UpdateElements(System.DateTime, string, string)
+# 
+        PUSH, TextItems
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_UnityEngineUIText_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __0_argTime__param
+        PUSH, __intnl_SystemDateTime_0
+        EXTERN, "SystemDateTime.__ToLocalTime__SystemDateTime"
+        PUSH, __intnl_SystemDateTime_0
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemDateTime.__ToString__SystemString__SystemString"
+        PUSH, __intnl_UnityEngineUIText_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, TextItems
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_UnityEngineUIText_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __0_dispName__param
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_UnityEngineUIText_1
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, TextItems
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineUIText_2
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineUIText_2
+        PUSH, __0_argText__param
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, __const_SystemBoolean_1
+        PUSH, _fitFlag
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

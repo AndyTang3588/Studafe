@@ -1,0 +1,57 @@
+.data_start
+    .export scriptCup
+    .export scriptTool
+    .export m_deposit
+    .sync m_deposit, none
+    .export m_info
+    .sync m_info, none
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    scriptCup: %VRCUdonUdonBehaviour, null
+    scriptTool: %VRCUdonUdonBehaviour, null
+    m_deposit: %SystemSByteArray, null
+    m_info: %SystemByteArray, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemString_0: %SystemString, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+.data_end
+.code_start
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.VariableHolder.OnDeserialization()
+# 
+        PUSH, scriptCup
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000064
+        PUSH, scriptCup
+# Cow dirty
+        PUSH, scriptCup
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __const_SystemString_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        JUMP, 0x000000B8
+        PUSH, scriptTool
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000000b8
+        PUSH, scriptTool
+# Cow dirty
+        PUSH, scriptTool
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, __const_SystemString_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

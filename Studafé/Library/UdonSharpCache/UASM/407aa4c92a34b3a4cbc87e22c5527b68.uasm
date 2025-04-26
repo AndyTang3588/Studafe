@@ -1,0 +1,55 @@
+.data_start
+    .export meshRenderer
+    .export paramName
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    meshRenderer: %UnityEngineSkinnedMeshRenderer, null
+    paramName: %SystemString, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __lcl_now_SystemDateTime_0: %SystemDateTime, null
+    __intnl_UnityEngineMaterial_0: %UnityEngineMaterial, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+.data_end
+.code_start
+    .export _update
+    _update:
+        PUSH, __const_SystemUInt32_0
+# 
+# ClockGem.Update()
+# 
+        PUSH, __lcl_now_SystemDateTime_0
+        EXTERN, "SystemDateTime.__get_Now__SystemDateTime"
+        PUSH, meshRenderer
+        PUSH, __intnl_UnityEngineMaterial_0
+        EXTERN, "UnityEngineRenderer.__get_material__UnityEngineMaterial"
+        PUSH, __lcl_now_SystemDateTime_0
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemDateTime.__get_Hour__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_now_SystemDateTime_0
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemDateTime.__get_Minute__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, __intnl_UnityEngineMaterial_0
+        PUSH, paramName
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineMaterial.__SetFloat__SystemString_SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

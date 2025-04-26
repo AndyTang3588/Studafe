@@ -1,0 +1,153 @@
+.data_start
+    .export Lang
+    .sync currentLang, none
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    Lang: %UnityEngineGameObjectArray, null
+    currentLang: %SystemInt32, null
+    currentLang_Old: %SystemInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_2: %UnityEngineGameObject, null
+    __intnl_UnityEngineGameObject_3: %UnityEngineGameObject, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Menu_Plate.Start()
+# 
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, Lang
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000134
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000000d4
+        PUSH, Lang
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        JUMP, 0x0000010C
+        PUSH, Lang
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineGameObject_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_1
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000001C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Menu_Plate.OnDeserialization()
+# 
+        PUSH, currentLang
+        PUSH, currentLang_Old
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000190
+        PUSH, __gintnl_SystemUInt32_0
+# Calling VRCCoffeeSet.Menu_Plate.ChangeLang()
+        JUMP, 0x0000027C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickupUseDown
+    _onPickupUseDown:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Menu_Plate.OnPickupUseDown()
+# 
+        PUSH, Lang
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000230
+        PUSH, __const_SystemInt32_0
+        PUSH, currentLang
+        COPY
+        JUMP, 0x00000250
+        PUSH, currentLang
+        PUSH, __const_SystemInt32_1
+        PUSH, currentLang
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __gintnl_SystemUInt32_1
+# Calling VRCCoffeeSet.Menu_Plate.ChangeLang()
+        JUMP, 0x0000027C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Menu_Plate.ChangeLang()
+# 
+        PUSH, Lang
+        PUSH, currentLang_Old
+        PUSH, __intnl_UnityEngineGameObject_2
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_2
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, Lang
+        PUSH, currentLang
+        PUSH, __intnl_UnityEngineGameObject_3
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_3
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, currentLang
+        PUSH, currentLang_Old
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

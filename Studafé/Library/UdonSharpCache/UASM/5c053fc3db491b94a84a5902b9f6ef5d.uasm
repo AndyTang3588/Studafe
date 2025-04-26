@@ -1,0 +1,1894 @@
+.data_start
+    .export inkPoolSynced
+    .export inkPoolNotSynced
+    .sync _syncedData, none
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    _pen_k__BackingField: %VRCUdonUdonBehaviour, null
+    inkPoolSynced: %UnityEngineTransform, null
+    inkPoolNotSynced: %UnityEngineTransform, null
+    linesBuffer: %UnityEngineLineRendererArray, null
+    inkIndex: %SystemInt32, null
+    forceStart: %SystemBoolean, null
+    _syncedData: %UnityEngineVector3Array, null
+    _isNetworkSettled: %SystemBoolean, null
+    isInUseSyncBuffer: %SystemBoolean, null
+    retryCount: %SystemInt32, null
+    nextInk: %UnityEngineLineRenderer, null
+    beginSignal: %UnityEngineVector3, null
+    endSignal: %UnityEngineVector3, null
+    errorSignal: %UnityEngineVector3, null
+    logColor: %UnityEngineColor, null
+    _logPrefix: %SystemString, null
+    __0_get_pen__ret: %VRCUdonUdonBehaviour, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __0_value__param: %VRCUdonUdonBehaviour, null
+    __0_get_InkPoolSynced__ret: %UnityEngineTransform, null
+    __0_get_InkPoolNotSynced__ret: %UnityEngineTransform, null
+    onPlayerJoinedPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    onOwnershipTransferredPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_0: %SystemString, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __0_get_syncedData__ret: %UnityEngineVector3Array, null
+    __1_value__param: %UnityEngineVector3Array, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemString_2: %SystemString, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __1_data__param: %UnityEngineVector3Array, null
+    __0_get_isNetworkSettled__ret: %SystemBoolean, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_3: %SystemString, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __0_data__param: %UnityEngineVector3Array, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __gintnl_SystemUInt32_9: %SystemUInt32, null
+    onPostSerializationResult: %VRCUdonCommonSerializationResult, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __gintnl_SystemUInt32_10: %SystemUInt32, null
+    __0___0_GetCalibrationSignal__ret: %UnityEngineVector3, null
+    __2_data__param: %UnityEngineVector3Array, null
+    __gintnl_SystemUInt32_11: %SystemUInt32, null
+    __const_SystemType_0: %SystemType, null
+    __const_SystemInt32_3: %SystemInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __gintnl_SystemUInt32_12: %SystemUInt32, null
+    __gintnl_SystemUInt32_13: %SystemUInt32, null
+    __0_GetNextInk__ret: %UnityEngineLineRenderer, null
+    __gintnl_SystemUInt32_14: %SystemUInt32, null
+    __0__intnlparam: %SystemBoolean, null
+    __1__intnlparam: %UnityEngineGameObject, null
+    __2__intnlparam: %UnityEngineVector3, null
+    __3__intnlparam: %UnityEngineVector3, null
+    __4__intnlparam: %UnityEngineVector3, null
+    __gintnl_SystemUInt32_15: %SystemUInt32, null
+    __gintnl_SystemUInt32_16: %SystemUInt32, null
+    __const_SystemInt32_4: %SystemInt32, null
+    __const_SystemString_4: %SystemString, null
+    __const_SystemString_5: %SystemString, null
+    __const_SystemString_6: %SystemString, null
+    __const_SystemString_7: %SystemString, null
+    __const_SystemString_8: %SystemString, null
+    __const_SystemString_9: %SystemString, null
+    __gintnl_SystemUInt32_17: %SystemUInt32, null
+    __const_SystemInt32_5: %SystemInt32, null
+    __const_SystemInt32_6: %SystemInt32, null
+    __const_VRCSDK3DataTokenType_0: %VRCSDK3DataTokenType, null
+    __gintnl_SystemUInt32_18: %SystemUInt32, null
+    __const_SystemSingle_2: %SystemSingle, null
+    __const_VRCSDK3DataTokenType_1: %VRCSDK3DataTokenType, null
+    __gintnl_SystemUInt32_19: %SystemUInt32, null
+    __gintnl_SystemUInt32_20: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_21: %SystemUInt32, null
+    __0___0_GetPenIdVector__ret: %UnityEngineVector3, null
+    __4_data__param: %UnityEngineVector3Array, null
+    __gintnl_SystemUInt32_22: %SystemUInt32, null
+    __gintnl_SystemUInt32_23: %SystemUInt32, null
+    __const_SystemString_10: %SystemString, null
+    __const_SystemString_11: %SystemString, null
+    __const_SystemString_12: %SystemString, null
+    __const_SystemString_13: %SystemString, null
+    __gintnl_SystemUInt32_24: %SystemUInt32, null
+    __gintnl_SystemUInt32_25: %SystemUInt32, null
+    __const_SystemInt32_7: %SystemInt32, null
+    __gintnl_SystemUInt32_26: %SystemUInt32, null
+    __const_SystemInt32_8: %SystemInt32, null
+    __gintnl_SystemUInt32_27: %SystemUInt32, null
+    __gintnl_SystemUInt32_28: %SystemUInt32, null
+    __const_SystemInt32_9: %SystemInt32, null
+    __const_SystemString_14: %SystemString, null
+    __const_SystemString_15: %SystemString, null
+    __const_SystemString_16: %SystemString, null
+    __gintnl_SystemUInt32_29: %SystemUInt32, null
+    __gintnl_SystemUInt32_30: %SystemUInt32, null
+    __gintnl_SystemUInt32_31: %SystemUInt32, null
+    __gintnl_SystemUInt32_32: %SystemUInt32, null
+    __0___0_GetData__ret: %UnityEngineVector3, null
+    __3_data__param: %UnityEngineVector3Array, null
+    __0_index__param: %SystemInt32, null
+    __gintnl_SystemUInt32_33: %SystemUInt32, null
+    __0_o__param: %SystemObject, null
+    __const_SystemString_17: %SystemString, null
+    __gintnl_SystemUInt32_34: %SystemUInt32, null
+    __0_get_logPrefix__ret: %SystemString, null
+    __this_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, this
+    __1_o__param: %SystemObject, null
+    __gintnl_SystemUInt32_35: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_5: %VRCUdonUdonBehaviour, this
+    __2_o__param: %SystemObject, null
+    __gintnl_SystemUInt32_36: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_6: %VRCUdonUdonBehaviour, this
+    __0___0_ColorBeginTag__ret: %SystemString, null
+    __0_c__param: %UnityEngineColor, null
+    __const_SystemString_18: %SystemString, null
+    __gintnl_SystemUInt32_37: %SystemUInt32, null
+    __5__intnlparam: %SystemString, null
+    __6__intnlparam: %UnityEngineColor, null
+    __gintnl_SystemObjectArray_0: %SystemObjectArray, null
+    __gintnl_SystemUInt32_38: %SystemUInt32, null
+    __const_SystemString_19: %SystemString, null
+    __const_SystemString_20: %SystemString, null
+    __const_SystemString_21: %SystemString, null
+    __const_SystemInt32_10: %SystemInt32, null
+    __const_SystemString_22: %SystemString, null
+    __const_SystemString_23: %SystemString, null
+    __const_UnityEngineVector3_0: %UnityEngineVector3, null
+    __const_SystemSingle_3: %SystemSingle, null
+    __const_SystemString_24: %SystemString, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_UnityEngineVector3Array_0: %UnityEngineVector3Array, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __lcl_signal_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __lcl_ink_UnityEngineLineRenderer_0: %UnityEngineLineRenderer, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineVector3Array_1: %UnityEngineVector3Array, null
+    __lcl_totalLength_SystemInt32_0: %SystemInt32, null
+    __lcl_dataList_VRCSDK3DataDataList_0: %VRCSDK3DataDataList, null
+    __lcl_lengthList_VRCSDK3DataDataList_0: %VRCSDK3DataDataList, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __lcl_lengthVectors_UnityEngineVector3Array_0: %UnityEngineVector3Array, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __lcl_joinedData_UnityEngineVector3Array_0: %UnityEngineVector3Array, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __lcl_index_SystemInt32_0: %SystemInt32, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineVector3_1: %UnityEngineVector3, null
+    __intnl_SystemObject_1: %SystemObject, null
+    __intnl_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_SystemInt32_10: %SystemInt32, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __intnl_UnityEngineVector3_2: %UnityEngineVector3, null
+    __intnl_SystemInt32_11: %SystemInt32, null
+    __intnl_SystemInt32_12: %SystemInt32, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __lcl__discard_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_inkIdVector_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_ownerIdVector_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_data_UnityEngineVector3Array_0: %UnityEngineVector3Array, null
+    __lcl_length_SystemInt32_0: %SystemInt32, null
+    __intnl_VRCSDK3DataDataToken_0: %VRCSDK3DataDataToken, null
+    __intnl_VRCSDK3DataDataToken_1: %VRCSDK3DataDataToken, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __lcl_n_SystemInt32_0: %SystemInt32, null
+    __lcl_lengthToken_VRCSDK3DataDataToken_0: %VRCSDK3DataDataToken, null
+    __lcl_dataToken_VRCSDK3DataDataToken_0: %VRCSDK3DataDataToken, null
+    __intnl_SystemObject_2: %SystemObject, null
+    __intnl_SystemInt32_13: %SystemInt32, null
+    __intnl_SystemInt32_14: %SystemInt32, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __intnl_SystemInt32_15: %SystemInt32, null
+    __lcl_penIdVector_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+    __intnl_SystemObject_3: %SystemObject, null
+    __lcl_currentSyncState_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemObject_4: %SystemObject, null
+    __intnl_SystemInt32_16: %SystemInt32, null
+    __intnl_SystemBoolean_17: %SystemBoolean, null
+    __lcl_signal_UnityEngineVector3_1: %UnityEngineVector3, null
+    __intnl_SystemBoolean_18: %SystemBoolean, null
+    __intnl_SystemBoolean_19: %SystemBoolean, null
+    __intnl_SystemInt32_17: %SystemInt32, null
+    __intnl_SystemBoolean_20: %SystemBoolean, null
+    __lcl_index_SystemInt32_1: %SystemInt32, null
+    __lcl_length_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_UnityEngineVector3_3: %UnityEngineVector3, null
+    __intnl_SystemDouble_0: %SystemDouble, null
+    __intnl_SystemDouble_1: %SystemDouble, null
+    __lcl_check_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemSingle_6: %SystemSingle, null
+    __intnl_UnityEngineVector3_4: %UnityEngineVector3, null
+    __intnl_SystemDouble_2: %SystemDouble, null
+    __intnl_SystemDouble_3: %SystemDouble, null
+    __intnl_SystemInt32_18: %SystemInt32, null
+    __intnl_SystemBoolean_21: %SystemBoolean, null
+    __lcl_lengthVectors_UnityEngineVector3Array_1: %UnityEngineVector3Array, null
+    __intnl_SystemInt32_19: %SystemInt32, null
+    __intnl_SystemInt32_20: %SystemInt32, null
+    __intnl_SystemInt32_21: %SystemInt32, null
+    __intnl_SystemInt32_22: %SystemInt32, null
+    __lcl_i_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_22: %SystemBoolean, null
+    __lcl_dataLength_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_23: %SystemInt32, null
+    __intnl_UnityEngineVector3_5: %UnityEngineVector3, null
+    __intnl_SystemInt32_24: %SystemInt32, null
+    __intnl_SystemSingle_7: %SystemSingle, null
+    __intnl_SystemDouble_4: %SystemDouble, null
+    __intnl_SystemDouble_5: %SystemDouble, null
+    __lcl_stroke_UnityEngineVector3Array_0: %UnityEngineVector3Array, null
+    __intnl_UnityEngineVector3Array_2: %UnityEngineVector3Array, null
+    __intnl_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineVector3_6: %UnityEngineVector3, null
+    __intnl_SystemObject_5: %SystemObject, null
+    __intnl_UnityEngineVector3Array_3: %UnityEngineVector3Array, null
+    __intnl_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineVector3_7: %UnityEngineVector3, null
+    __intnl_SystemObject_6: %SystemObject, null
+    __intnl_SystemBoolean_23: %SystemBoolean, null
+    __intnl_SystemInt32_25: %SystemInt32, null
+    __intnl_SystemBoolean_24: %SystemBoolean, null
+    __intnl_SystemInt32_26: %SystemInt32, null
+    __intnl_SystemInt32_27: %SystemInt32, null
+    __intnl_SystemInt32_28: %SystemInt32, null
+    __intnl_SystemInt32_29: %SystemInt32, null
+    __intnl_SystemBoolean_25: %SystemBoolean, null
+    __intnl_SystemInt32_30: %SystemInt32, null
+    __intnl_SystemInt32_31: %SystemInt32, null
+    __intnl_SystemBoolean_26: %SystemBoolean, null
+    __lcl_ink_UnityEngineLineRenderer_1: %UnityEngineLineRenderer, null
+    __intnl_SystemBoolean_27: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_SystemBoolean_28: %SystemBoolean, null
+    __intnl_SystemBoolean_29: %SystemBoolean, null
+    __intnl_SystemBoolean_30: %SystemBoolean, null
+    __intnl_UnityEngineTransform_1: %UnityEngineTransform, null
+    __intnl_SystemInt32_32: %SystemInt32, null
+    __intnl_SystemBoolean_31: %SystemBoolean, null
+    __lcl_idHolder_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_2: %UnityEngineTransform, null
+    __intnl_SystemBoolean_32: %SystemBoolean, null
+    __intnl_SystemSingle_8: %SystemSingle, null
+    __intnl_SystemInt32_33: %SystemInt32, null
+    __intnl_SystemSingle_9: %SystemSingle, null
+    __intnl_SystemInt32_34: %SystemInt32, null
+    __intnl_SystemSingle_10: %SystemSingle, null
+    __intnl_SystemInt32_35: %SystemInt32, null
+.data_end
+.code_start
+    .export get_pen
+    get_pen:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.pen.get
+# 
+        PUSH, _pen_k__BackingField
+        PUSH, __0_get_pen__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_set_pen
+    __0_set_pen:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.pen.set
+# 
+        PUSH, __0_value__param
+        PUSH, _pen_k__BackingField
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_InkPoolSynced
+    get_InkPoolSynced:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.InkPoolSynced.get
+# 
+        PUSH, inkPoolSynced
+        PUSH, __0_get_InkPoolSynced__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_InkPoolNotSynced
+    get_InkPoolNotSynced:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.InkPoolNotSynced.get
+# 
+        PUSH, inkPoolNotSynced
+        PUSH, __0_get_InkPoolNotSynced__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerJoined
+    _onPlayerJoined:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000134
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000154
+        PUSH, __gintnl_SystemUInt32_0
+# Calling QvPen.UdonScript.QvPen_LateSync.StartSync()
+        JUMP, 0x0000026C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onOwnershipTransferred
+    _onOwnershipTransferred:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.OnOwnershipTransferred(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000001c8
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000250
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineRandom.__get_value__SystemSingle"
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemSingle_2
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export StartSync
+    StartSync:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.StartSync()
+# 
+        PUSH, __const_SystemBoolean_0
+        PUSH, forceStart
+        COPY
+        PUSH, __const_SystemInt32_1
+        PUSH, retryCount
+        COPY
+        PUSH, __gintnl_SystemUInt32_1
+# Calling QvPen.UdonScript.QvPen_LateSync.SendBeginSignal()
+        JUMP, 0x00001D70
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.syncedData.get
+# 
+        PUSH, _syncedData
+        PUSH, __0_get_syncedData__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.syncedData.set
+# 
+        PUSH, forceStart
+        JUMP_IF_FALSE, 0x0000041c
+        PUSH, __const_SystemInt32_2
+        PUSH, _syncedData
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __gintnl_SystemUInt32_2
+# Cow dirty
+        PUSH, _syncedData
+        PUSH, __intnl_UnityEngineVector3Array_0
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+# Cow dirty
+        PUSH, __0_get_pen__ret
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_UnityEngineVector3_0
+        COPY
+        PUSH, __intnl_UnityEngineVector3Array_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, _syncedData
+        PUSH, __const_SystemInt32_0
+        PUSH, beginSignal
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000414
+        PUSH, __gintnl_SystemUInt32_3
+# Calling QvPen.UdonScript.QvPen_LateSync._RequestSendPackage()
+        JUMP, 0x00000530
+        JUMP, 0x00000494
+        PUSH, __1_value__param
+        PUSH, _syncedData
+        COPY
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000470
+        PUSH, __gintnl_SystemUInt32_4
+# Calling QvPen.UdonScript.QvPen_LateSync._RequestSendPackage()
+        JUMP, 0x00000530
+        JUMP, 0x00000494
+        PUSH, __gintnl_SystemUInt32_5
+        PUSH, _syncedData
+        PUSH, __1_data__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.UnpackData(UnityEngine.Vector3[])
+        JUMP, 0x000014F4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.isNetworkSettled.get
+# 
+        PUSH, _isNetworkSettled
+        PUSH, __intnl_SystemBoolean_3
+        COPY
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000004dc
+        JUMP, 0x00000500
+        PUSH, _isNetworkSettled
+        EXTERN, "VRCSDKBaseNetworking.__get_IsNetworkSettled__SystemBoolean"
+        PUSH, _isNetworkSettled
+        PUSH, __intnl_SystemBoolean_3
+        COPY
+        PUSH, __intnl_SystemBoolean_3
+        PUSH, __0_get_isNetworkSettled__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _RequestSendPackage
+    _RequestSendPackage:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync._RequestSendPackage()
+# 
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000588
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000620
+        PUSH, __gintnl_SystemUInt32_6
+# Calling QvPen.UdonScript.QvPen_LateSync.isNetworkSettled.get
+        JUMP, 0x000004B0
+        PUSH, __0_get_isNetworkSettled__ret
+        JUMP_IF_FALSE, 0x000005c0
+        JUMP, 0x000005FC
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_3
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemBoolean_0
+        PUSH, isInUseSyncBuffer
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.SendData(UnityEngine.Vector3[])
+# 
+        PUSH, isInUseSyncBuffer
+        JUMP_IF_FALSE, 0x00000654
+        JUMP, 0x00000678
+        PUSH, __gintnl_SystemUInt32_7
+        PUSH, __0_data__param
+        PUSH, __1_value__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.syncedData.set
+        JUMP, 0x000002F0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPreSerialization
+    _onPreSerialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.OnPreSerialization()
+# 
+        PUSH, __gintnl_SystemUInt32_8
+# Calling QvPen.UdonScript.QvPen_LateSync.syncedData.get
+        JUMP, 0x000002C0
+        PUSH, __0_get_syncedData__ret
+        PUSH, _syncedData
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.OnDeserialization()
+# 
+        PUSH, __gintnl_SystemUInt32_9
+        PUSH, _syncedData
+        PUSH, __1_value__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.syncedData.set
+        JUMP, 0x000002F0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPostSerialization
+    _onPostSerialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.OnPostSerialization(VRC.Udon.Common.SerializationResult)
+# 
+        PUSH, __const_SystemBoolean_1
+        PUSH, isInUseSyncBuffer
+        COPY
+        PUSH, onPostSerializationResult
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "VRCUdonCommonSerializationResult.__get_success__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x0000144c
+        PUSH, __const_SystemInt32_1
+        PUSH, retryCount
+        COPY
+        PUSH, __gintnl_SystemUInt32_10
+        PUSH, __gintnl_SystemUInt32_11
+# Calling QvPen.UdonScript.QvPen_LateSync.syncedData.get
+        JUMP, 0x000002C0
+        PUSH, __0_get_syncedData__ret
+        PUSH, __2_data__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.GetCalibrationSignal(UnityEngine.Vector3[])
+        JUMP, 0x00001F80
+        PUSH, __0___0_GetCalibrationSignal__ret
+        PUSH, __lcl_signal_UnityEngineVector3_0
+        COPY
+        PUSH, __lcl_signal_UnityEngineVector3_0
+        PUSH, errorSignal
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x000007f8
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x00000950
+        PUSH, __lcl_signal_UnityEngineVector3_0
+        PUSH, beginSignal
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x000008a4
+        PUSH, __const_SystemBoolean_1
+        PUSH, forceStart
+        COPY
+        PUSH, inkPoolSynced
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __const_SystemType_0
+        PUSH, linesBuffer
+        EXTERN, "UnityEngineComponent.__GetComponentsInChildren__TArray"
+        PUSH, __const_SystemInt32_3
+        PUSH, inkIndex
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, nextInk
+        COPY
+        JUMP, 0x00000950
+        PUSH, __lcl_signal_UnityEngineVector3_0
+        PUSH, endSignal
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000950
+        PUSH, __const_SystemInt32_1
+        PUSH, linesBuffer
+        EXTERN, "UnityEngineLineRendererArray.__ctor__SystemInt32__UnityEngineLineRendererArray"
+        PUSH, __gintnl_SystemUInt32_12
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector3Array_1
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __intnl_UnityEngineVector3Array_1
+        PUSH, __1_value__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.syncedData.set
+        JUMP, 0x000002F0
+        PUSH, __const_SystemBoolean_1
+        PUSH, isInUseSyncBuffer
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, nextInk
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        COPY
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000994
+        JUMP, 0x000009B8
+        PUSH, __gintnl_SystemUInt32_13
+# Calling QvPen.UdonScript.QvPen_LateSync.GetNextInk()
+        JUMP, 0x00002274
+        PUSH, __0_GetNextInk__ret
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        COPY
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00001434
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_totalLength_SystemInt32_0
+        COPY
+        PUSH, __lcl_dataList_VRCSDK3DataDataList_0
+        EXTERN, "VRCSDK3DataDataList.__ctor____VRCSDK3DataDataList"
+        PUSH, __lcl_lengthList_VRCSDK3DataDataList_0
+        EXTERN, "VRCSDK3DataDataList.__ctor____VRCSDK3DataDataList"
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000db8
+        PUSH, __gintnl_SystemUInt32_14
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __1__intnlparam
+        COPY
+        PUSH, __lcl__discard_UnityEngineVector3_0
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __lcl_inkIdVector_UnityEngineVector3_0
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __lcl_ownerIdVector_UnityEngineVector3_0
+        PUSH, __4__intnlparam
+        COPY
+# Calling QvPen.UdonScript.QvPenUtilities.TryGetIdFromInk(UnityEngine.GameObject, out UnityEngine.Vector3, out UnityEngine.Vector3, out UnityEngine.Vector3)
+        JUMP, 0x00002700
+        PUSH, __2__intnlparam
+        PUSH, __lcl__discard_UnityEngineVector3_0
+        COPY
+        PUSH, __3__intnlparam
+        PUSH, __lcl_inkIdVector_UnityEngineVector3_0
+        COPY
+        PUSH, __4__intnlparam
+        PUSH, __lcl_ownerIdVector_UnityEngineVector3_0
+        COPY
+        PUSH, __0__intnlparam
+        JUMP_IF_FALSE, 0x00000b08
+        JUMP, 0x00000B34
+        PUSH, __gintnl_SystemUInt32_15
+# Calling QvPen.UdonScript.QvPen_LateSync.GetNextInk()
+        JUMP, 0x00002274
+        PUSH, __0_GetNextInk__ret
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        COPY
+        JUMP, 0x00000A14
+        PUSH, __gintnl_SystemUInt32_16
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_4
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_5
+        PUSH, __const_SystemInt32_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_6
+        PUSH, __lcl_inkIdVector_UnityEngineVector3_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_7
+        PUSH, __lcl_ownerIdVector_UnityEngineVector3_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_8
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_9
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_UnityEngineVector3Array_1
+        COPY
+        PUSH, __intnl_UnityEngineVector3Array_1
+        PUSH, __lcl_data_UnityEngineVector3Array_0
+        COPY
+        PUSH, __lcl_data_UnityEngineVector3Array_0
+        PUSH, __lcl_length_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_data_UnityEngineVector3Array_0
+        PUSH, __intnl_VRCSDK3DataDataToken_0
+        EXTERN, "VRCSDK3DataDataToken.__ctor__SystemObject__VRCSDK3DataDataToken"
+        PUSH, __lcl_dataList_VRCSDK3DataDataList_0
+        PUSH, __intnl_VRCSDK3DataDataToken_0
+        EXTERN, "VRCSDK3DataDataList.__Add__VRCSDK3DataDataToken__SystemVoid"
+        PUSH, __lcl_length_SystemInt32_0
+        PUSH, __intnl_VRCSDK3DataDataToken_1
+        EXTERN, "VRCSDK3DataDataToken.__op_Implicit__SystemInt32__VRCSDK3DataDataToken"
+        PUSH, __lcl_lengthList_VRCSDK3DataDataList_0
+        PUSH, __intnl_VRCSDK3DataDataToken_1
+        EXTERN, "VRCSDK3DataDataList.__Add__VRCSDK3DataDataToken__SystemVoid"
+        PUSH, __lcl_totalLength_SystemInt32_0
+        PUSH, __lcl_length_SystemInt32_0
+        PUSH, __lcl_totalLength_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __gintnl_SystemUInt32_17
+# Calling QvPen.UdonScript.QvPen_LateSync.GetNextInk()
+        JUMP, 0x00002274
+        PUSH, __0_GetNextInk__ret
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        COPY
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00000d10
+        JUMP, 0x00000D2C
+        PUSH, __const_SystemObject_0
+        PUSH, nextInk
+        COPY
+        JUMP, 0x00000DB8
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "UnityEngineLineRenderer.__get_positionCount__SystemInt32"
+        PUSH, __lcl_totalLength_SystemInt32_0
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00000db0
+        PUSH, __lcl_ink_UnityEngineLineRenderer_0
+        PUSH, nextInk
+        COPY
+        JUMP, 0x00000DB8
+        JUMP, 0x00000A14
+        PUSH, __lcl_lengthList_VRCSDK3DataDataList_0
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "VRCSDK3DataDataList.__get_Count__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemInt32.__op_Division__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_0
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_lengthList_VRCSDK3DataDataList_0
+        PUSH, __lcl_n_SystemInt32_0
+        EXTERN, "VRCSDK3DataDataList.__get_Count__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_n_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00000fec
+        PUSH, __lcl_lengthList_VRCSDK3DataDataList_0
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_VRCSDK3DataTokenType_0
+        PUSH, __lcl_lengthToken_VRCSDK3DataDataToken_0
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "VRCSDK3DataDataList.__TryGetValue__SystemInt32_VRCSDK3DataTokenType_VRCSDK3DataDataTokenRef__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00000ecc
+        JUMP, 0x00000ED4
+        JUMP, 0x00000FC4
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemInt32.__op_Division__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_0
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_UnityEngineVector3_1
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_lengthToken_VRCSDK3DataDataToken_0
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "VRCSDK3DataDataToken.__get_Int__SystemInt32"
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, __intnl_UnityEngineVector3_1
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "UnityEngineVector3.__set_Item__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_9
+        EXTERN, "SystemInt32.__op_Division__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_0
+        PUSH, __intnl_SystemInt32_9
+        PUSH, __intnl_UnityEngineVector3_1
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000E54
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_0
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __lcl_totalLength_SystemInt32_0
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __lcl_joinedData_UnityEngineVector3Array_0
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_index_SystemInt32_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_18
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+# Cow dirty
+        PUSH, __0_get_pen__ret
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_UnityEngineVector3_1
+        COPY
+        PUSH, __lcl_joinedData_UnityEngineVector3Array_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector3_1
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_index_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_lengthList_VRCSDK3DataDataList_0
+        PUSH, __intnl_SystemInt32_9
+        EXTERN, "VRCSDK3DataDataList.__get_Count__SystemInt32"
+        PUSH, __intnl_SystemInt32_9
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, __lcl_joinedData_UnityEngineVector3Array_0
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_10
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, __intnl_SystemSingle_3
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_UnityEngineVector3_2
+        EXTERN, "UnityEngineVector3.__ctor__SystemSingle_SystemSingle_SystemSingle__UnityEngineVector3"
+        PUSH, __lcl_joinedData_UnityEngineVector3Array_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_UnityEngineVector3_2
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_index_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_0
+        PUSH, __intnl_SystemInt32_11
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_joinedData_UnityEngineVector3Array_0
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __intnl_SystemInt32_11
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_0
+        PUSH, __intnl_SystemInt32_12
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __intnl_SystemInt32_12
+        PUSH, __lcl_index_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_dataList_VRCSDK3DataDataList_0
+        PUSH, __lcl_n_SystemInt32_0
+        EXTERN, "VRCSDK3DataDataList.__get_Count__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_n_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x000013e8
+        PUSH, __lcl_dataList_VRCSDK3DataDataList_0
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_VRCSDK3DataTokenType_1
+        PUSH, __lcl_dataToken_VRCSDK3DataDataToken_0
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "VRCSDK3DataDataList.__TryGetValue__SystemInt32_VRCSDK3DataTokenType_VRCSDK3DataDataTokenRef__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x0000130c
+        JUMP, 0x00001314
+        JUMP, 0x000013C0
+        PUSH, __lcl_dataToken_VRCSDK3DataDataToken_0
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCSDK3DataDataToken.__get_Reference__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __lcl_data_UnityEngineVector3Array_0
+        COPY
+        PUSH, __lcl_data_UnityEngineVector3Array_0
+        PUSH, __intnl_SystemInt32_13
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_data_UnityEngineVector3Array_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_joinedData_UnityEngineVector3Array_0
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __intnl_SystemInt32_13
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __lcl_data_UnityEngineVector3Array_0
+        PUSH, __intnl_SystemInt32_14
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __lcl_index_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001294
+        PUSH, __lcl_dataList_VRCSDK3DataDataList_0
+        EXTERN, "VRCSDK3DataDataList.__Clear__SystemVoid"
+        PUSH, __lcl_lengthList_VRCSDK3DataDataList_0
+        EXTERN, "VRCSDK3DataDataList.__Clear__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_19
+        PUSH, __lcl_joinedData_UnityEngineVector3Array_0
+        PUSH, __0_data__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.SendData(UnityEngine.Vector3[])
+        JUMP, 0x0000063C
+        JUMP, 0x00001444
+        PUSH, __gintnl_SystemUInt32_20
+# Calling QvPen.UdonScript.QvPen_LateSync.SendEndSignal()
+        JUMP, 0x00001E78
+        JUMP, 0x000014D8
+        PUSH, retryCount
+        PUSH, __intnl_SystemInt32_3
+        COPY
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __const_SystemInt32_0
+        PUSH, retryCount
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x000014d8
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        PUSH, __const_SystemString_3
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.UnpackData(UnityEngine.Vector3[])
+# 
+        PUSH, _syncedData
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x0000152c
+        JUMP, 0x00001564
+        PUSH, _syncedData
+        PUSH, __intnl_SystemInt32_15
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00001588
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_21
+        PUSH, __1_data__param
+        PUSH, __4_data__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.GetPenIdVector(UnityEngine.Vector3[])
+        JUMP, 0x00002178
+        PUSH, __0___0_GetPenIdVector__ret
+        PUSH, __lcl_penIdVector_UnityEngineVector3_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_22
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00001688
+        PUSH, __gintnl_SystemUInt32_23
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_10
+        PUSH, __lcl_penIdVector_UnityEngineVector3_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_11
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_12
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemBoolean_16
+        COPY
+        PUSH, __intnl_SystemBoolean_16
+        PUSH, __intnl_SystemBoolean_15
+        COPY
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00001d54
+        PUSH, __gintnl_SystemUInt32_24
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_13
+        PUSH, __intnl_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_4
+        PUSH, __intnl_SystemInt32_16
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_16
+        PUSH, __lcl_currentSyncState_SystemInt32_0
+        COPY
+        PUSH, __lcl_currentSyncState_SystemInt32_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_17
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_17
+        JUMP_IF_FALSE, 0x00001738
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_25
+        PUSH, __1_data__param
+        PUSH, __2_data__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.GetCalibrationSignal(UnityEngine.Vector3[])
+        JUMP, 0x00001F80
+        PUSH, __0___0_GetCalibrationSignal__ret
+        PUSH, __lcl_signal_UnityEngineVector3_1
+        COPY
+        PUSH, __lcl_signal_UnityEngineVector3_1
+        PUSH, beginSignal
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        JUMP_IF_FALSE, 0x00001808
+        PUSH, __lcl_currentSyncState_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001800
+        PUSH, __gintnl_SystemUInt32_26
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_13
+        PUSH, __const_SystemInt32_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        JUMP, 0x00001D54
+        PUSH, __lcl_signal_UnityEngineVector3_1
+        PUSH, endSignal
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "UnityEngineVector3.__op_Equality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x000018a0
+        PUSH, __lcl_currentSyncState_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x00001898
+        PUSH, __gintnl_SystemUInt32_27
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_13
+        PUSH, __const_SystemInt32_8
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        JUMP, 0x00001D54
+        PUSH, __1_data__param
+        PUSH, __intnl_SystemInt32_17
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_17
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x00001d54
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_index_SystemInt32_1
+        COPY
+        PUSH, __1_data__param
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector3_3
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_3
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "UnityEngineVector3.__get_x__SystemSingle"
+        PUSH, __intnl_SystemSingle_5
+        PUSH, __intnl_SystemDouble_0
+        EXTERN, "SystemConvert.__ToDouble__SystemSingle__SystemDouble"
+        PUSH, __intnl_SystemDouble_0
+        PUSH, __intnl_SystemDouble_1
+        EXTERN, "SystemMath.__Truncate__SystemDouble__SystemDouble"
+        PUSH, __intnl_SystemDouble_1
+        PUSH, __lcl_length_SystemInt32_1
+        EXTERN, "SystemConvert.__ToInt32__SystemDouble__SystemInt32"
+        PUSH, __1_data__param
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector3_4
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_4
+        PUSH, __intnl_SystemSingle_6
+        EXTERN, "UnityEngineVector3.__get_y__SystemSingle"
+        PUSH, __intnl_SystemSingle_6
+        PUSH, __intnl_SystemDouble_2
+        EXTERN, "SystemConvert.__ToDouble__SystemSingle__SystemDouble"
+        PUSH, __intnl_SystemDouble_2
+        PUSH, __intnl_SystemDouble_3
+        EXTERN, "SystemMath.__Truncate__SystemDouble__SystemDouble"
+        PUSH, __intnl_SystemDouble_3
+        PUSH, __lcl_check_SystemInt32_0
+        EXTERN, "SystemConvert.__ToInt32__SystemDouble__SystemInt32"
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_index_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __1_data__param
+        PUSH, __intnl_SystemInt32_18
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_check_SystemInt32_0
+        PUSH, __intnl_SystemInt32_18
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x00001a78
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_length_SystemInt32_1
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_19
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_19
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_20
+        EXTERN, "SystemInt32.__op_Division__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_20
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_1
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_1
+        PUSH, __intnl_SystemInt32_21
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __1_data__param
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_21
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_1
+        PUSH, __intnl_SystemInt32_22
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __intnl_SystemInt32_22
+        PUSH, __lcl_index_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_1
+        COPY
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __lcl_length_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        JUMP_IF_FALSE, 0x00001d54
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_23
+        EXTERN, "SystemInt32.__op_Division__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_lengthVectors_UnityEngineVector3Array_1
+        PUSH, __intnl_SystemInt32_23
+        PUSH, __intnl_UnityEngineVector3_5
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_SystemInt32_24
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_UnityEngineVector3_5
+        PUSH, __intnl_SystemInt32_24
+        PUSH, __intnl_SystemSingle_7
+        EXTERN, "UnityEngineVector3.__get_Item__SystemInt32__SystemSingle"
+        PUSH, __intnl_SystemSingle_7
+        PUSH, __intnl_SystemDouble_4
+        EXTERN, "SystemConvert.__ToDouble__SystemSingle__SystemDouble"
+        PUSH, __intnl_SystemDouble_4
+        PUSH, __intnl_SystemDouble_5
+        EXTERN, "SystemMath.__Truncate__SystemDouble__SystemDouble"
+        PUSH, __intnl_SystemDouble_5
+        PUSH, __lcl_dataLength_SystemInt32_0
+        EXTERN, "SystemConvert.__ToInt32__SystemDouble__SystemInt32"
+        PUSH, __lcl_dataLength_SystemInt32_0
+        PUSH, __lcl_stroke_UnityEngineVector3Array_0
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __1_data__param
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __lcl_stroke_UnityEngineVector3Array_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_dataLength_SystemInt32_0
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __lcl_dataLength_SystemInt32_0
+        PUSH, __lcl_index_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __gintnl_SystemUInt32_28
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_14
+        PUSH, __lcl_stroke_UnityEngineVector3Array_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_15
+        PUSH, __const_SystemInt32_9
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_16
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001B64
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.SendBeginSignal()
+# 
+        PUSH, __gintnl_SystemUInt32_29
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector3Array_2
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __gintnl_SystemUInt32_30
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+# Cow dirty
+        PUSH, __0_get_pen__ret
+        PUSH, __intnl_VRCUdonUdonBehaviour_2
+        COPY
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_5
+        PUSH, __intnl_UnityEngineVector3_6
+        COPY
+        PUSH, __intnl_UnityEngineVector3Array_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector3_6
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __intnl_UnityEngineVector3Array_2
+        PUSH, __const_SystemInt32_0
+        PUSH, beginSignal
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __intnl_UnityEngineVector3Array_2
+        PUSH, __0_data__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.SendData(UnityEngine.Vector3[])
+        JUMP, 0x0000063C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.SendEndSignal()
+# 
+        PUSH, __gintnl_SystemUInt32_31
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector3Array_3
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __gintnl_SystemUInt32_32
+# Calling QvPen.UdonScript.QvPen_LateSync.pen.get
+        JUMP, 0x00000008
+        PUSH, __0_get_pen__ret
+# Cow dirty
+        PUSH, __0_get_pen__ret
+        PUSH, __intnl_VRCUdonUdonBehaviour_3
+        COPY
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __0_get_pen__ret
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_6
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_6
+        PUSH, __intnl_UnityEngineVector3_7
+        COPY
+        PUSH, __intnl_UnityEngineVector3Array_3
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector3_7
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __intnl_UnityEngineVector3Array_3
+        PUSH, __const_SystemInt32_0
+        PUSH, endSignal
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __intnl_UnityEngineVector3Array_3
+        PUSH, __0_data__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.SendData(UnityEngine.Vector3[])
+        JUMP, 0x0000063C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.GetCalibrationSignal(UnityEngine.Vector3[])
+# 
+        PUSH, __2_data__param
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_23
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x00001fe8
+        PUSH, __2_data__param
+        PUSH, __intnl_SystemInt32_25
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_25
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_23
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x00002020
+        PUSH, __2_data__param
+        PUSH, __const_SystemInt32_0
+        PUSH, __0___0_GetCalibrationSignal__ret
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        JUMP, 0x00002034
+        PUSH, errorSignal
+        PUSH, __0___0_GetCalibrationSignal__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.GetData(UnityEngine.Vector3[], int)
+# 
+        PUSH, __3_data__param
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_24
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_24
+        JUMP_IF_FALSE, 0x000020b8
+        PUSH, __3_data__param
+        PUSH, __intnl_SystemInt32_26
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_26
+        PUSH, __0_index__param
+        PUSH, __intnl_SystemBoolean_24
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_24
+        JUMP_IF_FALSE, 0x00002148
+        PUSH, __3_data__param
+        PUSH, __intnl_SystemInt32_27
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_27
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_28
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_28
+        PUSH, __0_index__param
+        PUSH, __intnl_SystemInt32_29
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __3_data__param
+        PUSH, __intnl_SystemInt32_29
+        PUSH, __0___0_GetData__ret
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        JUMP, 0x0000215C
+        PUSH, errorSignal
+        PUSH, __0___0_GetData__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.GetPenIdVector(UnityEngine.Vector3[])
+# 
+        PUSH, __4_data__param
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_25
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_25
+        JUMP_IF_FALSE, 0x000021e0
+        PUSH, __4_data__param
+        PUSH, __intnl_SystemInt32_30
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_30
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_25
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_25
+        JUMP_IF_FALSE, 0x00002244
+        PUSH, __gintnl_SystemUInt32_33
+        PUSH, __4_data__param
+        PUSH, __3_data__param
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, __0_index__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.GetData(UnityEngine.Vector3[], int)
+        JUMP, 0x00002050
+        PUSH, __0___0_GetData__ret
+        PUSH, __0___0_GetPenIdVector__ret
+        COPY
+        JUMP, 0x00002258
+        PUSH, errorSignal
+        PUSH, __0___0_GetPenIdVector__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.GetNextInk()
+# 
+        PUSH, __const_SystemInt32_3
+        PUSH, inkIndex
+        PUSH, inkIndex
+        EXTERN, "UnityEngineMathf.__Max__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, inkIndex
+        PUSH, __const_SystemInt32_0
+        PUSH, inkIndex
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, linesBuffer
+        PUSH, __intnl_SystemInt32_31
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, inkIndex
+        PUSH, __intnl_SystemInt32_31
+        PUSH, __intnl_SystemBoolean_26
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_26
+        JUMP_IF_FALSE, 0x00002374
+        PUSH, linesBuffer
+        PUSH, inkIndex
+        PUSH, __lcl_ink_UnityEngineLineRenderer_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_ink_UnityEngineLineRenderer_1
+        PUSH, __intnl_SystemBoolean_27
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_27
+        JUMP_IF_FALSE, 0x0000236c
+        PUSH, __lcl_ink_UnityEngineLineRenderer_1
+        PUSH, __0_GetNextInk__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x00002294
+        PUSH, __const_SystemObject_0
+        PUSH, __0_GetNextInk__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.Log(object)
+# 
+        PUSH, __gintnl_SystemUInt32_34
+# Calling QvPen.UdonScript.QvPen_LateSync.logPrefix.get
+        JUMP, 0x00002598
+        PUSH, __const_SystemString_17
+        PUSH, __0_get_logPrefix__ret
+        PUSH, __0_o__param
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_4
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_UnityEngineObject_0
+        EXTERN, "UnityEngineDebug.__Log__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.Warning(object)
+# 
+        PUSH, __gintnl_SystemUInt32_35
+# Calling QvPen.UdonScript.QvPen_LateSync.logPrefix.get
+        JUMP, 0x00002598
+        PUSH, __const_SystemString_17
+        PUSH, __0_get_logPrefix__ret
+        PUSH, __1_o__param
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_5
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_SystemString_1
+        PUSH, __intnl_UnityEngineObject_1
+        EXTERN, "UnityEngineDebug.__LogWarning__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.Error(object)
+# 
+        PUSH, __gintnl_SystemUInt32_36
+# Calling QvPen.UdonScript.QvPen_LateSync.logPrefix.get
+        JUMP, 0x00002598
+        PUSH, __const_SystemString_17
+        PUSH, __0_get_logPrefix__ret
+        PUSH, __2_o__param
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __this_VRCUdonUdonBehaviour_6
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __intnl_SystemString_2
+        PUSH, __intnl_UnityEngineObject_2
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.ColorBeginTag(UnityEngine.Color)
+# 
+        PUSH, __gintnl_SystemUInt32_37
+        PUSH, __0_c__param
+        PUSH, __6__intnlparam
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.ToHtmlStringRGB(UnityEngine.Color)
+        JUMP, 0x000029A8
+        PUSH, __const_SystemString_18
+        PUSH, __5__intnlparam
+        PUSH, __0___0_ColorBeginTag__ret
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.logPrefix.get
+# 
+        PUSH, _logPrefix
+        PUSH, __intnl_SystemBoolean_28
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_28
+        PUSH, __intnl_SystemBoolean_29
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_29
+        JUMP_IF_FALSE, 0x000025f4
+        PUSH, _logPrefix
+        PUSH, __0_get_logPrefix__ret
+        COPY
+        JUMP, 0x000026EC
+        PUSH, __gintnl_SystemUInt32_38
+        PUSH, logColor
+        PUSH, __0_c__param
+        COPY
+# Calling QvPen.UdonScript.QvPen_LateSync.ColorBeginTag(UnityEngine.Color)
+        JUMP, 0x00002538
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __0___0_ColorBeginTag__ret
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_SystemString_19
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __const_SystemString_20
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_6
+        PUSH, __const_SystemString_21
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_10
+        PUSH, __const_SystemString_22
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __const_SystemString_23
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, _logPrefix
+        EXTERN, "SystemString.__Format__SystemString_SystemObjectArray__SystemString"
+        PUSH, _logPrefix
+        PUSH, __0_get_logPrefix__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPenUtilities.TryGetIdFromInk(UnityEngine.GameObject, out UnityEngine.Vector3, out UnityEngine.Vector3, out UnityEngine.Vector3)
+# 
+        PUSH, __1__intnlparam
+        PUSH, __intnl_SystemBoolean_30
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_30
+        JUMP_IF_FALSE, 0x00002730
+        JUMP, 0x00002794
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __4__intnlparam
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __1__intnlparam
+        PUSH, __intnl_UnityEngineTransform_1
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_1
+        PUSH, __intnl_SystemInt32_32
+        EXTERN, "UnityEngineTransform.__get_childCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_32
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_31
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_31
+        JUMP_IF_FALSE, 0x00002858
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __4__intnlparam
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __1__intnlparam
+        PUSH, __intnl_UnityEngineTransform_2
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_2
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_idHolder_UnityEngineTransform_0
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __lcl_idHolder_UnityEngineTransform_0
+        PUSH, __intnl_SystemBoolean_32
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_32
+        JUMP_IF_FALSE, 0x000028c0
+        JUMP, 0x00002924
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __4__intnlparam
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_idHolder_UnityEngineTransform_0
+        PUSH, __2__intnlparam
+        EXTERN, "UnityEngineTransform.__get_localPosition__UnityEngineVector3"
+        PUSH, __lcl_idHolder_UnityEngineTransform_0
+        PUSH, __3__intnlparam
+        EXTERN, "UnityEngineTransform.__get_localScale__UnityEngineVector3"
+        PUSH, __lcl_idHolder_UnityEngineTransform_0
+        PUSH, __4__intnlparam
+        EXTERN, "UnityEngineTransform.__get_localEulerAngles__UnityEngineVector3"
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_LateSync.ToHtmlStringRGB(UnityEngine.Color)
+# 
+        PUSH, __6__intnlparam
+        PUSH, __const_SystemSingle_3
+        PUSH, __6__intnlparam
+        EXTERN, "UnityEngineColor.__op_Multiply__UnityEngineColor_SystemSingle__UnityEngineColor"
+        PUSH, __6__intnlparam
+        PUSH, __intnl_SystemSingle_8
+        EXTERN, "UnityEngineColor.__get_r__SystemSingle"
+        PUSH, __intnl_SystemSingle_8
+        PUSH, __intnl_SystemInt32_33
+        EXTERN, "UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32"
+        PUSH, __6__intnlparam
+        PUSH, __intnl_SystemSingle_9
+        EXTERN, "UnityEngineColor.__get_g__SystemSingle"
+        PUSH, __intnl_SystemSingle_9
+        PUSH, __intnl_SystemInt32_34
+        EXTERN, "UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32"
+        PUSH, __6__intnlparam
+        PUSH, __intnl_SystemSingle_10
+        EXTERN, "UnityEngineColor.__get_b__SystemSingle"
+        PUSH, __intnl_SystemSingle_10
+        PUSH, __intnl_SystemInt32_35
+        EXTERN, "UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32"
+        PUSH, __const_SystemString_24
+        PUSH, __intnl_SystemInt32_33
+        PUSH, __intnl_SystemInt32_34
+        PUSH, __intnl_SystemInt32_35
+        PUSH, __5__intnlparam
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

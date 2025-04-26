@@ -1,0 +1,113 @@
+.data_start
+    .export gameObjects
+    .export isShown
+    .export displayObjectOn
+    .export displayObjectOff
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    gameObjects: %UnityEngineGameObjectArray, null
+    isShown: %SystemBoolean, null
+    displayObjectOn: %UnityEngineGameObject, null
+    displayObjectOff: %UnityEngineGameObject, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __lcl_go_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+.data_end
+.code_start
+.update_order 30
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.UI.QvPen_ShowOrHideButton.Start()
+# 
+        PUSH, __gintnl_SystemUInt32_0
+# Calling QvPen.UdonScript.UI.QvPen_ShowOrHideButton.UpdateActivity()
+        JUMP, 0x00000080
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _interact
+    _interact:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.UI.QvPen_ShowOrHideButton.Interact()
+# 
+        PUSH, isShown
+        PUSH, __const_SystemBoolean_0
+        PUSH, isShown
+        EXTERN, "SystemBoolean.__op_LogicalXor__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __gintnl_SystemUInt32_1
+# Calling QvPen.UdonScript.UI.QvPen_ShowOrHideButton.UpdateActivity()
+        JUMP, 0x00000080
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.UI.QvPen_ShowOrHideButton.UpdateActivity()
+# 
+        PUSH, displayObjectOn
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000000c0
+        PUSH, displayObjectOn
+        PUSH, isShown
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, displayObjectOff
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000118
+        PUSH, isShown
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, displayObjectOff
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, gameObjects
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        COPY
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000001fc
+        PUSH, gameObjects
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __lcl_go_UnityEngineGameObject_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_go_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000001d4
+        PUSH, __lcl_go_UnityEngineGameObject_0
+        PUSH, isShown
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000144
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

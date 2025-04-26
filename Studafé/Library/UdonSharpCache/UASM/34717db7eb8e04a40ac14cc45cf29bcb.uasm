@@ -1,0 +1,356 @@
+.data_start
+    .export settings
+    .export message
+    .export messageTMP
+    .export messageTMPU
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    settings: %VRCUdonUdonBehaviour, null
+    message: %UnityEngineUIText, null
+    messageTMP: %TMProTextMeshPro, null
+    messageTMPU: %TMProTextMeshProUGUI, null
+    master: %VRCSDKBaseVRCPlayerApi, null
+    onPlayerJoinedPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    onOwnershipTransferredPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __const_SystemInt32_3: %SystemInt32, null
+    __const_SystemInt32_4: %SystemInt32, null
+    __const_SystemString_0: %SystemString, null
+    __const_SystemString_1: %SystemString, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __const_SystemString_2: %SystemString, null
+    __const_VRCUdonCommonInterfacesNetworkEventTarget_0: %VRCUdonCommonInterfacesNetworkEventTarget, null
+    __const_SystemString_3: %SystemString, null
+    __const_SystemString_4: %SystemString, null
+    __const_SystemString_5: %SystemString, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __lcl_displayName_SystemString_0: %SystemString, null
+    __lcl_s_SystemString_0: %SystemString, null
+    __lcl_cnt_SystemInt32_0: %SystemInt32, null
+    __lcl_messageString_SystemString_0: %SystemString, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemChar_0: %SystemChar, null
+    __intnl_SystemCharArray_0: %SystemCharArray, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemChar_1: %SystemChar, null
+    __intnl_SystemCharArray_1: %SystemCharArray, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemChar_2: %SystemChar, null
+    __intnl_SystemCharArray_2: %SystemCharArray, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __intnl_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __lcl_penManager_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __lcl_eraserManager_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+.data_end
+.code_start
+    .export _onPlayerJoined
+    _onPlayerJoined:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.UI.QvPen_ResetAllButton.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, master
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000040
+        JUMP, 0x00000090
+        PUSH, onPlayerJoinedPlayer
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, master
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000000c4
+        PUSH, onPlayerJoinedPlayer
+        PUSH, master
+        COPY
+        PUSH, __gintnl_SystemUInt32_0
+# Calling QvPen.UdonScript.UI.QvPen_ResetAllButton.UpdateMessage()
+        JUMP, 0x00000120
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onOwnershipTransferred
+    _onOwnershipTransferred:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.UI.QvPen_ResetAllButton.OnOwnershipTransferred(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, onOwnershipTransferredPlayer
+        PUSH, master
+        COPY
+        PUSH, __gintnl_SystemUInt32_1
+# Calling QvPen.UdonScript.UI.QvPen_ResetAllButton.UpdateMessage()
+        JUMP, 0x00000120
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.UI.QvPen_ResetAllButton.UpdateMessage()
+# 
+        PUSH, master
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000164
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_displayName_SystemString_0
+        EXTERN, "SystemString.__get_Empty__SystemString"
+        PUSH, master
+        PUSH, __lcl_s_SystemString_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString"
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_cnt_SystemInt32_0
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_s_SystemString_0
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x0000049c
+        PUSH, __lcl_s_SystemString_0
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemCharArray_0
+        EXTERN, "SystemString.__ToCharArray__SystemInt32_SystemInt32__SystemCharArray"
+        PUSH, __intnl_SystemCharArray_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemChar_0
+        EXTERN, "SystemCharArray.__Get__SystemInt32__SystemChar"
+        PUSH, __intnl_SystemChar_0
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemConvert.__ToInt32__SystemChar__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000002b4
+        PUSH, __lcl_cnt_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_cnt_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000002D4
+        PUSH, __lcl_cnt_SystemInt32_0
+        PUSH, __const_SystemInt32_3
+        PUSH, __lcl_cnt_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_cnt_SystemInt32_0
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000374
+        PUSH, __lcl_s_SystemString_0
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemCharArray_1
+        EXTERN, "SystemString.__ToCharArray__SystemInt32_SystemInt32__SystemCharArray"
+        PUSH, __intnl_SystemCharArray_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemChar_1
+        EXTERN, "SystemCharArray.__Get__SystemInt32__SystemChar"
+        PUSH, __lcl_displayName_SystemString_0
+        PUSH, __intnl_SystemChar_1
+        PUSH, __lcl_displayName_SystemString_0
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        JUMP, 0x00000474
+        PUSH, __lcl_s_SystemString_0
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x0000044c
+        PUSH, __lcl_s_SystemString_0
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemCharArray_2
+        EXTERN, "SystemString.__ToCharArray__SystemInt32_SystemInt32__SystemCharArray"
+        PUSH, __intnl_SystemCharArray_2
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemChar_2
+        EXTERN, "SystemCharArray.__Get__SystemInt32__SystemChar"
+        PUSH, __lcl_displayName_SystemString_0
+        PUSH, __intnl_SystemChar_2
+        PUSH, __lcl_displayName_SystemString_0
+        EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
+        JUMP, 0x0000046C
+        PUSH, __lcl_displayName_SystemString_0
+        PUSH, __const_SystemString_0
+        PUSH, __lcl_displayName_SystemString_0
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        JUMP, 0x0000049C
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000001B4
+        PUSH, __const_SystemString_1
+        PUSH, __lcl_displayName_SystemString_0
+        PUSH, __lcl_messageString_SystemString_0
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, message
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000004fc
+        PUSH, message
+        PUSH, __lcl_messageString_SystemString_0
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, messageTMP
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x0000053c
+        PUSH, messageTMP
+        PUSH, __lcl_messageString_SystemString_0
+        EXTERN, "TMProTextMeshPro.__set_text__SystemString__SystemVoid"
+        PUSH, messageTMPU
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x0000057c
+        PUSH, messageTMPU
+        PUSH, __lcl_messageString_SystemString_0
+        EXTERN, "TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _interact
+    _interact:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.UI.QvPen_ResetAllButton.Interact()
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x000005c8
+        JUMP, 0x000005DC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, settings
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_UnityEngineComponentArray_0
+        COPY
+        PUSH, __intnl_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_7
+        COPY
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x000006fc
+        PUSH, __intnl_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __lcl_penManager_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_penManager_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x000006d4
+        PUSH, __lcl_penManager_VRCUdonUdonBehaviour_0
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000063C
+        PUSH, settings
+        PUSH, __const_SystemString_4
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_UnityEngineComponentArray_0
+        COPY
+        PUSH, __intnl_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_7
+        COPY
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x0000081c
+        PUSH, __intnl_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __lcl_eraserManager_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_eraserManager_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x000007f4
+        PUSH, __lcl_eraserManager_VRCUdonUdonBehaviour_0
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000075C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

@@ -1,0 +1,217 @@
+.data_start
+    .export m_target
+    .export m_nameEvent
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    m_target: %VRCUdonUdonBehaviour, null
+    m_nameEvent: %SystemString, null
+    posDefault: %UnityEngineVector3, null
+    rotDefault: %UnityEngineQuaternion, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemInt32_0: %SystemInt32, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemType_0: %SystemType, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_0: %SystemString, null
+    __0_value__param: %SystemBoolean, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    __0_colorIndex__param: %SystemInt32, null
+    __const_SystemType_1: %SystemType, null
+    __const_SystemString_1: %SystemString, null
+    __1_value__param: %SystemBoolean, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __intnl_VRCSDK3ComponentsVRCPickup_0: %VRCSDK3ComponentsVRCPickup, null
+    __intnl_UnityEngineComponent_1: %UnityEngineComponent, null
+    __intnl_VRCSDK3ComponentsVRCPickup_1: %VRCSDK3ComponentsVRCPickup, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_UnityEngineComponent_2: %UnityEngineComponent, null
+    __intnl_VRCSDK3ComponentsVRCPickup_2: %VRCSDK3ComponentsVRCPickup, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_UnityEngineAnimator_0: %UnityEngineAnimator, null
+    __intnl_UnityEngineAnimator_1: %UnityEngineAnimator, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Machine_Button.Start()
+# 
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, posDefault
+        EXTERN, "UnityEngineTransform.__get_position__UnityEngineVector3"
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, rotDefault
+        EXTERN, "UnityEngineTransform.__get_rotation__UnityEngineQuaternion"
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x0000008c
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsUserInVR__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000000cc
+        JUMP, 0x00000118
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_0
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_0
+        COPY
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__set_pickupable__SystemBoolean"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickup
+    _onPickup:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Machine_Button.OnPickup()
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_1
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_1
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_1
+        COPY
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_1
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__Drop__SystemVoid"
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, posDefault
+        PUSH, rotDefault
+        EXTERN, "UnityEngineTransform.__SetPositionAndRotation__UnityEngineVector3_UnityEngineQuaternion__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _interact
+    _interact:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Machine_Button.Interact()
+# 
+        PUSH, m_target
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemString_0
+        PUSH, m_nameEvent
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, m_target
+# Cow dirty
+        PUSH, m_nameEvent
+        PUSH, __intnl_SystemString_2
+        COPY
+        PUSH, m_nameEvent
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_SetInteract
+    __0_SetInteract:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Machine_Button.SetInteract(bool)
+# 
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000002a0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsUserInVR__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000324
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_2
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_2
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_2
+        COPY
+        PUSH, __intnl_VRCSDK3ComponentsVRCPickup_2
+        PUSH, __0_value__param
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__set_pickupable__SystemBoolean"
+        PUSH, __0_value__param
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__set_DisableInteractive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_SetColor
+    __0_SetColor:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Machine_Button.SetColor(int)
+# 
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __const_SystemType_1
+        PUSH, __intnl_UnityEngineAnimator_0
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_0
+        PUSH, __const_SystemString_1
+        PUSH, __0_colorIndex__param
+        EXTERN, "UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_SetWorking
+    __0_SetWorking:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Machine_Button.SetWorking(bool)
+# 
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __const_SystemType_1
+        PUSH, __intnl_UnityEngineAnimator_1
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_1
+        PUSH, __const_SystemString_1
+        PUSH, __1_value__param
+        EXTERN, "UnityEngineAnimator.__SetBool__SystemString_SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

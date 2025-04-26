@@ -1,0 +1,22 @@
+.data_start
+    .export audioSource
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    audioSource: %UnityEngineAudioSource, null
+    onPlayerJoinedPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+.data_end
+.code_start
+    .export _onPlayerJoined
+    _onPlayerJoined:
+        PUSH, __const_SystemUInt32_0
+# 
+# NanaseWorks.UdonJoinAlert.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, audioSource
+        EXTERN, "UnityEngineAudioSource.__Play__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

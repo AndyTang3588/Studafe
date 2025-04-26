@@ -1,0 +1,3 @@
+Packages\tlp.udonutils\Runtime\Player\AutoPlayerRange.cs(19,47): warning CS0618: 'CustomAudioFalloff' is obsolete: 'Use curve editor of AudioSource directly'
+Packages\tlp.udonutils\Runtime\Experimental\Tasks\Task.cs(180,20): warning CS0618: 'Task.RunStep()' is obsolete: 'Use DoTask(stepDeltaTime) instead'
+Packages\tlp.udonutils\Runtime\TlpBaseBehaviour.cs(289,22): warning CS0414: The field 'TlpBaseBehaviour._isEarlyStart' is assigned but its value is never used

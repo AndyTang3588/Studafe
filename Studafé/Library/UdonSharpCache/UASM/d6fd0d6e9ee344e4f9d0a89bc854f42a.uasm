@@ -1,0 +1,786 @@
+.data_start
+    .export Yodo_HapticSliderValue
+    .sync Yodo_HapticSliderValue, none
+    .export Yodo_TargetAudioSources
+    .export Yodo_TargetPostProcessVolumes
+    .export Yodo_TargetLights
+    .export Yodo_MaxValue
+    .export Yodo_SliderMode
+    .export Yodo_SliderVibrationStrength
+    .export Yodo_SliderVibrationDuration
+    .export Yodo_TargetUdon
+    .export Yodo_TargetVariableName
+    .export CustomEventName
+    .export Yodo_Knob
+    .export Yodo_MinKnobX
+    .export Yodo_MaxKnobX
+    .export Yodo_IndicatorText
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    Yodo_HapticSliderValue: %SystemSingle, null
+    Yodo_TargetAudioSources: %UnityEngineAudioSourceArray, null
+    Yodo_TargetPostProcessVolumes: %UnityEngineRenderingPostProcessingPostProcessVolumeArray, null
+    Yodo_TargetLights: %UnityEngineLightArray, null
+    Yodo_MaxValue: %SystemSingle, null
+    Yodo_SliderMode: %SystemInt32, null
+    Yodo_SliderVibrationStrength: %SystemSingle, null
+    Yodo_SliderVibrationDuration: %SystemSingle, null
+    Yodo_TargetUdon: %UnityEngineGameObjectArray, null
+    Yodo_TargetVariableName: %SystemStringArray, null
+    CustomEventName: %SystemString, null
+    Yodo_Knob: %UnityEngineGameObject, null
+    Yodo_MinKnobX: %SystemSingle, null
+    Yodo_MaxKnobX: %SystemSingle, null
+    Yodo_IndicatorText: %UnityEngineUIText, null
+    isPicking: %SystemBoolean, null
+    localSensitivity: %SystemSingle, null
+    localMovement: %SystemSingle, null
+    last_knob_x: %SystemSingle, null
+    localSensitivityCutout: %SystemSingle, null
+    _localPlayer: %VRCSDKBaseVRCPlayerApi, null
+    previous_slider_value: %SystemSingle, null
+    _persistenceManager: %VRCUdonUdonBehaviour, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemString_0: %SystemString, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_1: %SystemString, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    onPlayerJoinedPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemSingle_0: %SystemSingle, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemInt32_2: %SystemInt32, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemString_3: %SystemString, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __const_SystemType_0: %SystemType, null
+    __const_SystemString_4: %SystemString, null
+    __const_VRCSDKBaseVRC_PickupPickupHand_0: %VRCSDKBaseVRC_PickupPickupHand, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __const_SystemSingle_2: %SystemSingle, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __const_SystemType_1: %SystemType, null
+    __const_SystemString_5: %SystemString, null
+    __const_SystemString_6: %SystemString, null
+    __const_SystemSingle_3: %SystemSingle, null
+    __const_SystemString_7: %SystemString, null
+    __0_newValue__param: %SystemSingle, null
+    __gintnl_SystemUInt32_9: %SystemUInt32, null
+    __gintnl_SystemUInt32_10: %SystemUInt32, null
+    __gintnl_SystemUInt32_11: %SystemUInt32, null
+    __0_persistenceManager__param: %VRCUdonUdonBehaviour, null
+    __lcl_udonnum_SystemInt32_0: %SystemInt32, null
+    __lcl_namenum_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __lcl_hand_x_SystemSingle_0: %SystemSingle, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_next_x_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __lcl_diff_SystemSingle_0: %SystemSingle, null
+    __lcl_pickup_VRCSDK3ComponentsVRCPickup_0: %VRCSDK3ComponentsVRCPickup, null
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __lcl_currentHand_VRCSDKBaseVRC_PickupPickupHand_0: %VRCSDKBaseVRC_PickupPickupHand, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __lcl_next_x_SystemSingle_1: %SystemSingle, null
+    __lcl_next_pos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineVector3_1: %UnityEngineVector3, null
+    __intnl_UnityEngineTransform_1: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_2: %UnityEngineTransform, null
+    __intnl_UnityEngineVector3_2: %UnityEngineVector3, null
+    __intnl_UnityEngineTransform_3: %UnityEngineTransform, null
+    __intnl_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_UnityEngineObject_3: %UnityEngineObject, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __lcl__value_SystemSingle_0: %SystemSingle, null
+    __lcl_cur_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __lcl_ub_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __intnl_UnityEngineComponent_1: %UnityEngineComponent, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __lcl_audio_UnityEngineAudioSource_0: %UnityEngineAudioSource, null
+    __lcl_ppv_UnityEngineRenderingPostProcessingPostProcessVolume_0: %UnityEngineRenderingPostProcessingPostProcessVolume, null
+    __lcl_light_UnityEngineLight_0: %UnityEngineLight, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.Start()
+# 
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_udonnum_SystemInt32_0
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_namenum_SystemInt32_0
+        COPY
+        PUSH, Yodo_HapticSliderValue
+        PUSH, previous_slider_value
+        COPY
+        PUSH, _localPlayer
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, Yodo_TargetUdon
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x0000009c
+        PUSH, Yodo_TargetUdon
+        PUSH, __lcl_udonnum_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, Yodo_TargetVariableName
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000000e4
+        PUSH, Yodo_TargetVariableName
+        PUSH, __lcl_namenum_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_udonnum_SystemInt32_0
+        PUSH, __lcl_namenum_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x0000017c
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_1
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __intnl_SystemString_2
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_0
+# Calling Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
+        JUMP, 0x0000092C
+        PUSH, __gintnl_SystemUInt32_1
+# Calling Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
+        JUMP, 0x000009FC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerJoined
+    _onPlayerJoined:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, onPlayerJoinedPlayer
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000001fc
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, onPlayerJoinedPlayer
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000234
+        PUSH, __gintnl_SystemUInt32_2
+# Calling Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
+        JUMP, 0x00000A98
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickup
+    _onPickup:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.OnPickup()
+# 
+        PUSH, __const_SystemBoolean_0
+        PUSH, isPicking
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDrop
+    _onDrop:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.OnDrop()
+# 
+        PUSH, __const_SystemBoolean_1
+        PUSH, isPicking
+        COPY
+        PUSH, Yodo_Knob
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x000002c4
+        JUMP, 0x000002D8
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_3
+# Calling Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
+        JUMP, 0x000009FC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _fixedUpdate
+    _fixedUpdate:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.FixedUpdate()
+# 
+        PUSH, Yodo_Knob
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000334
+        JUMP, 0x00000348
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, isPicking
+        JUMP_IF_FALSE, 0x00000360
+        JUMP, 0x00000374
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__get_localPosition__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_0
+        PUSH, __lcl_hand_x_SystemSingle_0
+        EXTERN, "UnityEngineVector3.__get_x__SystemSingle"
+        PUSH, __lcl_hand_x_SystemSingle_0
+        PUSH, Yodo_MinKnobX
+        PUSH, Yodo_MaxKnobX
+        PUSH, __lcl_next_x_SystemSingle_0
+        EXTERN, "UnityEngineMathf.__Clamp__SystemSingle_SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __lcl_next_x_SystemSingle_0
+        PUSH, Yodo_MinKnobX
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, Yodo_MaxKnobX
+        PUSH, Yodo_MinKnobX
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_2
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "UnityEngineMathf.__Abs__SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_3
+        PUSH, Yodo_HapticSliderValue
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, Yodo_HapticSliderValue
+        PUSH, previous_slider_value
+        COPY
+        PUSH, __gintnl_SystemUInt32_4
+# Calling Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
+        JUMP, 0x0000092C
+        PUSH, Yodo_SliderMode
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x00000510
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x000004e8
+        JUMP, 0x00000500
+        PUSH, _localPlayer
+        PUSH, __this_UnityEngineGameObject_0
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, Yodo_SliderMode
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x000005e4
+        PUSH, _persistenceManager
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x000005e4
+# Cow dirty
+        PUSH, Yodo_HapticSliderValue
+        PUSH, __intnl_SystemSingle_4
+        COPY
+        PUSH, _persistenceManager
+        PUSH, __const_SystemString_2
+        PUSH, Yodo_HapticSliderValue
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _persistenceManager
+        PUSH, __const_SystemString_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, last_knob_x
+        PUSH, __lcl_next_x_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemSingle.__op_Inequality__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x000006b0
+        PUSH, last_knob_x
+        PUSH, __lcl_next_x_SystemSingle_0
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __lcl_diff_SystemSingle_0
+        EXTERN, "UnityEngineMathf.__Abs__SystemSingle__SystemSingle"
+        PUSH, localSensitivityCutout
+        PUSH, __lcl_diff_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemSingle.__op_LessThanOrEqual__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x000006b0
+        PUSH, localMovement
+        PUSH, __lcl_diff_SystemSingle_0
+        PUSH, localMovement
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __lcl_next_x_SystemSingle_0
+        PUSH, last_knob_x
+        COPY
+        PUSH, localSensitivity
+        PUSH, localMovement
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemSingle.__op_LessThanOrEqual__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000814
+        PUSH, localMovement
+        PUSH, localSensitivity
+        PUSH, localMovement
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_0
+        PUSH, __lcl_pickup_VRCSDK3ComponentsVRCPickup_0
+        COPY
+        PUSH, __lcl_pickup_VRCSDK3ComponentsVRCPickup_0
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x000007b0
+        PUSH, __const_SystemString_4
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_VRCSDKBaseVRC_PickupPickupHand_0
+        PUSH, __lcl_currentHand_VRCSDKBaseVRC_PickupPickupHand_0
+        COPY
+        PUSH, Yodo_SliderVibrationStrength
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, _localPlayer
+        PUSH, __lcl_currentHand_VRCSDKBaseVRC_PickupPickupHand_0
+        PUSH, Yodo_SliderVibrationDuration
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __const_SystemSingle_2
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__PlayHapticEventInHand__VRCSDKBaseVRC_PickupPickupHand_SystemSingle_SystemSingle_SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _update
+    _update:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.Update()
+# 
+        PUSH, isPicking
+        JUMP_IF_FALSE, 0x00000848
+        JUMP, 0x0000085C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_5
+# Calling Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
+        JUMP, 0x00000A98
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.OnDeserialization()
+# 
+        PUSH, Yodo_SliderMode
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x000008e0
+        PUSH, previous_slider_value
+        PUSH, Yodo_HapticSliderValue
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_6
+# Calling Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
+        JUMP, 0x0000092C
+        PUSH, __gintnl_SystemUInt32_7
+# Calling Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
+        JUMP, 0x00000A98
+        PUSH, __gintnl_SystemUInt32_8
+# Calling Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
+        JUMP, 0x000009FC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
+# 
+        PUSH, Yodo_MaxKnobX
+        PUSH, Yodo_MinKnobX
+        PUSH, Yodo_HapticSliderValue
+        PUSH, __lcl_next_x_SystemSingle_1
+        EXTERN, "UnityEngineMathf.__Lerp__SystemSingle_SystemSingle_SystemSingle__SystemSingle"
+        PUSH, Yodo_Knob
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __lcl_next_pos_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__get_localPosition__UnityEngineVector3"
+        PUSH, __lcl_next_pos_UnityEngineVector3_0
+        PUSH, __lcl_next_x_SystemSingle_1
+        EXTERN, "UnityEngineVector3.__set_x__SystemSingle"
+# Cow dirty
+        PUSH, __lcl_next_pos_UnityEngineVector3_0
+        PUSH, __intnl_UnityEngineVector3_1
+        COPY
+        PUSH, Yodo_Knob
+        PUSH, __intnl_UnityEngineTransform_1
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_1
+        PUSH, __lcl_next_pos_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__set_localPosition__UnityEngineVector3__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
+# 
+        PUSH, Yodo_Knob
+        PUSH, __intnl_UnityEngineTransform_2
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_2
+        PUSH, __intnl_UnityEngineVector3_2
+        EXTERN, "UnityEngineTransform.__get_localPosition__UnityEngineVector3"
+        PUSH, Yodo_Knob
+        PUSH, __intnl_UnityEngineTransform_3
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_3
+        PUSH, __intnl_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineTransform.__get_localRotation__UnityEngineQuaternion"
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_2
+        PUSH, __intnl_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineTransform.__SetLocalPositionAndRotation__UnityEngineVector3_UnityEngineQuaternion__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
+# 
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_cur_SystemInt32_0
+        COPY
+        PUSH, Yodo_TargetUdon
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_cur_SystemInt32_0
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00000c90
+        PUSH, Yodo_TargetUdon
+        PUSH, __lcl_cur_SystemInt32_0
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_3
+        COPY
+        PUSH, __intnl_UnityEngineObject_2
+        PUSH, __intnl_UnityEngineObject_3
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00000c68
+        PUSH, Yodo_TargetUdon
+        PUSH, __lcl_cur_SystemInt32_0
+        PUSH, __intnl_UnityEngineGameObject_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_1
+        PUSH, __const_SystemType_1
+        PUSH, __intnl_UnityEngineComponent_1
+        EXTERN, "UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_1
+        PUSH, __lcl_ub_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __lcl_ub_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, Yodo_TargetVariableName
+        PUSH, __lcl_cur_SystemInt32_0
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_3
+        PUSH, __const_SystemString_6
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00000c68
+        PUSH, Yodo_TargetVariableName
+        PUSH, __lcl_cur_SystemInt32_0
+        PUSH, __intnl_SystemString_4
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __lcl_ub_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemString_4
+        PUSH, Yodo_HapticSliderValue
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __lcl_cur_SystemInt32_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_cur_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000AAC
+        PUSH, Yodo_IndicatorText
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_3
+        COPY
+        PUSH, __intnl_UnityEngineObject_2
+        PUSH, __intnl_UnityEngineObject_3
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00000d40
+        PUSH, Yodo_HapticSliderValue
+        PUSH, __const_SystemSingle_3
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_5
+        PUSH, __const_SystemString_7
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemSingle.__ToString__SystemString__SystemString"
+        PUSH, Yodo_IndicatorText
+        PUSH, __intnl_SystemString_3
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, Yodo_HapticSliderValue
+        PUSH, Yodo_MaxValue
+        PUSH, __lcl__value_SystemSingle_0
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, Yodo_TargetAudioSources
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        COPY
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00000e5c
+        PUSH, Yodo_TargetAudioSources
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __lcl_audio_UnityEngineAudioSource_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_audio_UnityEngineAudioSource_0
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00000e34
+        PUSH, __lcl__value_SystemSingle_0
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "UnityEngineMathf.__Clamp01__SystemSingle__SystemSingle"
+        PUSH, __lcl_audio_UnityEngineAudioSource_0
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "UnityEngineAudioSource.__set_volume__SystemSingle__SystemVoid"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000D8C
+        PUSH, Yodo_TargetPostProcessVolumes
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        COPY
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00000f58
+        PUSH, Yodo_TargetPostProcessVolumes
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __lcl_ppv_UnityEngineRenderingPostProcessingPostProcessVolume_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_ppv_UnityEngineRenderingPostProcessingPostProcessVolume_0
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00000f30
+        PUSH, __lcl__value_SystemSingle_0
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "UnityEngineMathf.__Clamp01__SystemSingle__SystemSingle"
+        PUSH, __lcl_ppv_UnityEngineRenderingPostProcessingPostProcessVolume_0
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "UnityEngineRenderingPostProcessingPostProcessVolume.__set_weight__SystemSingle"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000E88
+        PUSH, Yodo_TargetLights
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        COPY
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x0000103c
+        PUSH, Yodo_TargetLights
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __lcl_light_UnityEngineLight_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_light_UnityEngineLight_0
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00001014
+        PUSH, __lcl_light_UnityEngineLight_0
+        PUSH, __lcl__value_SystemSingle_0
+        EXTERN, "UnityEngineLight.__set_intensity__SystemSingle__SystemVoid"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000F84
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_SetValueWithoutNotify
+    __0_SetValueWithoutNotify:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.SetValueWithoutNotify(float)
+# 
+        PUSH, Yodo_SliderMode
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        JUMP_IF_FALSE, 0x000010cc
+        PUSH, __0_newValue__param
+        PUSH, Yodo_HapticSliderValue
+        COPY
+        PUSH, __gintnl_SystemUInt32_9
+# Calling Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
+        JUMP, 0x0000092C
+        PUSH, __gintnl_SystemUInt32_10
+# Calling Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
+        JUMP, 0x000009FC
+        PUSH, __gintnl_SystemUInt32_11
+# Calling Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
+        JUMP, 0x00000A98
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_InitPersistence
+    __0_InitPersistence:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.Yodo_HapticSlider.InitPersistence(Yodokorochan.HapticSliderPersistenceManager)
+# 
+        PUSH, __0_persistenceManager__param
+        PUSH, _persistenceManager
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

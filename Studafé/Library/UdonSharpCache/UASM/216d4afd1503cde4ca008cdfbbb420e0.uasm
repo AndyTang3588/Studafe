@@ -1,0 +1,251 @@
+.data_start
+    .sync SavedValue, none
+    .export hapticSlider
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    SavedValue: %SystemSingle, null
+    hapticSlider: %VRCUdonUdonBehaviour, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemString_0: %SystemString, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0___0_GetFullPath__ret: %SystemString, null
+    __0_target__param: %UnityEngineTransform, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __0_value__param: %SystemSingle, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    onPlayerRestoredPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_1: %SystemString, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemString_3: %SystemString, null
+    __const_SystemString_4: %SystemString, null
+    __const_SystemString_5: %SystemString, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __gintnl_SystemInt32_0: %SystemInt32, null
+    __gintnl_SystemObjectArray_0: %SystemObjectArray, null
+    __gintnl_SystemInt32_1: %SystemInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_UnityEngineObject_3: %UnityEngineObject, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_1: %UnityEngineTransform, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemObjectArray_0: %SystemObjectArray, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemString_2: %SystemString, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.HapticSliderPersistenceManager.Start()
+# 
+        PUSH, hapticSlider
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000000b4
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __0_target__param
+        COPY
+# Calling Yodokorochan.HapticSliderPersistenceManager.GetFullPath(UnityEngine.Transform)
+        JUMP, 0x00000228
+        PUSH, __const_SystemString_0
+        PUSH, __0___0_GetFullPath__ret
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_SetSavedValue
+    __0_SetSavedValue:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.HapticSliderPersistenceManager.SetSavedValue(float)
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __this_UnityEngineGameObject_0
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, __0_value__param
+        PUSH, SavedValue
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerRestored
+    _onPlayerRestored:
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.HapticSliderPersistenceManager.OnPlayerRestored(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, onPlayerRestoredPlayer
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x0000020c
+        PUSH, onPlayerRestoredPlayer
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x0000020c
+        PUSH, hapticSlider
+        PUSH, __const_SystemString_1
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, hapticSlider
+        PUSH, __const_SystemString_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+# Cow dirty
+        PUSH, SavedValue
+        PUSH, __intnl_SystemSingle_0
+        COPY
+        PUSH, hapticSlider
+        PUSH, __const_SystemString_3
+        PUSH, SavedValue
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, hapticSlider
+        PUSH, __const_SystemString_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Yodokorochan.HapticSliderPersistenceManager.GetFullPath(UnityEngine.Transform)
+# 
+        PUSH, __0_target__param
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineTransform.__get_parent__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_3
+        COPY
+        PUSH, __intnl_UnityEngineObject_2
+        PUSH, __intnl_UnityEngineObject_3
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000002e4
+        PUSH, __0_target__param
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __0___0_GetFullPath__ret
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x000004F4
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, __0_target__param
+        PUSH, __intnl_UnityEngineTransform_1
+        EXTERN, "UnityEngineTransform.__get_parent__UnityEngineTransform"
+# Stack size check
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __gintnl_SystemInt32_1
+        PUSH, __gintnl_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000003d8
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemObjectArray_0
+        EXTERN, "SystemObjectArray.__ctor__SystemInt32__SystemObjectArray"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __intnl_SystemObjectArray_0
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemArray_SystemInt32__SystemVoid"
+        PUSH, __intnl_SystemObjectArray_0
+        PUSH, __gintnl_SystemObjectArray_0
+        COPY
+# Stack size check end
+# Recursive stack push
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __gintnl_SystemInt32_1
+        PUSH, __0_target__param
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __gintnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+# Recursive stack push end
+        PUSH, __intnl_UnityEngineTransform_1
+        PUSH, __0_target__param
+        COPY
+# Calling Yodokorochan.HapticSliderPersistenceManager.GetFullPath(UnityEngine.Transform)
+        JUMP, 0x00000228
+        PUSH, __0___0_GetFullPath__ret
+        PUSH, __intnl_SystemString_1
+        COPY
+# Recursive stack pop
+        PUSH, __gintnl_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __gintnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __gintnl_SystemInt32_1
+        PUSH, __0_target__param
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+# Recursive stack pop end
+        PUSH, __0_target__param
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __intnl_SystemString_2
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_5
+        PUSH, __intnl_SystemString_1
+        PUSH, __intnl_SystemString_2
+        PUSH, __0___0_GetFullPath__ret
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

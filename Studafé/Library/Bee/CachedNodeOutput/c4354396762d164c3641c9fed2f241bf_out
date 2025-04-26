@@ -1,0 +1,2 @@
+Packages\com.vrchat.worlds\Integrations\ClientSim\Runtime\System\ClientSimMain.cs(16,7): warning CS0105: The using directive for 'VRC.Economy' appeared previously in this namespace
+Packages\com.vrchat.worlds\Integrations\ClientSim\Runtime\System\ClientSimMain.cs(18,7): warning CS0105: The using directive for 'VRC.Economy' appeared previously in this namespace

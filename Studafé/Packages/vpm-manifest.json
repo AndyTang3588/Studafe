@@ -1,0 +1,95 @@
+{
+  "dependencies": {
+    "com.vrchat.base": {
+      "version": "3.7.5"
+    },
+    "com.vrchat.worlds": {
+      "version": "3.7.5"
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29"
+    },
+    "dev.onevr.vrworldtoolkit": {
+      "version": "3.2.0"
+    },
+    "jp.ootr.image-tab": {
+      "version": "0.2.6"
+    },
+    "tlp.udonvoiceutils": {
+      "version": "3.0.1"
+    }
+  },
+  "locked": {
+    "com.vrchat.base": {
+      "version": "3.7.5",
+      "dependencies": {}
+    },
+    "com.vrchat.worlds": {
+      "version": "3.7.5",
+      "dependencies": {
+        "com.vrchat.base": "3.7.5"
+      }
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29",
+      "dependencies": {}
+    },
+    "dev.onevr.vrworldtoolkit": {
+      "version": "3.2.0",
+      "dependencies": {}
+    },
+    "jp.ootr.image-tab": {
+      "version": "0.2.6",
+      "dependencies": {
+        "com.vrchat.base": "^3.6.1",
+        "com.vrchat.worlds": "^3.6.1",
+        "jp.ootr.common": "~0.1.1",
+        "jp.ootr.image-device-controller": "~0.3.3"
+      }
+    },
+    "jp.ootr.common": {
+      "version": "0.1.8",
+      "dependencies": {
+        "com.vrchat.base": "^3.6.1",
+        "com.vrchat.worlds": "^3.6.1"
+      }
+    },
+    "jp.ootr.image-device-controller": {
+      "version": "0.3.12",
+      "dependencies": {
+        "com.vrchat.base": "^3.6.1",
+        "com.vrchat.worlds": "^3.6.1",
+        "jp.ootr.common": "~0.1.7",
+        "jp.ootr.udon-zip": "~0.1.2"
+      }
+    },
+    "jp.ootr.udon-zip": {
+      "version": "0.1.2",
+      "dependencies": {
+        "com.vrchat.base": "^3.6.1",
+        "com.vrchat.worlds": "^3.6.1"
+      }
+    },
+    "tlp.udonvoiceutils": {
+      "version": "3.0.1",
+      "dependencies": {
+        "com.vrchat.worlds": "~3.7.5",
+        "tlp.udonutils": "^11.1.0"
+      }
+    },
+    "tlp.udonutils": {
+      "version": "11.3.0",
+      "dependencies": {
+        "com.vrchat.worlds": "3.7.x",
+        "com.cyan.playerobjectpool": "1.1.x"
+      }
+    },
+    "com.cyan.playerobjectpool": {
+      "version": "1.1.2",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.1.x",
+        "com.vrchat.udonsharp": "^1.1.x"
+      }
+    }
+  }
+}

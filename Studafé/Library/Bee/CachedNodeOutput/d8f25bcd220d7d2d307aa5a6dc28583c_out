@@ -1,0 +1,3 @@
+Packages\com.vrchat.worlds\Integrations\ClientSim\Runtime\System\ClientSimMain.cs(16,7): warning CS0105: The using directive for 'VRC.Economy' appeared previously in this namespace
+Packages\com.vrchat.worlds\Integrations\ClientSim\Runtime\System\ClientSimMain.cs(18,7): warning CS0105: The using directive for 'VRC.Economy' appeared previously in this namespace
+Packages\com.vrchat.worlds\Integrations\ClientSim\Runtime\Networking\ClientSimNetworkEventSending.cs(62,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.

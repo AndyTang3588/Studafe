@@ -1,0 +1,682 @@
+.data_start
+    .export CounterText
+    .export LogTexts
+    .export TimeFormat
+    .export JoinTag
+    .export LeaveTag
+    .sync Ticks, none
+    .sync Flags, none
+    .sync Names, none
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    CounterText: %UnityEngineUIText, null
+    LogTexts: %UnityEngineUITextArray, null
+    TimeFormat: %SystemString, null
+    JoinTag: %SystemString, null
+    LeaveTag: %SystemString, null
+    Ticks: %SystemInt64Array, null
+    Flags: %SystemBooleanArray, null
+    Names: %SystemStringArray, null
+    CurrentSecond: %SystemInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt64_0: %SystemInt64, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_0: %SystemString, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemString_2: %SystemString, null
+    onPlayerJoinedPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemObject_0: %SystemObject, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0_time__param: %SystemInt64, null
+    __0_flag__param: %SystemBoolean, null
+    __0_name__param: %SystemString, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    onPlayerLeftPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __const_SystemString_3: %SystemString, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __lcl_now_SystemDateTime_0: %SystemDateTime, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __lcl_count_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemGlobalizationCultureInfo_0: %SystemGlobalizationCultureInfo, null
+    __intnl_SystemIFormatProvider_0: %SystemIFormatProvider, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_UnityEngineUIText_0: %UnityEngineUIText, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemDateTime_0: %SystemDateTime, null
+    __intnl_SystemInt64_0: %SystemInt64, null
+    __intnl_SystemString_5: %SystemString, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemDateTime_1: %SystemDateTime, null
+    __intnl_SystemInt64_1: %SystemInt64, null
+    __intnl_SystemString_6: %SystemString, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __lcl_i_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_SystemString_7: %SystemString, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemInt64_2: %SystemInt64, null
+    __intnl_SystemInt64Array_0: %SystemInt64Array, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __intnl_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemInt32_10: %SystemInt32, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __intnl_SystemBooleanArray_0: %SystemBooleanArray, null
+    __intnl_SystemInt32_11: %SystemInt32, null
+    __intnl_SystemInt32_12: %SystemInt32, null
+    __intnl_SystemInt32_13: %SystemInt32, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __intnl_SystemStringArray_0: %SystemStringArray, null
+    __intnl_SystemInt32_14: %SystemInt32, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+    __lcl_i_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemInt32_15: %SystemInt32, null
+    __intnl_SystemBoolean_17: %SystemBoolean, null
+    __intnl_SystemString_8: %SystemString, null
+    __intnl_SystemBoolean_18: %SystemBoolean, null
+    __intnl_UnityEngineUIText_1: %UnityEngineUIText, null
+    __intnl_SystemString_9: %SystemString, null
+    __intnl_SystemInt64_3: %SystemInt64, null
+    __intnl_SystemDateTime_2: %SystemDateTime, null
+    __intnl_SystemDateTime_3: %SystemDateTime, null
+    __intnl_SystemGlobalizationCultureInfo_1: %SystemGlobalizationCultureInfo, null
+    __intnl_SystemIFormatProvider_1: %SystemIFormatProvider, null
+    __intnl_SystemBoolean_19: %SystemBoolean, null
+    __intnl_SystemString_10: %SystemString, null
+    __intnl_SystemString_11: %SystemString, null
+    __intnl_SystemString_12: %SystemString, null
+    __intnl_SystemString_13: %SystemString, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# nekobako.JoinLeaveLog.Start()
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000001c4
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, Ticks
+        EXTERN, "SystemInt64Array.__ctor__SystemInt32__SystemInt64Array"
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, Flags
+        EXTERN, "SystemBooleanArray.__ctor__SystemInt32__SystemBooleanArray"
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, Names
+        EXTERN, "SystemStringArray.__ctor__SystemInt32__SystemStringArray"
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000001b4
+        PUSH, Ticks
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt64_0
+        EXTERN, "SystemInt64Array.__Set__SystemInt32_SystemInt64__SystemVoid"
+        PUSH, Flags
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "SystemBooleanArray.__Set__SystemInt32_SystemBoolean__SystemVoid"
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemString.__get_Empty__SystemString"
+        PUSH, Names
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemStringArray.__Set__SystemInt32_SystemString__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000000D4
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _update
+    _update:
+        PUSH, __const_SystemUInt32_0
+# 
+# nekobako.JoinLeaveLog.Update()
+# 
+        PUSH, __lcl_now_SystemDateTime_0
+        EXTERN, "SystemDateTime.__get_Now__SystemDateTime"
+        PUSH, __lcl_now_SystemDateTime_0
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemDateTime.__get_Second__SystemInt32"
+        PUSH, __intnl_SystemInt32_4
+        PUSH, CurrentSecond
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000364
+        PUSH, __lcl_count_SystemInt32_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
+        PUSH, __intnl_SystemGlobalizationCultureInfo_0
+        EXTERN, "SystemGlobalizationCultureInfo.__get_InvariantCulture__SystemGlobalizationCultureInfo"
+        PUSH, __intnl_SystemGlobalizationCultureInfo_0
+        PUSH, __intnl_SystemIFormatProvider_0
+        COPY
+        PUSH, __lcl_now_SystemDateTime_0
+        PUSH, TimeFormat
+        PUSH, __intnl_SystemIFormatProvider_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemDateTime.__ToString__SystemString_SystemIFormatProvider__SystemString"
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemInt32.__op_LessThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+# Cow dirty
+        PUSH, CounterText
+        PUSH, __intnl_UnityEngineUIText_0
+        COPY
+# Cow dirty
+        PUSH, TimeFormat
+        PUSH, __intnl_SystemString_3
+        COPY
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000308
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_2
+        COPY
+        JUMP, 0x0000031C
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemString_2
+        COPY
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemString_1
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __intnl_SystemString_2
+        PUSH, __intnl_SystemString_4
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_UnityEngineUIText_0
+        PUSH, __intnl_SystemString_4
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, __lcl_now_SystemDateTime_0
+        PUSH, CurrentSecond
+        EXTERN, "SystemDateTime.__get_Second__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerJoined
+    _onPlayerJoined:
+        PUSH, __const_SystemUInt32_0
+# 
+# nekobako.JoinLeaveLog.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x000003e0
+        PUSH, onPlayerJoinedPlayer
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        PUSH, __intnl_SystemBoolean_4
+        COPY
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x0000041c
+        PUSH, onPlayerJoinedPlayer
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsValid__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000004c8
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, __intnl_SystemDateTime_0
+        EXTERN, "SystemDateTime.__get_UtcNow__SystemDateTime"
+        PUSH, __intnl_SystemDateTime_0
+        PUSH, __intnl_SystemInt64_0
+        EXTERN, "SystemDateTime.__get_Ticks__SystemInt64"
+        PUSH, onPlayerJoinedPlayer
+        PUSH, __intnl_SystemString_5
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString"
+        PUSH, __intnl_SystemInt64_0
+        PUSH, __0_time__param
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_flag__param
+        COPY
+        PUSH, __intnl_SystemString_5
+        PUSH, __0_name__param
+        COPY
+# Calling nekobako.JoinLeaveLog.AddLog(long, bool, string)
+        JUMP, 0x0000065C
+        PUSH, __gintnl_SystemUInt32_1
+# Calling nekobako.JoinLeaveLog.UpdateLog()
+        JUMP, 0x00000C0C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerLeft
+    _onPlayerLeft:
+        PUSH, __const_SystemUInt32_0
+# 
+# nekobako.JoinLeaveLog.OnPlayerLeft(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x0000052c
+        PUSH, onPlayerLeftPlayer
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        PUSH, __intnl_SystemBoolean_6
+        COPY
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000568
+        PUSH, onPlayerLeftPlayer
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsValid__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000614
+        PUSH, __gintnl_SystemUInt32_2
+        PUSH, __intnl_SystemDateTime_1
+        EXTERN, "SystemDateTime.__get_UtcNow__SystemDateTime"
+        PUSH, __intnl_SystemDateTime_1
+        PUSH, __intnl_SystemInt64_1
+        EXTERN, "SystemDateTime.__get_Ticks__SystemInt64"
+        PUSH, onPlayerLeftPlayer
+        PUSH, __intnl_SystemString_6
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString"
+        PUSH, __intnl_SystemInt64_1
+        PUSH, __0_time__param
+        COPY
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_flag__param
+        COPY
+        PUSH, __intnl_SystemString_6
+        PUSH, __0_name__param
+        COPY
+# Calling nekobako.JoinLeaveLog.AddLog(long, bool, string)
+        JUMP, 0x0000065C
+        PUSH, __gintnl_SystemUInt32_3
+# Calling nekobako.JoinLeaveLog.UpdateLog()
+        JUMP, 0x00000C0C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# nekobako.JoinLeaveLog.OnDeserialization()
+# 
+        PUSH, __gintnl_SystemUInt32_4
+# Calling nekobako.JoinLeaveLog.UpdateLog()
+        JUMP, 0x00000C0C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# nekobako.JoinLeaveLog.AddLog(long, bool, string)
+# 
+        PUSH, Ticks
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000694
+        JUMP, 0x000006B4
+        PUSH, Flags
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        PUSH, __intnl_SystemBoolean_8
+        COPY
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x000006e0
+        JUMP, 0x00000700
+        PUSH, Names
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000724
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_1
+        COPY
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000874
+        PUSH, Names
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemString_7
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_7
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x0000084c
+        PUSH, Ticks
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __0_time__param
+        EXTERN, "SystemInt64Array.__Set__SystemInt32_SystemInt64__SystemVoid"
+        PUSH, Flags
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __0_flag__param
+        EXTERN, "SystemBooleanArray.__Set__SystemInt32_SystemBoolean__SystemVoid"
+        PUSH, Names
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __0_name__param
+        EXTERN, "SystemStringArray.__Set__SystemInt32_SystemString__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000738
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_1
+        COPY
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000be0
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+# Cow dirty
+        PUSH, Ticks
+        PUSH, __intnl_SystemInt64Array_0
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000994
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, Ticks
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __intnl_SystemInt64_2
+        EXTERN, "SystemInt64Array.__Get__SystemInt32__SystemInt64"
+        JUMP, 0x000009A8
+        PUSH, __0_time__param
+        PUSH, __intnl_SystemInt64_2
+        COPY
+        PUSH, __intnl_SystemInt64Array_0
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemInt64_2
+        EXTERN, "SystemInt64Array.__Set__SystemInt32_SystemInt64__SystemVoid"
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_9
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_9
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemInt32_10
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+# Cow dirty
+        PUSH, Flags
+        PUSH, __intnl_SystemBooleanArray_0
+        COPY
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00000a8c
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_11
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, Flags
+        PUSH, __intnl_SystemInt32_11
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemBooleanArray.__Get__SystemInt32__SystemBoolean"
+        JUMP, 0x00000AA0
+        PUSH, __0_flag__param
+        PUSH, __intnl_SystemBoolean_13
+        COPY
+        PUSH, __intnl_SystemBooleanArray_0
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemBooleanArray.__Set__SystemInt32_SystemBoolean__SystemVoid"
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_12
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_12
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_13
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemInt32_13
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+# Cow dirty
+        PUSH, Names
+        PUSH, __intnl_SystemStringArray_0
+        COPY
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00000b84
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_14
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, Names
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __intnl_SystemString_7
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        JUMP, 0x00000B98
+        PUSH, __0_name__param
+        PUSH, __intnl_SystemString_7
+        COPY
+        PUSH, __intnl_SystemStringArray_0
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemString_7
+        EXTERN, "SystemStringArray.__Set__SystemInt32_SystemString__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000888
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# nekobako.JoinLeaveLog.UpdateLog()
+# 
+        PUSH, Ticks
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        JUMP_IF_FALSE, 0x00000c44
+        JUMP, 0x00000C64
+        PUSH, Flags
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        PUSH, __intnl_SystemBoolean_15
+        COPY
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00000c90
+        JUMP, 0x00000CB0
+        PUSH, Names
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00000cd4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, LogTexts
+        PUSH, __intnl_SystemInt32_15
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __intnl_SystemBoolean_17
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_17
+        JUMP_IF_FALSE, 0x00000f88
+        PUSH, Names
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemString_8
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_8
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        JUMP_IF_FALSE, 0x00000dc8
+        PUSH, LogTexts
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineUIText_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_SystemString_9
+        EXTERN, "SystemString.__get_Empty__SystemString"
+        PUSH, __intnl_UnityEngineUIText_1
+        PUSH, __intnl_SystemString_9
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        JUMP, 0x00000F60
+        PUSH, LogTexts
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineUIText_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, Ticks
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemInt64_3
+        EXTERN, "SystemInt64Array.__Get__SystemInt32__SystemInt64"
+        PUSH, __intnl_SystemInt64_3
+        PUSH, __intnl_SystemDateTime_2
+        EXTERN, "SystemDateTime.__ctor__SystemInt64__SystemDateTime"
+        PUSH, __intnl_SystemDateTime_2
+        PUSH, __intnl_SystemDateTime_3
+        EXTERN, "SystemDateTime.__ToLocalTime__SystemDateTime"
+        PUSH, __intnl_SystemGlobalizationCultureInfo_1
+        EXTERN, "SystemGlobalizationCultureInfo.__get_InvariantCulture__SystemGlobalizationCultureInfo"
+        PUSH, __intnl_SystemGlobalizationCultureInfo_1
+        PUSH, __intnl_SystemIFormatProvider_1
+        COPY
+        PUSH, __intnl_SystemDateTime_3
+        PUSH, TimeFormat
+        PUSH, __intnl_SystemIFormatProvider_1
+        PUSH, __intnl_SystemString_9
+        EXTERN, "SystemDateTime.__ToString__SystemString_SystemIFormatProvider__SystemString"
+        PUSH, Flags
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "SystemBooleanArray.__Get__SystemInt32__SystemBoolean"
+# Cow dirty
+        PUSH, TimeFormat
+        PUSH, __intnl_SystemString_11
+        COPY
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00000ee4
+        PUSH, JoinTag
+        PUSH, __intnl_SystemString_10
+        COPY
+        JUMP, 0x00000EF8
+        PUSH, LeaveTag
+        PUSH, __intnl_SystemString_10
+        COPY
+        PUSH, Names
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemString_12
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __const_SystemString_3
+        PUSH, __intnl_SystemString_9
+        PUSH, __intnl_SystemString_10
+        PUSH, __intnl_SystemString_12
+        PUSH, __intnl_SystemString_13
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_UnityEngineUIText_1
+        PUSH, __intnl_SystemString_13
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000CE8
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

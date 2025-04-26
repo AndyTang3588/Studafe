@@ -1,0 +1,227 @@
+.data_start
+    .export canUseEveryone
+    .export canUseInstanceOwner
+    .export canUseOwner
+    .export canUseMaster
+    .export isGlobalEvent
+    .export onlySendToOwner
+    .export udonSharpBehaviour
+    .export udonSharpBehaviours
+    .export customEventName
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    canUseEveryone: %SystemBoolean, null
+    canUseInstanceOwner: %SystemBoolean, null
+    canUseOwner: %SystemBoolean, null
+    canUseMaster: %SystemBoolean, null
+    isGlobalEvent: %SystemBoolean, null
+    onlySendToOwner: %SystemBoolean, null
+    udonSharpBehaviour: %VRCUdonUdonBehaviour, null
+    udonSharpBehaviours: %UnityEngineComponentArray, null
+    customEventName: %SystemString, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __const_VRCUdonCommonInterfacesNetworkEventTarget_0: %VRCUdonCommonInterfacesNetworkEventTarget, null
+    __const_VRCUdonCommonInterfacesNetworkEventTarget_1: %VRCUdonCommonInterfacesNetworkEventTarget, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_VRCUdonCommonInterfacesNetworkEventTarget_0: %VRCUdonCommonInterfacesNetworkEventTarget, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __lcl_udonSharpBehaviour_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+.data_end
+.code_start
+    .export _interact
+    _interact:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.Udon.UI.QvPen_InteractButton.Interact()
+# 
+        PUSH, canUseEveryone
+        JUMP_IF_FALSE, 0x00000020
+        JUMP, 0x00000178
+        PUSH, canUseInstanceOwner
+        PUSH, __intnl_SystemBoolean_0
+        COPY
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x0000006c
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "VRCSDKBaseNetworking.__get_IsInstanceOwner__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000090
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, canUseMaster
+        PUSH, __intnl_SystemBoolean_2
+        COPY
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000000dc
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "VRCSDKBaseNetworking.__get_IsMaster__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000100
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, canUseOwner
+        PUSH, __intnl_SystemBoolean_4
+        COPY
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000154
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000178
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, udonSharpBehaviour
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x0000026c
+        PUSH, isGlobalEvent
+        JUMP_IF_FALSE, 0x00000240
+# Cow dirty
+        PUSH, udonSharpBehaviour
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, onlySendToOwner
+        JUMP_IF_FALSE, 0x000001f0
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __intnl_VRCUdonCommonInterfacesNetworkEventTarget_0
+        COPY
+        JUMP, 0x00000204
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_1
+        PUSH, __intnl_VRCUdonCommonInterfacesNetworkEventTarget_0
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+# Cow dirty
+        PUSH, customEventName
+        PUSH, __intnl_SystemString_0
+        COPY
+        PUSH, __intnl_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, customEventName
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        JUMP, 0x0000026C
+        PUSH, udonSharpBehaviour
+# Cow dirty
+        PUSH, customEventName
+        PUSH, __intnl_SystemString_1
+        COPY
+        PUSH, customEventName
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, udonSharpBehaviours
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000504
+        PUSH, isGlobalEvent
+        JUMP_IF_FALSE, 0x0000040c
+        PUSH, udonSharpBehaviours
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        COPY
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000404
+        PUSH, udonSharpBehaviours
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __lcl_udonSharpBehaviour_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_udonSharpBehaviour_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000003dc
+        PUSH, onlySendToOwner
+        JUMP_IF_FALSE, 0x00000394
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __intnl_VRCUdonCommonInterfacesNetworkEventTarget_0
+        COPY
+        JUMP, 0x000003A8
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_1
+        PUSH, __intnl_VRCUdonCommonInterfacesNetworkEventTarget_0
+        COPY
+        PUSH, __lcl_udonSharpBehaviour_VRCUdonUdonBehaviour_0
+# Cow dirty
+        PUSH, customEventName
+        PUSH, __intnl_SystemString_0
+        COPY
+        PUSH, __intnl_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, customEventName
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000002F0
+        JUMP, 0x00000504
+        PUSH, udonSharpBehaviours
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        COPY
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000504
+        PUSH, udonSharpBehaviours
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __lcl_udonSharpBehaviour_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_udonSharpBehaviour_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000004dc
+        PUSH, __lcl_udonSharpBehaviour_VRCUdonUdonBehaviour_0
+# Cow dirty
+        PUSH, customEventName
+        PUSH, __intnl_SystemString_0
+        COPY
+        PUSH, customEventName
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000438
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

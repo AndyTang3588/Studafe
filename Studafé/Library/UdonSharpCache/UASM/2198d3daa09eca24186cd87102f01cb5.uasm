@@ -1,0 +1,1758 @@
+.data_start
+    .export setNetworkOwnershipForPoolObjects
+    .export disableUnassignedObjects
+    .export poolEventListener
+    .export poolObjectsParent
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    setNetworkOwnershipForPoolObjects: %SystemBoolean, null
+    disableUnassignedObjects: %SystemBoolean, null
+    poolEventListener: %VRCUdonUdonBehaviour, null
+    poolObjectsParent: %UnityEngineTransform, null
+    pooledUdon: %UnityEngineComponentArray, null
+    _poolObjects: %UnityEngineGameObjectArray, null
+    _objectPool: %VRCUdonUdonBehaviour, null
+    _localAssignment: %SystemInt32Array, null
+    _poolObjectsTemp: %UnityEngineComponentArray, null
+    _enabledAndInitialized: %SystemBoolean, null
+    _eventListener: %VRCUdonUdonBehaviour, null
+    playerInput: %VRCSDKBaseVRCPlayerApi, null
+    playerIdInput: %SystemInt32, null
+    playerArrayInput: %VRCSDKBaseVRCPlayerApiArray, null
+    poolObjectArrayInput: %UnityEngineComponentArray, null
+    poolObjectOutput: %UnityEngineGameObject, null
+    poolUdonOutput: %VRCUdonUdonBehaviour, null
+    playerArrayOutput: %VRCSDKBaseVRCPlayerApiArray, null
+    playerCountOutput: %SystemInt32, null
+    poolObjectArrayOutput: %UnityEngineComponentArray, null
+    poolObjectCountOutput: %SystemInt32, null
+    playerIndexOutput: %SystemInt32, null
+    __0___0__GetPlayerPooledObject__ret: %UnityEngineGameObject, null
+    __0_player__param: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0___0__GetPlayerPooledObjectById__ret: %UnityEngineGameObject, null
+    __0_playerId__param: %SystemInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemString_0: %SystemString, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __2_message__param: %SystemString, null
+    __const_SystemString_3: %SystemString, null
+    __0___0__GetPlayerPooledUdon__ret: %UnityEngineComponent, null
+    __1_player__param: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __0___0__GetPlayerPooledUdonById__ret: %UnityEngineComponent, null
+    __1_playerId__param: %SystemInt32, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __0___0__GetPlayerPoolIndex__ret: %SystemInt32, null
+    __2_player__param: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemString_4: %SystemString, null
+    __const_SystemString_5: %SystemString, null
+    __const_SystemString_6: %SystemString, null
+    __0___0__GetPlayerPoolIndexById__ret: %SystemInt32, null
+    __2_playerId__param: %SystemInt32, null
+    __0__GetOrderedPlayers__ret: %VRCSDKBaseVRCPlayerApiArray, null
+    __const_SystemString_7: %SystemString, null
+    __const_SystemString_8: %SystemString, null
+    __0___0__GetOrderedPlayersNoAlloc__ret: %SystemInt32, null
+    __0_players__param: %VRCSDKBaseVRCPlayerApiArray, null
+    __const_SystemString_9: %SystemString, null
+    __const_SystemString_10: %SystemString, null
+    __const_SystemString_11: %SystemString, null
+    __0__GetActivePoolObjects__ret: %UnityEngineComponentArray, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __0___0__GetActivePoolObjectsNoAlloc__ret: %SystemInt32, null
+    __0_pooledObjects__param: %UnityEngineComponentArray, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __3_message__param: %SystemString, null
+    __const_SystemString_12: %SystemString, null
+    __const_SystemString_13: %SystemString, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __gintnl_SystemUInt32_9: %SystemUInt32, null
+    __gintnl_SystemUInt32_10: %SystemUInt32, null
+    __gintnl_SystemUInt32_11: %SystemUInt32, null
+    __gintnl_SystemUInt32_12: %SystemUInt32, null
+    __3_player__param: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_13: %SystemUInt32, null
+    __gintnl_SystemUInt32_14: %SystemUInt32, null
+    __const_SystemString_14: %SystemString, null
+    __gintnl_SystemUInt32_15: %SystemUInt32, null
+    __const_SystemString_15: %SystemString, null
+    __gintnl_SystemUInt32_16: %SystemUInt32, null
+    __0__intnlparam: %VRCUdonUdonBehaviour, null
+    __1__intnlparam: %UnityEngineComponent, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemString_16: %SystemString, null
+    __gintnl_SystemUInt32_17: %SystemUInt32, null
+    __const_SystemString_17: %SystemString, null
+    __gintnl_SystemUInt32_18: %SystemUInt32, null
+    __const_SystemString_18: %SystemString, null
+    __gintnl_SystemUInt32_19: %SystemUInt32, null
+    __2__intnlparam: %VRCUdonUdonBehaviour, null
+    __3__intnlparam: %UnityEngineComponent, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_19: %SystemString, null
+    __const_SystemString_20: %SystemString, null
+    __gintnl_SystemUInt32_20: %SystemUInt32, null
+    __1_message__param: %SystemString, null
+    __const_SystemString_21: %SystemString, null
+    __gintnl_SystemUInt32_21: %SystemUInt32, null
+    __const_SystemString_22: %SystemString, null
+    __const_SystemType_0: %SystemType, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __4_player__param: %VRCSDKBaseVRCPlayerApi, null
+    __0_index__param: %SystemInt32, null
+    __const_SystemString_23: %SystemString, null
+    __const_SystemString_24: %SystemString, null
+    __const_SystemString_25: %SystemString, null
+    __const_SystemString_26: %SystemString, null
+    __const_SystemString_27: %SystemString, null
+    __const_SystemString_28: %SystemString, null
+    __const_SystemString_29: %SystemString, null
+    __const_SystemString_30: %SystemString, null
+    __const_SystemString_31: %SystemString, null
+    __const_SystemString_32: %SystemString, null
+    __5_player__param: %VRCSDKBaseVRCPlayerApi, null
+    __1_index__param: %SystemInt32, null
+    __const_SystemString_33: %SystemString, null
+    __const_SystemString_34: %SystemString, null
+    __const_SystemString_35: %SystemString, null
+    __const_SystemString_36: %SystemString, null
+    __const_SystemString_37: %SystemString, null
+    __const_SystemString_38: %SystemString, null
+    __const_SystemString_39: %SystemString, null
+    __const_SystemString_40: %SystemString, null
+    __const_SystemString_41: %SystemString, null
+    __0__GetLogPrefix__ret: %SystemString, null
+    __const_SystemString_42: %SystemString, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __0_message__param: %SystemString, null
+    __const_SystemString_43: %SystemString, null
+    __gintnl_SystemUInt32_22: %SystemUInt32, null
+    __const_SystemString_44: %SystemString, null
+    __gintnl_SystemUInt32_23: %SystemUInt32, null
+    __gintnl_SystemUInt32_24: %SystemUInt32, null
+    __gintnl_SystemUInt32_25: %SystemUInt32, null
+    __const_SystemInt64_0: %SystemInt64, null
+    __const_SystemString_45: %SystemString, null
+    __const_SystemInt64_1: %SystemInt64, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __lcl_index_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __lcl_index_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_SystemObject_1: %SystemObject, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemObject_2: %SystemObject, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __intnl_SystemObject_3: %SystemObject, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_VRCSDKBaseVRCPlayerApiArray_0: %VRCSDKBaseVRCPlayerApiArray, null
+    __intnl_SystemObject_4: %SystemObject, null
+    __intnl_VRCSDKBaseVRCPlayerApiArray_1: %VRCSDKBaseVRCPlayerApiArray, null
+    __intnl_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemObject_5: %SystemObject, null
+    __lcl_count_SystemInt32_0: %SystemInt32, null
+    __lcl_size_SystemInt32_0: %SystemInt32, null
+    __lcl_pooledObjects_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __lcl_id_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __lcl_player_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __lcl_count_SystemInt32_1: %SystemInt32, null
+    __lcl_size_SystemInt32_1: %SystemInt32, null
+    __lcl_maxCount_SystemInt32_0: %SystemInt32, null
+    __lcl_i_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __lcl_id_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __lcl_player_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_UnityEngineComponent_1: %UnityEngineComponent, null
+    __lcl_poolPath_SystemString_0: %SystemString, null
+    __intnl_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __lcl_assignerSize_SystemInt32_0: %SystemInt32, null
+    __lcl_poolSize_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemObject_6: %SystemObject, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+    __intnl_SystemBoolean_17: %SystemBoolean, null
+    __intnl_SystemString_2: %SystemString, null
+    __lcl_i_SystemInt32_2: %SystemInt32, null
+    __intnl_UnityEngineTransform_1: %UnityEngineTransform, null
+    __intnl_SystemBoolean_18: %SystemBoolean, null
+    __lcl_child_UnityEngineTransform_0: %UnityEngineTransform, null
+    __lcl_poolObj_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_UnityEngineComponent_2: %UnityEngineComponent, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_SystemInt32_10: %SystemInt32, null
+    __lcl_poolUdon_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __lcl_isLocal_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_19: %SystemBoolean, null
+    __intnl_SystemBoolean_20: %SystemBoolean, null
+    __lcl_poolObj_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __intnl_UnityEngineComponent_3: %UnityEngineComponent, null
+    __lcl_poolObject_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineComponent_4: %UnityEngineComponent, null
+    __intnl_VRCSDKBaseVRCPlayerApi_2: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemInt32_11: %SystemInt32, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __lcl_poolUdon_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_SystemBoolean_21: %SystemBoolean, null
+    __intnl_SystemBoolean_22: %SystemBoolean, null
+    __lcl_poolObj_UnityEngineGameObject_2: %UnityEngineGameObject, null
+    __intnl_UnityEngineComponent_5: %UnityEngineComponent, null
+    __lcl_poolObject_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineComponent_6: %UnityEngineComponent, null
+    __intnl_VRCSDKBaseVRCPlayerApi_3: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemInt32_12: %SystemInt32, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_SystemBoolean_23: %SystemBoolean, null
+    __intnl_SystemObject_7: %SystemObject, null
+    __intnl_SystemString_5: %SystemString, null
+    __intnl_SystemString_6: %SystemString, null
+    __intnl_SystemString_7: %SystemString, null
+    __lcl_udonBehaviours_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __lcl_targetID_SystemInt64_0: %SystemInt64, null
+    __intnl_SystemInt32_13: %SystemInt32, null
+    __intnl_SystemInt32_14: %SystemInt32, null
+    __intnl_SystemBoolean_24: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_0: %SystemType, null
+    __intnl_SystemType_1: %SystemType, null
+    __intnl_SystemBoolean_25: %SystemBoolean, null
+    __lcl_idValue_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_26: %SystemBoolean, null
+    __intnl_SystemInt64_0: %SystemInt64, null
+    __intnl_UnityEngineComponent_7: %UnityEngineComponent, null
+    __lcl_udonBehaviours_UnityEngineComponentArray_1: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_1: %UnityEngineComponentArray, null
+    __lcl_targetID_SystemInt64_1: %SystemInt64, null
+    __intnl_SystemInt32_15: %SystemInt32, null
+    __intnl_SystemInt32_16: %SystemInt32, null
+    __intnl_SystemBoolean_27: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_2: %SystemType, null
+    __intnl_SystemType_3: %SystemType, null
+    __intnl_SystemBoolean_28: %SystemBoolean, null
+    __lcl_idValue_SystemObject_1: %SystemObject, null
+    __intnl_SystemBoolean_29: %SystemBoolean, null
+    __intnl_SystemInt64_1: %SystemInt64, null
+    __intnl_UnityEngineComponent_8: %UnityEngineComponent, null
+.data_end
+.code_start
+.update_order 1000
+    .export __0__GetPlayerPooledObject
+    __0__GetPlayerPooledObject:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledObject(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __0_player__param
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000088
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, __0_player__param
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __0_playerId__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledObjectById(int)
+        JUMP, 0x000000CC
+        PUSH, __0___0__GetPlayerPooledObjectById__ret
+        PUSH, __0___0__GetPlayerPooledObject__ret
+        COPY
+        JUMP, 0x0000009C
+        PUSH, __const_SystemObject_0
+        PUSH, __0___0__GetPlayerPooledObject__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__GetPlayerPooledObjectById
+    __0__GetPlayerPooledObjectById:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledObjectById(int)
+# 
+# Cow dirty
+        PUSH, __0_playerId__param
+        PUSH, __intnl_SystemInt32_1
+        COPY
+        PUSH, _objectPool
+        PUSH, __const_SystemString_0
+        PUSH, __0_playerId__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __lcl_index_SystemInt32_0
+        COPY
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000200
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, __const_SystemString_3
+        PUSH, __0_playerId__param
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_0
+        PUSH, __2_message__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogWarning(string)
+        JUMP, 0x000020C4
+        PUSH, __const_SystemObject_0
+        PUSH, __0___0__GetPlayerPooledObjectById__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _poolObjects
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __0___0__GetPlayerPooledObjectById__ret
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__GetPlayerPooledUdon
+    __0__GetPlayerPooledUdon:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledUdon(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __1_player__param
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000002d0
+        PUSH, __gintnl_SystemUInt32_2
+        PUSH, __1_player__param
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __1_playerId__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledUdonById(int)
+        JUMP, 0x00000314
+        PUSH, __0___0__GetPlayerPooledUdonById__ret
+        PUSH, __0___0__GetPlayerPooledUdon__ret
+        COPY
+        JUMP, 0x000002E4
+        PUSH, __const_SystemObject_0
+        PUSH, __0___0__GetPlayerPooledUdon__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__GetPlayerPooledUdonById
+    __0__GetPlayerPooledUdonById:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledUdonById(int)
+# 
+        PUSH, _enabledAndInitialized
+        JUMP_IF_FALSE, 0x0000032c
+        JUMP, 0x00000354
+        PUSH, __const_SystemObject_0
+        PUSH, __0___0__GetPlayerPooledUdonById__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# Cow dirty
+        PUSH, __1_playerId__param
+        PUSH, __intnl_SystemInt32_4
+        COPY
+        PUSH, _objectPool
+        PUSH, __const_SystemString_0
+        PUSH, __1_playerId__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __lcl_index_SystemInt32_1
+        COPY
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000488
+        PUSH, __gintnl_SystemUInt32_3
+        PUSH, __const_SystemString_3
+        PUSH, __1_playerId__param
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        PUSH, __2_message__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogWarning(string)
+        JUMP, 0x000020C4
+        PUSH, __const_SystemObject_0
+        PUSH, __0___0__GetPlayerPooledUdonById__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, pooledUdon
+        PUSH, __lcl_index_SystemInt32_1
+        PUSH, __0___0__GetPlayerPooledUdonById__ret
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__GetPlayerPoolIndex
+    __0__GetPlayerPoolIndex:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPoolIndex(VRC.SDKBase.VRCPlayerApi)
+# 
+# Cow dirty
+        PUSH, __2_player__param
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        COPY
+        PUSH, _objectPool
+        PUSH, __const_SystemString_4
+        PUSH, __2_player__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_6
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __0___0__GetPlayerPoolIndex__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__GetPlayerPoolIndexById
+    __0__GetPlayerPoolIndexById:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPoolIndexById(int)
+# 
+# Cow dirty
+        PUSH, __2_playerId__param
+        PUSH, __intnl_SystemInt32_7
+        COPY
+        PUSH, _objectPool
+        PUSH, __const_SystemString_0
+        PUSH, __2_playerId__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __0___0__GetPlayerPoolIndexById__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetOrderedPlayers
+    _GetOrderedPlayers:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetOrderedPlayers()
+# 
+        PUSH, _objectPool
+# Cow dirty
+        PUSH, _objectPool
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __const_SystemString_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_8
+        PUSH, __intnl_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_4
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiArray_0
+        COPY
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiArray_0
+        PUSH, __0__GetOrderedPlayers__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__GetOrderedPlayersNoAlloc
+    __0__GetOrderedPlayersNoAlloc:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetOrderedPlayersNoAlloc(VRC.SDKBase.VRCPlayerApi[])
+# 
+# Cow dirty
+        PUSH, __0_players__param
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiArray_1
+        COPY
+        PUSH, _objectPool
+        PUSH, __const_SystemString_9
+        PUSH, __0_players__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_10
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_11
+        PUSH, __intnl_SystemObject_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_5
+        PUSH, __intnl_SystemInt32_9
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_9
+        PUSH, __0___0__GetOrderedPlayersNoAlloc__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetActivePoolObjects
+    _GetActivePoolObjects:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetActivePoolObjects()
+# 
+        PUSH, _enabledAndInitialized
+        JUMP_IF_FALSE, 0x000007ec
+        JUMP, 0x00000818
+        PUSH, __const_SystemInt32_1
+        PUSH, __0__GetActivePoolObjects__ret
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_count_SystemInt32_0
+        COPY
+        PUSH, _localAssignment
+        PUSH, __lcl_size_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_size_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000009b8
+        PUSH, _localAssignment
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_id_SystemInt32_0
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __lcl_id_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x000008e0
+        JUMP, 0x00000990
+        PUSH, __lcl_id_SystemInt32_0
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000928
+        JUMP, 0x00000930
+        JUMP, 0x00000990
+        PUSH, pooledUdon
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, _poolObjectsTemp
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_count_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000858
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __lcl_pooledObjects_UnityEngineComponentArray_0
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000a7c
+        PUSH, _poolObjectsTemp
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_pooledObjects_UnityEngineComponentArray_0
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineComponent_0
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000009E4
+        PUSH, __lcl_pooledObjects_UnityEngineComponentArray_0
+        PUSH, __0__GetActivePoolObjects__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__GetActivePoolObjectsNoAlloc
+    __0__GetActivePoolObjectsNoAlloc:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetActivePoolObjectsNoAlloc(UnityEngine.Component[])
+# 
+        PUSH, _enabledAndInitialized
+        JUMP_IF_FALSE, 0x00000ad8
+        JUMP, 0x00000B00
+        PUSH, __const_SystemInt32_1
+        PUSH, __0___0__GetActivePoolObjectsNoAlloc__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0_pooledObjects__param
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x00000b7c
+        PUSH, __gintnl_SystemUInt32_4
+        PUSH, __const_SystemString_12
+        PUSH, __3_message__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogError(string)
+        JUMP, 0x00002128
+        PUSH, __const_SystemInt32_1
+        PUSH, __0___0__GetActivePoolObjectsNoAlloc__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_count_SystemInt32_1
+        COPY
+        PUSH, _localAssignment
+        PUSH, __lcl_size_SystemInt32_1
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __0_pooledObjects__param
+        PUSH, __lcl_maxCount_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_1
+        COPY
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __lcl_size_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000d9c
+        PUSH, _localAssignment
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __lcl_id_SystemInt32_1
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __lcl_id_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000c5c
+        JUMP, 0x00000D74
+        PUSH, __lcl_id_SystemInt32_1
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000ca4
+        JUMP, 0x00000CAC
+        JUMP, 0x00000D74
+        PUSH, __lcl_count_SystemInt32_1
+        PUSH, __lcl_maxCount_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000d14
+        PUSH, __const_SystemString_13
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __lcl_count_SystemInt32_1
+        PUSH, __0___0__GetActivePoolObjectsNoAlloc__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, pooledUdon
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_UnityEngineComponent_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __0_pooledObjects__param
+        PUSH, __lcl_count_SystemInt32_1
+        PUSH, __intnl_UnityEngineComponent_1
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __lcl_count_SystemInt32_1
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_count_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_i_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000BD4
+        PUSH, __lcl_count_SystemInt32_1
+        PUSH, __0___0__GetActivePoolObjectsNoAlloc__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetPlayerPoolObjectEvent
+    _GetPlayerPoolObjectEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPoolObjectEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_5
+        PUSH, playerInput
+        PUSH, __0_player__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledObject(VRC.SDKBase.VRCPlayerApi)
+        JUMP, 0x00000008
+        PUSH, __0___0__GetPlayerPooledObject__ret
+        PUSH, poolObjectOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetPlayerPooledObjectByIdEvent
+    _GetPlayerPooledObjectByIdEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledObjectByIdEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_6
+        PUSH, playerIdInput
+        PUSH, __0_playerId__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledObjectById(int)
+        JUMP, 0x000000CC
+        PUSH, __0___0__GetPlayerPooledObjectById__ret
+        PUSH, poolObjectOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetPlayerPooledUdonEvent
+    _GetPlayerPooledUdonEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledUdonEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_7
+        PUSH, playerInput
+        PUSH, __1_player__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledUdon(VRC.SDKBase.VRCPlayerApi)
+        JUMP, 0x00000250
+        PUSH, __0___0__GetPlayerPooledUdon__ret
+        PUSH, poolUdonOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetPlayerPooledUdonByIdEvent
+    _GetPlayerPooledUdonByIdEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledUdonByIdEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_8
+        PUSH, playerIdInput
+        PUSH, __1_playerId__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPooledUdonById(int)
+        JUMP, 0x00000314
+        PUSH, __0___0__GetPlayerPooledUdonById__ret
+        PUSH, poolUdonOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetOrderedPlayersEvent
+    _GetOrderedPlayersEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetOrderedPlayersEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_9
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetOrderedPlayers()
+        JUMP, 0x00000668
+        PUSH, __0__GetOrderedPlayers__ret
+        PUSH, playerArrayOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetOrderedPlayersNoAllocEvent
+    _GetOrderedPlayersNoAllocEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetOrderedPlayersNoAllocEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_10
+        PUSH, playerArrayInput
+        PUSH, __0_players__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetOrderedPlayersNoAlloc(VRC.SDKBase.VRCPlayerApi[])
+        JUMP, 0x0000070C
+        PUSH, __0___0__GetOrderedPlayersNoAlloc__ret
+        PUSH, playerCountOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetActivePoolObjectsEvent
+    _GetActivePoolObjectsEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetActivePoolObjectsEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_11
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetActivePoolObjects()
+        JUMP, 0x000007D4
+        PUSH, __0__GetActivePoolObjects__ret
+        PUSH, poolObjectArrayOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetActivePoolObjectsNoAllocEvent
+    _GetActivePoolObjectsNoAllocEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetActivePoolObjectsNoAllocEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_12
+        PUSH, poolObjectArrayInput
+        PUSH, __0_pooledObjects__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetActivePoolObjectsNoAlloc(UnityEngine.Component[])
+        JUMP, 0x00000AC0
+        PUSH, __0___0__GetActivePoolObjectsNoAlloc__ret
+        PUSH, poolObjectCountOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__GetPlayerPoolIndexEvent
+    __0__GetPlayerPoolIndexEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPoolIndexEvent(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __gintnl_SystemUInt32_13
+        PUSH, playerInput
+        PUSH, __2_player__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPoolIndex(VRC.SDKBase.VRCPlayerApi)
+        JUMP, 0x000004D8
+        PUSH, __0___0__GetPlayerPoolIndex__ret
+        PUSH, playerIndexOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _GetPlayerPoolIndexByIdEvent
+    _GetPlayerPoolIndexByIdEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPoolIndexByIdEvent()
+# 
+        PUSH, __gintnl_SystemUInt32_14
+        PUSH, playerIdInput
+        PUSH, __2_playerId__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetPlayerPoolIndexById(int)
+        JUMP, 0x000005A0
+        PUSH, __0___0__GetPlayerPoolIndexById__ret
+        PUSH, playerIndexOutput
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner.Start()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_SystemString_14
+        PUSH, __lcl_poolPath_SystemString_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerTag__SystemString__SystemString"
+        PUSH, __lcl_poolPath_SystemString_0
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00001190
+        PUSH, __gintnl_SystemUInt32_15
+        PUSH, __const_SystemString_15
+        PUSH, __3_message__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogError(string)
+        JUMP, 0x00002128
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_16
+        PUSH, __lcl_poolPath_SystemString_0
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineGameObject.__Find__SystemString__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __1__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponent<Cyan.PlayerObjectPool.CyanPlayerObjectPool>(UnityEngine.Component)
+        JUMP, 0x00002184
+        PUSH, __0__intnlparam
+        PUSH, _objectPool
+        COPY
+        PUSH, poolObjectsParent
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00001264
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, poolObjectsParent
+        COPY
+        PUSH, poolObjectsParent
+        PUSH, __lcl_assignerSize_SystemInt32_0
+        EXTERN, "UnityEngineTransform.__get_childCount__SystemInt32"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemObject_6
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_6
+        PUSH, __lcl_poolSize_SystemInt32_0
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __lcl_assignerSize_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00001304
+        PUSH, __lcl_assignerSize_SystemInt32_0
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00001374
+        PUSH, __gintnl_SystemUInt32_17
+        PUSH, __const_SystemString_17
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, __lcl_assignerSize_SystemInt32_0
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_2
+        PUSH, __3_message__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogError(string)
+        JUMP, 0x00002128
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_assignerSize_SystemInt32_0
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x000013f0
+        PUSH, __gintnl_SystemUInt32_18
+        PUSH, __const_SystemString_18
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, __lcl_assignerSize_SystemInt32_0
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_2
+        PUSH, __2_message__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogWarning(string)
+        JUMP, 0x000020C4
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, _localAssignment
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        JUMP_IF_FALSE, 0x00001494
+        PUSH, _localAssignment
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_0
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000141C
+        PUSH, poolEventListener
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        JUMP_IF_FALSE, 0x0000150c
+        PUSH, __gintnl_SystemUInt32_19
+        PUSH, poolEventListener
+        PUSH, __intnl_UnityEngineTransform_1
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_1
+        PUSH, __3__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponent<Cyan.PlayerObjectPool.CyanPlayerObjectPoolEventListener>(UnityEngine.Component)
+        JUMP, 0x000023EC
+        PUSH, __2__intnlparam
+        PUSH, _eventListener
+        COPY
+        PUSH, _objectPool
+        PUSH, __const_SystemString_19
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _objectPool
+        PUSH, __const_SystemString_20
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __lcl_assignerSize_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_17
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_17
+        JUMP_IF_FALSE, 0x000015ac
+        PUSH, __gintnl_SystemUInt32_20
+        PUSH, __const_SystemString_21
+        PUSH, __1_message__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogDebug(string)
+        JUMP, 0x00001FF4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_21
+        PUSH, __const_SystemString_22
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, __intnl_SystemString_2
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_2
+        PUSH, __1_message__param
+        COPY
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogDebug(string)
+        JUMP, 0x00001FF4
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, _poolObjects
+        EXTERN, "UnityEngineGameObjectArray.__ctor__SystemInt32__UnityEngineGameObjectArray"
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, pooledUdon
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, _poolObjectsTemp
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        JUMP_IF_FALSE, 0x00001764
+        PUSH, poolObjectsParent
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_child_UnityEngineTransform_0
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __lcl_child_UnityEngineTransform_0
+        PUSH, __lcl_poolObj_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, _poolObjects
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_poolObj_UnityEngineGameObject_0
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __lcl_poolObj_UnityEngineGameObject_0
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponent_2
+        EXTERN, "UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, pooledUdon
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineComponent_2
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, disableUnassignedObjects
+        JUMP_IF_FALSE, 0x0000173c
+        PUSH, __lcl_poolObj_UnityEngineGameObject_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000164C
+        PUSH, __lcl_poolSize_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_assignerSize_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        JUMP_IF_FALSE, 0x0000182c
+        PUSH, poolObjectsParent
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_child_UnityEngineTransform_0
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __lcl_child_UnityEngineTransform_0
+        PUSH, __lcl_poolObj_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __lcl_poolObj_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __intnl_UnityEngineObject_2
+        EXTERN, "UnityEngineObject.__Destroy__UnityEngineObject__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_2
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001778
+        PUSH, __const_SystemBoolean_1
+        PUSH, _enabledAndInitialized
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__OnPlayerAssigned
+    __0__OnPlayerAssigned:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._OnPlayerAssigned(VRC.SDKBase.VRCPlayerApi, int)
+# 
+        PUSH, __4_player__param
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, _localAssignment
+        PUSH, __0_index__param
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __const_SystemObject_0
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __4_player__param
+        PUSH, __lcl_isLocal_SystemBoolean_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
+        PUSH, _enabledAndInitialized
+        JUMP_IF_FALSE, 0x00001a34
+        PUSH, _poolObjects
+        PUSH, __0_index__param
+        PUSH, __lcl_poolObj_UnityEngineGameObject_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, setNetworkOwnershipForPoolObjects
+        PUSH, __intnl_SystemBoolean_19
+        COPY
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001928
+        PUSH, __lcl_isLocal_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_19
+        COPY
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001950
+        PUSH, __4_player__param
+        PUSH, __lcl_poolObj_UnityEngineGameObject_1
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, setNetworkOwnershipForPoolObjects
+        JUMP_IF_FALSE, 0x00001978
+        PUSH, __4_player__param
+        PUSH, __lcl_poolObj_UnityEngineGameObject_1
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, pooledUdon
+        PUSH, __0_index__param
+        PUSH, __intnl_UnityEngineComponent_3
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineComponent_3
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineComponent_4
+        COPY
+        PUSH, __intnl_UnityEngineComponent_4
+        PUSH, __lcl_poolObject_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __lcl_poolObject_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_23
+        PUSH, __4_player__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __lcl_poolObject_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_24
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, disableUnassignedObjects
+        JUMP_IF_FALSE, 0x00001a34
+        PUSH, __lcl_poolObj_UnityEngineGameObject_1
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, _eventListener
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001b40
+# Cow dirty
+        PUSH, __4_player__param
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        COPY
+# Cow dirty
+        PUSH, __0_index__param
+        PUSH, __intnl_SystemInt32_11
+        COPY
+        PUSH, _eventListener
+        PUSH, __const_SystemString_4
+        PUSH, __4_player__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _eventListener
+        PUSH, __const_SystemString_25
+        PUSH, __0_index__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _eventListener
+        PUSH, __const_SystemString_26
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _eventListener
+        PUSH, __const_SystemString_27
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __lcl_isLocal_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00001b38
+        PUSH, _eventListener
+# Cow dirty
+        PUSH, _eventListener
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, __const_SystemString_28
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        JUMP, 0x00001C08
+        PUSH, poolEventListener
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x00001c08
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_29
+        PUSH, __4_player__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_30
+        PUSH, __0_index__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_31
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_32
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __lcl_isLocal_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00001c08
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_28
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0__OnPlayerUnassigned
+    __0__OnPlayerUnassigned:
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._OnPlayerUnassigned(VRC.SDKBase.VRCPlayerApi, int)
+# 
+        PUSH, _localAssignment
+        PUSH, __1_index__param
+        PUSH, __const_SystemInt32_0
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __const_SystemObject_0
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, _enabledAndInitialized
+        JUMP_IF_FALSE, 0x00001d9c
+        PUSH, _poolObjects
+        PUSH, __1_index__param
+        PUSH, __lcl_poolObj_UnityEngineGameObject_2
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_poolObj_UnityEngineGameObject_2
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x00001cb8
+        JUMP, 0x00001CCC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, pooledUdon
+        PUSH, __1_index__param
+        PUSH, __intnl_UnityEngineComponent_5
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineComponent_5
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_1
+        PUSH, __intnl_UnityEngineComponent_6
+        COPY
+        PUSH, __intnl_UnityEngineComponent_6
+        PUSH, __lcl_poolObject_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, __lcl_poolObject_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_33
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        COPY
+        PUSH, __lcl_poolObject_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_23
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, disableUnassignedObjects
+        JUMP_IF_FALSE, 0x00001d9c
+        PUSH, __lcl_poolObj_UnityEngineGameObject_2
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, _eventListener
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x00001e6c
+# Cow dirty
+        PUSH, __5_player__param
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        COPY
+# Cow dirty
+        PUSH, __1_index__param
+        PUSH, __intnl_SystemInt32_12
+        COPY
+        PUSH, _eventListener
+        PUSH, __const_SystemString_34
+        PUSH, __5_player__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _eventListener
+        PUSH, __const_SystemString_35
+        PUSH, __1_index__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _eventListener
+        PUSH, __const_SystemString_36
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, _eventListener
+        PUSH, __const_SystemString_37
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        JUMP, 0x00001F0C
+        PUSH, poolEventListener
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        JUMP_IF_FALSE, 0x00001f0c
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_38
+        PUSH, __5_player__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_39
+        PUSH, __1_index__param
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_40
+        PUSH, __lcl_poolUdon_VRCUdonUdonBehaviour_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, poolEventListener
+        PUSH, __const_SystemString_41
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetLogPrefix()
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __intnl_SystemString_3
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_42
+        PUSH, __intnl_SystemString_3
+        PUSH, __0__GetLogPrefix__ret
+        EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogInfo(string)
+# 
+        PUSH, __gintnl_SystemUInt32_22
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetLogPrefix()
+        JUMP, 0x00001F28
+        PUSH, __const_SystemString_43
+        PUSH, __0__GetLogPrefix__ret
+        PUSH, __0_message__param
+        PUSH, __intnl_SystemString_4
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_4
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogDebug(string)
+# 
+        PUSH, _objectPool
+        PUSH, __intnl_SystemBoolean_23
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x00002050
+        PUSH, _objectPool
+        PUSH, __const_SystemString_44
+        PUSH, __intnl_SystemObject_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_7
+        PUSH, __intnl_SystemBoolean_23
+        COPY
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x000020a8
+        PUSH, __gintnl_SystemUInt32_23
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetLogPrefix()
+        JUMP, 0x00001F28
+        PUSH, __const_SystemString_43
+        PUSH, __0__GetLogPrefix__ret
+        PUSH, __1_message__param
+        PUSH, __intnl_SystemString_5
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_5
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogWarning(string)
+# 
+        PUSH, __gintnl_SystemUInt32_24
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetLogPrefix()
+        JUMP, 0x00001F28
+        PUSH, __const_SystemString_43
+        PUSH, __0__GetLogPrefix__ret
+        PUSH, __2_message__param
+        PUSH, __intnl_SystemString_6
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_6
+        EXTERN, "UnityEngineDebug.__LogWarning__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._LogError(string)
+# 
+        PUSH, __gintnl_SystemUInt32_25
+# Calling Cyan.PlayerObjectPool.CyanPlayerObjectAssigner._GetLogPrefix()
+        JUMP, 0x00001F28
+        PUSH, __const_SystemString_43
+        PUSH, __0__GetLogPrefix__ret
+        PUSH, __3_message__param
+        PUSH, __intnl_SystemString_7
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_7
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponent<Cyan.PlayerObjectPool.CyanPlayerObjectPool>(UnityEngine.Component)
+# 
+        PUSH, __1__intnlparam
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponentArray_0
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_0
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        COPY
+        PUSH, __const_SystemInt64_0
+        PUSH, __lcl_targetID_SystemInt64_0
+        COPY
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_13
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_14
+        COPY
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __intnl_SystemInt32_13
+        PUSH, __intnl_SystemBoolean_24
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_24
+        JUMP_IF_FALSE, 0x000023b0
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_45
+        PUSH, __intnl_SystemType_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_1
+        COPY
+        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_1
+        PUSH, __intnl_SystemBoolean_25
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_25
+        JUMP_IF_FALSE, 0x000022b4
+        JUMP, 0x00002388
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_45
+        PUSH, __lcl_idValue_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_0
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_26
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_26
+        JUMP_IF_FALSE, 0x0000233c
+        PUSH, __lcl_idValue_SystemObject_0
+        PUSH, __intnl_SystemInt64_0
+        EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
+        PUSH, __intnl_SystemInt64_0
+        PUSH, __lcl_targetID_SystemInt64_0
+        PUSH, __intnl_SystemBoolean_26
+        EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_26
+        JUMP_IF_FALSE, 0x00002388
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineComponent_7
+        COPY
+        PUSH, __intnl_UnityEngineComponent_7
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_14
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000021F8
+        PUSH, __const_SystemObject_0
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponent<Cyan.PlayerObjectPool.CyanPlayerObjectPoolEventListener>(UnityEngine.Component)
+# 
+        PUSH, __3__intnlparam
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineComponentArray_1
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_1
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_1
+        COPY
+        PUSH, __const_SystemInt64_1
+        PUSH, __lcl_targetID_SystemInt64_1
+        COPY
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_1
+        PUSH, __intnl_SystemInt32_15
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_16
+        COPY
+        PUSH, __intnl_SystemInt32_16
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __intnl_SystemBoolean_27
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_27
+        JUMP_IF_FALSE, 0x00002618
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_1
+        PUSH, __intnl_SystemInt32_16
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_45
+        PUSH, __intnl_SystemType_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_3
+        COPY
+        PUSH, __intnl_SystemType_2
+        PUSH, __intnl_SystemType_3
+        PUSH, __intnl_SystemBoolean_28
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_28
+        JUMP_IF_FALSE, 0x0000251c
+        JUMP, 0x000025F0
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_45
+        PUSH, __lcl_idValue_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_1
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_29
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_29
+        JUMP_IF_FALSE, 0x000025a4
+        PUSH, __lcl_idValue_SystemObject_1
+        PUSH, __intnl_SystemInt64_1
+        EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
+        PUSH, __intnl_SystemInt64_1
+        PUSH, __lcl_targetID_SystemInt64_1
+        PUSH, __intnl_SystemBoolean_29
+        EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_29
+        JUMP_IF_FALSE, 0x000025f0
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __intnl_UnityEngineComponent_8
+        COPY
+        PUSH, __intnl_UnityEngineComponent_8
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_16
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemInt32_16
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002460
+        PUSH, __const_SystemObject_0
+        PUSH, __2__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

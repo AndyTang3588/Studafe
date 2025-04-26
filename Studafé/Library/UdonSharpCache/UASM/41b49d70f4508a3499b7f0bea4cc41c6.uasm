@@ -1,0 +1,69 @@
+.data_start
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    defaultNear: %SystemSingle, null
+    defaultFar: %SystemSingle, null
+    zoneFar: %SystemSingle, null
+    onPlayerTriggerEnterPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemSingle_0: %SystemSingle, null
+    onPlayerTriggerExitPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+.data_end
+.code_start
+    .export _onPlayerTriggerEnter
+    _onPlayerTriggerEnter:
+        PUSH, __const_SystemUInt32_0
+# 
+# VoiceChatZone.OnPlayerTriggerEnter(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, onPlayerTriggerEnterPlayer
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000050
+        PUSH, onPlayerTriggerEnterPlayer
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000090
+        PUSH, onPlayerTriggerEnterPlayer
+        PUSH, __const_SystemSingle_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetVoiceDistanceNear__SystemSingle__SystemVoid"
+        PUSH, onPlayerTriggerEnterPlayer
+        PUSH, zoneFar
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetVoiceDistanceFar__SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerTriggerExit
+    _onPlayerTriggerExit:
+        PUSH, __const_SystemUInt32_0
+# 
+# VoiceChatZone.OnPlayerTriggerExit(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, onPlayerTriggerExitPlayer
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000000f4
+        PUSH, onPlayerTriggerExitPlayer
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000134
+        PUSH, onPlayerTriggerExitPlayer
+        PUSH, defaultNear
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetVoiceDistanceNear__SystemSingle__SystemVoid"
+        PUSH, onPlayerTriggerExitPlayer
+        PUSH, defaultFar
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetVoiceDistanceFar__SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

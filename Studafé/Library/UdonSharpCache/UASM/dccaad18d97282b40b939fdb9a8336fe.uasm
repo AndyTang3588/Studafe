@@ -1,0 +1,94 @@
+.data_start
+    .sync SyncData, none
+    .export FpsGraph
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    SyncData: %SystemBoolean, null
+    FpsGraph: %UnityEngineGameObject, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_0: %SystemString, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# FpsViewer2_PickupUse_Global.Start()
+# 
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnPickupUseDownEvent
+    OnPickupUseDownEvent:
+        PUSH, __const_SystemUInt32_0
+# 
+# FpsViewer2_PickupUse_Global.OnPickupUseDownEvent()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __this_UnityEngineGameObject_0
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, SyncData
+        PUSH, SyncData
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_0
+# Calling FpsViewer2_PickupUse_Global.UpdateFpsGraphActive()
+        JUMP, 0x000000F4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# FpsViewer2_PickupUse_Global.OnDeserialization()
+# 
+        PUSH, __gintnl_SystemUInt32_1
+# Calling FpsViewer2_PickupUse_Global.UpdateFpsGraphActive()
+        JUMP, 0x000000F4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export UpdateFpsGraphActive
+    UpdateFpsGraphActive:
+        PUSH, __const_SystemUInt32_0
+# 
+# FpsViewer2_PickupUse_Global.UpdateFpsGraphActive()
+# 
+        PUSH, __const_SystemBoolean_0
+        PUSH, SyncData
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemBoolean.__op_Equality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000144
+        PUSH, FpsGraph
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        JUMP, 0x0000015C
+        PUSH, FpsGraph
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

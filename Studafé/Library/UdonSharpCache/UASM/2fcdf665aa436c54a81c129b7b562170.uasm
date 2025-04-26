@@ -1,0 +1,963 @@
+.data_start
+    .export textHolder
+    .export canvasDisplay
+    .export Menus
+    .export btnLang
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    animatorPad: %UnityEngineAnimator, null
+    textHolder: %UnityEngineUIText, null
+    canvasDisplay: %UnityEngineGameObject, null
+    Menus: %UnityEngineGameObjectArray, null
+    btnLang: %UnityEngineTransform, null
+    currentLang: %SystemByte, null
+    currentMenu: %SystemSByte, null
+    currentSection: %UnityEngineTransform, null
+    currentPage: %UnityEngineTransformArray, null
+    currentContent: %UnityEngineTransform, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemString_0: %SystemString, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemType_0: %SystemType, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemType_1: %SystemType, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemType_2: %SystemType, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __const_SystemString_1: %SystemString, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __const_SystemByte_0: %SystemByte, null
+    __const_SystemByte_1: %SystemByte, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __0___0_GetMenu__ret: %UnityEngineGameObject, null
+    __0_index__param: %SystemInt32, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __0_objMenu__param: %UnityEngineGameObject, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_2: %SystemString, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
+    __const_SystemObject_0: %SystemObject, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __const_SystemSByte_0: %SystemSByte, null
+    __const_SystemString_3: %SystemString, null
+    __const_SystemString_4: %SystemString, null
+    __const_SystemString_5: %SystemString, null
+    __const_SystemChar_0: %SystemChar, null
+    __const_SystemString_6: %SystemString, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __const_SystemString_7: %SystemString, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __0_GetPageIndex__ret: %SystemInt32, null
+    __const_SystemString_8: %SystemString, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __const_SystemString_9: %SystemString, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_10: %SystemString, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineUIRectMask2D_0: %UnityEngineUIRectMask2D, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __lcl_i2_SystemInt32_0: %SystemInt32, null
+    __intnl_UnityEngineGameObject_2: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_1: %UnityEngineTransform, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __lcl_tempObj_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_UnityEngineGameObject_3: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_2: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_3: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_4: %UnityEngineTransform, null
+    __intnl_UnityEngineUIMask_0: %UnityEngineUIMask, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_UnityEngineGameObject_4: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_5: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_0: %UnityEngineAnimator, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_UnityEngineTransform_6: %UnityEngineTransform, null
+    __intnl_UnityEngineGameObject_5: %UnityEngineGameObject, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_UnityEngineGameObject_6: %UnityEngineGameObject, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __intnl_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemInt32_10: %SystemInt32, null
+    __intnl_SystemInt32_11: %SystemInt32, null
+    __intnl_UnityEngineTransform_7: %UnityEngineTransform, null
+    __intnl_UnityEngineGameObject_7: %UnityEngineGameObject, null
+    __intnl_SystemInt32_12: %SystemInt32, null
+    __intnl_UnityEngineGameObject_8: %UnityEngineGameObject, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemInt32_13: %SystemInt32, null
+    __lcl_tempMenu_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_SystemInt32_14: %SystemInt32, null
+    __intnl_SystemInt32_15: %SystemInt32, null
+    __intnl_UnityEngineGameObject_9: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_8: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_1: %UnityEngineAnimator, null
+    __intnl_SystemInt32_16: %SystemInt32, null
+    __intnl_UnityEngineTransform_9: %UnityEngineTransform, null
+    __intnl_SystemInt32_17: %SystemInt32, null
+    __intnl_UnityEngineGameObject_10: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_10: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_2: %UnityEngineAnimator, null
+    __intnl_SystemInt32_18: %SystemInt32, null
+    __lcl_i_SystemInt32_1: %SystemInt32, null
+    __intnl_UnityEngineTransform_11: %UnityEngineTransform, null
+    __intnl_SystemInt32_19: %SystemInt32, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __lcl_tempObj_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_12: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_13: %UnityEngineTransform, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_UnityEngineTransform_14: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_3: %UnityEngineAnimator, null
+    __intnl_UnityEngineTransform_15: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_4: %UnityEngineAnimator, null
+    __intnl_SystemInt32_20: %SystemInt32, null
+    __intnl_UnityEngineGameObject_11: %UnityEngineGameObject, null
+    __intnl_UnityEngineTransform_16: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_17: %UnityEngineTransform, null
+    __lcl_tempText_SystemStringArray_0: %SystemStringArray, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_SystemCharArray_0: %SystemCharArray, null
+    __lcl_numSection_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemString_3: %SystemString, null
+    __lcl_numPage_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_UnityEngineTransform_18: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_5: %UnityEngineAnimator, null
+    __intnl_SystemInt32_21: %SystemInt32, null
+    __intnl_UnityEngineTransform_19: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_20: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_6: %UnityEngineAnimator, null
+    __lcl_indexPage_SystemInt32_0: %SystemInt32, null
+    __intnl_UnityEngineTransform_21: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_22: %UnityEngineTransform, null
+    __intnl_UnityEngineGameObject_12: %UnityEngineGameObject, null
+    __lcl_numSection_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemString_5: %SystemString, null
+    __intnl_UnityEngineTransform_23: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_7: %UnityEngineAnimator, null
+    __intnl_SystemInt32_22: %SystemInt32, null
+    __intnl_UnityEngineTransform_24: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_25: %UnityEngineTransform, null
+    __intnl_UnityEngineAnimator_8: %UnityEngineAnimator, null
+    __lcl_indexPage_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_23: %SystemInt32, null
+    __intnl_UnityEngineTransform_26: %UnityEngineTransform, null
+    __intnl_UnityEngineGameObject_13: %UnityEngineGameObject, null
+    __intnl_SystemInt32_24: %SystemInt32, null
+    __intnl_UnityEngineTransform_27: %UnityEngineTransform, null
+    __lcl_i_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemInt32_25: %SystemInt32, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_UnityEngineTransform_28: %UnityEngineTransform, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_UnityEngineTransform_29: %UnityEngineTransform, null
+    __intnl_UnityEngineGameObject_14: %UnityEngineGameObject, null
+    __lcl_index_SystemInt32_0: %SystemInt32, null
+    __lcl_i_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemInt32_26: %SystemInt32, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_UnityEngineTransform_30: %UnityEngineTransform, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.Start()
+# 
+        PUSH, textHolder
+        PUSH, __const_SystemString_0
+        EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __const_SystemType_0
+        PUSH, animatorPad
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, canvasDisplay
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, canvasDisplay
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __const_SystemType_1
+        PUSH, __intnl_UnityEngineUIRectMask2D_0
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineUIRectMask2D_0
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineUIRectMask2D.__set_enabled__SystemBoolean__SystemVoid"
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, Menus
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000380
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x0000018c
+        PUSH, Menus
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        JUMP, 0x000001C4
+        PUSH, Menus
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineGameObject_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_1
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i2_SystemInt32_0
+        COPY
+        PUSH, Menus
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineGameObject_2
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_2
+        PUSH, __intnl_UnityEngineTransform_1
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_1
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "UnityEngineTransform.__get_childCount__SystemInt32"
+        PUSH, __lcl_i2_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000358
+        PUSH, Menus
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_UnityEngineGameObject_3
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_3
+        PUSH, __intnl_UnityEngineTransform_2
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_2
+        PUSH, __lcl_i2_SystemInt32_0
+        PUSH, __intnl_UnityEngineTransform_3
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_3
+        PUSH, __lcl_tempObj_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __lcl_tempObj_UnityEngineGameObject_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __lcl_tempObj_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineTransform_4
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_4
+        PUSH, __const_SystemType_2
+        PUSH, __intnl_UnityEngineUIMask_0
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineUIMask_0
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineUIMask.__set_enabled__SystemBoolean__SystemVoid"
+        PUSH, __lcl_i2_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i2_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000001D8
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000000BC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickupUseDown
+    _onPickupUseDown:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.OnPickupUseDown()
+# 
+        PUSH, canvasDisplay
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "UnityEngineGameObject.__get_activeSelf__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000004dc
+        PUSH, canvasDisplay
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, currentMenu
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemConvert.__ToInt32__SystemSByte__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000004d4
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, Menus
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __intnl_UnityEngineGameObject_4
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_4
+        PUSH, __intnl_UnityEngineTransform_5
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_5
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_0
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_0
+        PUSH, __const_SystemString_1
+        PUSH, __const_SystemInt32_2
+        EXTERN, "UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_0
+# Calling VRCCoffeeSet.Pad.DisableMenu()
+        JUMP, 0x00000A28
+        PUSH, __gintnl_SystemUInt32_1
+# Calling VRCCoffeeSet.Pad.DisablePages()
+        JUMP, 0x00001310
+        JUMP, 0x000004F4
+        PUSH, canvasDisplay
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Btn_Lang
+    Btn_Lang:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.Btn_Lang()
+# 
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, btnLang
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_UnityEngineTransform_6
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_6
+        PUSH, __intnl_UnityEngineGameObject_5
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_5
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, Menus
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_UnityEngineGameObject_6
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_6
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, btnLang
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "UnityEngineTransform.__get_childCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_9
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __intnl_SystemInt32_9
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x00000664
+        PUSH, __const_SystemByte_0
+        PUSH, currentLang
+        COPY
+        JUMP, 0x0000069C
+        PUSH, currentLang
+        PUSH, __const_SystemByte_1
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "SystemByte.__op_Addition__SystemByte_SystemByte__SystemInt32"
+        PUSH, __intnl_SystemInt32_10
+        PUSH, currentLang
+        EXTERN, "SystemConvert.__ToByte__SystemInt32__SystemByte"
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_11
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, btnLang
+        PUSH, __intnl_SystemInt32_11
+        PUSH, __intnl_UnityEngineTransform_7
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_7
+        PUSH, __intnl_UnityEngineGameObject_7
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_7
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_12
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, Menus
+        PUSH, __intnl_SystemInt32_12
+        PUSH, __intnl_UnityEngineGameObject_8
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_8
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Btn_Menu
+    Btn_Menu:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.Btn_Menu()
+# 
+        PUSH, textHolder
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineUIText.__get_text__SystemString"
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemInt32_13
+        EXTERN, "SystemInt32.__Parse__SystemString__SystemInt32"
+        PUSH, __intnl_SystemInt32_13
+        PUSH, currentMenu
+        EXTERN, "SystemConvert.__ToSByte__SystemInt32__SystemSByte"
+        PUSH, __gintnl_SystemUInt32_2
+        PUSH, currentMenu
+        PUSH, __intnl_SystemInt32_14
+        EXTERN, "SystemConvert.__ToInt32__SystemSByte__SystemInt32"
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __0_index__param
+        COPY
+# Calling VRCCoffeeSet.Pad.GetMenu(int)
+        JUMP, 0x00000D08
+        PUSH, __0___0_GetMenu__ret
+        PUSH, __lcl_tempMenu_UnityEngineGameObject_0
+        COPY
+        PUSH, __lcl_tempMenu_UnityEngineGameObject_0
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_15
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, Menus
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __intnl_UnityEngineGameObject_9
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_9
+        PUSH, __intnl_UnityEngineTransform_8
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_8
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_1
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, currentMenu
+        PUSH, __intnl_SystemInt32_16
+        EXTERN, "SystemConvert.__ToInt32__SystemSByte__SystemInt32"
+        PUSH, __intnl_UnityEngineAnimator_1
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemInt32_16
+        EXTERN, "UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid"
+        PUSH, __lcl_tempMenu_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineTransform_9
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_9
+        PUSH, __const_SystemInt32_0
+        PUSH, currentSection
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __gintnl_SystemUInt32_3
+        PUSH, __lcl_tempMenu_UnityEngineGameObject_0
+        PUSH, __0_objMenu__param
+        COPY
+# Calling VRCCoffeeSet.Pad.ResetSections(UnityEngine.GameObject)
+        JUMP, 0x00000AAC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Btn_ToMenu
+    Btn_ToMenu:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.Btn_ToMenu()
+# 
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_17
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, Menus
+        PUSH, __intnl_SystemInt32_17
+        PUSH, __intnl_UnityEngineGameObject_10
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_10
+        PUSH, __intnl_UnityEngineTransform_10
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_10
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_2
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_2
+        PUSH, __const_SystemString_1
+        PUSH, __const_SystemInt32_2
+        EXTERN, "UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_2
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __const_SystemObject_0
+        PUSH, currentSection
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export DisableMenu
+    DisableMenu:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.DisableMenu()
+# 
+        PUSH, __gintnl_SystemUInt32_4
+        PUSH, currentMenu
+        PUSH, __intnl_SystemInt32_18
+        EXTERN, "SystemConvert.__ToInt32__SystemSByte__SystemInt32"
+        PUSH, __intnl_SystemInt32_18
+        PUSH, __0_index__param
+        COPY
+# Calling VRCCoffeeSet.Pad.GetMenu(int)
+        JUMP, 0x00000D08
+        PUSH, __0___0_GetMenu__ret
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __const_SystemSByte_0
+        PUSH, currentMenu
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.ResetSections(UnityEngine.GameObject)
+# 
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_1
+        COPY
+        PUSH, __0_objMenu__param
+        PUSH, __intnl_UnityEngineTransform_11
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_11
+        PUSH, __intnl_SystemInt32_19
+        EXTERN, "UnityEngineTransform.__get_childCount__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_SystemInt32_19
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000cec
+        PUSH, __0_objMenu__param
+        PUSH, __intnl_UnityEngineTransform_12
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_12
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_UnityEngineTransform_13
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_13
+        PUSH, __lcl_tempObj_UnityEngineGameObject_1
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __lcl_tempObj_UnityEngineGameObject_1
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __intnl_SystemString_1
+        PUSH, __const_SystemString_3
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemString.__Contains__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x00000bc0
+        JUMP, 0x00000BD4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_tempObj_UnityEngineGameObject_1
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000c74
+        PUSH, __lcl_tempObj_UnityEngineGameObject_1
+        PUSH, __intnl_UnityEngineTransform_14
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_14
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_3
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_3
+        PUSH, __const_SystemString_4
+        EXTERN, "UnityEngineAnimator.__SetTrigger__SystemString__SystemVoid"
+        JUMP, 0x00000CC4
+        PUSH, __lcl_tempObj_UnityEngineGameObject_1
+        PUSH, __intnl_UnityEngineTransform_15
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_15
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_4
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_4
+        PUSH, __const_SystemString_5
+        EXTERN, "UnityEngineAnimator.__SetTrigger__SystemString__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000AC0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.GetMenu(int)
+# 
+        PUSH, currentLang
+        PUSH, __intnl_SystemInt32_20
+        EXTERN, "SystemConvert.__ToInt32__SystemByte__SystemInt32"
+        PUSH, Menus
+        PUSH, __intnl_SystemInt32_20
+        PUSH, __intnl_UnityEngineGameObject_11
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineGameObject_11
+        PUSH, __intnl_UnityEngineTransform_16
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_16
+        PUSH, __0_index__param
+        PUSH, __intnl_UnityEngineTransform_17
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_17
+        PUSH, __0___0_GetMenu__ret
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Btn_Sub
+    Btn_Sub:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.Btn_Sub()
+# 
+        PUSH, textHolder
+        PUSH, __intnl_SystemString_2
+        EXTERN, "UnityEngineUIText.__get_text__SystemString"
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemCharArray_0
+        EXTERN, "SystemCharArray.__ctor__SystemInt32__SystemCharArray"
+        PUSH, __intnl_SystemCharArray_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_SystemChar_0
+        EXTERN, "SystemCharArray.__Set__SystemInt32_SystemChar__SystemVoid"
+        PUSH, __intnl_SystemString_2
+        PUSH, __intnl_SystemCharArray_0
+        PUSH, __lcl_tempText_SystemStringArray_0
+        EXTERN, "SystemString.__Split__SystemCharArray__SystemStringArray"
+        PUSH, __lcl_tempText_SystemStringArray_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_3
+        PUSH, __lcl_numSection_SystemInt32_0
+        EXTERN, "SystemInt32.__Parse__SystemString__SystemInt32"
+        PUSH, __lcl_tempText_SystemStringArray_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemString_4
+        EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
+        PUSH, __intnl_SystemString_4
+        PUSH, __lcl_numPage_SystemInt32_0
+        EXTERN, "SystemInt32.__Parse__SystemString__SystemInt32"
+        PUSH, currentSection
+        PUSH, __intnl_UnityEngineTransform_18
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_18
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_5
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_5
+        PUSH, __const_SystemString_6
+        EXTERN, "UnityEngineAnimator.__SetTrigger__SystemString__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_5
+        PUSH, currentMenu
+        PUSH, __intnl_SystemInt32_21
+        EXTERN, "SystemConvert.__ToInt32__SystemSByte__SystemInt32"
+        PUSH, __intnl_SystemInt32_21
+        PUSH, __0_index__param
+        COPY
+# Calling VRCCoffeeSet.Pad.GetMenu(int)
+        JUMP, 0x00000D08
+        PUSH, __0___0_GetMenu__ret
+        PUSH, __intnl_UnityEngineTransform_19
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_19
+        PUSH, __lcl_numSection_SystemInt32_0
+        PUSH, currentSection
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, currentSection
+        PUSH, __intnl_UnityEngineTransform_20
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_20
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_6
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_6
+        PUSH, __const_SystemString_7
+        EXTERN, "UnityEngineAnimator.__SetTrigger__SystemString__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_6
+# Calling VRCCoffeeSet.Pad.GetPageIndex()
+        JUMP, 0x00001464
+        PUSH, __0_GetPageIndex__ret
+        PUSH, __lcl_indexPage_SystemInt32_0
+        COPY
+        PUSH, currentSection
+        PUSH, __lcl_numPage_SystemInt32_0
+        PUSH, __intnl_UnityEngineTransform_21
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, currentPage
+        PUSH, __lcl_indexPage_SystemInt32_0
+        PUSH, __intnl_UnityEngineTransform_21
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, currentPage
+        PUSH, __lcl_indexPage_SystemInt32_0
+        PUSH, __intnl_UnityEngineTransform_22
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineTransform_22
+        PUSH, __intnl_UnityEngineGameObject_12
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_12
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Btn_Undo
+    Btn_Undo:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.Btn_Undo()
+# 
+        PUSH, textHolder
+        PUSH, __intnl_SystemString_5
+        EXTERN, "UnityEngineUIText.__get_text__SystemString"
+        PUSH, __intnl_SystemString_5
+        PUSH, __lcl_numSection_SystemInt32_1
+        EXTERN, "SystemInt32.__Parse__SystemString__SystemInt32"
+        PUSH, currentSection
+        PUSH, __intnl_UnityEngineTransform_23
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_23
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_7
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_7
+        PUSH, __const_SystemString_8
+        EXTERN, "UnityEngineAnimator.__SetTrigger__SystemString__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_7
+        PUSH, currentMenu
+        PUSH, __intnl_SystemInt32_22
+        EXTERN, "SystemConvert.__ToInt32__SystemSByte__SystemInt32"
+        PUSH, __intnl_SystemInt32_22
+        PUSH, __0_index__param
+        COPY
+# Calling VRCCoffeeSet.Pad.GetMenu(int)
+        JUMP, 0x00000D08
+        PUSH, __0___0_GetMenu__ret
+        PUSH, __intnl_UnityEngineTransform_24
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_24
+        PUSH, __lcl_numSection_SystemInt32_1
+        PUSH, currentSection
+        EXTERN, "UnityEngineTransform.__GetChild__SystemInt32__UnityEngineTransform"
+        PUSH, currentSection
+        PUSH, __intnl_UnityEngineTransform_25
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_25
+        PUSH, __const_SystemType_0
+        PUSH, __intnl_UnityEngineAnimator_8
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, __intnl_UnityEngineAnimator_8
+        PUSH, __const_SystemString_9
+        EXTERN, "UnityEngineAnimator.__SetTrigger__SystemString__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_10
+        PUSH, __const_SystemSingle_1
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export DisablePage
+    DisablePage:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.DisablePage()
+# 
+        PUSH, __gintnl_SystemUInt32_8
+# Calling VRCCoffeeSet.Pad.GetPageIndex()
+        JUMP, 0x00001464
+        PUSH, __0_GetPageIndex__ret
+        PUSH, __lcl_indexPage_SystemInt32_1
+        COPY
+        PUSH, __lcl_indexPage_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_23
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, currentPage
+        PUSH, __intnl_SystemInt32_23
+        PUSH, __intnl_UnityEngineTransform_26
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineTransform_26
+        PUSH, __intnl_UnityEngineGameObject_13
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_13
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __lcl_indexPage_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_24
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineTransform_27
+        COPY
+        PUSH, currentPage
+        PUSH, __intnl_SystemInt32_24
+        PUSH, __intnl_UnityEngineTransform_27
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export DisablePages
+    DisablePages:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.DisablePages()
+# 
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, currentPage
+        PUSH, __intnl_SystemInt32_25
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemInt32_25
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00001448
+        PUSH, currentPage
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineTransform_28
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineTransform_28
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x000013bc
+        JUMP, 0x000013D0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, currentPage
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineTransform_29
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineTransform_29
+        PUSH, __intnl_UnityEngineGameObject_14
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_14
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001324
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCCoffeeSet.Pad.GetPageIndex()
+# 
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_index_SystemInt32_0
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_3
+        COPY
+        PUSH, currentPage
+        PUSH, __intnl_SystemInt32_26
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_3
+        PUSH, __intnl_SystemInt32_26
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00001568
+        PUSH, __lcl_i_SystemInt32_3
+        PUSH, __lcl_index_SystemInt32_0
+        COPY
+        PUSH, currentPage
+        PUSH, __lcl_i_SystemInt32_3
+        PUSH, __intnl_UnityEngineTransform_30
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_UnityEngineTransform_30
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00001538
+        JUMP, 0x00001540
+        JUMP, 0x00001568
+        PUSH, __lcl_i_SystemInt32_3
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_3
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000148C
+        PUSH, __lcl_index_SystemInt32_0
+        PUSH, __0_GetPageIndex__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

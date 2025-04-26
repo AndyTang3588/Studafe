@@ -1,0 +1,212 @@
+.data_start
+    .export _buttonLabel
+    .export _messageMuted
+    .export _messageUnmuted
+    .export _defaultVoiceDistance
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    _buttonLabel: %TMProTextMeshProUGUI, null
+    _messageMuted: %SystemString, null
+    _messageUnmuted: %SystemString, null
+    _defaultVoiceDistance: %SystemSingle, null
+    _areOtherPlayersMuted: %SystemBoolean, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0_playersInZone__param: %VRCSDKBaseVRCPlayerApiArray, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemString_0: %SystemString, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_SystemString_1: %SystemString, null
+    __1_playersInZone__param: %VRCSDKBaseVRCPlayerApiArray, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __intnl_VRCSDKBaseVRCPlayerApiArray_0: %VRCSDKBaseVRCPlayerApiArray, null
+    __lcl_allPlayers_VRCSDKBaseVRCPlayerApiArray_0: %VRCSDKBaseVRCPlayerApiArray, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_VRCSDKBaseVRCPlayerApiArray_1: %VRCSDKBaseVRCPlayerApiArray, null
+    __lcl_mutedPlayers_SystemString_0: %SystemString, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __lcl_player_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __lcl_isInside_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __lcl_inZonePlayer_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_TMProTextMeshProUGUI_0: %TMProTextMeshProUGUI, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# MuteOthersOutArea.Start()
+# 
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiArray_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiArray_0
+        PUSH, __0_playersInZone__param
+        COPY
+# Calling MuteOthersOutArea.OnMuteUpdated(VRC.SDKBase.VRCPlayerApi[])
+        JUMP, 0x00000060
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_OnMuteUpdated
+    __0_OnMuteUpdated:
+        PUSH, __const_SystemUInt32_0
+# 
+# MuteOthersOutArea.OnMuteUpdated(VRC.SDKBase.VRCPlayerApi[])
+# 
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __lcl_allPlayers_VRCSDKBaseVRCPlayerApiArray_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray"
+        PUSH, __lcl_allPlayers_VRCSDKBaseVRCPlayerApiArray_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiArray_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayers__VRCSDKBaseVRCPlayerApiArray__VRCSDKBaseVRCPlayerApiArray"
+        PUSH, __const_SystemString_0
+        PUSH, __lcl_mutedPlayers_SystemString_0
+        COPY
+        PUSH, __lcl_allPlayers_VRCSDKBaseVRCPlayerApiArray_0
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        COPY
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000370
+        PUSH, __lcl_allPlayers_VRCSDKBaseVRCPlayerApiArray_0
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000168
+        JUMP, 0x00000348
+        PUSH, __const_SystemBoolean_0
+        PUSH, __lcl_isInside_SystemBoolean_0
+        COPY
+        PUSH, __0_playersInZone__param
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_4
+        COPY
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x0000026c
+        PUSH, __0_playersInZone__param
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __lcl_inZonePlayer_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __lcl_inZonePlayer_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000244
+        PUSH, __const_SystemBoolean_1
+        PUSH, __lcl_isInside_SystemBoolean_0
+        COPY
+        JUMP, 0x0000026C
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000001A8
+        PUSH, __lcl_isInside_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000002a8
+        PUSH, _areOtherPlayersMuted
+        PUSH, __intnl_SystemBoolean_2
+        COPY
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000330
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_SystemSingle_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetVoiceDistanceFar__SystemSingle__SystemVoid"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString"
+        PUSH, __intnl_SystemString_0
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __lcl_mutedPlayers_SystemString_0
+        PUSH, __intnl_SystemString_1
+        PUSH, __lcl_mutedPlayers_SystemString_0
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        JUMP, 0x00000348
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, _defaultVoiceDistance
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__SetVoiceDistanceFar__SystemSingle__SystemVoid"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000000E0
+        PUSH, _buttonLabel
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000404
+# Cow dirty
+        PUSH, _buttonLabel
+        PUSH, __intnl_TMProTextMeshProUGUI_0
+        COPY
+        PUSH, _areOtherPlayersMuted
+        JUMP_IF_FALSE, 0x000003d8
+        PUSH, _messageMuted
+        PUSH, __intnl_SystemString_0
+        COPY
+        JUMP, 0x000003EC
+        PUSH, _messageUnmuted
+        PUSH, __intnl_SystemString_0
+        COPY
+        PUSH, __intnl_TMProTextMeshProUGUI_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_UpdateMutedPlayersList
+    __0_UpdateMutedPlayersList:
+        PUSH, __const_SystemUInt32_0
+# 
+# MuteOthersOutArea.UpdateMutedPlayersList(VRC.SDKBase.VRCPlayerApi[])
+# 
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, __1_playersInZone__param
+        PUSH, __0_playersInZone__param
+        COPY
+# Calling MuteOthersOutArea.OnMuteUpdated(VRC.SDKBase.VRCPlayerApi[])
+        JUMP, 0x00000060
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end
