@@ -67,7 +67,6 @@ MonoBehaviour:
   defaultLock: 0
   allowInstanceOwner: 1
   maximumResolution: 720
-  defaultBrightness: 1
   defaultMute: 0
   defaultMinVolume: 0
   defaultMaxVolume: 0.5
@@ -85,8 +84,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -6261936936318354846, guid: f11e66d7671604b48b7ea0c0de70cf41,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6672159798105151873, guid: f11e66d7671604b48b7ea0c0de70cf41,
         type: 3}
       propertyPath: m_RootOrder
@@ -151,14 +149,13 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 2137c44bbc9267b45a9ff3b20e6ed5dd,
+      objectReference: {fileID: 11400000, guid: 3a5a3dbb5c9ba22439f6ca659b6431a8,
         type: 2}
     - target: {fileID: 7418595852981777910, guid: f11e66d7671604b48b7ea0c0de70cf41,
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 7418595852981777910, guid: f11e66d7671604b48b7ea0c0de70cf41,
-        type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -261,13 +258,12 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -866039220434859315, guid: 956d393391c01d346869bdb6349006b7,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 2367747703092269794, guid: 956d393391c01d346869bdb6349006b7,
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 067193a6ab24bfb40aedc42b2f3d728d,
+      objectReference: {fileID: 11400000, guid: e5916539dbe9650458f0f1d48dbfc98b,
         type: 2}
     - target: {fileID: 5964695351249358794, guid: 956d393391c01d346869bdb6349006b7,
         type: 3}
@@ -352,7 +348,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: b619971bee34d0e4ab3a5dff556cd658,
+      objectReference: {fileID: 11400000, guid: 923e87d617bfbf64caa0ffa6c8a58543,
         type: 2}
     - target: {fileID: 1418041251502205469, guid: b38cf4e25af134e4e8787e47a5e2620d,
         type: 3}
@@ -418,8 +414,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 3462246647951339383, guid: b38cf4e25af134e4e8787e47a5e2620d,
-        type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -443,8 +438,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 1056032010288105910, guid: cfb16977acb70ad4fb0b35f95e6dc0a9,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7838308742288634934, guid: cfb16977acb70ad4fb0b35f95e6dc0a9,
         type: 3}
       propertyPath: m_RootOrder
@@ -509,7 +503,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: b5767af17cc70ab419907dc5fe94b6b0,
+      objectReference: {fileID: 11400000, guid: faac4a6bdf5a2e440ba622de5942515b,
         type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

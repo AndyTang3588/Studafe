@@ -14,12 +14,16 @@
     UpdateOk: %SystemBoolean, null
     __const_SystemUInt32_0: %SystemUInt32, null
     __const_SystemType_0: %SystemType, null
-    __const_SystemBoolean_0: %SystemBoolean, null
-    __const_VRCSDKBaseVRCPlayerApiTrackingDataType_0: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
     __const_SystemString_0: %SystemString, null
     __const_SystemSingle_0: %SystemSingle, null
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_VRCSDKBaseVRCPlayerApiTrackingDataType_0: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
     __const_SystemString_1: %SystemString, null
     __const_SystemSingle_1: %SystemSingle, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemSingle_2: %SystemSingle, null
     __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
     __intnl_UnityEngineRenderer_0: %UnityEngineRenderer, null
     __intnl_SystemBoolean_0: %SystemBoolean, null
@@ -54,6 +58,11 @@
         PUSH, __intnl_UnityEngineRenderer_0
         PUSH, DarknessBoxMaterial
         EXTERN, "UnityEngineRenderer.__get_material__UnityEngineMaterial"
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -80,7 +89,7 @@
         PUSH, __intnl_SystemBoolean_0
         EXTERN, "SystemBoolean.__op_Equality__SystemBoolean_SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_0
-        JUMP_IF_FALSE, 0x00000164
+        JUMP_IF_FALSE, 0x0000018c
         PUSH, DarknessSphereObject
         PUSH, __intnl_UnityEngineTransform_1
         EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
@@ -108,15 +117,15 @@
         PUSH, SliderObject
         PUSH, __intnl_SystemSingle_0
         EXTERN, "UnityEngineUISlider.__get_value__SystemSingle"
-        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_1
         PUSH, __intnl_SystemSingle_0
         PUSH, __intnl_SystemSingle_1
         EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
         PUSH, __intnl_SystemSingle_1
-        PUSH, __const_SystemString_1
+        PUSH, __const_SystemString_2
         PUSH, __intnl_SystemString_0
         EXTERN, "SystemSingle.__ToString__SystemString__SystemString"
-        PUSH, __const_SystemString_0
+        PUSH, __const_SystemString_1
         PUSH, __intnl_SystemString_0
         PUSH, __intnl_SystemString_1
         EXTERN, "SystemString.__Format__SystemString_SystemObject__SystemString"
@@ -127,7 +136,7 @@
         PUSH, __intnl_SystemSingle_2
         EXTERN, "UnityEngineUISlider.__get_value__SystemSingle"
         PUSH, __intnl_SystemSingle_2
-        PUSH, __const_SystemSingle_1
+        PUSH, __const_SystemSingle_2
         PUSH, __intnl_SystemSingle_3
         EXTERN, "UnityEngineMathf.__Pow__SystemSingle_SystemSingle__SystemSingle"
         PUSH, DarknessBoxMaterial

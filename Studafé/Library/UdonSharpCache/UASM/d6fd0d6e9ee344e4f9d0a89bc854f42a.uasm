@@ -66,7 +66,6 @@
     __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
     __const_SystemType_0: %SystemType, null
     __const_SystemString_4: %SystemString, null
-    __const_VRCSDKBaseVRC_PickupPickupHand_0: %VRCSDKBaseVRC_PickupPickupHand, null
     __const_SystemSingle_1: %SystemSingle, null
     __const_SystemSingle_2: %SystemSingle, null
     __gintnl_SystemUInt32_5: %SystemUInt32, null
@@ -202,10 +201,10 @@
         EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
         PUSH, __gintnl_SystemUInt32_0
 # Calling Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
-        JUMP, 0x0000092C
+        JUMP, 0x00000930
         PUSH, __gintnl_SystemUInt32_1
 # Calling Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
-        JUMP, 0x000009FC
+        JUMP, 0x00000A00
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -231,7 +230,7 @@
         JUMP_IF_FALSE, 0x00000234
         PUSH, __gintnl_SystemUInt32_2
 # Calling Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
-        JUMP, 0x00000A98
+        JUMP, 0x00000A9C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -267,7 +266,7 @@
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_3
 # Calling Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
-        JUMP, 0x000009FC
+        JUMP, 0x00000A00
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -327,7 +326,7 @@
         COPY
         PUSH, __gintnl_SystemUInt32_4
 # Calling Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
-        JUMP, 0x0000092C
+        JUMP, 0x00000930
         PUSH, Yodo_SliderMode
         PUSH, __const_SystemInt32_1
         PUSH, __intnl_SystemBoolean_7
@@ -405,7 +404,7 @@
         PUSH, __intnl_SystemBoolean_10
         EXTERN, "SystemSingle.__op_LessThanOrEqual__SystemSingle_SystemSingle__SystemBoolean"
         PUSH, __intnl_SystemBoolean_10
-        JUMP_IF_FALSE, 0x00000814
+        JUMP_IF_FALSE, 0x00000818
         PUSH, localMovement
         PUSH, localSensitivity
         PUSH, localMovement
@@ -434,9 +433,9 @@
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
-        PUSH, __const_VRCSDKBaseVRC_PickupPickupHand_0
+        PUSH, __lcl_pickup_VRCSDK3ComponentsVRCPickup_0
         PUSH, __lcl_currentHand_VRCSDKBaseVRC_PickupPickupHand_0
-        COPY
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__get_currentHand__VRCSDKBaseVRC_PickupPickupHand"
         PUSH, Yodo_SliderVibrationStrength
         PUSH, __const_SystemSingle_1
         PUSH, __intnl_SystemSingle_4
@@ -457,14 +456,14 @@
 # Yodokorochan.Yodo_HapticSlider.Update()
 # 
         PUSH, isPicking
-        JUMP_IF_FALSE, 0x00000848
-        JUMP, 0x0000085C
+        JUMP_IF_FALSE, 0x0000084c
+        JUMP, 0x00000860
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_5
 # Calling Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
-        JUMP, 0x00000A98
+        JUMP, 0x00000A9C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -479,7 +478,7 @@
         PUSH, __intnl_SystemBoolean_12
         EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_12
-        JUMP_IF_FALSE, 0x000008e0
+        JUMP_IF_FALSE, 0x000008e4
         PUSH, previous_slider_value
         PUSH, Yodo_HapticSliderValue
         COPY
@@ -488,13 +487,13 @@
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_6
 # Calling Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
-        JUMP, 0x0000092C
+        JUMP, 0x00000930
         PUSH, __gintnl_SystemUInt32_7
 # Calling Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
-        JUMP, 0x00000A98
+        JUMP, 0x00000A9C
         PUSH, __gintnl_SystemUInt32_8
 # Calling Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
-        JUMP, 0x000009FC
+        JUMP, 0x00000A00
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -567,7 +566,7 @@
         PUSH, __intnl_SystemBoolean_13
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_13
-        JUMP_IF_FALSE, 0x00000c90
+        JUMP_IF_FALSE, 0x00000c94
         PUSH, Yodo_TargetUdon
         PUSH, __lcl_cur_SystemInt32_0
         PUSH, __intnl_UnityEngineGameObject_0
@@ -583,7 +582,7 @@
         PUSH, __intnl_SystemBoolean_14
         EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_14
-        JUMP_IF_FALSE, 0x00000c68
+        JUMP_IF_FALSE, 0x00000c6c
         PUSH, Yodo_TargetUdon
         PUSH, __lcl_cur_SystemInt32_0
         PUSH, __intnl_UnityEngineGameObject_1
@@ -607,7 +606,7 @@
         PUSH, __intnl_SystemBoolean_15
         EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
         PUSH, __intnl_SystemBoolean_15
-        JUMP_IF_FALSE, 0x00000c68
+        JUMP_IF_FALSE, 0x00000c6c
         PUSH, Yodo_TargetVariableName
         PUSH, __lcl_cur_SystemInt32_0
         PUSH, __intnl_SystemString_4
@@ -620,7 +619,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_cur_SystemInt32_0
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000AAC
+        JUMP, 0x00000AB0
         PUSH, Yodo_IndicatorText
         PUSH, __intnl_UnityEngineObject_2
         COPY
@@ -632,7 +631,7 @@
         PUSH, __intnl_SystemBoolean_13
         EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_13
-        JUMP_IF_FALSE, 0x00000d40
+        JUMP_IF_FALSE, 0x00000d44
         PUSH, Yodo_HapticSliderValue
         PUSH, __const_SystemSingle_3
         PUSH, __intnl_SystemSingle_5
@@ -659,7 +658,7 @@
         PUSH, __intnl_SystemBoolean_14
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_14
-        JUMP_IF_FALSE, 0x00000e5c
+        JUMP_IF_FALSE, 0x00000e60
         PUSH, Yodo_TargetAudioSources
         PUSH, __intnl_SystemInt32_1
         PUSH, __lcl_audio_UnityEngineAudioSource_0
@@ -668,7 +667,7 @@
         PUSH, __intnl_SystemBoolean_15
         EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_15
-        JUMP_IF_FALSE, 0x00000e34
+        JUMP_IF_FALSE, 0x00000e38
         PUSH, __lcl__value_SystemSingle_0
         PUSH, __intnl_SystemSingle_5
         EXTERN, "UnityEngineMathf.__Clamp01__SystemSingle__SystemSingle"
@@ -679,7 +678,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __intnl_SystemInt32_1
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000D8C
+        JUMP, 0x00000D90
         PUSH, Yodo_TargetPostProcessVolumes
         PUSH, __intnl_SystemInt32_0
         EXTERN, "SystemArray.__get_Length__SystemInt32"
@@ -691,7 +690,7 @@
         PUSH, __intnl_SystemBoolean_14
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_14
-        JUMP_IF_FALSE, 0x00000f58
+        JUMP_IF_FALSE, 0x00000f5c
         PUSH, Yodo_TargetPostProcessVolumes
         PUSH, __intnl_SystemInt32_1
         PUSH, __lcl_ppv_UnityEngineRenderingPostProcessingPostProcessVolume_0
@@ -700,7 +699,7 @@
         PUSH, __intnl_SystemBoolean_15
         EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_15
-        JUMP_IF_FALSE, 0x00000f30
+        JUMP_IF_FALSE, 0x00000f34
         PUSH, __lcl__value_SystemSingle_0
         PUSH, __intnl_SystemSingle_5
         EXTERN, "UnityEngineMathf.__Clamp01__SystemSingle__SystemSingle"
@@ -711,7 +710,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __intnl_SystemInt32_1
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000E88
+        JUMP, 0x00000E8C
         PUSH, Yodo_TargetLights
         PUSH, __intnl_SystemInt32_0
         EXTERN, "SystemArray.__get_Length__SystemInt32"
@@ -723,7 +722,7 @@
         PUSH, __intnl_SystemBoolean_14
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_14
-        JUMP_IF_FALSE, 0x0000103c
+        JUMP_IF_FALSE, 0x00001040
         PUSH, Yodo_TargetLights
         PUSH, __intnl_SystemInt32_1
         PUSH, __lcl_light_UnityEngineLight_0
@@ -732,7 +731,7 @@
         PUSH, __intnl_SystemBoolean_15
         EXTERN, "UnityEngineObject.__op_Implicit__UnityEngineObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_15
-        JUMP_IF_FALSE, 0x00001014
+        JUMP_IF_FALSE, 0x00001018
         PUSH, __lcl_light_UnityEngineLight_0
         PUSH, __lcl__value_SystemSingle_0
         EXTERN, "UnityEngineLight.__set_intensity__SystemSingle__SystemVoid"
@@ -740,7 +739,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __intnl_SystemInt32_1
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000F84
+        JUMP, 0x00000F88
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -755,19 +754,19 @@
         PUSH, __intnl_SystemBoolean_16
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_16
-        JUMP_IF_FALSE, 0x000010cc
+        JUMP_IF_FALSE, 0x000010d0
         PUSH, __0_newValue__param
         PUSH, Yodo_HapticSliderValue
         COPY
         PUSH, __gintnl_SystemUInt32_9
 # Calling Yodokorochan.Yodo_HapticSlider.AdjustSliderPosition()
-        JUMP, 0x0000092C
+        JUMP, 0x00000930
         PUSH, __gintnl_SystemUInt32_10
 # Calling Yodokorochan.Yodo_HapticSlider.ResetPickupPosition()
-        JUMP, 0x000009FC
+        JUMP, 0x00000A00
         PUSH, __gintnl_SystemUInt32_11
 # Calling Yodokorochan.Yodo_HapticSlider.SendValueToTarget()
-        JUMP, 0x00000A98
+        JUMP, 0x00000A9C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0

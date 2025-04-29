@@ -589,7 +589,7 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __const_SystemInt32_1
         PUSH, __0___0__GetOrderedPlayersNoAlloc__ret
         COPY
@@ -799,7 +799,7 @@
         PUSH, __0_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogInfo(string)
-        JUMP, 0x00003C30
+        JUMP, 0x00003C1C
         PUSH, __gintnl_SystemUInt32_10
         PUSH, __const_SystemString_4
         PUSH, poolSize
@@ -813,7 +813,7 @@
         PUSH, __1_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
-        JUMP, 0x00003C84
+        JUMP, 0x00003C70
         PUSH, __const_SystemInt32_1
         PUSH, __lcl_i_SystemInt32_2
         COPY
@@ -941,7 +941,7 @@
         JUMP_IF_FALSE, 0x00000cf0
         PUSH, __gintnl_SystemUInt32_13
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._DelayUpdateAssignment()
-        JUMP, 0x000025C8
+        JUMP, 0x000025B4
         PUSH, __intnl_SystemBoolean_12
         EXTERN, "VRCSDKBaseNetworking.__get_IsMaster__SystemBoolean"
         PUSH, __intnl_SystemBoolean_12
@@ -952,7 +952,7 @@
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_14
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._CheckForMasterSwap()
-        JUMP, 0x000032D0
+        JUMP, 0x000032BC
         PUSH, __gintnl_SystemUInt32_15
         PUSH, onPlayerJoinedPlayer
         PUSH, __2_player__param
@@ -997,7 +997,7 @@
         PUSH, __7_playerId__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._CleanupPlayerIndex(int, int)
-        JUMP, 0x00002D84
+        JUMP, 0x00002D70
         PUSH, __intnl_SystemBoolean_14
         EXTERN, "VRCSDKBaseNetworking.__get_IsMaster__SystemBoolean"
         PUSH, __intnl_SystemBoolean_14
@@ -1008,7 +1008,7 @@
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_18
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._CheckForMasterSwap()
-        JUMP, 0x000032D0
+        JUMP, 0x000032BC
         PUSH, __gintnl_SystemUInt32_19
         PUSH, __lcl_index_SystemInt32_0
         PUSH, __1_index__param
@@ -1029,7 +1029,7 @@
 # 
         PUSH, __gintnl_SystemUInt32_20
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._DelayUpdateAssignment()
-        JUMP, 0x000025C8
+        JUMP, 0x000025B4
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1050,7 +1050,7 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __gintnl_SystemUInt32_22
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._DelayRequestSerialization()
         JUMP, 0x0000232C
@@ -1059,7 +1059,7 @@
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_23
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._DelayUpdateAssignment()
-        JUMP, 0x000025C8
+        JUMP, 0x000025B4
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1135,7 +1135,7 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __const_SystemBoolean_1
         PUSH, __0__InitializePoolPath__ret
         COPY
@@ -1176,7 +1176,7 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1246,7 +1246,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __gintnl_SystemUInt32_30
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._InitializeTag()
         JUMP, 0x00001258
@@ -1571,7 +1571,7 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1625,7 +1625,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1654,7 +1654,7 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1686,7 +1686,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, _assignment
         PUSH, __lcl_index_SystemInt32_5
         PUSH, __lcl_id_SystemInt32_2
@@ -1701,7 +1701,7 @@
         PUSH, __1_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
-        JUMP, 0x00003C84
+        JUMP, 0x00003C70
         PUSH, __gintnl_SystemUInt32_50
         PUSH, __lcl_id_SystemInt32_2
         PUSH, __3_playerId__param
@@ -1736,7 +1736,7 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1768,7 +1768,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, _assignment
         PUSH, __1_index__param
         PUSH, __const_SystemInt32_0
@@ -1789,7 +1789,7 @@
         PUSH, __1_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
-        JUMP, 0x00003C84
+        JUMP, 0x00003C70
         PUSH, __gintnl_SystemUInt32_56
         PUSH, __5_playerId__param
         PUSH, __4_playerId__param
@@ -1863,7 +1863,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __gintnl_SystemUInt32_59
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._DelayRequestSerialization()
         JUMP, 0x0000232C
@@ -1879,7 +1879,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __const_SystemInt32_1
         PUSH, _networkedCloggedSerializationAttempts
         COPY
@@ -1891,11 +1891,8 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_shouldManuallyUpdateAssignment_SystemBoolean_0
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __const_SystemBoolean_0
         PUSH, __lcl_shouldManuallyUpdateAssignment_SystemBoolean_0
-        COPY
-        PUSH, __lcl_shouldManuallyUpdateAssignment_SystemBoolean_0
-        JUMP_IF_FALSE, 0x000025ac
+        JUMP_IF_FALSE, 0x00002598
         PUSH, __gintnl_SystemUInt32_61
         PUSH, _trueSerializationResults
         PUSH, onPostSerializationResult
@@ -1910,7 +1907,7 @@
 # Cyan.PlayerObjectPool.CyanPlayerObjectPool._DelayUpdateAssignment()
 # 
         PUSH, _delayUpdateAssignment
-        JUMP_IF_FALSE, 0x000025ec
+        JUMP_IF_FALSE, 0x000025d8
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1932,8 +1929,8 @@
 # Cyan.PlayerObjectPool.CyanPlayerObjectPool._OnDelayUpdateAssignment()
 # 
         PUSH, _delayUpdateAssignment
-        JUMP_IF_FALSE, 0x0000265c
-        JUMP, 0x00002670
+        JUMP_IF_FALSE, 0x00002648
+        JUMP, 0x0000265C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1942,7 +1939,7 @@
         COPY
         PUSH, __gintnl_SystemUInt32_62
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._OnAssignmentChanged()
-        JUMP, 0x000026B0
+        JUMP, 0x0000269C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1952,12 +1949,12 @@
 # 
         PUSH, __gintnl_SystemUInt32_63
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._AssignIndicesToPlayers()
-        JUMP, 0x000026FC
+        JUMP, 0x000026E8
         PUSH, printDebugLogs
-        JUMP_IF_FALSE, 0x000026e0
+        JUMP_IF_FALSE, 0x000026cc
         PUSH, __gintnl_SystemUInt32_64
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._PrintAssignment()
-        JUMP, 0x000030E8
+        JUMP, 0x000030D4
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1982,7 +1979,7 @@
         PUSH, __intnl_SystemBoolean_39
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_39
-        JUMP_IF_FALSE, 0x00002944
+        JUMP_IF_FALSE, 0x00002930
         PUSH, _assignment
         PUSH, __lcl_index_SystemInt32_6
         PUSH, __lcl_newAssign_SystemInt32_0
@@ -1996,14 +1993,14 @@
         PUSH, __intnl_SystemBoolean_40
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_40
-        JUMP_IF_FALSE, 0x000027f8
-        JUMP, 0x0000291C
+        JUMP_IF_FALSE, 0x000027e4
+        JUMP, 0x00002908
         PUSH, __lcl_prevAssign_SystemInt32_0
         PUSH, __const_SystemInt32_0
         PUSH, __intnl_SystemBoolean_41
         EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_41
-        JUMP_IF_FALSE, 0x00002860
+        JUMP_IF_FALSE, 0x0000284c
         PUSH, __gintnl_SystemUInt32_65
         PUSH, __lcl_index_SystemInt32_6
         PUSH, __3_index__param
@@ -2012,13 +2009,13 @@
         PUSH, __7_playerId__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._CleanupPlayerIndex(int, int)
-        JUMP, 0x00002D84
+        JUMP, 0x00002D70
         PUSH, __lcl_newAssign_SystemInt32_0
         PUSH, __const_SystemInt32_0
         PUSH, __intnl_SystemBoolean_42
         EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_42
-        JUMP_IF_FALSE, 0x000028fc
+        JUMP_IF_FALSE, 0x000028e8
         PUSH, __gintnl_SystemUInt32_66
         PUSH, __lcl_index_SystemInt32_6
         PUSH, __2_index__param
@@ -2027,14 +2024,14 @@
         PUSH, __6_playerId__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._SetupPlayerIndex(int, int)
-        JUMP, 0x000029BC
+        JUMP, 0x000029A8
         PUSH, __0___0__SetupPlayerIndex__ret
-        JUMP_IF_FALSE, 0x000028e0
-        JUMP, 0x000028FC
+        JUMP_IF_FALSE, 0x000028cc
+        JUMP, 0x000028E8
         PUSH, __const_SystemBoolean_0
         PUSH, __lcl_requireVerification_SystemBoolean_0
         COPY
-        JUMP, 0x0000291C
+        JUMP, 0x00002908
         PUSH, _prevAssignment
         PUSH, __lcl_index_SystemInt32_6
         PUSH, __lcl_newAssign_SystemInt32_0
@@ -2043,17 +2040,17 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_index_SystemInt32_6
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00002750
+        JUMP, 0x0000273C
         PUSH, __lcl_requireVerification_SystemBoolean_0
-        JUMP_IF_FALSE, 0x000029a0
+        JUMP_IF_FALSE, 0x0000298c
         PUSH, __intnl_SystemBoolean_39
         EXTERN, "VRCSDKBaseNetworking.__get_IsMaster__SystemBoolean"
         PUSH, __intnl_SystemBoolean_39
-        JUMP_IF_FALSE, 0x0000298c
+        JUMP_IF_FALSE, 0x00002978
         PUSH, __gintnl_SystemUInt32_67
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._VerifyAllPlayersHaveIndices()
-        JUMP, 0x000033C8
-        JUMP, 0x000029A0
+        JUMP, 0x000033B4
+        JUMP, 0x0000298C
         PUSH, __const_SystemBoolean_0
         PUSH, _verifyAssignmentsOnPlayerJoin
         COPY
@@ -2081,13 +2078,13 @@
         PUSH, __intnl_SystemBoolean_43
         EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_43
-        JUMP_IF_FALSE, 0x00002a5c
+        JUMP_IF_FALSE, 0x00002a48
         PUSH, __lcl_curIndex_SystemInt32_0
         PUSH, __2_index__param
         PUSH, __intnl_SystemBoolean_43
         EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_43
-        JUMP_IF_FALSE, 0x00002ae8
+        JUMP_IF_FALSE, 0x00002ad4
         PUSH, __gintnl_SystemUInt32_69
         PUSH, __const_SystemString_33
         PUSH, __6_playerId__param
@@ -2099,7 +2096,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __const_SystemBoolean_1
         PUSH, __0___0__SetupPlayerIndex__ret
         COPY
@@ -2119,8 +2116,8 @@
         PUSH, __intnl_SystemBoolean_44
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_44
-        JUMP_IF_FALSE, 0x00002b50
-        JUMP, 0x00002BC4
+        JUMP_IF_FALSE, 0x00002b3c
+        JUMP, 0x00002BB0
         PUSH, __gintnl_SystemUInt32_71
         PUSH, __const_SystemString_34
         PUSH, __6_playerId__param
@@ -2131,7 +2128,7 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __const_SystemBoolean_1
         PUSH, __0___0__SetupPlayerIndex__ret
         COPY
@@ -2155,7 +2152,7 @@
         PUSH, __1_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
-        JUMP, 0x00003C84
+        JUMP, 0x00003C70
         PUSH, __const_SystemInt32_1
         PUSH, __lcl_curListener_SystemInt32_0
         COPY
@@ -2164,7 +2161,7 @@
         PUSH, __intnl_SystemBoolean_45
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_45
-        JUMP_IF_FALSE, 0x00002d40
+        JUMP_IF_FALSE, 0x00002d2c
         PUSH, _assignmentListeners
         PUSH, __lcl_curListener_SystemInt32_0
         PUSH, __intnl_VRCUdonUdonBehaviour_1
@@ -2188,7 +2185,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_curListener_SystemInt32_0
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00002C5C
+        JUMP, 0x00002C48
         PUSH, __const_SystemBoolean_0
         PUSH, __0___0__SetupPlayerIndex__ret
         COPY
@@ -2210,7 +2207,7 @@
         PUSH, __intnl_SystemBoolean_46
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_46
-        JUMP_IF_FALSE, 0x00002e18
+        JUMP_IF_FALSE, 0x00002e04
         PUSH, __gintnl_SystemUInt32_73
         PUSH, __const_SystemString_39
         PUSH, __7_playerId__param
@@ -2221,13 +2218,13 @@
         PUSH, __3_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogError(string)
-        JUMP, 0x00003D3C
+        JUMP, 0x00003D28
         PUSH, __3_index__param
         PUSH, __const_SystemInt32_0
         PUSH, __intnl_SystemBoolean_47
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_47
-        JUMP_IF_FALSE, 0x00002ea0
+        JUMP_IF_FALSE, 0x00002e8c
         PUSH, __gintnl_SystemUInt32_74
         PUSH, __const_SystemString_40
         PUSH, __7_playerId__param
@@ -2237,7 +2234,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -2266,7 +2263,7 @@
         PUSH, __intnl_SystemBoolean_48
         EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_48
-        JUMP_IF_FALSE, 0x00002f70
+        JUMP_IF_FALSE, 0x00002f5c
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -2283,7 +2280,7 @@
         PUSH, __1_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
-        JUMP, 0x00003C84
+        JUMP, 0x00003C70
         PUSH, __const_SystemInt32_1
         PUSH, __lcl_curListener_SystemInt32_1
         COPY
@@ -2292,7 +2289,7 @@
         PUSH, __intnl_SystemBoolean_49
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_49
-        JUMP_IF_FALSE, 0x000030cc
+        JUMP_IF_FALSE, 0x000030b8
         PUSH, _assignmentListeners
         PUSH, __lcl_curListener_SystemInt32_1
         PUSH, __intnl_VRCUdonUdonBehaviour_2
@@ -2316,7 +2313,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_curListener_SystemInt32_1
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00002FE8
+        JUMP, 0x00002FD4
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -2338,7 +2335,7 @@
         PUSH, __intnl_SystemBoolean_50
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_50
-        JUMP_IF_FALSE, 0x00003290
+        JUMP_IF_FALSE, 0x0000327c
         PUSH, _assignment
         PUSH, __lcl_i_SystemInt32_4
         PUSH, __intnl_SystemInt32_16
@@ -2348,7 +2345,7 @@
         PUSH, __intnl_SystemBoolean_51
         EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_51
-        JUMP_IF_FALSE, 0x00003268
+        JUMP_IF_FALSE, 0x00003254
         PUSH, _assignment
         PUSH, __lcl_i_SystemInt32_4
         PUSH, __intnl_SystemInt32_17
@@ -2377,13 +2374,13 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_i_SystemInt32_4
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00003128
+        JUMP, 0x00003114
         PUSH, __gintnl_SystemUInt32_77
         PUSH, __lcl_assignment_SystemString_0
         PUSH, __1_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
-        JUMP, 0x00003C84
+        JUMP, 0x00003C70
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -2395,17 +2392,17 @@
         PUSH, __intnl_SystemBoolean_52
         EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_52
-        JUMP_IF_FALSE, 0x00003308
+        JUMP_IF_FALSE, 0x000032f4
         PUSH, __intnl_SystemBoolean_52
         EXTERN, "VRCSDKBaseNetworking.__get_IsMaster__SystemBoolean"
         PUSH, __intnl_SystemBoolean_52
-        JUMP_IF_FALSE, 0x000033ac
+        JUMP_IF_FALSE, 0x00003398
         PUSH, __gintnl_SystemUInt32_78
         PUSH, __const_SystemString_49
         PUSH, __1_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
-        JUMP, 0x00003C84
+        JUMP, 0x00003C70
         PUSH, __const_SystemBoolean_0
         PUSH, _isMaster
         COPY
@@ -2435,8 +2432,8 @@
         PUSH, __intnl_SystemBoolean_53
         EXTERN, "VRCSDKBaseNetworking.__get_IsMaster__SystemBoolean"
         PUSH, __intnl_SystemBoolean_53
-        JUMP_IF_FALSE, 0x000033f0
-        JUMP, 0x00003404
+        JUMP_IF_FALSE, 0x000033dc
+        JUMP, 0x000033F0
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -2445,7 +2442,7 @@
         PUSH, __1_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
-        JUMP, 0x00003C84
+        JUMP, 0x00003C70
         PUSH, __const_SystemInt32_1
         PUSH, __lcl_count_SystemInt32_2
         COPY
@@ -2460,7 +2457,7 @@
         PUSH, __intnl_SystemBoolean_54
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_54
-        JUMP_IF_FALSE, 0x000037b0
+        JUMP_IF_FALSE, 0x0000379c
         PUSH, _assignment
         PUSH, __lcl_index_SystemInt32_7
         PUSH, __lcl_ownerId_SystemInt32_1
@@ -2470,8 +2467,8 @@
         PUSH, __intnl_SystemBoolean_55
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_55
-        JUMP_IF_FALSE, 0x000034f0
-        JUMP, 0x00003788
+        JUMP_IF_FALSE, 0x000034dc
+        JUMP, 0x00003774
         PUSH, __const_SystemString_52
         PUSH, __lcl_ownerId_SystemInt32_1
         PUSH, __lcl_tagName_SystemString_0
@@ -2499,7 +2496,7 @@
         PUSH, __intnl_SystemBoolean_57
         EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_57
-        JUMP_IF_FALSE, 0x000035d0
+        JUMP_IF_FALSE, 0x000035bc
         PUSH, __lcl_expectedIndex_SystemInt32_1
         PUSH, __const_SystemInt32_0
         PUSH, __intnl_SystemBoolean_57
@@ -2508,14 +2505,14 @@
         PUSH, __intnl_SystemBoolean_56
         COPY
         PUSH, __intnl_SystemBoolean_56
-        JUMP_IF_FALSE, 0x000035fc
-        JUMP, 0x0000361C
+        JUMP_IF_FALSE, 0x000035e8
+        JUMP, 0x00003608
         PUSH, __lcl_tagValue_SystemString_1
         PUSH, __const_SystemString_13
         PUSH, __intnl_SystemBoolean_56
         EXTERN, "SystemString.__op_Equality__SystemString_SystemString__SystemBoolean"
         PUSH, __intnl_SystemBoolean_56
-        JUMP_IF_FALSE, 0x000036f0
+        JUMP_IF_FALSE, 0x000036dc
         PUSH, __gintnl_SystemUInt32_84
         PUSH, __const_SystemString_53
         PUSH, __lcl_ownerId_SystemInt32_1
@@ -2526,7 +2523,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __gintnl_SystemUInt32_85
         PUSH, __lcl_index_SystemInt32_7
         PUSH, __3_index__param
@@ -2535,7 +2532,7 @@
         PUSH, __7_playerId__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._CleanupPlayerIndex(int, int)
-        JUMP, 0x00002D84
+        JUMP, 0x00002D70
         PUSH, __gintnl_SystemUInt32_86
         PUSH, __lcl_index_SystemInt32_7
         PUSH, __1_index__param
@@ -2545,7 +2542,7 @@
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._ReturnPlayerIndex(int, int)
         JUMP, 0x000020D4
-        JUMP, 0x00003788
+        JUMP, 0x00003774
         PUSH, _playerIdsWithIndices
         PUSH, __lcl_count_SystemInt32_2
         PUSH, __lcl_ownerId_SystemInt32_1
@@ -2571,7 +2568,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_index_SystemInt32_7
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00003468
+        JUMP, 0x00003454
         PUSH, _allPlayersTemp
         PUSH, __intnl_VRCSDKBaseVRCPlayerApiArray_0
         EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayers__VRCSDKBaseVRCPlayerApiArray__VRCSDKBaseVRCPlayerApiArray"
@@ -2586,7 +2583,7 @@
         PUSH, __intnl_SystemBoolean_54
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_54
-        JUMP_IF_FALSE, 0x000039ec
+        JUMP_IF_FALSE, 0x000039d8
         PUSH, _allPlayersTemp
         PUSH, __lcl_index_SystemInt32_7
         PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_4
@@ -2595,9 +2592,9 @@
         PUSH, __intnl_SystemBoolean_55
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_55
-        JUMP_IF_FALSE, 0x00003874
-        JUMP, 0x0000387C
-        JUMP, 0x000039EC
+        JUMP_IF_FALSE, 0x00003860
+        JUMP, 0x00003868
+        JUMP, 0x000039D8
         PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_4
         PUSH, __lcl_id_SystemInt32_3
         EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
@@ -2628,8 +2625,8 @@
         PUSH, __intnl_SystemBoolean_56
         EXTERN, "SystemString.__op_Equality__SystemString_SystemString__SystemBoolean"
         PUSH, __intnl_SystemBoolean_56
-        JUMP_IF_FALSE, 0x0000395c
-        JUMP, 0x000039C4
+        JUMP_IF_FALSE, 0x00003948
+        JUMP, 0x000039B0
         PUSH, __gintnl_SystemUInt32_90
         PUSH, __const_SystemString_54
         PUSH, __lcl_id_SystemInt32_3
@@ -2639,7 +2636,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __gintnl_SystemUInt32_91
         PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_4
         PUSH, __2_player__param
@@ -2650,7 +2647,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_index_SystemInt32_7
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x000037F4
+        JUMP, 0x000037E0
         PUSH, __const_SystemInt32_1
         PUSH, __lcl_index_SystemInt32_7
         COPY
@@ -2659,7 +2656,7 @@
         PUSH, __intnl_SystemBoolean_54
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_54
-        JUMP_IF_FALSE, 0x00003c14
+        JUMP_IF_FALSE, 0x00003c00
         PUSH, _playerIdsWithIndices
         PUSH, __lcl_index_SystemInt32_7
         PUSH, __lcl_ownerId_SystemInt32_1
@@ -2691,7 +2688,7 @@
         PUSH, __intnl_SystemBoolean_55
         EXTERN, "SystemString.__op_Equality__SystemString_SystemString__SystemBoolean"
         PUSH, __intnl_SystemBoolean_55
-        JUMP_IF_FALSE, 0x00003bec
+        JUMP_IF_FALSE, 0x00003bd8
         PUSH, _playerIndexIds
         PUSH, __lcl_index_SystemInt32_7
         PUSH, __lcl_objIndex_SystemInt32_0
@@ -2706,7 +2703,7 @@
         PUSH, __2_message__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogWarning(string)
-        JUMP, 0x00003CE8
+        JUMP, 0x00003CD4
         PUSH, __gintnl_SystemUInt32_95
         PUSH, __lcl_objIndex_SystemInt32_0
         PUSH, __3_index__param
@@ -2715,7 +2712,7 @@
         PUSH, __7_playerId__param
         COPY
 # Calling Cyan.PlayerObjectPool.CyanPlayerObjectPool._CleanupPlayerIndex(int, int)
-        JUMP, 0x00002D84
+        JUMP, 0x00002D70
         PUSH, __gintnl_SystemUInt32_96
         PUSH, __lcl_objIndex_SystemInt32_0
         PUSH, __1_index__param
@@ -2729,7 +2726,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_index_SystemInt32_7
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00003A00
+        JUMP, 0x000039EC
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -2752,7 +2749,7 @@
 # Cyan.PlayerObjectPool.CyanPlayerObjectPool._LogDebug(string)
 # 
         PUSH, printDebugLogs
-        JUMP_IF_FALSE, 0x00003ccc
+        JUMP_IF_FALSE, 0x00003cb8
         PUSH, __const_SystemString_56
         PUSH, __const_SystemString_57
         PUSH, __1_message__param

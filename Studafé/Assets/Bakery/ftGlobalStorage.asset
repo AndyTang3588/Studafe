@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modifiedAssetPathList:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
-  modifiedAssetPaddingHash: aaf8cc2e
+  modifiedAssetPaddingHash: d6a958ff
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -401,7 +401,9 @@ MonoBehaviour:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
   - "Assets/Assets/\u9065\u63A7\u5668/remote.fbx"
-  uvOverlapAssetList: 00000000ffffffff01010000
+  - "Assets/\u9884\u5236\u4EF6/\u5B50\u5F39\u6E38\u620F/Model/\u4E07\u5B9D\u8DEF/cig.fbx"
+  - "Assets/\u9884\u5236\u4EF6/\u5B50\u5F39\u6E38\u620F/Model/\u76AE\u5361\u4E18\u6613\u62C9\u7F50\u996E\u6599\u7F50/1.fbx"
+  uvOverlapAssetList: 00000000ffffffff010100000101000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 4060 Laptop GPU

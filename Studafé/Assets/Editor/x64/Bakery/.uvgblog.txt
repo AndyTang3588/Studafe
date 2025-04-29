@@ -1,4 +1,4 @@
-2025-4-26
+2025-4-28
 Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
 RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
 Rendering faceted UV normal...
@@ -20,22 +20,21 @@ Rendering faceted UV normal...
 Rendering UV pos...
 Rendering smooth UV pos...
 Done
-Done
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_0" 4 0 0 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_8" 4 0 0 batchpointlight_0_0_8.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_6" 4 0 0 batchpointlight_0_0_6.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_1" 4 0 1 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_8" 4 0 1 batchpointlight_1_0_8.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_6" 4 0 1 batchpointlight_1_0_6.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_2" 4 0 2 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_8" 4 0 2 batchpointlight_2_0_8.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_6" 4 0 2 batchpointlight_2_0_6.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_3" 4 0 3 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_8" 4 0 3 batchpointlight_3_0_8.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_6" 4 0 3 batchpointlight_3_0_6.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
@@ -53,19 +52,13 @@ Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldS
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
 Loaded vertex shader: quad.vso
 Loaded pixel shader: skyOutput.pso
 Loaded pixel shader: cookieOutput.pso
-initShaders done
-initScene done
-Num alphas of 64x64: 1
-Num alphas of 256x256: 1
-Num alphas of 1024x1024: 4
-Done
 Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
 RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
 Rendering faceted UV normal...
@@ -87,52 +80,45 @@ Rendering faceted UV normal...
 Rendering UV pos...
 Rendering smooth UV pos...
 Done
-Done
-Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_0" 4 0 0 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_8" 4 0 0 batchpointlight_0_0_8.bin
-Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_1" 4 0 1 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_8" 4 0 1 batchpointlight_1_0_8.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_2" 4 0 2 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_8" 4 0 2 batchpointlight_2_0_8.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_7" 4 0 2 batchpointlight_2_0_7.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_3" 4 0 3 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_8" 4 0 3 batchpointlight_3_0_8.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_7" 4 0 3 batchpointlight_3_0_7.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
-Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
-Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
-Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
-Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 512 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
 Loaded vertex shader: quad.vso
 Loaded pixel shader: skyOutput.pso
 Loaded pixel shader: cookieOutput.pso
-initShaders done
-initScene done
-Num alphas of 64x64: 1
-Num alphas of 256x256: 1
-Num alphas of 1024x1024: 4
-Done
 Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
 RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
 Rendering faceted UV normal...
@@ -154,52 +140,45 @@ Rendering faceted UV normal...
 Rendering UV pos...
 Rendering smooth UV pos...
 Done
-Done
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
-Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_0" 4 0 0 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_1" 4 0 1 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_2" 4 0 2 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
-Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
 Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_3" 4 0 3 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_5" 4 0 3 batchpointlight_3_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_3" 4 0 3 batchpointlight_3_0_3.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_2" 4 0 2 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_3" 4 0 2 batchpointlight_2_0_3.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
-Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
-Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
-Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 512 0
-Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
 Loaded vertex shader: quad.vso
 Loaded pixel shader: skyOutput.pso
 Loaded pixel shader: cookieOutput.pso
-initShaders done
-initScene done
-Num alphas of 64x64: 1
-Num alphas of 256x256: 1
-Num alphas of 1024x1024: 4
-Done
 Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
 RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
 Rendering faceted UV normal...
@@ -221,22 +200,17 @@ Rendering faceted UV normal...
 Rendering UV pos...
 Rendering smooth UV pos...
 Done
-Done
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_0" 4 0 0 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_1" 4 0 1 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_2" 4 0 2 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_3" 4 0 3 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_5" 4 0 3 batchpointlight_3_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
@@ -250,23 +224,17 @@ Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldS
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
-Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 512 0
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
 Loaded vertex shader: quad.vso
 Loaded pixel shader: skyOutput.pso
 Loaded pixel shader: cookieOutput.pso
-initShaders done
-initScene done
-Num alphas of 64x64: 1
-Num alphas of 256x256: 1
-Num alphas of 1024x1024: 4
-Done
 Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
 RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
 Rendering faceted UV normal...
@@ -288,22 +256,17 @@ Rendering faceted UV normal...
 Rendering UV pos...
 Rendering smooth UV pos...
 Done
-Done
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_0" 4 0 0 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_1" 4 0 1 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_2" 4 0 2 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_3" 4 0 3 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_5" 4 0 3 batchpointlight_3_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
@@ -317,23 +280,17 @@ Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldS
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
-Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 512 0
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
 Loaded vertex shader: quad.vso
 Loaded pixel shader: skyOutput.pso
 Loaded pixel shader: cookieOutput.pso
-initShaders done
-initScene done
-Num alphas of 64x64: 1
-Num alphas of 256x256: 1
-Num alphas of 1024x1024: 4
-Done
 Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
 RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
 Rendering faceted UV normal...
@@ -355,22 +312,17 @@ Rendering faceted UV normal...
 Rendering UV pos...
 Rendering smooth UV pos...
 Done
-Done
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_0" 4 0 0 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_1" 4 0 1 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_2" 4 0 2 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_3" 4 0 3 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_5" 4 0 3 batchpointlight_3_0_5.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
@@ -384,23 +336,17 @@ Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldS
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
-Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 512 0
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
 Loaded vertex shader: quad.vso
 Loaded pixel shader: skyOutput.pso
 Loaded pixel shader: cookieOutput.pso
-initShaders done
-initScene done
-Num alphas of 64x64: 1
-Num alphas of 256x256: 1
-Num alphas of 1024x1024: 4
-Done
 Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
 RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
 Rendering faceted UV normal...
@@ -422,22 +368,17 @@ Rendering faceted UV normal...
 Rendering UV pos...
 Rendering smooth UV pos...
 Done
-Done
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
 Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_0" 4 0 0 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_2" 4 0 0 batchpointlight_0_0_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_1" 4 0 1 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_2" 4 0 1 batchpointlight_1_0_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_2" 4 0 2 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_2" 4 0 2 batchpointlight_2_0_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
-Running ftraceRTX arealight "C:\Users\tangh\AppData\Local\Temp\frender" "light_-1144987526_3" 4 0 3 lights0.bin
-Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_2" 4 0 3 batchpointlight_3_0_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
 Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
 Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
@@ -451,11 +392,636 @@ Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldS
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
-Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 512 0
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
 Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
 Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
-Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "D:/Studafe/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_diffuse" 4 16 4 "gi_VRCDefaultWorldScene_LMA40.bin" "VRCDefaultWorldScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_final" 4 16 4 "gi_VRCDefaultWorldScene_LMA41.bin" "VRCDefaultWorldScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "4" "VRCDefaultWorldScene_LMA4_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_diffuse" 4 16 4 "gi_VRCDefaultWorldScene_LMA40.bin" "VRCDefaultWorldScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_final" 4 16 4 "gi_VRCDefaultWorldScene_LMA41.bin" "VRCDefaultWorldScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "4" "VRCDefaultWorldScene_LMA4_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_diffuse" 4 16 4 "gi_VRCDefaultWorldScene_LMA40.bin" "VRCDefaultWorldScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_final" 4 16 4 "gi_VRCDefaultWorldScene_LMA41.bin" "VRCDefaultWorldScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "4" "VRCDefaultWorldScene_LMA4_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_diffuse" 4 16 4 "gi_VRCDefaultWorldScene_LMA40.bin" "VRCDefaultWorldScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_final" 4 16 4 "gi_VRCDefaultWorldScene_LMA41.bin" "VRCDefaultWorldScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "4" "VRCDefaultWorldScene_LMA4_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for VRCDefaultWorldScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for VRCDefaultWorldScene_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\tangh\AppData\Local\Temp\frender" "uvpos_VRCDefaultWorldScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlight "C:\Users\tangh\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX addmul "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_diffuse" 4 16 2 "gi_VRCDefaultWorldScene_LMA20.bin" "VRCDefaultWorldScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_diffuse" 4 16 1 "gi_VRCDefaultWorldScene_LMA10.bin" "VRCDefaultWorldScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_diffuse" 4 16 0 "gi_VRCDefaultWorldScene_LM00.bin" "VRCDefaultWorldScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_diffuse" 4 16 4 "gi_VRCDefaultWorldScene_LMA40.bin" "VRCDefaultWorldScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_diffuse" 4 16 3 "gi_VRCDefaultWorldScene_LMA30.bin" "VRCDefaultWorldScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA2_final" 4 16 2 "gi_VRCDefaultWorldScene_LMA21.bin" "VRCDefaultWorldScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA1_final" 4 16 1 "gi_VRCDefaultWorldScene_LMA11.bin" "VRCDefaultWorldScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LM0_final" 4 16 0 "gi_VRCDefaultWorldScene_LM01.bin" "VRCDefaultWorldScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA4_final" 4 16 4 "gi_VRCDefaultWorldScene_LMA41.bin" "VRCDefaultWorldScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\tangh\AppData\Local\Temp\frender" "VRCDefaultWorldScene_LMA3_final" 4 16 3 "gi_VRCDefaultWorldScene_LMA31.bin" "VRCDefaultWorldScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "2" "VRCDefaultWorldScene_LMA2_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "1" "VRCDefaultWorldScene_LMA1_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "0" "VRCDefaultWorldScene_LM0_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "4" "VRCDefaultWorldScene_LMA4_final_HDR.lz4"
+Running denoiser72 c "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\tangh\AppData\Local\Temp\frender" "3" "VRCDefaultWorldScene_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA2_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA1_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LM0_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA4_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\tangh\AppData\Local\Temp\frender/VRCDefaultWorldScene_LMA3_final_HDR.lz4" "C:/Users/tangh/Documents/Unity/Studafé/Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr" 1024

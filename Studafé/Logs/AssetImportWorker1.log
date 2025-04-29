@@ -11,13 +11,13 @@ C:\Program Files\Unity Hub\Editor\2022.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/Studafe/Studaf茅
+C:/Users/tangh/Documents/Unity/Studaf茅
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-1281
-Successfully changed project path to: D:/Studafe/Studaf茅
-D:/Studafe/Studaf茅
+3524
+Successfully changed project path to: C:/Users/tangh/Documents/Unity/Studaf茅
+C:/Users/tangh/Documents/Unity/Studaf茅
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ D:/Studafe/Studaf茅
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5304] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3467331502 [EditorId] 3467331502 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23160] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 2589315936 [EditorId] 2589315936 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5304] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3467331502 [EditorId] 3467331502 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23160] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 2589315936 [EditorId] 2589315936 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 83.22 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 2.31 ms.
+Refreshing native plugins compatible for Editor in 229.73 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 3.30 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Studafe/Studaf茅/Assets
+[Subsystems] Discovering subsystems at path C:/Users/tangh/Documents/Unity/Studaf茅/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -71,46 +71,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Trying to register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.061789 seconds.
-- Loaded All Assemblies, in  0.738 seconds
+Registered in 0.066956 seconds.
+- Loaded All Assemblies, in  0.915 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.440 seconds
-Domain Reload Profiling: 1166ms
-	BeginReloadAssembly (266ms)
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling: 1399ms
+	BeginReloadAssembly (332ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (185ms)
-	LoadAllAssembliesAndSetupDomain (206ms)
-		LoadAssemblies (250ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (316ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (199ms)
-				TypeCache.ScanAssembly (178ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (440ms)
+	FinalizeReload (504ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (348ms)
+		SetupLoadedEditorAssemblies (403ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (214ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,10 +118,9 @@ Domain Reload Profiling: 1166ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.788 seconds
-Refreshing native plugins compatible for Editor in 38.06 ms, found 28 plugins.
-Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
+- Loaded All Assemblies, in  4.947 seconds
+Refreshing native plugins compatible for Editor in 164.40 ms, found 28 plugins.
+Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -130,7 +129,7 @@ TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Ru
 
 (Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
 
-Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
+Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -232,48 +231,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  5.020 seconds
-Domain Reload Profiling: 6794ms
-	BeginReloadAssembly (266ms)
+- Finished resetting the current domain, in 15.689 seconds
+Domain Reload Profiling: 20547ms
+	BeginReloadAssembly (665ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (1355ms)
-		LoadAssemblies (977ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (305ms)
+	LoadAllAssembliesAndSetupDomain (3788ms)
+		LoadAssemblies (3431ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (561ms)
-			TypeCache.Refresh (482ms)
-				TypeCache.ScanAssembly (440ms)
-			ScanForSourceGeneratedMonoScriptInfo (49ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (5021ms)
+		AnalyzeDomain (792ms)
+			TypeCache.Refresh (695ms)
+				TypeCache.ScanAssembly (616ms)
+			ScanForSourceGeneratedMonoScriptInfo (59ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (15690ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2488ms)
+		SetupLoadedEditorAssemblies (4221ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (164ms)
-			ProcessInitializeOnLoadAttributes (1214ms)
-			ProcessInitializeOnLoadMethodAttributes (996ms)
-			AfterProcessingInitializeOnLoad (79ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (485ms)
+			ProcessInitializeOnLoadAttributes (1880ms)
+			ProcessInitializeOnLoadMethodAttributes (1582ms)
+			AfterProcessingInitializeOnLoad (218ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
+		AwakeInstancesAfterBackupRestoration (78ms)
 Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
-Refreshing native plugins compatible for Editor in 113.28 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.32 seconds
+Refreshing native plugins compatible for Editor in 590.48 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 0.54 ms.
 Unloading 4490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 247 unused Assets / (7.2 MB). Loaded Objects now: 4946.
-Memory consumption went from 251.6 MB to 244.3 MB.
-Total: 167.194600 ms (FindLiveObjects: 1.025300 ms CreateObjectMapping: 0.399300 ms MarkObjects: 160.590400 ms  DeleteObjects: 5.174300 ms)
+Unloading 247 unused Assets / (7.3 MB). Loaded Objects now: 4946.
+Memory consumption went from 327.1 MB to 319.8 MB.
+Total: 338.038700 ms (FindLiveObjects: 10.926500 ms CreateObjectMapping: 29.693400 ms MarkObjects: 290.365800 ms  DeleteObjects: 7.050200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -290,107 +289,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 158255.138008 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr
-  artifactKey: Guid(fd4f56b7f3f5a9b418988361ba3ab08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LM0_final.hdr using Guid(fd4f56b7f3f5a9b418988361ba3ab08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8556f5f14b4fce3c3b07c93ec8d79c') in 0.485074 seconds
+  Time since last request: 3916.642540 seconds.
+  path: Assets/Furniture Pack/Prefabs/Lights_Table_Lamps_3.prefab
+  artifactKey: Guid(6f5df970937f80b418bc42cbfaba7015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Pack/Prefabs/Lights_Table_Lamps_3.prefab using Guid(6f5df970937f80b418bc42cbfaba7015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892597100060b0d5c3cdacffac9d1cf4') in 0.977757 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 43.207380 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr
-  artifactKey: Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr using Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f43765d33f482a5cd6240e8ad38c7e') in 0.022497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr
-  artifactKey: Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr using Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fc1956ba87b010ad3d50c81e5bdb4d') in 0.015630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 104.873293 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr
-  artifactKey: Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr using Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c661931b803abf642539b03578b7bbfe') in 0.018205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr
-  artifactKey: Guid(3b48e0f77d13d29449d6f10c51b8908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA2_final.hdr using Guid(3b48e0f77d13d29449d6f10c51b8908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887a0d75b5366cd9418884a9f18f1a9f') in 0.015466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 62.810489 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr
-  artifactKey: Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr using Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1229999227ea93b52dd547b84463b88e') in 0.018138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr
-  artifactKey: Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr using Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52adfe86ccb4b7deba381547ac3fc0f4') in 0.015546 seconds
+  path: Assets/Furniture Pack/Prefabs/Lights_Table_Lamps_1.prefab
+  artifactKey: Guid(ee9ec6ccc2282ba43866067c3b5a39e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Pack/Prefabs/Lights_Table_Lamps_1.prefab using Guid(ee9ec6ccc2282ba43866067c3b5a39e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192460f64b85166c922c78d2e01f8641') in 0.060512 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
-  Time since last request: 103.605993 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr
-  artifactKey: Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr using Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187d71414967ef23b1229c5551a33e55') in 0.018873 seconds
+  Time since last request: 0.000326 seconds.
+  path: Assets/Furniture Pack/Prefabs/Bean_Bags_1.prefab
+  artifactKey: Guid(20bdff120723b7946b8f42a300c997f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Pack/Prefabs/Bean_Bags_1.prefab using Guid(20bdff120723b7946b8f42a300c997f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b11fbcbee7f757222469740ce2713f8') in 0.089544 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 19
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr
-  artifactKey: Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr using Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbfbba023476a50072c48d490619aa5') in 0.012959 seconds
+  Time since last request: 0.012336 seconds.
+  path: Assets/Furniture Pack/Prefabs/Couches_Single_Sofa_Light_Comfy_Grey.prefab
+  artifactKey: Guid(4d2a4c0504b6b854396ce0d95b5eb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Pack/Prefabs/Couches_Single_Sofa_Light_Comfy_Grey.prefab using Guid(4d2a4c0504b6b854396ce0d95b5eb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c47f4848e215028501e926dbffb2b91') in 0.111948 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 24
 ========================================================================
 Received Import Request.
-  Time since last request: 172.916163 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr
-  artifactKey: Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr using Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf64135f6a6f870849cf7e9aa2510be') in 0.015264 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/Furniture Pack/Prefabs/Couches_Love_Seat_White.prefab
+  artifactKey: Guid(a626f3c9d9a1b1340852719e20ad01b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Pack/Prefabs/Couches_Love_Seat_White.prefab using Guid(a626f3c9d9a1b1340852719e20ad01b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acea93b8932da7856a8abc957c89907b') in 0.139268 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 24
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr
-  artifactKey: Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr using Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bf43dea2bb20952481e977f042166c') in 0.013857 seconds
+  Time since last request: 0.009871 seconds.
+  path: Assets/Furniture Pack/Prefabs/Plants_Pots_1.prefab
+  artifactKey: Guid(38d4f823fd03ab045998714acc865e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Pack/Prefabs/Plants_Pots_1.prefab using Guid(38d4f823fd03ab045998714acc865e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880f954d5d0583865859841f8b88a7b6') in 0.078086 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 43.242577 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr
-  artifactKey: Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA1_final.hdr using Guid(731caf4d4415ca24c94b1845c6b538b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1859c16ca0957729c114549a6da10b80') in 0.015111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr
-  artifactKey: Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BakeryLightmaps/VRCDefaultWorldScene_LMA3_final.hdr using Guid(e43fe7aca68de1f4387d6f455ba3cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83dc0d033e61c020f057c4dadd69ca9') in 0.012974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=10054 error=远程主机强迫关闭了一个现有的连接。
+Number of asset objects unloaded after import = 25
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
