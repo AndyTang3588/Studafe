@@ -11,13 +11,13 @@ C:\Program Files\Unity Hub\Editor\2022.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker4
 -projectPath
-C:/Users/tangh/Documents/Unity/Studafé
+D:/Studafe/Studafé
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-3524
-Successfully changed project path to: C:/Users/tangh/Documents/Unity/Studafé
-C:/Users/tangh/Documents/Unity/Studafé
+14611
+Successfully changed project path to: D:/Studafe/Studafé
+D:/Studafe/Studafé
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/tangh/Documents/Unity/Studafé
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29996] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 958207776 [EditorId] 958207776 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6928] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 17266364 [EditorId] 17266364 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29996] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 958207776 [EditorId] 958207776 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6928] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 17266364 [EditorId] 17266364 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 211.83 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 3.09 ms.
+Refreshing native plugins compatible for Editor in 86.20 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 2.27 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tangh/Documents/Unity/Studafé/Assets
+[Subsystems] Discovering subsystems at path D:/Studafe/Studafé/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -71,46 +71,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Trying to register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.054014 seconds.
-- Loaded All Assemblies, in  0.734 seconds
+Registered in 0.061534 seconds.
+- Loaded All Assemblies, in  0.824 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.422 seconds
-Domain Reload Profiling: 1142ms
-	BeginReloadAssembly (268ms)
+- Finished resetting the current domain, in  0.507 seconds
+Domain Reload Profiling: 1318ms
+	BeginReloadAssembly (287ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (168ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (252ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (197ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (275ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (185ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (207ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (423ms)
+	FinalizeReload (507ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (341ms)
+		SetupLoadedEditorAssemblies (411ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (209ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,17 @@ Domain Reload Profiling: 1142ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.599 seconds
-Refreshing native plugins compatible for Editor in 150.96 ms, found 28 plugins.
+- Loaded All Assemblies, in  2.136 seconds
+Refreshing native plugins compatible for Editor in 40.70 ms, found 28 plugins.
+Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
+
+(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
+
 Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -130,15 +139,6 @@ TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Ru
 (Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
 
 Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -231,48 +231,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  5.261 seconds
-Domain Reload Profiling: 7814ms
-	BeginReloadAssembly (323ms)
+- Finished resetting the current domain, in  4.944 seconds
+Domain Reload Profiling: 7065ms
+	BeginReloadAssembly (374ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (153ms)
-	LoadAllAssembliesAndSetupDomain (2007ms)
-		LoadAssemblies (1673ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (1561ms)
+		LoadAssemblies (1210ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (558ms)
-			TypeCache.Refresh (481ms)
-				TypeCache.ScanAssembly (437ms)
-			ScanForSourceGeneratedMonoScriptInfo (44ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (5262ms)
+		AnalyzeDomain (606ms)
+			TypeCache.Refresh (523ms)
+				TypeCache.ScanAssembly (474ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (4945ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2627ms)
+		SetupLoadedEditorAssemblies (2479ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (335ms)
-			ProcessInitializeOnLoadAttributes (1206ms)
-			ProcessInitializeOnLoadMethodAttributes (947ms)
-			AfterProcessingInitializeOnLoad (88ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (1307ms)
+			ProcessInitializeOnLoadMethodAttributes (917ms)
+			AfterProcessingInitializeOnLoad (51ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
 Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 135.41 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.46 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 55.17 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 Unloading 4490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 247 unused Assets / (7.2 MB). Loaded Objects now: 4946.
-Memory consumption went from 321.4 MB to 314.1 MB.
-Total: 146.892600 ms (FindLiveObjects: 0.504700 ms CreateObjectMapping: 0.255500 ms MarkObjects: 142.108700 ms  DeleteObjects: 4.021800 ms)
+Unloading 247 unused Assets / (7.2 MB). Loaded Objects now: 4947.
+Memory consumption went from 300.6 MB to 293.3 MB.
+Total: 75.253600 ms (FindLiveObjects: 0.796200 ms CreateObjectMapping: 0.292300 ms MarkObjects: 68.011700 ms  DeleteObjects: 6.150300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -289,757 +289,1094 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11196.003354 seconds.
-  path: Assets/预制件
-  artifactKey: Guid(dbfdf3d74eacdc740a8903122c6a78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/预制件 using Guid(dbfdf3d74eacdc740a8903122c6a78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f840a8401cf723da390c7993a0e8f4') in 0.003108 seconds
+  Time since last request: 85776.729264 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_clock01.png
+  artifactKey: Guid(cea6ae0c37bdb514da3dcae909519930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_clock01.png using Guid(cea6ae0c37bdb514da3dcae909519930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31cfa4ad8c364f0b1fd29d86a5c540c') in 0.108221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.202938 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_counter01.png
+  artifactKey: Guid(dfadb5b66a560794497d6cf9d7711d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_counter01.png using Guid(dfadb5b66a560794497d6cf9d7711d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd037beb47aeb85afa84fa066564f0609') in 0.010444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.305728 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_counter03.png
+  artifactKey: Guid(c2e52e3df62a0cc4cb39b3845c28dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_counter03.png using Guid(c2e52e3df62a0cc4cb39b3845c28dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dd10092df43f503e3777fddcaa0a8c') in 0.021012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_kabe02.png
+  artifactKey: Guid(aad357ca622a5fd479ee61f89fa9d1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_kabe02.png using Guid(aad357ca622a5fd479ee61f89fa9d1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b123189c824839dd9c79a60bd9802f') in 0.011683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_metalrack01.png
+  artifactKey: Guid(e670698a8abd59b4aab3f021b46b4305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_metalrack01.png using Guid(e670698a8abd59b4aab3f021b46b4305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27922597a501eeb3c8cd43529280ead8') in 0.012577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_komono13.png
+  artifactKey: Guid(43490ffcc21152c44aef9c17a6f8bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_komono13.png using Guid(43490ffcc21152c44aef9c17a6f8bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9890f2776cbbe4ebb2622e248146362d') in 0.012205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_iceboxmini.png
+  artifactKey: Guid(afd40b6c500ecec4f848981ada6dbe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_iceboxmini.png using Guid(afd40b6c500ecec4f848981ada6dbe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11466c9e717e4c19b20f0ab3d7c2ae20') in 0.017359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_komono05.png
+  artifactKey: Guid(efd61865919b4a44cbc5ced5a1a01906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_komono05.png using Guid(efd61865919b4a44cbc5ced5a1a01906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba10d5c303cf1eaa0be44d7801a3c862') in 0.014303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_pole01.png
+  artifactKey: Guid(2836be6fb02585d4d84f02fc429501d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_pole01.png using Guid(2836be6fb02585d4d84f02fc429501d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634d5f8567c3a97451e77847eff2b003') in 0.013739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_komono03.png
+  artifactKey: Guid(c68f9f7e139e6a441be29e863aa46c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_komono03.png using Guid(c68f9f7e139e6a441be29e863aa46c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba6045d4330e9a917d6f1098121a84a') in 0.016255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_pos02.png
+  artifactKey: Guid(578438f4d52f13441b7b026372f4dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_pos02.png using Guid(578438f4d52f13441b7b026372f4dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef11588552e0dd0cd6c2e6031acf3e76') in 0.013394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_komono11.png
+  artifactKey: Guid(8e8b9a310e63a6448acb605764ae4ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_komono11.png using Guid(8e8b9a310e63a6448acb605764ae4ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f18ecc0c8a28e2b6a0d6f45602d206b') in 0.018542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_pos01.png
+  artifactKey: Guid(890b04552fef7bd40a6bd2baf7614eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_pos01.png using Guid(890b04552fef7bd40a6bd2baf7614eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953522a5dcb10aab27f210f4c30b3ddc') in 0.015306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_sayuri.png
+  artifactKey: Guid(1285fc05837717b40bef3c56151a497f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_sayuri.png using Guid(1285fc05837717b40bef3c56151a497f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203761b5073c52a5efb725b571b0712f') in 0.016747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_entermat01.png
+  artifactKey: Guid(a24431e000bb54b45bca7b5b5a83fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_entermat01.png using Guid(a24431e000bb54b45bca7b5b5a83fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e575779595d8957499e04259cf1f016') in 0.015038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_komono01.png
+  artifactKey: Guid(6f488b9ca2b0236448b753396ddf3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_komono01.png using Guid(6f488b9ca2b0236448b753396ddf3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b78958e7a7b5032fa61f61416dc7a6') in 0.016692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_icebox05.png
+  artifactKey: Guid(629d0e962bfc5264b902d4986a8f0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_icebox05.png using Guid(629d0e962bfc5264b902d4986a8f0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18db9fc62227c84a3f77fa7fc639b40e') in 0.013419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_icebox02.png
+  artifactKey: Guid(9cc631dd95b5fa642a6c95bf92cbdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_icebox02.png using Guid(9cc631dd95b5fa642a6c95bf92cbdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1247ab61c07789fa5b44dbfd573d56') in 0.012789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_floor06.png
+  artifactKey: Guid(7e7d5ddf978ebdc4a80606df82d1b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_floor06.png using Guid(7e7d5ddf978ebdc4a80606df82d1b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd931eb6107e7e369920700bbfdc43849') in 0.016747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_door03.png
+  artifactKey: Guid(9a52eedaeb369274cb068bbc891b4749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_door03.png using Guid(9a52eedaeb369274cb068bbc891b4749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9b9537a0851182b1e2777aea064cbc') in 0.015390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_kabe04.png
+  artifactKey: Guid(45cdbacdc409beb4f8e448d5f0f5a843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_kabe04.png using Guid(45cdbacdc409beb4f8e448d5f0f5a843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50e7f73e9c25f888b6a6eacb4de64af') in 0.014937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_komono06.png
+  artifactKey: Guid(3d3944bbd22d9fd43af7930125baf262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_komono06.png using Guid(3d3944bbd22d9fd43af7930125baf262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df6630e930d07c1ad4291704df0e6f4') in 0.017008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_kabe02+nor.png
+  artifactKey: Guid(e00fdfc3271776844826fbe423825403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_kabe02+nor.png using Guid(e00fdfc3271776844826fbe423825403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b3902e389eb9ee3be75bf341b21c38') in 0.027025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_leaf01.png
+  artifactKey: Guid(a6af415618f64b44dab82158a898c2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_leaf01.png using Guid(a6af415618f64b44dab82158a898c2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3464f549e3aaacbedf48e3a912068d5c') in 0.016996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_entermat02.png
+  artifactKey: Guid(7edb03a5592d8534da12cc3c5a38f2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_entermat02.png using Guid(7edb03a5592d8534da12cc3c5a38f2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcdfe7fa69d526f9efff817ae3cdfae') in 0.017041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_icebox03.png
+  artifactKey: Guid(af6936fcaf5e2624a9ecebea877eb240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_icebox03.png using Guid(af6936fcaf5e2624a9ecebea877eb240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8278177ca2884fa9efa6a0f3be67795f') in 0.015520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.285806 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png
+  artifactKey: Guid(6344bf96fbda94141a525046d088fb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png using Guid(6344bf96fbda94141a525046d088fb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0bfea91eacc06c711789b9a8174050') in 0.014946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.673568 seconds.
+  path: Assets/Assets/LeBlanc/Cafe Leblanc.obj
+  artifactKey: Guid(24b5055ec723d244d9eae53b7b80529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/Cafe Leblanc.obj using Guid(24b5055ec723d244d9eae53b7b80529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca862997ea31a4ee460baf7e67172e4') in 0.289036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_denkyu01.png
+  artifactKey: Guid(d19d7c1494577b648862d975e56c0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_denkyu01.png using Guid(d19d7c1494577b648862d975e56c0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0da5fb513b6e70342f41cb9b71e5e7c') in 0.018858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_komono07.png
+  artifactKey: Guid(5db38ef8dcc11df479da6bdbc7edc359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_komono07.png using Guid(5db38ef8dcc11df479da6bdbc7edc359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d69b7bbe0254e22824a6a588d3c1e5') in 0.019835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_komono11.png
+  artifactKey: Guid(49f6020c87adbac4b84377695cd3c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_komono11.png using Guid(49f6020c87adbac4b84377695cd3c57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2140f735c64c705fe7e165ff32aff93f') in 0.019542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_desk02.png
+  artifactKey: Guid(bfcbc3493aa96c440af1570b39af70db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_desk02.png using Guid(bfcbc3493aa96c440af1570b39af70db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9b752fd828315269ac3a95eaa4e06f') in 0.024679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_komono12.png
+  artifactKey: Guid(f00b02973455b994694debccfb293a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_komono12.png using Guid(f00b02973455b994694debccfb293a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72ff51ccdecbfa6a4c21429ea42fc5d') in 0.021281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_pict01.png
+  artifactKey: Guid(725a6caa7e8375649b3b46b426f16881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_pict01.png using Guid(725a6caa7e8375649b3b46b426f16881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dd568d14cefa2c45f387b47720cf9a') in 0.017400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_kabe04.png
+  artifactKey: Guid(89f056c9e9b3851418c64b973708bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_kabe04.png using Guid(89f056c9e9b3851418c64b973708bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62829c112a01698ff47ef61621e6f246') in 0.018552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.389360 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials
+  artifactKey: Guid(d482fe87c6e13dc48bf947ffb2ef1fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials using Guid(d482fe87c6e13dc48bf947ffb2ef1fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda96b620a81956f034ad8a01ec3c43a') in 0.000878 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 84.152193 seconds.
-  path: Assets/Yukatayu Shop/Clock Gem/Clock Gem.prefab
-  artifactKey: Guid(3417784ef68b7e248b5fa7b72c0af45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yukatayu Shop/Clock Gem/Clock Gem.prefab using Guid(3417784ef68b7e248b5fa7b72c0af45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535a0a4fb7e36072c2b6b961bbbeb3aa') in 0.285630 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 116
+  Time since last request: 0.042202 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part1-4 0 Leblanc LAMPS.material01_1_0_0.mat
+  artifactKey: Guid(888a1479363d1d1468e617c5b9ece31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part1-4 0 Leblanc LAMPS.material01_1_0_0.mat using Guid(888a1479363d1d1468e617c5b9ece31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f8cf332f816a3e4cc8e0f5d5944c66') in 0.017658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 18.919656 seconds.
-  path: Assets/预制件/Yodokorochan/Yodo_HapticControllers/Yodo_HapticHandProvider.prefab
-  artifactKey: Guid(8ae2ddc4ecee7e747b149e43be670bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/预制件/Yodokorochan/Yodo_HapticControllers/Yodo_HapticHandProvider.prefab using Guid(8ae2ddc4ecee7e747b149e43be670bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd632ee254adfabc7008202f19cd2580f') in 0.057912 seconds
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material25_1_0_0.mat
+  artifactKey: Guid(8f22bc8cda930ee47ae498af420635bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material25_1_0_0.mat using Guid(8f22bc8cda930ee47ae498af420635bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710428dfcd06bb23f4d599c7d7b0ebac') in 0.025441 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material51_1_0_0.mat
+  artifactKey: Guid(8edcc46c32ed9c94cb3bd38ea3dbc131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material51_1_0_0.mat using Guid(8edcc46c32ed9c94cb3bd38ea3dbc131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f128523bddb4a1c49330a1df594165') in 0.013801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material41_1_0_0.mat
+  artifactKey: Guid(e3f240c72a7e2aa44932f3cd92a75e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material41_1_0_0.mat using Guid(e3f240c72a7e2aa44932f3cd92a75e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19e6a43a36052b311aa590939120bd0') in 0.017638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material29_1_0_0.mat
+  artifactKey: Guid(e1fbd05276d2ecd44af093afa6fcea0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material29_1_0_0.mat using Guid(e1fbd05276d2ecd44af093afa6fcea0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05abbc416e421881d55fc1b6ec3d403a') in 0.014056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material46_1_0_0.mat
+  artifactKey: Guid(52734f259fff95b41abedbb288e5921a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material46_1_0_0.mat using Guid(52734f259fff95b41abedbb288e5921a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8213e468d4b39735d65cc75afb71eb') in 0.020718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material49_1_0_0.mat
+  artifactKey: Guid(da0168bc2407651408723d575391d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material49_1_0_0.mat using Guid(da0168bc2407651408723d575391d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6352bc2971c577382d02bc62807b33db') in 0.025162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material22_1_0_0.mat
+  artifactKey: Guid(bed81dec6c1a76f48953995d72f2c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material22_1_0_0.mat using Guid(bed81dec6c1a76f48953995d72f2c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39401384fc366840e9696b4917db69d') in 0.013478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material28_1_0_0.mat
+  artifactKey: Guid(08d0a5e50afd3e644ab8c8d16546d9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material28_1_0_0.mat using Guid(08d0a5e50afd3e644ab8c8d16546d9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcd2e5ea944dd707488ce0c573ae2f4') in 0.024206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material18_1_0_0.mat
+  artifactKey: Guid(a4ba9c9b61a015a4c9426dae145f2ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material18_1_0_0.mat using Guid(a4ba9c9b61a015a4c9426dae145f2ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4ba120d456dad1b82d08cb2bd6d729') in 0.021106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material02_1_0_0.mat
+  artifactKey: Guid(bd63cc1aeee2a60448c9c6ef8c13e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material02_1_0_0.mat using Guid(bd63cc1aeee2a60448c9c6ef8c13e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9066d765a728649330f28b9659765242') in 0.014736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material27_1_0_0.mat
+  artifactKey: Guid(a22341609d485ef4d8d2622f8ff6843d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material27_1_0_0.mat using Guid(a22341609d485ef4d8d2622f8ff6843d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5952755d1548b2f1038a11a915ce13') in 0.013433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material17_1_0_0.mat
+  artifactKey: Guid(6854c1cd99b8b5540aeda0597b385e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material17_1_0_0.mat using Guid(6854c1cd99b8b5540aeda0597b385e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09780f0f14708c7bb234a3268dce3e96') in 0.019883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material16_1_0_0.mat
+  artifactKey: Guid(efe7d573462d8d141bd657c910c8ed27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material16_1_0_0.mat using Guid(efe7d573462d8d141bd657c910c8ed27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad1a8fa2dc2e0cdc0cd659963f5f28c') in 0.013409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part1-4 0 Leblanc LAMPS_1_0_0.mat
+  artifactKey: Guid(ddb700770929bee42a69846f1d7ec2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part1-4 0 Leblanc LAMPS_1_0_0.mat using Guid(ddb700770929bee42a69846f1d7ec2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc29d2926279dde7aca21c21bd1f1b1') in 0.017801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material50_1_0_0.mat
+  artifactKey: Guid(b7eedc05649c9d7419a5abe84fcb0ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material50_1_0_0.mat using Guid(b7eedc05649c9d7419a5abe84fcb0ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef2b217db9be3dccef2ce58275c191a') in 0.018825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material21_1_0_0.mat
+  artifactKey: Guid(1dfcb9aaf1f012d4a9c4e9f4c0d8f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material21_1_0_0.mat using Guid(1dfcb9aaf1f012d4a9c4e9f4c0d8f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9522191ace694d53402d4b5441750efb') in 0.019390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material10_1_0_0.mat
+  artifactKey: Guid(cbda7f7cfd3912440bf74ef4943a642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material10_1_0_0.mat using Guid(cbda7f7cfd3912440bf74ef4943a642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319c5a823e0ae78196d246cb2f2895c8') in 0.017765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material34_1_0_0.mat
+  artifactKey: Guid(2357ce54a6245a84d89a97f25e254946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material34_1_0_0.mat using Guid(2357ce54a6245a84d89a97f25e254946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a030ef4b016d40d97becb2f0e6732ae5') in 0.036338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.553255 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material52_1_0_0.mat
+  artifactKey: Guid(67b767cbbb2d99541ad148b742a8beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material52_1_0_0.mat using Guid(67b767cbbb2d99541ad148b742a8beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9556829968b4ebbe566c07df02df004') in 0.042068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material60_1_0_0.mat
+  artifactKey: Guid(8b1058fc9c6472c44aa9b5ba97b8fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material60_1_0_0.mat using Guid(8b1058fc9c6472c44aa9b5ba97b8fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8e6cf903f07b539d48eaad62e2d573') in 0.016528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material74_1_0_0.mat
+  artifactKey: Guid(fc9a6f8866b781f4da1355f328bbe3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material74_1_0_0.mat using Guid(fc9a6f8866b781f4da1355f328bbe3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607a7d96cb556b4cc4f2386acd3f9a9e') in 0.020513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material80_1_0_0.mat
+  artifactKey: Guid(70ea11f6e059c014fbffa21dfab56f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material80_1_0_0.mat using Guid(70ea11f6e059c014fbffa21dfab56f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846fa0e85cbe1d5bf8c1c3561df4c7f7') in 0.014730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material91_1_0_0.mat
+  artifactKey: Guid(32bf6a8a30fd23d438aa822b402d4d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material91_1_0_0.mat using Guid(32bf6a8a30fd23d438aa822b402d4d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c04520d6d0f68d8cc5e709407d912bb') in 0.017600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material68_1_0_0.mat
+  artifactKey: Guid(60acc4c781e598640affcd3a0a1ba8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material68_1_0_0.mat using Guid(60acc4c781e598640affcd3a0a1ba8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6f94f65ed72d0eba0a998ca9079afe') in 0.022459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000878 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material76_1_0_0.mat
+  artifactKey: Guid(764119002a22dab4a8689ddd40c8cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material76_1_0_0.mat using Guid(764119002a22dab4a8689ddd40c8cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771679a9984b32dda8d194285b9f7cee') in 0.018716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material79_1_0_0.mat
+  artifactKey: Guid(5257969f1f8bea84196ba217507f7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material79_1_0_0.mat using Guid(5257969f1f8bea84196ba217507f7dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a4eec1cee0221842dd6f74847180fd') in 0.017588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSlider_V2.prefab
-  artifactKey: Guid(9bee78841e047104aa6d49d7aa5a8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSlider_V2.prefab using Guid(9bee78841e047104aa6d49d7aa5a8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6182bb8bdb4841dfbf654e8bd118c9') in 0.090984 seconds
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material89_1_0_0.mat
+  artifactKey: Guid(a368ca4146220414da4253c29bc203ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material89_1_0_0.mat using Guid(a368ca4146220414da4253c29bc203ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7e83bb26292d737ebdd1675eea1aa7') in 0.016878 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSwitches.prefab
-  artifactKey: Guid(318fe11a99847354a8ce73211844d9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSwitches.prefab using Guid(318fe11a99847354a8ce73211844d9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b63492db709122a190954debdfd8b15') in 0.053805 seconds
+  Time since last request: 0.139290 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material93_1_0_0.mat
+  artifactKey: Guid(7168a4b41cc896c4e9d865135d81195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material93_1_0_0.mat using Guid(7168a4b41cc896c4e9d865135d81195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262fa59c145b83d50775b59f99fcb63b') in 0.014867 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 152
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.255 seconds
-Refreshing native plugins compatible for Editor in 107.87 ms, found 28 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-jp.ootr.ImageTab.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageTab.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-jp.ootr.ImageDeviceController.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageDeviceController.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-jp.ootr.ImageDeviceController.Editor.SetObjectReference__ImageDeviceController must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReference__ImageDeviceController.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageDeviceController.Editor.SetObjectReference__ImageDeviceController:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-进程外导入时不支持 CreateSerializedAsset
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
-UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
-UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
-UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
-UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
-UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
-UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
-UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
-UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
-
-[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
-  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
-  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
-  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
-  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
-  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
-  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
-  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
-  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
-  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  5.741 seconds
-Domain Reload Profiling: 7952ms
-	BeginReloadAssembly (558ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (173ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (145ms)
-	LoadAllAssembliesAndSetupDomain (1431ms)
-		LoadAssemblies (1597ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (25ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (5742ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1998ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (271ms)
-			ProcessInitializeOnLoadAttributes (641ms)
-			ProcessInitializeOnLoadMethodAttributes (989ms)
-			AfterProcessingInitializeOnLoad (62ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 279.01 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.45 ms.
-Unloading 4227 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 204 unused Assets / (7.2 MB). Loaded Objects now: 4980.
-Memory consumption went from 301.2 MB to 294.0 MB.
-Total: 219.582800 ms (FindLiveObjects: 1.056700 ms CreateObjectMapping: 0.446900 ms MarkObjects: 211.632800 ms  DeleteObjects: 6.443200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 270.74 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.54 ms.
-Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (7.2 MB). Loaded Objects now: 4980.
-Memory consumption went from 238.1 MB to 230.9 MB.
-Total: 214.499200 ms (FindLiveObjects: 0.476900 ms CreateObjectMapping: 0.256900 ms MarkObjects: 175.656900 ms  DeleteObjects: 38.106400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 24.420624 seconds.
-  path: Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSlider_V2.prefab
-  artifactKey: Guid(9bee78841e047104aa6d49d7aa5a8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSlider_V2.prefab using Guid(9bee78841e047104aa6d49d7aa5a8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa66891e9f4f52d80a1ffc2eb8a15497') in 0.826731 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material103_1_0_0.mat
+  artifactKey: Guid(742322c1804ef0b45b00af2f323cd3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material103_1_0_0.mat using Guid(742322c1804ef0b45b00af2f323cd3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fabecc10826ae1bcec7ebe8a6fe2cf') in 0.016188 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSwitches.prefab
-  artifactKey: Guid(318fe11a99847354a8ce73211844d9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSwitches.prefab using Guid(318fe11a99847354a8ce73211844d9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea83b3832b956b4979b9b3d917c5a5') in 0.084440 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material101_1_0_0.mat
+  artifactKey: Guid(add6f3c72ef73144081a2ad2e3b8432d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material101_1_0_0.mat using Guid(add6f3c72ef73144081a2ad2e3b8432d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e93312174c92217e292fc96e60bce88') in 0.019462 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 152
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSlider.prefab
-  artifactKey: Guid(abe7ac9eb33237947b6421ea657ee446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/预制件/Yodokorochan/Yodo_HapticControllers/YodoHapticSlider.prefab using Guid(abe7ac9eb33237947b6421ea657ee446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd508097f726e9897487a25a60d3e2c3e') in 0.070525 seconds
+  Time since last request: 0.001867 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material106_1_0_0.mat
+  artifactKey: Guid(dd219982453aa424b8a00b5d45df9569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material106_1_0_0.mat using Guid(dd219982453aa424b8a00b5d45df9569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aaf50fa37c2af70c01e474b0f8a58c') in 0.020725 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 67
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.312 seconds
-Refreshing native plugins compatible for Editor in 110.88 ms, found 28 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-jp.ootr.ImageTab.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageTab.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-jp.ootr.ImageDeviceController.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageDeviceController.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-jp.ootr.ImageDeviceController.Editor.SetObjectReference__ImageDeviceController must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReference__ImageDeviceController.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageDeviceController.Editor.SetObjectReference__ImageDeviceController:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-进程外导入时不支持 CreateSerializedAsset
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
-UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
-UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
-UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
-UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
-UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
-UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
-UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
-UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
-
-[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
-  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
-  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
-  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
-  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
-  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
-  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
-  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
-  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
-  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  5.212 seconds
-Domain Reload Profiling: 7481ms
-	BeginReloadAssembly (597ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (214ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (157ms)
-	LoadAllAssembliesAndSetupDomain (1428ms)
-		LoadAssemblies (1592ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (80ms)
-			TypeCache.Refresh (28ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (5213ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1818ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (247ms)
-			ProcessInitializeOnLoadAttributes (512ms)
-			ProcessInitializeOnLoadMethodAttributes (968ms)
-			AfterProcessingInitializeOnLoad (61ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 319.16 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.57 ms.
-Unloading 4227 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 204 unused Assets / (7.3 MB). Loaded Objects now: 5000.
-Memory consumption went from 294.7 MB to 287.5 MB.
-Total: 225.940600 ms (FindLiveObjects: 0.717800 ms CreateObjectMapping: 0.326100 ms MarkObjects: 178.516500 ms  DeleteObjects: 46.377200 ms)
-
-Prepare: number of updated asset objects reloaded= 7
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 126.19 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.45 ms.
-Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 82 unused Assets / (7.2 MB). Loaded Objects now: 4993.
-Memory consumption went from 244.0 MB to 236.8 MB.
-Total: 120.887700 ms (FindLiveObjects: 0.465800 ms CreateObjectMapping: 0.251300 ms MarkObjects: 116.903800 ms  DeleteObjects: 3.264700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.387 seconds
-Refreshing native plugins compatible for Editor in 126.09 ms, found 28 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-jp.ootr.ImageTab.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageTab.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-jp.ootr.ImageDeviceController.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageDeviceController.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-jp.ootr.ImageDeviceController.Editor.SetObjectReference__ImageDeviceController must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReference__ImageDeviceController.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageDeviceController.Editor.SetObjectReference__ImageDeviceController:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-进程外导入时不支持 CreateSerializedAsset
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
-UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
-UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
-UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
-UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
-UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
-UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
-UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
-UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
-
-[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
-  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
-  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
-  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
-  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
-  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
-  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
-  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
-  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
-  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  6.190 seconds
-Domain Reload Profiling: 8529ms
-	BeginReloadAssembly (595ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (179ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (148ms)
-	LoadAllAssembliesAndSetupDomain (1514ms)
-		LoadAssemblies (1714ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (6192ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2149ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (306ms)
-			ProcessInitializeOnLoadAttributes (678ms)
-			ProcessInitializeOnLoadMethodAttributes (1053ms)
-			AfterProcessingInitializeOnLoad (76ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 344.49 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 1.13 ms.
-Unloading 4227 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 204 unused Assets / (7.2 MB). Loaded Objects now: 5013.
-Memory consumption went from 310.9 MB to 303.7 MB.
-Total: 282.625600 ms (FindLiveObjects: 0.846000 ms CreateObjectMapping: 0.463700 ms MarkObjects: 231.300400 ms  DeleteObjects: 50.013600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1655.937936 seconds.
-  path: Assets/CoffeeSet_MiniGreen/Assets/Models/Particles/Particle_Drop.fbx
-  artifactKey: Guid(1e9e37497660ffb488d7df4f52c20fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeSet_MiniGreen/Assets/Models/Particles/Particle_Drop.fbx using Guid(1e9e37497660ffb488d7df4f52c20fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612c259424d34c83801f1dba8ac9be8d') in 0.180532 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material116_1_0_0.mat
+  artifactKey: Guid(d5e2178871635664db5517352c1cc03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material116_1_0_0.mat using Guid(d5e2178871635664db5517352c1cc03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3909ae366b36a4fe4915498d0e78c8a9') in 0.016137 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material112_1_0_0.mat
+  artifactKey: Guid(b8e6271c3375bd34fbc47ba058810ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material112_1_0_0.mat using Guid(b8e6271c3375bd34fbc47ba058810ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc5e75011baeca0e049f39ca9218fdd') in 0.014167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material124_1_0_0.mat
+  artifactKey: Guid(264085a714caf9d468e20368478d2c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material124_1_0_0.mat using Guid(264085a714caf9d468e20368478d2c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc93cec159f7bb816967de8a770d72f9') in 0.024767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002503 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material123_1_0_0.mat
+  artifactKey: Guid(b6d3a482470855a47974cce972b0d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material123_1_0_0.mat using Guid(b6d3a482470855a47974cce972b0d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6b5d482b06eb221f2281d8ac60e035') in 0.018083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material128_1_0_0.mat
+  artifactKey: Guid(b65182730940fde4996295668b4b1642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material128_1_0_0.mat using Guid(b65182730940fde4996295668b4b1642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480a1abf3bb689112f29cd9766a44824') in 0.014790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material109_1_0_0.mat
+  artifactKey: Guid(c5bdd9a4b611d7b428d76fe97e4b5f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material109_1_0_0.mat using Guid(c5bdd9a4b611d7b428d76fe97e4b5f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4348df54b062681211a0e56dfa4bc3') in 0.017764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.175606 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material136_1_0_0.mat
+  artifactKey: Guid(e89c2bc58cd830d4aa10afeb59b51a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material136_1_0_0.mat using Guid(e89c2bc58cd830d4aa10afeb59b51a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d300b900067f18bdfad32c24d2bedea') in 0.015389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material151_1_0_0.mat
+  artifactKey: Guid(b8e7c864cbe71494ea8f5f9f178c2146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material151_1_0_0.mat using Guid(b8e7c864cbe71494ea8f5f9f178c2146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3588d356bdf75acc27e116974e3c8416') in 0.018003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material142_1_0_0.mat
+  artifactKey: Guid(a00421dfe48969245907fd9946423a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material142_1_0_0.mat using Guid(a00421dfe48969245907fd9946423a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f26180a6b21bed9406158a6004853a6') in 0.016579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material153_1_0_0.mat
+  artifactKey: Guid(54ad6c94429943445aa7168fa8620adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material153_1_0_0.mat using Guid(54ad6c94429943445aa7168fa8620adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc463bf32d215357b8f912f88f738b0a') in 0.015562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part3-3 0 Leblanc GLASS.material06_1_0_0.mat
+  artifactKey: Guid(fd673a2fb357d384f90a6a15a06e2720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part3-3 0 Leblanc GLASS.material06_1_0_0.mat using Guid(fd673a2fb357d384f90a6a15a06e2720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1694d1a1adda2cd2274da3a108a22670') in 0.016846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material143_1_0_0.mat
+  artifactKey: Guid(3d0586c75e1c1c542aa47b7d56c5ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material143_1_0_0.mat using Guid(3d0586c75e1c1c542aa47b7d56c5ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6566797d67478d17e213a5c714cbf9eb') in 0.015681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material03_1_0_0.mat
+  artifactKey: Guid(2e54b1428ddf1d14986641e266287757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material03_1_0_0.mat using Guid(2e54b1428ddf1d14986641e266287757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3755fae1ec9c7579853cd979f5e636') in 0.017592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material07_1_0_0.mat
+  artifactKey: Guid(86365f4b310ef6542bbbd4d67609eccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material07_1_0_0.mat using Guid(86365f4b310ef6542bbbd4d67609eccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c09848f98725c301f77fd67d0ef8a32') in 0.016039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material10_1_0_0.mat
+  artifactKey: Guid(b0675f5773184704c8b2254867f630e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material10_1_0_0.mat using Guid(b0675f5773184704c8b2254867f630e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139981dd7f3989ada1df1cec4282595e') in 0.015352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.328512 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material14_1_0_0.mat
+  artifactKey: Guid(ed300d09b72613e4b9756f6c080109e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material14_1_0_0.mat using Guid(ed300d09b72613e4b9756f6c080109e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea2a3d3e04712faee8108cb0ac84f56') in 0.015571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material19_1_0_0.mat
+  artifactKey: Guid(d27f2010ddb83ff45a6d91650bcd8420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material19_1_0_0.mat using Guid(d27f2010ddb83ff45a6d91650bcd8420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8355556eefab48c2a27ab1a08fe9e9') in 0.024393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material21_1_0_0.mat
+  artifactKey: Guid(78215f454e7130e4fb7fc1a757c4e538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material21_1_0_0.mat using Guid(78215f454e7130e4fb7fc1a757c4e538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3ecf357981ac144dbb9033f1d008a9') in 0.024166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.145369 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material27_1_0_0.mat
+  artifactKey: Guid(4d4234cc585bf5d46828dfacf0100dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material27_1_0_0.mat using Guid(4d4234cc585bf5d46828dfacf0100dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d455767177d1b2438332d102c08014f') in 0.012730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material154_1_0_0.mat
+  artifactKey: Guid(ce4b94b8ea184c34095608b4961d25bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material154_1_0_0.mat using Guid(ce4b94b8ea184c34095608b4961d25bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569235c7e45cc4319d06c9b6bfc74f79') in 0.017901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part1-4 0 Leblanc LAMPS.material27_1_0_0.mat
+  artifactKey: Guid(f974f2221c76abf4b853896dc7db4ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part1-4 0 Leblanc LAMPS.material27_1_0_0.mat using Guid(f974f2221c76abf4b853896dc7db4ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e367de1720b1a9ade4e190b0684409') in 0.015956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022717 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material156_1_0_0.mat
+  artifactKey: Guid(8aebaaf7b34db5f4db52a358d13cc6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material156_1_0_0.mat using Guid(8aebaaf7b34db5f4db52a358d13cc6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fcf68fc3cce4e51e5c2cdf8e5fd1fe') in 0.015612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part3-3 0 Leblanc GLASS.material18_1_0_0.mat
+  artifactKey: Guid(0fbf511a65831404abccd308ba0f9738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part3-3 0 Leblanc GLASS.material18_1_0_0.mat using Guid(0fbf511a65831404abccd308ba0f9738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748b92d34eb6876bd1bf864204800cde') in 0.016713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/26_part2-2 0 0 Leblanc MAIN.material75_0.1_0_0.mat
+  artifactKey: Guid(8d52b4611ab077d41b433c4ba8c211e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/26_part2-2 0 0 Leblanc MAIN.material75_0.1_0_0.mat using Guid(8d52b4611ab077d41b433c4ba8c211e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215723f534727588a6eca20dcfee0bcd') in 0.015251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part2-2 0 0 Leblanc MAIN.material132_0.2_0_0.mat
+  artifactKey: Guid(96c04301396c7424d8aa31331ee190fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part2-2 0 0 Leblanc MAIN.material132_0.2_0_0.mat using Guid(96c04301396c7424d8aa31331ee190fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ff8e175601a4d663c0b78e32af06c7') in 0.018029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part2-2 0 0 Leblanc MAIN.material138_0.2_0_0.mat
+  artifactKey: Guid(a07bb0d01acabfd46957b840836454db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part2-2 0 0 Leblanc MAIN.material138_0.2_0_0.mat using Guid(a07bb0d01acabfd46957b840836454db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a97a5c3a4ca36f50152ad8abce960e') in 0.025620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material12_0.2_0_0.mat
+  artifactKey: Guid(b33468849592d2f44bdd4379d8216b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material12_0.2_0_0.mat using Guid(b33468849592d2f44bdd4379d8216b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463c5ad5d1b5650d7bda385b63f4a0d6') in 0.021849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material09_0.2_0_0.mat
+  artifactKey: Guid(4ecc7429aacbf7547b990eb0b577168d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material09_0.2_0_0.mat using Guid(4ecc7429aacbf7547b990eb0b577168d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5459b2b4c4a230a7a60d3756fc2464ca') in 0.026652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/26_part3-3 0 Leblanc GLASS.material39_0.1_0_0.mat
+  artifactKey: Guid(90f9e315e745afa4785ee2f0b0e89efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/26_part3-3 0 Leblanc GLASS.material39_0.1_0_0.mat using Guid(90f9e315e745afa4785ee2f0b0e89efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685ab4f527be76d498e6728e38ce7a26') in 0.016074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.141278 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material19_0.3_0_0.mat
+  artifactKey: Guid(f2d422ca6cc8c334eb625441c672d298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material19_0.3_0_0.mat using Guid(f2d422ca6cc8c334eb625441c672d298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0014e4033ad2fae4d7fed59024060bed') in 0.015322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material27_0.2_0_0.mat
+  artifactKey: Guid(638f98b2a9b4a984ca879a49032da8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material27_0.2_0_0.mat using Guid(638f98b2a9b4a984ca879a49032da8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee6558acb2959ddcd0424b358fb431c') in 0.015574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material35_0.2_0_0.mat
+  artifactKey: Guid(d8f60dd942f700840a36bd263c4a04da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material35_0.2_0_0.mat using Guid(d8f60dd942f700840a36bd263c4a04da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c652f98e3ee059c735ef727f05b373') in 0.017227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025325 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material36_0.3_0_0.mat
+  artifactKey: Guid(fbcacff0977257040ac1ed2cd9cb843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material36_0.3_0_0.mat using Guid(fbcacff0977257040ac1ed2cd9cb843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6880358173f3e50845957c4e9091f4d') in 0.014612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material43_0.3_0_0.mat
+  artifactKey: Guid(2632b4ef028a08349ada1d991f5c6eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material43_0.3_0_0.mat using Guid(2632b4ef028a08349ada1d991f5c6eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45dfeae8a1f655f9cd40cad17b804da') in 0.016981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_aircon.mat
+  artifactKey: Guid(5499f748d29925247a97ee056f521c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_aircon.mat using Guid(5499f748d29925247a97ee056f521c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef47e8805138f3bc6c24210bd83868f') in 0.019835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_bucket.mat
+  artifactKey: Guid(470ce2162eb52d443a2f22f231e14b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_bucket.mat using Guid(470ce2162eb52d443a2f22f231e14b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fb3d66b5d4b3e1c0efb335a3372ae3') in 0.028907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_clock02.mat
+  artifactKey: Guid(5224af078526e834da5e44f54ca1746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_clock02.mat using Guid(5224af078526e834da5e44f54ca1746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a3bc12b15218bf5dbefb2a1ad290bd') in 0.027186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002014 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_icebox01.mat
+  artifactKey: Guid(2cd33f9ef86ee234fa75a440c4b16b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_icebox01.mat using Guid(2cd33f9ef86ee234fa75a440c4b16b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ac332738351b31e2feed19670babab') in 0.028257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_kabe02+nor.mat
+  artifactKey: Guid(a9a52fa0c315a284ca4118bf09adab14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_kabe02+nor.mat using Guid(a9a52fa0c315a284ca4118bf09adab14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0e89f9937c934508bb9a7c47c8be3b') in 0.025729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_icebox04.mat
+  artifactKey: Guid(9ee53f78b06e7594d9a3bfcb6335d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_icebox04.mat using Guid(9ee53f78b06e7594d9a3bfcb6335d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7953b6171985cff096417eeb137bbf') in 0.025731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_kabe03+nor.mat
+  artifactKey: Guid(d9b4da12f121c4041ad791c5e357f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_kabe03+nor.mat using Guid(d9b4da12f121c4041ad791c5e357f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084ced0773b55ef1417815b104cb46ec') in 0.021046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_book05.mat
+  artifactKey: Guid(7840bcb03397d394290f3899a5ba2798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_book05.mat using Guid(7840bcb03397d394290f3899a5ba2798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5712a398ece0b8c8e830be96ce069cf') in 0.019507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_book01.mat
+  artifactKey: Guid(a5a6badbc20c57a4ca6137342be6c1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_book01.mat using Guid(a5a6badbc20c57a4ca6137342be6c1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef26147aabb672d7feacf09b6a7a613') in 0.031217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_clossbook.mat
+  artifactKey: Guid(f31f3674be693f54f9f377446fc4107b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_clossbook.mat using Guid(f31f3674be693f54f9f377446fc4107b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda4c5cc75335d9a6e475fb4e9f407cb') in 0.033692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_bookstand.mat
+  artifactKey: Guid(08c784337602c8f4cbb26b87cdc38894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_bookstand.mat using Guid(08c784337602c8f4cbb26b87cdc38894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9228c0471ab7fd0d1a32de5842de28c') in 0.022618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.055034 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_kabe04.mat
+  artifactKey: Guid(f46b177bef15a5e47a69d640cd77fba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_kabe04.mat using Guid(f46b177bef15a5e47a69d640cd77fba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6defb908765ac5c9ed4f2de117dbd4') in 0.021746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_register.mat
+  artifactKey: Guid(e3ceb857e70008b4c81a545f99c2c766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_register.mat using Guid(e3ceb857e70008b4c81a545f99c2c766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d16618768ec3dcc9ae150bda8e6c49') in 0.092161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_pole01.mat
+  artifactKey: Guid(ea18fd4aa25249942afb847fea4c17f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_pole01.mat using Guid(ea18fd4aa25249942afb847fea4c17f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d679e191b875454e61621bafae9e87') in 0.021618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_shelf02.mat
+  artifactKey: Guid(6caeb330345b39643bff7bc192d8b357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_shelf02.mat using Guid(6caeb330345b39643bff7bc192d8b357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b28dca72aa3a9dc5774e2483045e6f') in 0.022715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_komono05.mat
+  artifactKey: Guid(a78f86955998c6e488a466f1c9b72d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_komono05.mat using Guid(a78f86955998c6e488a466f1c9b72d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cef0305f0ffad533c24c902c2c9c32') in 0.023650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f007_001_leblanc02.mat
+  artifactKey: Guid(1f0f42f9770522544bfd62c157569f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f007_001_leblanc02.mat using Guid(1f0f42f9770522544bfd62c157569f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dacae96891bdfd09ac8c112c16e473') in 0.020349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_tel01.mat
+  artifactKey: Guid(fb3a044c25be078459b841ca02467b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_tel01.mat using Guid(fb3a044c25be078459b841ca02467b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6d4d0465924b1cea7d768ad9477b34') in 0.032599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f0071_leblan_wall2.mat
+  artifactKey: Guid(03c631f70af4cdb4fbb1ca5e3edbee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f0071_leblan_wall2.mat using Guid(03c631f70af4cdb4fbb1ca5e3edbee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef9f6e624f415a8ae2b9a12d30fdb05') in 0.022866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_woodframe.mat
+  artifactKey: Guid(2e344dd63d8466d4983bfff3ce2756a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_woodframe.mat using Guid(2e344dd63d8466d4983bfff3ce2756a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b124d21b64bb6bc465baeca759996f') in 0.021271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/m003_024road_01.mat
+  artifactKey: Guid(076916625b25df04c939111aa5f1cae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/m003_024road_01.mat using Guid(076916625b25df04c939111aa5f1cae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5b77830cc5c5a013e582aef6c984a6') in 0.045835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_pos02.mat
+  artifactKey: Guid(22d4a5a2d17092445b0d46e40a29a411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_pos02.mat using Guid(22d4a5a2d17092445b0d46e40a29a411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a1c95978ed28999f9e475d909d0a27') in 0.021698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/m003_021_ramp.mat
+  artifactKey: Guid(6b3c5d98e6521d945940f539f1a1d1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/m003_021_ramp.mat using Guid(6b3c5d98e6521d945940f539f1a1d1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075ebb1edc6fc4e1be0192f3cabcd1af') in 0.018714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_sofa_edit.mat
+  artifactKey: Guid(8651a31a5a8ee2646a31a6f95ef8aae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_sofa_edit.mat using Guid(8651a31a5a8ee2646a31a6f95ef8aae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b752b03d43ad450706904fd369abc49') in 0.019045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 224.170067 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_floor01.mat
+  artifactKey: Guid(a65edb81ba5096447aecfa5d0673f6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_floor01.mat using Guid(a65edb81ba5096447aecfa5d0673f6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1724b1b416c224191204e9f3b56cc9aa') in 0.022996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2306.184234 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/m003_024sunroof.mat
+  artifactKey: Guid(de8417d354a1e7441bea0383ec775804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/m003_024sunroof.mat using Guid(de8417d354a1e7441bea0383ec775804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a4207c5c408126cd1cd9b226d1d4b6') in 0.039344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.346153 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/ruburan_sign.mat
+  artifactKey: Guid(f4f17fab5274a6244b5ff2b1059c228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/ruburan_sign.mat using Guid(f4f17fab5274a6244b5ff2b1059c228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fd89129c5c6000e2babec51fe5709a') in 0.021743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/wall_poster.mat
+  artifactKey: Guid(e7c27d45842143c429382947f33e5d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/wall_poster.mat using Guid(e7c27d45842143c429382947f33e5d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9fdfe36069e6388bc79cbbaa105d2b') in 0.033392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001882 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/shadoww.mat
+  artifactKey: Guid(a16e06ca51c3cbf4288d99bbf9d98fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/shadoww.mat using Guid(a16e06ca51c3cbf4288d99bbf9d98fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a60deec1f2e7dfb8acdcb36dfeaa895') in 0.054090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.836201 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_sink01.png
+  artifactKey: Guid(9cb6cdb9d06f5664cabce3fc77fd2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_sink01.png using Guid(9cb6cdb9d06f5664cabce3fc77fd2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d1948d605637b3f18ed9d82fdb1fc1') in 0.021638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.359278 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_spiritlamp01.png
+  artifactKey: Guid(875e79931941dd8408c4b74f7ab1e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_spiritlamp01.png using Guid(875e79931941dd8408c4b74f7ab1e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c867e46edd9df4f6c38ac37e412033') in 0.013836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_tv.png
+  artifactKey: Guid(c8f0b58a76e3cc84c9352ebe2c6632ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_tv.png using Guid(c8f0b58a76e3cc84c9352ebe2c6632ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ec2d3a4e2f10c32e2b976f6bc153e2') in 0.016185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_tel01.png
+  artifactKey: Guid(ad6e207d29404ba4e88f551978f49531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_tel01.png using Guid(ad6e207d29404ba4e88f551978f49531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d98163a2fd8f50a842d0ed71321d7f') in 0.016311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_sunlight01_noblack.png
+  artifactKey: Guid(cdb3142185f14854ea7983f5bd3c8dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_sunlight01_noblack.png using Guid(cdb3142185f14854ea7983f5bd3c8dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a4e25e49565d0b115ad9ee77ed3960') in 0.017138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �����߳��˳���Ӧ�ó�����������ֹ I/O ������
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

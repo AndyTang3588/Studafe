@@ -111,6 +111,7 @@
 -define:VRC_SDK_VRCSDK3
 -define:VRC_ENABLE_PLAYER_PERSISTENCE
 -define:PROBUILDER_EXPERIMENTAL_FEATURES
+-define:BAKERY_INCLUDED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"

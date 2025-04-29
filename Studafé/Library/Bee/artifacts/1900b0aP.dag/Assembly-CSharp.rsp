@@ -111,6 +111,7 @@
 -define:VRC_SDK_VRCSDK3
 -define:VRC_ENABLE_PLAYER_PERSISTENCE
 -define:PROBUILDER_EXPERIMENTAL_FEATURES
+-define:BAKERY_INCLUDED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
@@ -329,6 +330,7 @@
 -r:"Packages/com.vrchat.worlds/Runtime/Udon/External/VRC.Udon.Wrapper.dll"
 -r:"Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCEconomy.dll"
 -r:"Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/BakeryRuntimeAssembly.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Cyan.PlayerObjectPool.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Cyan.PlayerObjectPool.UdonSharp.ref.dll"
@@ -422,16 +424,6 @@
 "Assets/UdonSharp/UtilityScripts/TrackingDataFollower.cs"
 "Assets/UdonSharp/UtilityScripts/WorldAudioSettings.cs"
 "Assets/VowganVR/SpinTheBottle/Bottle Files/Scripts/SpinTheBottle.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/HapticSliderPersistenceManager.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/HapticSwitchPersistenceManager.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticHandCollider.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticHandProvider.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSlider.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSliderReceiver_Animator.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSliderReceiver_AudioVolume.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSliderReceiver_PP.cs"
-"Assets/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSwitch.cs"
-"Assets/Yukatayu Shop/Clock Gem/Udon/ClockGem.cs"
 "Assets/九宫格/marubatu/Other/marubatsugame.cs"
 "Assets/九宫格/marubatu/Other/masu.cs"
 "Assets/九宫格/marubatu/Other/reset.cs"
@@ -443,6 +435,16 @@
 "Assets/控制器UDON/MuteArea/SoundproofZone.cs"
 "Assets/控制器UDON/RotatingCubeBehaviour.cs"
 "Assets/控制器UDON/ToggleObjectsOnStart.cs"
+"Assets/预制件/Clock Gem/Udon/ClockGem.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/HapticSliderPersistenceManager.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/HapticSwitchPersistenceManager.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticHandCollider.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticHandProvider.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSlider.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSliderReceiver_Animator.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSliderReceiver_AudioVolume.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSliderReceiver_PP.cs"
+"Assets/预制件/Yodokorochan/Yodo_HapticControllers/Scripts/Yodo_HapticSwitch.cs"
 -langversion:9.0
 
 /deterministic

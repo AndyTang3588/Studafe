@@ -25,6 +25,16 @@ ScriptsOnlyBuild:
     - Yodokorochan.Yodo_HapticSlider
     - aki_lua87.UdonScripts.marubatu.marubatsugame
     - aki_lua87.UdonScripts.marubatu.uGUIConnector
+    BakeryEditorAssembly.dll:
+    - ftRenderLightmap
+    BakeryRuntimeAssembly.dll:
+    - BakeryLightMesh
+    - BakeryLightmapGroup
+    - BakeryPointLight
+    - BakeryProjectSettings
+    - ftGlobalStorage
+    - ftLightmapsStorage
+    - ftLocalStorage
     QvPen.dll:
     - QvPen.Udon.UI.QvPen_ClearButton
     - QvPen.Udon.UI.QvPen_InteractButton
@@ -66,7 +76,11 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
     - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.PositionToolContext
     - UnityEditor.ProBuilder.ProBuilderEditor
+    - UnityEditor.ProBuilder.ProbuilderMoveTool
+    - UnityEditor.ProBuilder.ProbuilderRotateTool
+    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -156,6 +170,10 @@ ScriptsOnlyBuild:
     - VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevel
     - VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevelSet
   serializedClasses:
+    BakeryRuntimeAssembly:
+    - ftGlobalStorage/AtlasPacker
+    - ftLightmapsStorage/LightData
+    - ftLightmapsStorage/SectorData
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
     - UnityEngine.InputSystem.InputActionMap
@@ -365,107 +383,113 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1864}
+      Script: {instanceID: 1910}
     - Class: 114
-      Script: {instanceID: 1866}
+      Script: {instanceID: 1912}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 1914}
     - Class: 114
-      Script: {instanceID: 1874}
+      Script: {instanceID: 1920}
     - Class: 114
-      Script: {instanceID: 1878}
+      Script: {instanceID: 1924}
     - Class: 114
-      Script: {instanceID: 1880}
+      Script: {instanceID: 1926}
     - Class: 114
-      Script: {instanceID: 1884}
+      Script: {instanceID: 1930}
     - Class: 114
-      Script: {instanceID: 1886}
+      Script: {instanceID: 1932}
     - Class: 114
-      Script: {instanceID: 1946}
+      Script: {instanceID: 1994}
     - Class: 114
-      Script: {instanceID: 2080}
+      Script: {instanceID: 2130}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2974}
     - Class: 114
-      Script: {instanceID: 3198}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3444}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 3942}
+      Script: {instanceID: 4034}
     - Class: 114
-      Script: {instanceID: 4362}
+      Script: {instanceID: 4464}
     - Class: 114
-      Script: {instanceID: 4374}
+      Script: {instanceID: 4476}
     - Class: 114
-      Script: {instanceID: 4580}
+      Script: {instanceID: 4690}
     - Class: 114
-      Script: {instanceID: 4790}
+      Script: {instanceID: 4800}
     - Class: 114
-      Script: {instanceID: 5110}
+      Script: {instanceID: 4906}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5228}
     - Class: 114
-      Script: {instanceID: 5792}
+      Script: {instanceID: 5902}
     - Class: 114
-      Script: {instanceID: 5968}
+      Script: {instanceID: 5910}
     - Class: 114
-      Script: {instanceID: 6230}
+      Script: {instanceID: 5934}
     - Class: 114
-      Script: {instanceID: 6310}
+      Script: {instanceID: 6112}
     - Class: 114
-      Script: {instanceID: 6400}
+      Script: {instanceID: 6250}
     - Class: 114
-      Script: {instanceID: 6614}
+      Script: {instanceID: 6380}
     - Class: 114
-      Script: {instanceID: 6616}
+      Script: {instanceID: 6460}
     - Class: 114
-      Script: {instanceID: 6618}
+      Script: {instanceID: 6550}
     - Class: 114
-      Script: {instanceID: 6620}
+      Script: {instanceID: 6766}
     - Class: 114
-      Script: {instanceID: 6632}
+      Script: {instanceID: 6768}
     - Class: 114
-      Script: {instanceID: 6638}
+      Script: {instanceID: 6770}
     - Class: 114
-      Script: {instanceID: 6640}
+      Script: {instanceID: 6772}
     - Class: 114
-      Script: {instanceID: 6642}
+      Script: {instanceID: 6784}
     - Class: 114
-      Script: {instanceID: 6644}
+      Script: {instanceID: 6790}
     - Class: 114
-      Script: {instanceID: 6646}
+      Script: {instanceID: 6792}
     - Class: 114
-      Script: {instanceID: 6648}
+      Script: {instanceID: 6794}
     - Class: 114
-      Script: {instanceID: 6650}
+      Script: {instanceID: 6796}
     - Class: 114
-      Script: {instanceID: 6652}
+      Script: {instanceID: 6798}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 6800}
     - Class: 114
-      Script: {instanceID: 7460}
+      Script: {instanceID: 6802}
     - Class: 114
-      Script: {instanceID: 7850}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7866}
+      Script: {instanceID: 7580}
     - Class: 114
-      Script: {instanceID: 8510}
+      Script: {instanceID: 7628}
     - Class: 114
-      Script: {instanceID: 8550}
+      Script: {instanceID: 8022}
     - Class: 114
-      Script: {instanceID: 8894}
+      Script: {instanceID: 8040}
     - Class: 114
-      Script: {instanceID: 8960}
+      Script: {instanceID: 8686}
     - Class: 114
-      Script: {instanceID: 9314}
+      Script: {instanceID: 8726}
     - Class: 114
-      Script: {instanceID: 9328}
+      Script: {instanceID: 9076}
     - Class: 114
-      Script: {instanceID: 9362}
+      Script: {instanceID: 9142}
     - Class: 114
-      Script: {instanceID: 9710}
+      Script: {instanceID: 9506}
+    - Class: 114
+      Script: {instanceID: 9520}
+    - Class: 114
+      Script: {instanceID: 9554}
+    - Class: 114
+      Script: {instanceID: 9906}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -479,6 +503,8 @@ ScriptsOnlyBuild:
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 192
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -623,6 +649,12 @@ ScriptsOnlyBuild:
     className: InputActionAsset
   - hash:
       serializedVersion: 2
+      Hash: 9485cd7823c17daa631163cb49a7d39a
+    assemblyName: BakeryRuntimeAssembly
+    namespaceName: 
+    className: BakeryPointLight
+  - hash:
+      serializedVersion: 2
       Hash: b747f5d40674055dd70e18552f1b0447
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -641,6 +673,12 @@ ScriptsOnlyBuild:
     className: PostProcessVolume
   - hash:
       serializedVersion: 2
+      Hash: dbcefb58404831740c7ee663442e3156
+    assemblyName: BakeryRuntimeAssembly
+    namespaceName: 
+    className: ftLightmapsStorage
+  - hash:
+      serializedVersion: 2
       Hash: 83d7a967ea9b430906a16df823c2ef60
     assemblyName: VRC.Udon
     namespaceName: VRC.Udon
@@ -651,6 +689,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: e11851b7820cac109a8be2a1c09712a7
+    assemblyName: BakeryRuntimeAssembly
+    namespaceName: 
+    className: BakeryLightMesh
   - hash:
       serializedVersion: 2
       Hash: 10c17b309bdca62b4d7fbaf113ed4ca0

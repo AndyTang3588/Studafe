@@ -11,13 +11,13 @@ C:\Program Files\Unity Hub\Editor\2022.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-C:/Users/tangh/Documents/Unity/StudafÃ©
+D:/Studafe/StudafÃ©
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-3524
-Successfully changed project path to: C:/Users/tangh/Documents/Unity/StudafÃ©
-C:/Users/tangh/Documents/Unity/StudafÃ©
+14611
+Successfully changed project path to: D:/Studafe/StudafÃ©
+D:/Studafe/StudafÃ©
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/tangh/Documents/Unity/StudafÃ©
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31524] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 172243527 [EditorId] 172243527 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19872] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3310442308 [EditorId] 3310442308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31524] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 172243527 [EditorId] 172243527 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19872] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3310442308 [EditorId] 3310442308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 192.56 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 2.75 ms.
+Refreshing native plugins compatible for Editor in 117.25 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 3.19 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tangh/Documents/Unity/StudafÃ©/Assets
+[Subsystems] Discovering subsystems at path D:/Studafe/StudafÃ©/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -71,46 +71,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Trying to register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.056461 seconds.
-- Loaded All Assemblies, in  0.728 seconds
+Registered in 0.086301 seconds.
+- Loaded All Assemblies, in  1.068 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.415 seconds
-Domain Reload Profiling: 1130ms
-	BeginReloadAssembly (258ms)
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 1677ms
+	BeginReloadAssembly (383ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (171ms)
-	LoadAllAssembliesAndSetupDomain (218ms)
-		LoadAssemblies (244ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (263ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (364ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (210ms)
-				TypeCache.ScanAssembly (187ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (252ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (415ms)
+	FinalizeReload (626ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (329ms)
+		SetupLoadedEditorAssemblies (499ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (17ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (206ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,17 @@ Domain Reload Profiling: 1130ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.596 seconds
-Refreshing native plugins compatible for Editor in 151.57 ms, found 28 plugins.
+- Loaded All Assemblies, in  2.389 seconds
+Refreshing native plugins compatible for Editor in 42.29 ms, found 28 plugins.
+Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
+
+(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
+
 Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -130,15 +139,6 @@ TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Ru
 (Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
 
 Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -231,48 +231,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  5.259 seconds
-Domain Reload Profiling: 7809ms
-	BeginReloadAssembly (320ms)
+- Finished resetting the current domain, in  7.353 seconds
+Domain Reload Profiling: 9720ms
+	BeginReloadAssembly (370ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (153ms)
-	LoadAllAssembliesAndSetupDomain (2007ms)
-		LoadAssemblies (1670ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (1805ms)
+		LoadAssemblies (1303ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (560ms)
-			TypeCache.Refresh (484ms)
-				TypeCache.ScanAssembly (439ms)
-			ScanForSourceGeneratedMonoScriptInfo (44ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (5260ms)
+		AnalyzeDomain (752ms)
+			TypeCache.Refresh (666ms)
+				TypeCache.ScanAssembly (599ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (7353ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2629ms)
+		SetupLoadedEditorAssemblies (3646ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (335ms)
-			ProcessInitializeOnLoadAttributes (1207ms)
-			ProcessInitializeOnLoadMethodAttributes (951ms)
-			AfterProcessingInitializeOnLoad (89ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (1705ms)
+			ProcessInitializeOnLoadMethodAttributes (1557ms)
+			AfterProcessingInitializeOnLoad (112ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
+		AwakeInstancesAfterBackupRestoration (65ms)
 Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 134.97 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.43 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.35 seconds
+Refreshing native plugins compatible for Editor in 161.85 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
 Unloading 4490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 247 unused Assets / (7.3 MB). Loaded Objects now: 4946.
-Memory consumption went from 300.0 MB to 292.7 MB.
-Total: 163.679800 ms (FindLiveObjects: 0.662000 ms CreateObjectMapping: 0.230600 ms MarkObjects: 159.647900 ms  DeleteObjects: 3.136800 ms)
+Unloading 247 unused Assets / (7.3 MB). Loaded Objects now: 4947.
+Memory consumption went from 301.1 MB to 293.8 MB.
+Total: 194.358500 ms (FindLiveObjects: 0.708500 ms CreateObjectMapping: 0.308700 ms MarkObjects: 181.752500 ms  DeleteObjects: 11.584200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -287,6 +287,934 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85816.877948 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_bed02.png
+  artifactKey: Guid(0153b3a8070620948b505fd8da772a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_bed02.png using Guid(0153b3a8070620948b505fd8da772a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4153960fd71327a60bd76ba88960947') in 0.154882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_fab01.png
+  artifactKey: Guid(ef0005b7233f5ca49baada0e084ed077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_fab01.png using Guid(ef0005b7233f5ca49baada0e084ed077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dde7c84369c4f1ade0e0026cc07bdf') in 0.019463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_kabe03.png
+  artifactKey: Guid(1e573dd59f4f99a408c7560256682bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_kabe03.png using Guid(1e573dd59f4f99a408c7560256682bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db33547f2b04fc088349217daccabdc') in 0.018259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_coffshelf01.png
+  artifactKey: Guid(1e9f0ae9e6238fe4aaab2d5bffdd796d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_coffshelf01.png using Guid(1e9f0ae9e6238fe4aaab2d5bffdd796d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281651f38a025ab573aeacc234f5261a') in 0.023730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_floor05.png
+  artifactKey: Guid(1f4a3bed46893be4792e9283cd8f8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_floor05.png using Guid(1f4a3bed46893be4792e9283cd8f8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab1d85185a4cf93152a6b1309867e5b') in 0.015778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_counter02.png
+  artifactKey: Guid(37f404e10ec77c24692cb3b4e6424fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_counter02.png using Guid(37f404e10ec77c24692cb3b4e6424fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73007172fd660f171f5ef21df31edaec') in 0.021288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_curtain.png
+  artifactKey: Guid(666dff418a17f2c478007d1c9e8871c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_curtain.png using Guid(666dff418a17f2c478007d1c9e8871c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b71a2ee5bbb2056a106e6ce7bcf8ad5') in 0.017190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_floor04.png
+  artifactKey: Guid(134f257014041774da4c5fdf485df429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_floor04.png using Guid(134f257014041774da4c5fdf485df429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baedbde30641c80059b76a389abe1684') in 0.022040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_door02.png
+  artifactKey: Guid(e1f9bd4c41cf77143bf2d77a50120eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_door02.png using Guid(e1f9bd4c41cf77143bf2d77a50120eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f16efe5e4395b6e4e29320579fc154b') in 0.021704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_kabe02.png
+  artifactKey: Guid(a7b90b1dc28dfa2498cb39827442cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_kabe02.png using Guid(a7b90b1dc28dfa2498cb39827442cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ded4712b53e8c9762737eb1a7981e60') in 0.018657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_komono05.png
+  artifactKey: Guid(ce647ecd23afe4d4ebb92d132ad2f65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_komono05.png using Guid(ce647ecd23afe4d4ebb92d132ad2f65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f5c40e7883a478014cce1619cd89f6') in 0.019550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_door05.png
+  artifactKey: Guid(f7db21f7547153a468b651f87fe7541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_door05.png using Guid(f7db21f7547153a468b651f87fe7541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba829e96ffb2db21fb76ed9cdcfe736') in 0.017503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Assets/LeBlanc/f003_002_counter01.png
+  artifactKey: Guid(4305b0aec849b3041b68537102de3279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlanc/f003_002_counter01.png using Guid(4305b0aec849b3041b68537102de3279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d92cb1214391b6edd7fe5a4677158a6') in 0.016746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.439095 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part1-4 0 Leblanc LAMPS.material04_1_0_0.mat
+  artifactKey: Guid(939432a9262bbdd43a440910dd0ae209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part1-4 0 Leblanc LAMPS.material04_1_0_0.mat using Guid(939432a9262bbdd43a440910dd0ae209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7526ed4b34c51138d37d3ec8f662a4') in 0.229812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material36_1_0_0.mat
+  artifactKey: Guid(1caa8616274920b458cf16825ab25b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material36_1_0_0.mat using Guid(1caa8616274920b458cf16825ab25b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff034262cd4c235fb00022a914bbddc8') in 0.016235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material23_1_0_0.mat
+  artifactKey: Guid(ab1b486291a1246459163a584b80b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material23_1_0_0.mat using Guid(ab1b486291a1246459163a584b80b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e2a3c0fec278d505d4511e6c8f98d4') in 0.017454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material01_1_0_0.mat
+  artifactKey: Guid(b175f8919e1dfeb4e94ce30460f5844d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material01_1_0_0.mat using Guid(b175f8919e1dfeb4e94ce30460f5844d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b35e1dabae722122a9c36818e893b4') in 0.030633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material30_1_0_0.mat
+  artifactKey: Guid(e474f15123701fa4b9782f94a92e661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material30_1_0_0.mat using Guid(e474f15123701fa4b9782f94a92e661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd25731e2b9c1cec7089d37992d5a2e5') in 0.021879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material06_1_0_0.mat
+  artifactKey: Guid(dd8263512a484c04b90ed7a61fe2b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material06_1_0_0.mat using Guid(dd8263512a484c04b90ed7a61fe2b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef13f6155b06ce024c3ee5054b475e8') in 0.015396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material20_1_0_0.mat
+  artifactKey: Guid(00226c56e0d0f7040b82fe91948e7162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material20_1_0_0.mat using Guid(00226c56e0d0f7040b82fe91948e7162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333c03729729530870655c2eb620823a') in 0.017422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material09_1_0_0.mat
+  artifactKey: Guid(c1514733f0492bd4d8a1c54f2065cd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material09_1_0_0.mat using Guid(c1514733f0492bd4d8a1c54f2065cd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e390a123181830d2d49dbea6b23844') in 0.024362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material14_1_0_0.mat
+  artifactKey: Guid(9a9b4ebbe180a70498bfac817e81578a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material14_1_0_0.mat using Guid(9a9b4ebbe180a70498bfac817e81578a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb3b03a60281f65723b60cd41075d35') in 0.016893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material03_1_0_0.mat
+  artifactKey: Guid(7bcdaa80bb8fb8d4dad82db286624f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material03_1_0_0.mat using Guid(7bcdaa80bb8fb8d4dad82db286624f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7ec8a7356be11af6e916cd59dd1084') in 0.015101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.549483 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material55_1_0_0.mat
+  artifactKey: Guid(117bb1b648ecf9b4e9754829ba6ca612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material55_1_0_0.mat using Guid(117bb1b648ecf9b4e9754829ba6ca612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e61e1cff4eb447c1cf1d3bb73ba909a') in 0.022163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material58_1_0_0.mat
+  artifactKey: Guid(e2fde2112f0532a40886d7fbbec2c726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material58_1_0_0.mat using Guid(e2fde2112f0532a40886d7fbbec2c726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd89a6e1e221b58d4be8a08f3e51083') in 0.013495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material56_1_0_0.mat
+  artifactKey: Guid(a013402cdc9dcb14fb379e9f66c6fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material56_1_0_0.mat using Guid(a013402cdc9dcb14fb379e9f66c6fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9542848a38f7d38adb0bfefed6a5b1') in 0.021692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material66_1_0_0.mat
+  artifactKey: Guid(dfa8d392c23ac2942af314a6937431da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material66_1_0_0.mat using Guid(dfa8d392c23ac2942af314a6937431da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e0016b6a2672bbb6940cbb094cc8eb') in 0.015411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material65_1_0_0.mat
+  artifactKey: Guid(d4d38caff211a2346a096bc5a76fe159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material65_1_0_0.mat using Guid(d4d38caff211a2346a096bc5a76fe159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228c28046c6317ba55f359fdfceadc17') in 0.021599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material71_1_0_0.mat
+  artifactKey: Guid(f95e7db52ec57d04fae87298625fc401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material71_1_0_0.mat using Guid(f95e7db52ec57d04fae87298625fc401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e7a653275aee0d894a4d98be3bfbf7') in 0.018932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material70_1_0_0.mat
+  artifactKey: Guid(112c7ef9ad0db0d45a8b1b67589485ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material70_1_0_0.mat using Guid(112c7ef9ad0db0d45a8b1b67589485ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e66af751fe0421e6c6d0723fccf01b4') in 0.019055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material62_1_0_0.mat
+  artifactKey: Guid(a6e5f037fd421184ea1075f29b1a876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material62_1_0_0.mat using Guid(a6e5f037fd421184ea1075f29b1a876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ae705493f635b9a759db336c24888d') in 0.016599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material69_1_0_0.mat
+  artifactKey: Guid(cf3036c4d4b644341b52a7c02c67bf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material69_1_0_0.mat using Guid(cf3036c4d4b644341b52a7c02c67bf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f11bb7b531aba32dda74e4a0c1393c5') in 0.020805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material73_1_0_0.mat
+  artifactKey: Guid(256e12a6c97020346b2942a200688d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material73_1_0_0.mat using Guid(256e12a6c97020346b2942a200688d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595ddd4ffad1c6fbdaff96761c6482c2') in 0.013537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.131302 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material96_1_0_0.mat
+  artifactKey: Guid(3a35ebbfd8bd5904fb3cc9b94a00560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material96_1_0_0.mat using Guid(3a35ebbfd8bd5904fb3cc9b94a00560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8a3dc31218e15c2611647c38f6f474') in 0.019101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material105_1_0_0.mat
+  artifactKey: Guid(28710abbff83eaa4e9983b5e3253f5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material105_1_0_0.mat using Guid(28710abbff83eaa4e9983b5e3253f5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d61dd2d3e2497c7ee8af7e26159ce8f') in 0.015286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material97_1_0_0.mat
+  artifactKey: Guid(0be4bfe84d2d29d468e1179160fe478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material97_1_0_0.mat using Guid(0be4bfe84d2d29d468e1179160fe478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f24cb32cee5a98908c80021f21698b') in 0.016734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002122 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material108_1_0_0.mat
+  artifactKey: Guid(b5ace3f99e0aaca49abd92a37136e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material108_1_0_0.mat using Guid(b5ace3f99e0aaca49abd92a37136e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874d16fe2714c5843fb9114fd9dccdac') in 0.017371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material119_1_0_0.mat
+  artifactKey: Guid(64935fdd9153c1e4f89f18be0deda10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material119_1_0_0.mat using Guid(64935fdd9153c1e4f89f18be0deda10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b464bd2b8f63a57b929939366df6ea') in 0.012742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material111_1_0_0.mat
+  artifactKey: Guid(a0453abc4ff998c439ee12f6aad7ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material111_1_0_0.mat using Guid(a0453abc4ff998c439ee12f6aad7ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabbb37b30650ef5a0bb18942a7684a8') in 0.013169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material125_1_0_0.mat
+  artifactKey: Guid(3b4450937e9cc324d8063c57dc45bb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material125_1_0_0.mat using Guid(3b4450937e9cc324d8063c57dc45bb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3852072f0344d97d2a55c71e8ed314') in 0.024119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001592 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material120_1_0_0.mat
+  artifactKey: Guid(a1bb7d9c94677a94883184f305901c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material120_1_0_0.mat using Guid(a1bb7d9c94677a94883184f305901c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c0f7cbd244be98b0c179b36c9b6079') in 0.019967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material133_1_0_0.mat
+  artifactKey: Guid(b2c2f65b5b4ba6e47bdd28c8f4213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material133_1_0_0.mat using Guid(b2c2f65b5b4ba6e47bdd28c8f4213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619d5c3bd4d5d029b7842a0e13b98ec6') in 0.015020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material122_1_0_0.mat
+  artifactKey: Guid(19371b4e879271d44b117604d09cb145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material122_1_0_0.mat using Guid(19371b4e879271d44b117604d09cb145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3521406e9ae22f72333213c6e4ca440f') in 0.019356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.177012 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material141_1_0_0.mat
+  artifactKey: Guid(3e8c41efd6d80064eb35fac8f83db504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material141_1_0_0.mat using Guid(3e8c41efd6d80064eb35fac8f83db504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bad5d7d4ccd0d3ff19fec2f532afd8b') in 0.017170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material150_1_0_0.mat
+  artifactKey: Guid(e199aa651284e1749a35b1663f2ca446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material150_1_0_0.mat using Guid(e199aa651284e1749a35b1663f2ca446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf9bc7a395ff59da9a5bcb379a799ef') in 0.014265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material149_1_0_0.mat
+  artifactKey: Guid(91cd5ed34ad71fa4c87e5fc42ede5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material149_1_0_0.mat using Guid(91cd5ed34ad71fa4c87e5fc42ede5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50302cd2295cbe95df9030042aa7f366') in 0.017006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part3-3 0 Leblanc GLASS.material02_1_0_0.mat
+  artifactKey: Guid(5f30da07b705b4a4597ee145f5115edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part3-3 0 Leblanc GLASS.material02_1_0_0.mat using Guid(5f30da07b705b4a4597ee145f5115edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5375b469796b8fd1f8cb296b2d34ef') in 0.014604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part3-3 0 Leblanc GLASS_1_0_0.mat
+  artifactKey: Guid(00bc76407d6bc2f42bc1aeafeeddb43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part3-3 0 Leblanc GLASS_1_0_0.mat using Guid(00bc76407d6bc2f42bc1aeafeeddb43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824c9b64a731074390a54203de747634') in 0.014133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part3-3 0 Leblanc GLASS.material08_1_0_0.mat
+  artifactKey: Guid(eb642c1e51f4d524f8a49949a832dc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part3-3 0 Leblanc GLASS.material08_1_0_0.mat using Guid(eb642c1e51f4d524f8a49949a832dc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8df3bbc0f5f2ebc9f9ddd9d5f081d71') in 0.014540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material04_1_0_0.mat
+  artifactKey: Guid(943d76fdf51686e43a354420eabc17fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material04_1_0_0.mat using Guid(943d76fdf51686e43a354420eabc17fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c15f86514781a3eadd12d47cf4f52db') in 0.017793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material13_1_0_0.mat
+  artifactKey: Guid(e55fe33d5777ea249bf67c2c17896fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material13_1_0_0.mat using Guid(e55fe33d5777ea249bf67c2c17896fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd72676bdd91b3036d3672c1089c4f95') in 0.018506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material08_1_0_0.mat
+  artifactKey: Guid(97361444fc19d7441840a5308f79e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material08_1_0_0.mat using Guid(97361444fc19d7441840a5308f79e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8423a823b5a649ca88277a113379fe') in 0.015527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material162_1_0_0.mat
+  artifactKey: Guid(d6f6162d409a6274aac5e3ed4a44fd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part2-2 0 0 Leblanc MAIN.material162_1_0_0.mat using Guid(d6f6162d409a6274aac5e3ed4a44fd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2f5766286b9b32cebe14e30d8007f7') in 0.017088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.309127 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material17_1_0_0.mat
+  artifactKey: Guid(4c9334d96fbdded4a892874cc2bb26a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material17_1_0_0.mat using Guid(4c9334d96fbdded4a892874cc2bb26a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd632aeef52276fb254a1aa17d81c679') in 0.021715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material18_1_0_0.mat
+  artifactKey: Guid(be974a727e1258849805462035f8fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material18_1_0_0.mat using Guid(be974a727e1258849805462035f8fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6a85e1132cb7a5c5d64d440cc4efae') in 0.023376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material25_1_0_0.mat
+  artifactKey: Guid(ad2f3c8cb2bfde24c99346ebf21af688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/5_part4-1 1 Leblanc OUTSIDE (Day).material25_1_0_0.mat using Guid(ad2f3c8cb2bfde24c99346ebf21af688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6cfc2c9734a26effd09aa606ae38ff') in 0.014643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.151828 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part1-4 0 Leblanc LAMPS.material05_1_0_0.mat
+  artifactKey: Guid(a1c11b6e58ada2e43ab3b18019c47a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part1-4 0 Leblanc LAMPS.material05_1_0_0.mat using Guid(a1c11b6e58ada2e43ab3b18019c47a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02695ac2c461c9841cb079a952ff6843') in 0.015451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material155_1_0_0.mat
+  artifactKey: Guid(6c421daa91cd36340817679a53ba3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material155_1_0_0.mat using Guid(6c421daa91cd36340817679a53ba3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758ae6c03f0f0c16736ab77a90f32864') in 0.018463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material24_1_0_0.mat
+  artifactKey: Guid(2c343ee4ad551004d92ebf6938f9d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material24_1_0_0.mat using Guid(2c343ee4ad551004d92ebf6938f9d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cd2fb1846a7bcc9381457902f4f38d') in 0.014613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021255 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material164_1_0_0.mat
+  artifactKey: Guid(3cf07445c9ae5854c976c4b4512e7035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part2-2 0 0 Leblanc MAIN.material164_1_0_0.mat using Guid(3cf07445c9ae5854c976c4b4512e7035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b78cfbbcce4e70108c50df63a2817b') in 0.015855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/7_part3-3 0 Leblanc GLASS.material16_1_0_0.mat
+  artifactKey: Guid(7fa9096a6d98ae741a72cf5dc60de3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/7_part3-3 0 Leblanc GLASS.material16_1_0_0.mat using Guid(7fa9096a6d98ae741a72cf5dc60de3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9831f5f20b7489f161702f269e0fc2') in 0.017122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/26_part2-2 0 0 Leblanc MAIN.material84_0.1_0_0.mat
+  artifactKey: Guid(552d038a03c92c8448fb42a9e506132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/26_part2-2 0 0 Leblanc MAIN.material84_0.1_0_0.mat using Guid(552d038a03c92c8448fb42a9e506132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f203d3b6801848a9dde6c6922b9421') in 0.025197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material10_0.2_0_0.mat
+  artifactKey: Guid(bb185442856ef864383d129db74a2f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material10_0.2_0_0.mat using Guid(bb185442856ef864383d129db74a2f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5229591ce62c6dd759da08fe6156b40e') in 0.053260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001354 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material11_0.2_0_0.mat
+  artifactKey: Guid(c254cc9876682174c88a2c652a6d555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material11_0.2_0_0.mat using Guid(c254cc9876682174c88a2c652a6d555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06450872cc17fc6d768d3ff659d67ac') in 0.018757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material17_0.3_0_0.mat
+  artifactKey: Guid(7cfacf6357e20df478dccdb81d8df065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material17_0.3_0_0.mat using Guid(7cfacf6357e20df478dccdb81d8df065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5292ec1291dde37492c37eb0e490462a') in 0.017377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part1-4 0 Leblanc LAMPS.material20_0.3_0_0.mat
+  artifactKey: Guid(a5d2c6d9c0caf434fa73ddc018f5e2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part1-4 0 Leblanc LAMPS.material20_0.3_0_0.mat using Guid(a5d2c6d9c0caf434fa73ddc018f5e2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaefd329832599d55bfae171f296c631') in 0.016614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.129367 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material24_0.3_0_0.mat
+  artifactKey: Guid(e4bdfd572358ed34aaaf99eaf35da6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material24_0.3_0_0.mat using Guid(e4bdfd572358ed34aaaf99eaf35da6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a686fdceaabf53ceea75c45b986ff9') in 0.019664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material28_0.3_0_0.mat
+  artifactKey: Guid(c5b378d27a07a5b4bbcaabbd5b574721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material28_0.3_0_0.mat using Guid(c5b378d27a07a5b4bbcaabbd5b574721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4463700f1c14f638ef8b5b0cedc9d369') in 0.017780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material33_0.2_0_0.mat
+  artifactKey: Guid(75fe5851d2aefcb4fb036b7287fa1494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material33_0.2_0_0.mat using Guid(75fe5851d2aefcb4fb036b7287fa1494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1042f294ac8801ee6888cc9681fef5') in 0.016198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.028826 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material41_0.2_0_0.mat
+  artifactKey: Guid(811b80728e5d8144582c98502250ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material41_0.2_0_0.mat using Guid(811b80728e5d8144582c98502250ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdeb8f086aa504ae70b9d48530611e1') in 0.016876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material45_0.2_0_0.mat
+  artifactKey: Guid(42471432957b52f44a0eaa02db1c5ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material45_0.2_0_0.mat using Guid(42471432957b52f44a0eaa02db1c5ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a739b343fc162098cc479bc0607ac3b') in 0.016699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material42_0.2_0_0.mat
+  artifactKey: Guid(ac1a2d6f9f43f17439445b202a499b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material42_0.2_0_0.mat using Guid(ac1a2d6f9f43f17439445b202a499b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2e0ef13de5bc7f454cfd57de83e36b') in 0.019605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_box01.mat
+  artifactKey: Guid(128426095e5a5504fa1b22d6eef6ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_box01.mat using Guid(128426095e5a5504fa1b22d6eef6ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6b302a6ad6bdd1bb8768c04e03ac35') in 0.063659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_door02.mat
+  artifactKey: Guid(f082dda13758a8f468c6df8a1468ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_door02.mat using Guid(f082dda13758a8f468c6df8a1468ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c14365a4ae4729810ed6d3587112cb1') in 0.019232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_iceboxmini.mat
+  artifactKey: Guid(f2aa45891dee741488b75e9a882bb057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_iceboxmini.mat using Guid(f2aa45891dee741488b75e9a882bb057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b06bf484819f8702e6207e7f3c87a5') in 0.019915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_icebox02.mat
+  artifactKey: Guid(32ba1366374429c49ade22c7f5e11be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_icebox02.mat using Guid(32ba1366374429c49ade22c7f5e11be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edcb1eec0aa14430fbca0c54e31470d') in 0.029165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_counter03.mat
+  artifactKey: Guid(ee75b2ab774bdc641825902c43aa4faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_counter03.mat using Guid(ee75b2ab774bdc641825902c43aa4faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bbe958c22819b8696879357dd27c90') in 0.027071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_floor05.mat
+  artifactKey: Guid(1c6d2509a040d79419fd317195c7c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_floor05.mat using Guid(1c6d2509a040d79419fd317195c7c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e67a30040a56d7e9cc4eec475cff370') in 0.022444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_icebox05.mat
+  artifactKey: Guid(997d46a7d19193c44b46b258164f5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_icebox05.mat using Guid(997d46a7d19193c44b46b258164f5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae298188aa7f0eac6a98e774f18704e') in 0.033459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_icebox03.mat
+  artifactKey: Guid(14303bb2d8e24804c98c6d5434680176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_icebox03.mat using Guid(14303bb2d8e24804c98c6d5434680176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f22112fa5557e8144fd648efe894c1e') in 0.022144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_desk02.mat
+  artifactKey: Guid(910661d5c1f1af04fbc788b85dae599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_desk02.mat using Guid(910661d5c1f1af04fbc788b85dae599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b1ad64094e0812c27ef6dffa33c43e') in 0.035280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001534 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material44_0.2_0_0.mat
+  artifactKey: Guid(8d05ab0926a6c0f49b1f1f219b169482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/27_part3-3 0 Leblanc GLASS.material44_0.2_0_0.mat using Guid(8d05ab0926a6c0f49b1f1f219b169482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141c19954e71506d6ed3bea83b485869') in 0.014999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056738 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_komono04.mat
+  artifactKey: Guid(11749e4f037d1544494076dbb44d8744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_komono04.mat using Guid(11749e4f037d1544494076dbb44d8744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b5a9a1ff8709aeb75aa78d546826c2') in 0.021048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_roof02.mat
+  artifactKey: Guid(56d2c9937d684774e8bfb5fd465e1331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_roof02.mat using Guid(56d2c9937d684774e8bfb5fd465e1331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93e532892a360af0e1bb0d0385ac9a2') in 0.077055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001180 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_komono11.mat
+  artifactKey: Guid(800f6e9ee9723ac4dae306f4551425e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_komono11.mat using Guid(800f6e9ee9723ac4dae306f4551425e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfb35892a132398eb58e23b4bafb5cd') in 0.021279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_pict01.mat
+  artifactKey: Guid(b3fedd76b54097e4db81b31721bd1660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_pict01.mat using Guid(b3fedd76b54097e4db81b31721bd1660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84551cc0ded01d6fb56212f6e52f860c') in 0.019175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_nabe01.mat
+  artifactKey: Guid(4f0f657615761614c8f4eaf4175668b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_nabe01.mat using Guid(4f0f657615761614c8f4eaf4175668b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf056923619be6de3c2650a8b6fa141a') in 0.032999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_tv.mat
+  artifactKey: Guid(cab9df33cd4b11246a29bac3e351f84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_tv.mat using Guid(cab9df33cd4b11246a29bac3e351f84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7b9b923e3bc0474a545d9c855f7096') in 0.020564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f007_001_leblanc03.mat
+  artifactKey: Guid(08f7238c5edd0ed41b557afd8b121198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f007_001_leblanc03.mat using Guid(08f7238c5edd0ed41b557afd8b121198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b14ec990c2229c76e11688e1aed67d') in 0.030173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/m003_024con01.mat
+  artifactKey: Guid(dc337e5b4f9f73f4ab406b613cd3c444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/m003_024con01.mat using Guid(dc337e5b4f9f73f4ab406b613cd3c444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fd557fc9c132806b1ba1c8763d3ade') in 0.023116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/Leblanc Glass.mat
+  artifactKey: Guid(d073390cc33e35f428fbd8c4c8671276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/Leblanc Glass.mat using Guid(d073390cc33e35f428fbd8c4c8671276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8970f59c92ee3afb9b5c7f57e1cdf3b1') in 0.019778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f009_002wall02.mat
+  artifactKey: Guid(2ef3c97314bfdba47aaf25096919d11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f009_002wall02.mat using Guid(2ef3c97314bfdba47aaf25096919d11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5bb56cbaf2222ef6b8123b0f17b089') in 0.022554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005519 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002tv_monitor01_mix2.mat
+  artifactKey: Guid(d64351808a298d74abb32583866a1aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002tv_monitor01_mix2.mat using Guid(d64351808a298d74abb32583866a1aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ff58096dfe52f9f1c054cf346e7aab') in 0.024157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/lampglass.mat
+  artifactKey: Guid(1dfa49c405b1de740b605e063008546d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/lampglass.mat using Guid(1dfa49c405b1de740b605e063008546d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae9ab386a2636ae10aaf2af2800c9ea') in 0.015872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_komono06.mat
+  artifactKey: Guid(b58ded1c4b242074b84695c04aafe32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_komono06.mat using Guid(b58ded1c4b242074b84695c04aafe32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e360608b888f13f1f7740540d67d5e52') in 0.018506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/f003_002_towel02.mat
+  artifactKey: Guid(2953d94c2cfec7a4ca7cf6e73fc30029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/f003_002_towel02.mat using Guid(2953d94c2cfec7a4ca7cf6e73fc30029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ac551d1aef1626e267768af614f715') in 0.019336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2530.383822 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/m003_024wall01.mat
+  artifactKey: Guid(5844f1b54626b604bb2c35004f6776cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/m003_024wall01.mat using Guid(5844f1b54626b604bb2c35004f6776cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00efe5c1c1c92640f093209578db7198') in 0.043840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.342246 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/missing.mat
+  artifactKey: Guid(0b7860aba2a633647a2e56724ceb4a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/missing.mat using Guid(0b7860aba2a633647a2e56724ceb4a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffab29ff3b6bacabb47e8020140fb836') in 0.042124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000928 seconds.
+  path: Assets/Assets/LeBlancP5R/Materials/main_wall_hari.mat
+  artifactKey: Guid(0320f08fbaf470240850fe3fb24b2edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/Materials/main_wall_hari.mat using Guid(0320f08fbaf470240850fe3fb24b2edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6774b6919a2d8c92e737b523d820bb2') in 0.036284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.875601 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_sink02.png
+  artifactKey: Guid(023eb1e5b0eeb564fa635912445a4093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_sink02.png using Guid(023eb1e5b0eeb564fa635912445a4093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b29296c9356e43ec480e500d6c9309') in 0.020875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.359499 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_sofa_edit.png
+  artifactKey: Guid(2587be9539968dd44ab9c8de162d16c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_sofa_edit.png using Guid(2587be9539968dd44ab9c8de162d16c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0887822048e88a60477a3801d5eb0b') in 0.021018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_tel02.png
+  artifactKey: Guid(5ef35bcb401a2ff45815924e13ce898e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_tel02.png using Guid(5ef35bcb401a2ff45815924e13ce898e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61fce7897591e619b1982a7d51d8329') in 0.013763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_stairs01.png
+  artifactKey: Guid(63bbab77a1b5a0f41af97f65e5ed4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_stairs01.png using Guid(63bbab77a1b5a0f41af97f65e5ed4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78368395abcaa8f41187920c009fab3') in 0.015041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/LeBlancP5R/f003_002_sofa.png
+  artifactKey: Guid(6b0ec9a61ed1ae443bb9d96e53120c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/LeBlancP5R/f003_002_sofa.png using Guid(6b0ec9a61ed1ae443bb9d96e53120c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2384b993697f67810887384b1a12ac6') in 0.019439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 86.839906 seconds.
+  path: Assets/Materials/LQM.mat
+  artifactKey: Guid(e8cd0730cbccea0438d62fb6ffcf3c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LQM.mat using Guid(e8cd0730cbccea0438d62fb6ffcf3c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6bd6c91ab652b1e6ba12b0478fedc4') in 0.051811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/æ–°å»ºé¡¹ç›® (8).png
+  artifactKey: Guid(1c4442cbb388a35409bd857a21e6ea44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/æ–°å»ºé¡¹ç›® (8).png using Guid(1c4442cbb388a35409bd857a21e6ea44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7d33574762fbaf2bfda7aa405dbd33') in 0.017903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Materials/æ–°å»ºé¡¹ç›® (7).png
+  artifactKey: Guid(024aabdd608bed846a08256f3bda9570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/æ–°å»ºé¡¹ç›® (7).png using Guid(024aabdd608bed846a08256f3bda9570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb7250251b022e5f6421e60c857706a') in 0.014431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.748063 seconds.
+  path: Assets/Materials/UE_FREE HDRI PACK SAMPLES_from cgchoco.com/Sample from_Above The Ocean HDRI pack_bad weather_Light Clouds_Noon.hdr
+  artifactKey: Guid(7c7ecc430f799aa4ca3f155ec6f57db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UE_FREE HDRI PACK SAMPLES_from cgchoco.com/Sample from_Above The Ocean HDRI pack_bad weather_Light Clouds_Noon.hdr using Guid(7c7ecc430f799aa4ca3f155ec6f57db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3824bfe9df78b3ff8cb69006dcb589e') in 0.028801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.318896 seconds.
+  path: Assets/Materials/UE_FREE HDRI PACK SAMPLES_from cgchoco.com/Sample from_Alien Planet HDRI Pack_1_9_Cloudy_HDRI_Afternoon Hot1_Day.hdr
+  artifactKey: Guid(8b545fccbab4bd14397a4ded2adfb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UE_FREE HDRI PACK SAMPLES_from cgchoco.com/Sample from_Alien Planet HDRI Pack_1_9_Cloudy_HDRI_Afternoon Hot1_Day.hdr using Guid(8b545fccbab4bd14397a4ded2adfb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd588abc1cf5fc4581138480b5f774f81') in 0.025697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/UE_FREE HDRI PACK SAMPLES_from cgchoco.com/Sample from_Product and Objects HDRI pack_48_Soft.hdr
+  artifactKey: Guid(3593755601fe7e84a8cedcf5605f6ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UE_FREE HDRI PACK SAMPLES_from cgchoco.com/Sample from_Product and Objects HDRI pack_48_Soft.hdr using Guid(3593755601fe7e84a8cedcf5605f6ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f754d0ab280f2267ab39f3269ae14d') in 0.027563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/UE_FREE HDRI PACK SAMPLES_from cgchoco.com/Sample from_Multipurpose HDRI Pack_12_Silky.hdr
+  artifactKey: Guid(aad8b6663fff6cb41b0147dd5e570e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UE_FREE HDRI PACK SAMPLES_from cgchoco.com/Sample from_Multipurpose HDRI Pack_12_Silky.hdr using Guid(aad8b6663fff6cb41b0147dd5e570e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b617d7aa4472b5c635ca770b3e12c70') in 0.016574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.411053 seconds.
+  path: Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_BaseColor.jpg
+  artifactKey: Guid(026c9ab8c40fe4941b81ded86a9fde7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_BaseColor.jpg using Guid(026c9ab8c40fe4941b81ded86a9fde7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d254c5b2a935bb9887a7b4198d41525') in 0.012968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.344075 seconds.
+  path: Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_Displacement.jpg
+  artifactKey: Guid(b226370268081d14786c74da0b0c1b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_Displacement.jpg using Guid(b226370268081d14786c74da0b0c1b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeeca3d8a10aac467c2b4d5ff478284') in 0.015456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_Normal.jpg
+  artifactKey: Guid(fc8643d68b621f24c90daec5f2d1f087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_Normal.jpg using Guid(fc8643d68b621f24c90daec5f2d1f087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ed89310358caab4907ade3d05035c4') in 0.045409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_Roughness.jpg
+  artifactKey: Guid(5c969d9709082b24a8e0fb9ae98cf541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_Roughness.jpg using Guid(5c969d9709082b24a8e0fb9ae98cf541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7437c64ef2345d27816a79ed71e94ac8') in 0.020594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_Cavity.jpg
+  artifactKey: Guid(a5e136218bc35384384c764c7db508db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wooden_floor_ucklejqdy_1k/Wooden_Floor_ucklejqdy_1K_Cavity.jpg using Guid(a5e136218bc35384384c764c7db508db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9b396c57d3a3fbd40185e704896bd4') in 0.022575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ÓÉÓÚÏß³ÌÍË³ö»òÓ¦ÓÃ³ÌĞòÇëÇó£¬ÒÑÖĞÖ¹ I/O ²Ù×÷¡£
 AssetImportWorker is now disconnected from the server
