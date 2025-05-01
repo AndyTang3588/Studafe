@@ -2149,8 +2149,6 @@
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
-    .export get_EstimatedStepDuration
-    get_EstimatedStepDuration:
         PUSH, __const_SystemUInt32_0
 # 
 # TLP.UdonUtils.Runtime.Experimental.Tasks.Task.EstimatedStepDuration.get

@@ -11,13 +11,13 @@ C:\Program Files\Unity Hub\Editor\2022.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/tangh/Documents/Unity/Studaf√©
+D:/Studafe/Studaf√©
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-3524
-Successfully changed project path to: C:/Users/tangh/Documents/Unity/Studaf√©
-C:/Users/tangh/Documents/Unity/Studaf√©
+4572
+Successfully changed project path to: D:/Studafe/Studaf√©
+D:/Studafe/Studaf√©
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/tangh/Documents/Unity/Studaf√©
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23160] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 2589315936 [EditorId] 2589315936 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18972] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1293412455 [EditorId] 1293412455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23160] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 2589315936 [EditorId] 2589315936 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18972] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1293412455 [EditorId] 1293412455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 229.73 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 3.30 ms.
+Refreshing native plugins compatible for Editor in 106.58 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 4.52 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tangh/Documents/Unity/Studaf√©/Assets
+[Subsystems] Discovering subsystems at path D:/Studafe/Studaf√©/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -71,46 +71,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Trying to register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.066956 seconds.
-- Loaded All Assemblies, in  0.915 seconds
+Registered in 0.084409 seconds.
+- Loaded All Assemblies, in  1.163 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.503 seconds
-Domain Reload Profiling: 1399ms
-	BeginReloadAssembly (332ms)
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1885ms
+	BeginReloadAssembly (395ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (63ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (85ms)
 	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (210ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (316ms)
+	initialDomainReloadingComplete (271ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (379ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (263ms)
-			TypeCache.Refresh (261ms)
-				TypeCache.ScanAssembly (233ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (359ms)
+				TypeCache.ScanAssembly (318ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (504ms)
+	FinalizeReload (743ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
+		SetupLoadedEditorAssemblies (605ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (17ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (254ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,17 +118,8 @@ Domain Reload Profiling: 1399ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.947 seconds
-Refreshing native plugins compatible for Editor in 164.40 ms, found 28 plugins.
-Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
+- Loaded All Assemblies, in  3.067 seconds
+Refreshing native plugins compatible for Editor in 50.76 ms, found 28 plugins.
 Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -147,30 +138,20 @@ TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Ru
 
 (Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
 
+Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
+
+(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
+
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-jp.ootr.ImageTab.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageTab.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
 jp.ootr.ImageDeviceController.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.ScriptableObject:.ctor ()
@@ -225,54 +206,393 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
+[<color=#FF00FF>UdonSharp</color>] Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Scripts/HapticSwitchPersistenceManager.cs(27,40): System.InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <70471b9615aa4ecfa3ed1abb95b73832>:0 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateGetComponentInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x00224] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:186 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateShimInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x0000f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:379 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.CreateBoundInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:406 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitInvocationExpression (Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax node) [0x0040b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:511 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node) [0x0000d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:112 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.TypeSymbol expectedType, System.Boolean explicitCast) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:156 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitAssignmentExpression (Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax node) [0x00174] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:625 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpressionStatement (Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:270 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Symbols.MethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x0012f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\MethodSymbol.cs:162 
+  at UdonSharp.Compiler.Symbols.UdonSharpBehaviourMethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x000a4] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\UdonSharpBehaviourMethodSymbol.cs:52 
+  at UdonSharp.Compiler.Symbols.TypeSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x00140] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\TypeSymbol.cs:137 
+  at UdonSharp.Compiler.Binder.BindContext.Bind () [0x00015] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BindContext.cs:35 
+  at UdonSharp.Compiler.UdonSharpCompilerV1+<>c__DisplayClass22_0.<BindAllPrograms>b__0 (System.ValueTuple`2[T1,T2] rootTypeSymbol) [0x00026] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\UdonSharpCompilerV1.cs:618 
+[<color=#FF00FF>UdonSharp</color>] Assets/QvBoard/Scripts/QvBoard_ObjectPool.cs(125,34): System.InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <70471b9615aa4ecfa3ed1abb95b73832>:0 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateGetComponentInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x00224] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:186 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateShimInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x0000f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:379 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.CreateBoundInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:406 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitInvocationExpression (Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax node) [0x0040b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:511 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node) [0x0000d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:112 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.TypeSymbol expectedType, System.Boolean explicitCast) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:156 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitAssignmentExpression (Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax node) [0x00174] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:625 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpressionStatement (Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:270 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitForStatement (Microsoft.CodeAnalysis.CSharp.Syntax.ForStatementSyntax node) [0x000c2] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:875 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ForStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Symbols.MethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x0012f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\MethodSymbol.cs:162 
+  at UdonSharp.Compiler.Symbols.UdonSharpBehaviourMethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x000a4] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\UdonSharpBehaviourMethodSymbol.cs:52 
+  at UdonSharp.Compiler.Symbols.TypeSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x00140] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\TypeSymbol.cs:137 
+  at UdonSharp.Compiler.Binder.BindContext.Bind () [0x00015] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BindContext.cs:35 
+  at UdonSharp.Compiler.UdonSharpCompilerV1+<>c__DisplayClass22_0.<BindAllPrograms>b__0 (System.ValueTuple`2[T1,T2] rootTypeSymbol) [0x00026] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\UdonSharpCompilerV1.cs:618 
+[<color=#FF00FF>UdonSharp</color>] Assets/CoffeeSet_MiniGreen/Assets/Scripts/Machine_Component.cs(20,52): System.InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <70471b9615aa4ecfa3ed1abb95b73832>:0 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateGetComponentInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x00224] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:186 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateShimInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x0000f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:379 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.CreateBoundInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:406 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitInvocationExpression (Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax node) [0x0040b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:511 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node) [0x0000d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:112 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.TypeSymbol expectedType, System.Boolean explicitCast) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:156 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitReturnStatement (Microsoft.CodeAnalysis.CSharp.Syntax.ReturnStatementSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:768 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ReturnStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Symbols.MethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x00195] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\MethodSymbol.cs:171 
+  at UdonSharp.Compiler.Symbols.UdonSharpBehaviourMethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x000a4] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\UdonSharpBehaviourMethodSymbol.cs:52 
+  at UdonSharp.Compiler.Symbols.TypeSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x00140] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\TypeSymbol.cs:137 
+  at UdonSharp.Compiler.Binder.BindContext.Bind () [0x00015] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BindContext.cs:35 
+  at UdonSharp.Compiler.UdonSharpCompilerV1+<>c__DisplayClass22_0.<BindAllPrograms>b__0 (System.ValueTuple`2[T1,T2] rootTypeSymbol) [0x00026] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\UdonSharpCompilerV1.cs:618 
+[<color=#FF00FF>UdonSharp</color>] U# scripts have compile errors, prefab upgrade deferred until script errors are resolved.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UdonSharp.UdonSharpUtils:LogWarning (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:314)
+UdonSharpEditor.UdonSharpEditorManager:UpgradeAssetsIfNeeded () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:878)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1689)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 314)
+
+[<color=#FF00FF>UdonSharp</color>] Assets/QvBoard/Scripts/QvBoard_LateSync.cs(172,35): System.InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <70471b9615aa4ecfa3ed1abb95b73832>:0 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateGetComponentInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x00224] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:186 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateShimInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x0000f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:379 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.CreateBoundInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:406 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitInvocationExpression (Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax node) [0x0040b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:511 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node) [0x0000d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:112 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.TypeSymbol expectedType, System.Boolean explicitCast) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:156 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitAssignmentExpression (Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax node) [0x00174] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:625 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpressionStatement (Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:270 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitElseClause (Microsoft.CodeAnalysis.CSharp.Syntax.ElseClauseSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:807 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ElseClauseSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x00068] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:788 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitElseClause (Microsoft.CodeAnalysis.CSharp.Syntax.ElseClauseSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:807 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ElseClauseSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x00068] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:788 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Symbols.MethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x0012f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\MethodSymbol.cs:162 
+  at UdonSharp.Compiler.Symbols.UdonSharpBehaviourMethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x000a4] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\UdonSharpBehaviourMethodSymbol.cs:52 
+  at UdonSharp.Compiler.Symbols.TypeSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x00140] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\TypeSymbol.cs:137 
+  at UdonSharp.Compiler.Binder.BindContext.Bind () [0x00015] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BindContext.cs:35 
+  at UdonSharp.Compiler.UdonSharpCompilerV1+<>c__DisplayClass22_0.<BindAllPrograms>b__0 (System.ValueTuple`2[T1,T2] rootTypeSymbol) [0x00026] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\UdonSharpCompilerV1.cs:618 
+[<color=#FF00FF>UdonSharp</color>] Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Scripts/HapticSwitchPersistenceManager.cs(27,40): System.InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <70471b9615aa4ecfa3ed1abb95b73832>:0 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateGetComponentInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x00224] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:186 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateShimInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x0000f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:379 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.CreateBoundInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:406 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitInvocationExpression (Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax node) [0x0040b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:511 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node) [0x0000d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:112 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.TypeSymbol expectedType, System.Boolean explicitCast) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:156 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitAssignmentExpression (Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax node) [0x00174] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:625 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpressionStatement (Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:270 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Symbols.MethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x0012f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\MethodSymbol.cs:162 
+  at UdonSharp.Compiler.Symbols.UdonSharpBehaviourMethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x000a4] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\UdonSharpBehaviourMethodSymbol.cs:52 
+  at UdonSharp.Compiler.Symbols.TypeSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x00140] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\TypeSymbol.cs:137 
+  at UdonSharp.Compiler.Binder.BindContext.Bind () [0x00015] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BindContext.cs:35 
+  at UdonSharp.Compiler.UdonSharpCompilerV1+<>c__DisplayClass22_0.<BindAllPrograms>b__0 (System.ValueTuple`2[T1,T2] rootTypeSymbol) [0x00026] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\UdonSharpCompilerV1.cs:618 
+[<color=#FF00FF>UdonSharp</color>] Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Scripts/HapticSwitchPersistenceManager.cs(27,40): System.InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <70471b9615aa4ecfa3ed1abb95b73832>:0 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateGetComponentInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x00224] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:186 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateShimInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x0000f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:379 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.CreateBoundInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:406 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitInvocationExpression (Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax node) [0x0040b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:511 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node) [0x0000d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:112 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.TypeSymbol expectedType, System.Boolean explicitCast) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:156 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitAssignmentExpression (Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax node) [0x00174] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:625 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpressionStatement (Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:270 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitStatement (Microsoft.CodeAnalysis.SyntaxNode node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:182 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitIfStatement (Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax node) [0x0005b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:787 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.IfStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Symbols.MethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x0012f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\MethodSymbol.cs:162 
+  at UdonSharp.Compiler.Symbols.UdonSharpBehaviourMethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x000a4] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\UdonSharpBehaviourMethodSymbol.cs:52 
+  at UdonSharp.Compiler.Symbols.TypeSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x00140] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\TypeSymbol.cs:137 
+  at UdonSharp.Compiler.Binder.BindContext.Bind () [0x00015] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BindContext.cs:35 
+  at UdonSharp.Compiler.UdonSharpCompilerV1+<>c__DisplayClass22_0.<BindAllPrograms>b__0 (System.ValueTuple`2[T1,T2] rootTypeSymbol) [0x00026] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\UdonSharpCompilerV1.cs:618 
+[<color=#FF00FF>UdonSharp</color>] Assets/HoshinoLabs/iwaSync3/Udon/VideoCore.cs(131,67): System.InvalidOperationException: Sequence contains no matching element
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <70471b9615aa4ecfa3ed1abb95b73832>:0 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateGetComponentInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x00224] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:186 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.TryCreateShimInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions, UdonSharp.Compiler.Binder.BoundInvocationExpression& createdInvocation) [0x0000f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:379 
+  at UdonSharp.Compiler.Binder.BoundInvocationExpression.CreateBoundInvocation (UdonSharp.Compiler.AbstractPhaseContext context, Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.MethodSymbol symbol, UdonSharp.Compiler.Binder.BoundExpression instanceExpression, UdonSharp.Compiler.Binder.BoundExpression[] parameterExpressions) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BoundNodes\BoundInvocationExpression.cs:406 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitInvocationExpression (Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax node) [0x0040b] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:511 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node) [0x0000d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:112 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpression (Microsoft.CodeAnalysis.SyntaxNode node, UdonSharp.Compiler.Symbols.TypeSymbol expectedType, System.Boolean explicitCast) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:156 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitAssignmentExpression (Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax node) [0x00174] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:625 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitExpressionStatement (Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax node) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:270 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.VisitBlock (Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax node) [0x0003e] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:261 
+  at Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax.Accept[TResult] (Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult] visitor) [0x00000] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1[TResult].Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x00003] in <9c2eb1fd370b4c31a981729c5e257f1b>:0 
+  at UdonSharp.Compiler.Binder.BinderSyntaxVisitor.Visit (Microsoft.CodeAnalysis.SyntaxNode node) [0x0004c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BinderSyntaxVisitor.cs:51 
+  at UdonSharp.Compiler.Symbols.MethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x0012f] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\MethodSymbol.cs:162 
+  at UdonSharp.Compiler.Symbols.UdonSharpBehaviourMethodSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x000a4] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\UdonSharpBehaviourMethodSymbol.cs:52 
+  at UdonSharp.Compiler.Symbols.TypeSymbol.Bind (UdonSharp.Compiler.Binder.BindContext context) [0x00140] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\Symbols\TypeSymbol.cs:137 
+  at UdonSharp.Compiler.Binder.BindContext.Bind () [0x00015] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\Binder\BindContext.cs:35 
+  at UdonSharp.Compiler.UdonSharpCompilerV1+<>c__DisplayClass22_0.<BindAllPrograms>b__0 (System.ValueTuple`2[T1,T2] rootTypeSymbol) [0x00026] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\UdonSharpCompilerV1.cs:618 
+[<color=#FF00FF>UdonSharp</color>] U# scripts have compile errors, scene upgrade deferred until script errors are resolved.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
+UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:660)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
+
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in 15.689 seconds
-Domain Reload Profiling: 20547ms
-	BeginReloadAssembly (665ms)
+- Finished resetting the current domain, in 27.851 seconds
+Domain Reload Profiling: 30888ms
+	BeginReloadAssembly (520ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (305ms)
-	LoadAllAssembliesAndSetupDomain (3788ms)
-		LoadAssemblies (3431ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (147ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (208ms)
+	LoadAllAssembliesAndSetupDomain (2121ms)
+		LoadAssemblies (1669ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (792ms)
-			TypeCache.Refresh (695ms)
-				TypeCache.ScanAssembly (616ms)
-			ScanForSourceGeneratedMonoScriptInfo (59ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (15690ms)
+		AnalyzeDomain (791ms)
+			TypeCache.Refresh (684ms)
+				TypeCache.ScanAssembly (624ms)
+			ScanForSourceGeneratedMonoScriptInfo (63ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (27852ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4221ms)
+		SetupLoadedEditorAssemblies (4059ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (17ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (485ms)
-			ProcessInitializeOnLoadAttributes (1880ms)
-			ProcessInitializeOnLoadMethodAttributes (1582ms)
-			AfterProcessingInitializeOnLoad (218ms)
+			BeforeProcessingInitializeOnLoad (246ms)
+			ProcessInitializeOnLoadAttributes (1855ms)
+			ProcessInitializeOnLoadMethodAttributes (1677ms)
+			AfterProcessingInitializeOnLoad (213ms)
 			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (78ms)
+		AwakeInstancesAfterBackupRestoration (77ms)
 Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.32 seconds
-Refreshing native plugins compatible for Editor in 590.48 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.54 ms.
-Unloading 4490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 247 unused Assets / (7.3 MB). Loaded Objects now: 4946.
-Memory consumption went from 327.1 MB to 319.8 MB.
-Total: 338.038700 ms (FindLiveObjects: 10.926500 ms CreateObjectMapping: 29.693400 ms MarkObjects: 290.365800 ms  DeleteObjects: 7.050200 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.20 seconds
+Refreshing native plugins compatible for Editor in 289.61 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 4496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 247 unused Assets / (7.2 MB). Loaded Objects now: 4952.
+Memory consumption went from 287.3 MB to 280.1 MB.
+Total: 1277.576500 ms (FindLiveObjects: 1.188500 ms CreateObjectMapping: 2.029100 ms MarkObjects: 1265.394900 ms  DeleteObjects: 8.961200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -289,54 +609,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3916.642540 seconds.
-  path: Assets/Furniture Pack/Prefabs/Lights_Table_Lamps_3.prefab
-  artifactKey: Guid(6f5df970937f80b418bc42cbfaba7015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Lights_Table_Lamps_3.prefab using Guid(6f5df970937f80b418bc42cbfaba7015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892597100060b0d5c3cdacffac9d1cf4') in 0.977757 seconds
+  Time since last request: 189616.457504 seconds.
+  path: Assets/VowganVR/DeckOfCards/Reset Button.prefab
+  artifactKey: Guid(be69230508a3d414b8822874bf4ba3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VowganVR/DeckOfCards/Reset Button.prefab using Guid(be69230508a3d414b8822874bf4ba3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ce4911b4dee7ed1462e70455ed6003') in 0.400821 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Furniture Pack/Prefabs/Lights_Table_Lamps_1.prefab
-  artifactKey: Guid(ee9ec6ccc2282ba43866067c3b5a39e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Lights_Table_Lamps_1.prefab using Guid(ee9ec6ccc2282ba43866067c3b5a39e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192460f64b85166c922c78d2e01f8641') in 0.060512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Furniture Pack/Prefabs/Bean_Bags_1.prefab
-  artifactKey: Guid(20bdff120723b7946b8f42a300c997f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Bean_Bags_1.prefab using Guid(20bdff120723b7946b8f42a300c997f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b11fbcbee7f757222469740ce2713f8') in 0.089544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.012336 seconds.
-  path: Assets/Furniture Pack/Prefabs/Couches_Single_Sofa_Light_Comfy_Grey.prefab
-  artifactKey: Guid(4d2a4c0504b6b854396ce0d95b5eb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Couches_Single_Sofa_Light_Comfy_Grey.prefab using Guid(4d2a4c0504b6b854396ce0d95b5eb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c47f4848e215028501e926dbffb2b91') in 0.111948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Furniture Pack/Prefabs/Couches_Love_Seat_White.prefab
-  artifactKey: Guid(a626f3c9d9a1b1340852719e20ad01b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Couches_Love_Seat_White.prefab using Guid(a626f3c9d9a1b1340852719e20ad01b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acea93b8932da7856a8abc957c89907b') in 0.139268 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.009871 seconds.
-  path: Assets/Furniture Pack/Prefabs/Plants_Pots_1.prefab
-  artifactKey: Guid(38d4f823fd03ab045998714acc865e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Plants_Pots_1.prefab using Guid(38d4f823fd03ab045998714acc865e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880f954d5d0583865859841f8b88a7b6') in 0.078086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ”…”⁄œﬂ≥ÃÕÀ≥ˆªÚ”¶”√≥Ã–Ú«Î«Û£¨“—÷–÷π I/O ≤Ÿ◊˜°£
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 26
