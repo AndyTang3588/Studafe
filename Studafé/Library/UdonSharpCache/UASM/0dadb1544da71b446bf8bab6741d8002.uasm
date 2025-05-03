@@ -1,0 +1,178 @@
+.data_start
+    .export vRoomba
+    .export leftSensor
+    .export collisionCount
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    vRoomba: %VRCUdonUdonBehaviour, null
+    leftSensor: %SystemBoolean, null
+    collisionCount: %SystemInt32, null
+    onTriggerEnterOther: %UnityEngineCollider, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemString_0: %SystemString, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    onTriggerExitOther: %UnityEngineCollider, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+.data_end
+.code_start
+    .export _onTriggerEnter
+    _onTriggerEnter:
+        PUSH, __const_SystemUInt32_0
+# 
+# VowganVR.VRoombaSensor.OnTriggerEnter(UnityEngine.Collider)
+# 
+        PUSH, onTriggerEnterOther
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000038
+        JUMP, 0x0000004C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, onTriggerEnterOther
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __intnl_SystemString_0
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemString.__Contains__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000000c0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, onTriggerEnterOther
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "UnityEngineCollider.__get_isTrigger__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000000fc
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, collisionCount
+        PUSH, __const_SystemInt32_0
+        PUSH, collisionCount
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __gintnl_SystemUInt32_0
+# Calling VowganVR.VRoombaSensor.TurningCheck()
+        JUMP, 0x00000288
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onTriggerExit
+    _onTriggerExit:
+        PUSH, __const_SystemUInt32_0
+# 
+# VowganVR.VRoombaSensor.OnTriggerExit(UnityEngine.Collider)
+# 
+        PUSH, onTriggerExitOther
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000178
+        JUMP, 0x0000018C
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, onTriggerExitOther
+        PUSH, __intnl_UnityEngineGameObject_1
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_1
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __intnl_SystemString_1
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemString.__Contains__SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000200
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, onTriggerExitOther
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "UnityEngineCollider.__get_isTrigger__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x0000023c
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, collisionCount
+        PUSH, __const_SystemInt32_0
+        PUSH, collisionCount
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __gintnl_SystemUInt32_1
+# Calling VowganVR.VRoombaSensor.TurningCheck()
+        JUMP, 0x00000288
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# VowganVR.VRoombaSensor.TurningCheck()
+# 
+        PUSH, collisionCount
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemInt32.__op_LessThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x0000032c
+        PUSH, __const_SystemInt32_1
+        PUSH, collisionCount
+        COPY
+        PUSH, leftSensor
+        JUMP_IF_FALSE, 0x00000304
+        PUSH, vRoomba
+        PUSH, __const_SystemString_1
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        JUMP, 0x00000324
+        PUSH, vRoomba
+        PUSH, __const_SystemString_2
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        JUMP, 0x000003B4
+        PUSH, collisionCount
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x000003b4
+        PUSH, leftSensor
+        JUMP_IF_FALSE, 0x00000394
+        PUSH, vRoomba
+        PUSH, __const_SystemString_1
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        JUMP, 0x000003B4
+        PUSH, vRoomba
+        PUSH, __const_SystemString_2
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end
