@@ -89,3 +89,4 @@ crashlytics-build.properties
 Studafé/Assets/Editor/x64/Bakery/cudnn64_7.dll
 Studafé/Library/ArtifactDB
 Studafé/Library/PackageCache/com.unity.burst@1.8.12/.Runtime/libburst-llvm-16.dylib
+/Studafé/Library

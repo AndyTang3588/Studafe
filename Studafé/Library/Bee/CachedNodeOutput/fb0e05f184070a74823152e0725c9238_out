@@ -1,3 +1,0 @@
-Packages\jp.ootr.image-device-controller\Runtime\jp.ootr.ImageDeviceController\Scripts\00_Enums.cs(234,21): warning CS0618: 'I18n' is obsolete: 'Use jp.ootr.common.Localization.LanguageUtils instead'
-Packages\jp.ootr.image-device-controller\Runtime\jp.ootr.ImageDeviceController\Scripts\00_Enums.cs(234,21): warning CS0618: 'I18n.GetSystemLanguage()' is obsolete: 'Use jp.ootr.common.Localization.LanguageUtils.GetCurrentLanguage instead'
-Packages\jp.ootr.image-device-controller\Runtime\jp.ootr.ImageDeviceController\Scripts\00_Enums.cs(236,22): warning CS0618: 'Language' is obsolete: 'Use jp.ootr.common.Localization.Language instead'
