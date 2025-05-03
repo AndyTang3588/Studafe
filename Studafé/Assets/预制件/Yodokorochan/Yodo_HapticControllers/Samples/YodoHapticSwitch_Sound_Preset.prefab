@@ -170,7 +170,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 1fd3f3c33ff9330429607a0ca90b6499,
+      objectReference: {fileID: 11400000, guid: 3758e4225f375be40847d7e5a99df5ac,
         type: 2}
     - target: {fileID: 1574026299700374240, guid: e70f4461c5ed70341add76cabae55341,
         type: 3}
@@ -252,6 +252,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4224787923884526038, guid: e70f4461c5ed70341add76cabae55341,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 4224787923884526038, guid: e70f4461c5ed70341add76cabae55341,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

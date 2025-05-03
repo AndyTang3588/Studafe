@@ -273,12 +273,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "net.markcreator.sizeprofiler": {
-      "version": "file:net.markcreator.sizeprofiler",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "tlp.udonutils": {
       "version": "file:tlp.udonutils",
       "depth": 0,
