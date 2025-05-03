@@ -500,22 +500,25 @@
     __intnl_SystemInt32_18: %SystemInt32, null
     __intnl_SystemBoolean_49: %SystemBoolean, null
     __lcl_behaviour_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
-    __lcl_idValue_SystemObject_0: %SystemObject, null
+    __intnl_SystemType_0: %SystemType, null
+    __intnl_SystemType_1: %SystemType, null
     __intnl_SystemBoolean_50: %SystemBoolean, null
+    __lcl_idValue_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_51: %SystemBoolean, null
     __intnl_SystemInt64_0: %SystemInt64, null
     __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
     __intnl_SystemObject_1: %SystemObject, null
-    __intnl_SystemBoolean_51: %SystemBoolean, null
+    __intnl_SystemBoolean_52: %SystemBoolean, null
     __intnl_UnityEngineTransform_6: %UnityEngineTransform, null
     __intnl_SystemString_42: %SystemString, null
-    __intnl_SystemType_0: %SystemType, null
+    __intnl_SystemType_2: %SystemType, null
     __intnl_SystemString_43: %SystemString, null
-    __intnl_SystemBoolean_52: %SystemBoolean, null
-    __intnl_SystemInt32_19: %SystemInt32, null
     __intnl_SystemBoolean_53: %SystemBoolean, null
+    __intnl_SystemInt32_19: %SystemInt32, null
+    __intnl_SystemBoolean_54: %SystemBoolean, null
     __lcl_productTypeName_SystemStringArray_0: %SystemStringArray, null
     __intnl_SystemInt32_20: %SystemInt32, null
-    __intnl_SystemBoolean_54: %SystemBoolean, null
+    __intnl_SystemBoolean_55: %SystemBoolean, null
     __intnl_SystemInt32_21: %SystemInt32, null
     __intnl_SystemInt32_22: %SystemInt32, null
 .data_end
@@ -1715,7 +1718,7 @@
         PUSH, __9__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x00003D5C
+        JUMP, 0x00003DC8
         PUSH, __intnl_VRCSDKBaseVRCPlayerApi_6
         PUSH, __const_SystemString_33
         PUSH, __8__intnlparam
@@ -1783,7 +1786,7 @@
         PUSH, __intnl_SystemString_18
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x00003D5C
+        JUMP, 0x00003DC8
         PUSH, __intnl_SystemString_18
         PUSH, __8__intnlparam
         PUSH, __intnl_SystemBoolean_23
@@ -1809,7 +1812,7 @@
         PUSH, __9__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x00003D5C
+        JUMP, 0x00003DC8
         PUSH, __gintnl_SystemUInt32_64
 # Cow dirty
         PUSH, __8__intnlparam
@@ -2049,7 +2052,7 @@
         PUSH, __11__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Common.UdonCommon.GetComponentPathInScene(UnityEngine.Component)
-        JUMP, 0x00003EB4
+        JUMP, 0x00003F20
         PUSH, __gintnl_SystemUInt32_78
         PUSH, __this_UnityEngineGameObject_0
         PUSH, __intnl_UnityEngineTransform_3
@@ -2617,7 +2620,7 @@
         PUSH, __14__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.IntegerUtils.MoveIndexRightLooping(ref int, int, int)
-        JUMP, 0x00003FE0
+        JUMP, 0x0000404C
         PUSH, __12__intnlparam
         PUSH, _senderIndex
         COPY
@@ -2670,7 +2673,7 @@
         PUSH, __11__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Common.UdonCommon.GetComponentPathInScene(UnityEngine.Component)
-        JUMP, 0x00003EB4
+        JUMP, 0x00003F20
         PUSH, __const_SystemString_68
         PUSH, __10__intnlparam
         PUSH, __lcl_sendTime_SystemDouble_0
@@ -2850,12 +2853,12 @@
         PUSH, __intnl_SystemString_41
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x00003D5C
+        JUMP, 0x00003DC8
         PUSH, __8__intnlparam
         PUSH, __16__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Common.UdonCommon.UdonTypeNameShort(string)
-        JUMP, 0x0000408C
+        JUMP, 0x000040F8
         PUSH, __const_SystemString_73
         PUSH, __intnl_SystemString_41
         PUSH, __15__intnlparam
@@ -2903,30 +2906,44 @@
         PUSH, __intnl_SystemBoolean_49
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_49
-        JUMP_IF_FALSE, 0x00003d20
+        JUMP_IF_FALSE, 0x00003d8c
         PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
         PUSH, __intnl_SystemInt32_18
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
         EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
         PUSH, __const_SystemString_75
+        PUSH, __intnl_SystemType_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_1
+        COPY
+        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_1
+        PUSH, __intnl_SystemBoolean_50
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_50
+        JUMP_IF_FALSE, 0x00003c90
+        JUMP, 0x00003D64
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_75
         PUSH, __lcl_idValue_SystemObject_0
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
         PUSH, __lcl_idValue_SystemObject_0
         PUSH, __const_SystemObject_0
-        PUSH, __intnl_SystemBoolean_50
+        PUSH, __intnl_SystemBoolean_51
         EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_50
-        JUMP_IF_FALSE, 0x00003cac
+        PUSH, __intnl_SystemBoolean_51
+        JUMP_IF_FALSE, 0x00003d18
         PUSH, __lcl_idValue_SystemObject_0
         PUSH, __intnl_SystemInt64_0
         EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
         PUSH, __intnl_SystemInt64_0
         PUSH, __lcl_targetID_SystemInt64_0
-        PUSH, __intnl_SystemBoolean_50
+        PUSH, __intnl_SystemBoolean_51
         EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_50
-        JUMP_IF_FALSE, 0x00003cf8
+        PUSH, __intnl_SystemBoolean_51
+        JUMP_IF_FALSE, 0x00003d64
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
         PUSH, __intnl_UnityEngineComponent_0
         COPY
@@ -3012,11 +3029,11 @@
 # TLP.UdonUtils.Runtime.Common.UdonCommon.GetComponentPathInScene(UnityEngine.Component)
 # 
         PUSH, __11__intnlparam
-        PUSH, __intnl_SystemBoolean_51
+        PUSH, __intnl_SystemBoolean_52
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_51
-        JUMP_IF_FALSE, 0x00003ee4
-        JUMP, 0x00003F0C
+        PUSH, __intnl_SystemBoolean_52
+        JUMP_IF_FALSE, 0x00003f50
+        JUMP, 0x00003F78
         PUSH, __const_SystemString_69
         PUSH, __10__intnlparam
         COPY
@@ -3037,9 +3054,9 @@
         PUSH, __intnl_SystemString_42
         EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
         PUSH, __11__intnlparam
-        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_2
         EXTERN, "SystemObject.__GetType__SystemType"
-        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_2
         PUSH, __intnl_SystemString_43
         EXTERN, "SystemType.__get_Name__SystemString"
         PUSH, __intnl_SystemString_42
@@ -3057,10 +3074,10 @@
 # 
         PUSH, __13__intnlparam
         PUSH, __const_SystemInt32_1
-        PUSH, __intnl_SystemBoolean_52
+        PUSH, __intnl_SystemBoolean_53
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_52
-        JUMP_IF_FALSE, 0x00004038
+        PUSH, __intnl_SystemBoolean_53
+        JUMP_IF_FALSE, 0x000040a4
         PUSH, __const_SystemInt32_1
         PUSH, __12__intnlparam
         COPY
@@ -3082,10 +3099,10 @@
 # TLP.UdonUtils.Runtime.Common.UdonCommon.UdonTypeNameShort(string)
 # 
         PUSH, __16__intnlparam
-        PUSH, __intnl_SystemBoolean_53
+        PUSH, __intnl_SystemBoolean_54
         EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_53
-        JUMP_IF_FALSE, 0x000040dc
+        PUSH, __intnl_SystemBoolean_54
+        JUMP_IF_FALSE, 0x00004148
         PUSH, __const_SystemString_69
         PUSH, __15__intnlparam
         COPY
@@ -3102,10 +3119,10 @@
         EXTERN, "SystemArray.__get_Length__SystemInt32"
         PUSH, __intnl_SystemInt32_20
         PUSH, __const_SystemInt32_1
-        PUSH, __intnl_SystemBoolean_54
+        PUSH, __intnl_SystemBoolean_55
         EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_54
-        JUMP_IF_FALSE, 0x000041ac
+        PUSH, __intnl_SystemBoolean_55
+        JUMP_IF_FALSE, 0x00004218
         PUSH, __lcl_productTypeName_SystemStringArray_0
         PUSH, __intnl_SystemInt32_21
         EXTERN, "SystemArray.__get_Length__SystemInt32"
@@ -3117,7 +3134,7 @@
         PUSH, __intnl_SystemInt32_22
         PUSH, __15__intnlparam
         EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
-        JUMP, 0x000041C0
+        JUMP, 0x0000422C
         PUSH, __16__intnlparam
         PUSH, __15__intnlparam
         COPY

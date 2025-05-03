@@ -13,17 +13,16 @@
     __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
     __const_SystemInt32_0: %SystemInt32, null
     __const_SystemInt32_1: %SystemInt32, null
-    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
-    __const_SystemString_0: %SystemString, null
-    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
     __const_SystemBoolean_0: %SystemBoolean, null
     __const_SystemObject_0: %SystemObject, null
     __const_SystemBoolean_1: %SystemBoolean, null
+    __const_SystemString_0: %SystemString, null
     __const_SystemString_1: %SystemString, null
     __const_SystemString_2: %SystemString, null
     __const_SystemString_3: %SystemString, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
     __const_SystemString_4: %SystemString, null
-    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
     __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
     __lcl_i_SystemInt32_0: %SystemInt32, null
     __intnl_SystemBoolean_0: %SystemBoolean, null
@@ -97,13 +96,6 @@
         PUSH, __lcl_i_SystemInt32_0
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
         JUMP, 0x00000064
-        PUSH, MyInfo
-        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
-        PUSH, __this_VRCUdonUdonBehaviour_0
-        PUSH, __const_SystemString_0
-        PUSH, SetOwnerDelay
-        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
-        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -122,7 +114,7 @@
         PUSH, __intnl_SystemBoolean_2
         EXTERN, "SystemBoolean.__op_Equality__SystemBoolean_SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_2
-        JUMP_IF_FALSE, 0x00000680
+        JUMP_IF_FALSE, 0x00000648
         PUSH, __intnl_SystemInt32_0
         EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32"
         PUSH, __intnl_SystemInt32_0
@@ -145,7 +137,7 @@
         PUSH, __intnl_SystemBoolean_3
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_3
-        JUMP_IF_FALSE, 0x00000530
+        JUMP_IF_FALSE, 0x000004f8
         PUSH, PlayersInfo
         PUSH, __intnl_SystemInt32_2
         PUSH, __lcl_TempPlayer_VRCSDKBaseVRCPlayerApi_0
@@ -155,8 +147,8 @@
         PUSH, __intnl_SystemBoolean_4
         EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_4
-        JUMP_IF_FALSE, 0x000002d8
-        JUMP, 0x00000508
+        JUMP_IF_FALSE, 0x000002a0
+        JUMP, 0x000004D0
         PUSH, __lcl_TempPlayer_VRCSDKBaseVRCPlayerApi_0
         PUSH, __intnl_SystemBoolean_5
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
@@ -165,15 +157,15 @@
         PUSH, __intnl_SystemBoolean_6
         EXTERN, "SystemBoolean.__op_Equality__SystemBoolean_SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_6
-        JUMP_IF_FALSE, 0x00000328
-        JUMP, 0x00000508
+        JUMP_IF_FALSE, 0x000002f0
+        JUMP, 0x000004D0
         PUSH, FpsViewerCount
         PUSH, FpsViewerNum
         PUSH, __intnl_SystemBoolean_7
         EXTERN, "SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_7
-        JUMP_IF_FALSE, 0x00000360
-        JUMP, 0x00000530
+        JUMP_IF_FALSE, 0x00000328
+        JUMP, 0x000004F8
         PUSH, __lcl_TempPlayer_VRCSDKBaseVRCPlayerApi_0
         PUSH, __this_UnityEngineGameObject_0
         PUSH, __intnl_SystemBoolean_8
@@ -183,8 +175,8 @@
         PUSH, __intnl_SystemBoolean_9
         EXTERN, "SystemBoolean.__op_Equality__SystemBoolean_SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_9
-        JUMP_IF_FALSE, 0x000003b8
-        JUMP, 0x00000508
+        JUMP_IF_FALSE, 0x00000380
+        JUMP, 0x000004D0
         PUSH, FpsViewer
         PUSH, FpsViewerCount
         PUSH, __intnl_UnityEngineGameObject_1
@@ -198,13 +190,13 @@
         PUSH, __intnl_SystemBoolean_11
         EXTERN, "SystemBoolean.__op_Equality__SystemBoolean_SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_11
-        JUMP_IF_FALSE, 0x000004e8
-        PUSH, __const_SystemString_1
+        JUMP_IF_FALSE, 0x000004b0
+        PUSH, __const_SystemString_0
         PUSH, FpsViewerCount
         PUSH, __intnl_SystemString_0
         EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
         PUSH, __intnl_SystemString_0
-        PUSH, __const_SystemString_2
+        PUSH, __const_SystemString_1
         PUSH, __intnl_SystemString_1
         EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
         PUSH, __lcl_TempPlayer_VRCSDKBaseVRCPlayerApi_0
@@ -231,13 +223,13 @@
         PUSH, __const_SystemInt32_1
         PUSH, __intnl_SystemInt32_2
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000250
+        JUMP, 0x00000218
         PUSH, FpsViewerCount
         PUSH, FpsViewerNum
         PUSH, __intnl_SystemBoolean_3
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_3
-        JUMP_IF_FALSE, 0x00000680
+        JUMP_IF_FALSE, 0x00000648
         PUSH, FpsViewer
         PUSH, FpsViewerCount
         PUSH, __intnl_UnityEngineGameObject_1
@@ -251,13 +243,13 @@
         PUSH, __intnl_SystemBoolean_5
         EXTERN, "SystemBoolean.__op_Equality__SystemBoolean_SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_5
-        JUMP_IF_FALSE, 0x00000658
-        PUSH, __const_SystemString_3
+        JUMP_IF_FALSE, 0x00000620
+        PUSH, __const_SystemString_2
         PUSH, FpsViewerCount
         PUSH, __intnl_SystemString_0
         EXTERN, "SystemString.__Concat__SystemObject_SystemObject__SystemString"
         PUSH, __intnl_SystemString_0
-        PUSH, __const_SystemString_4
+        PUSH, __const_SystemString_3
         PUSH, __intnl_SystemString_1
         EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
         PUSH, __intnl_SystemString_1
@@ -273,9 +265,9 @@
         PUSH, __const_SystemInt32_1
         PUSH, FpsViewerCount
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000530
-        PUSH, __this_VRCUdonUdonBehaviour_1
-        PUSH, __const_SystemString_0
+        JUMP, 0x000004F8
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_4
         PUSH, SetOwnerCycle
         PUSH, __const_VRCUdonCommonEnumsEventTiming_0
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"

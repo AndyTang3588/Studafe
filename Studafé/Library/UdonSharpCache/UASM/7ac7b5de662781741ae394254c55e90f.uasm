@@ -1418,22 +1418,25 @@
     __intnl_SystemInt32_29: %SystemInt32, null
     __intnl_SystemBoolean_147: %SystemBoolean, null
     __lcl_behaviour_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
-    __lcl_idValue_SystemObject_0: %SystemObject, null
+    __intnl_SystemType_0: %SystemType, null
+    __intnl_SystemType_1: %SystemType, null
     __intnl_SystemBoolean_148: %SystemBoolean, null
+    __lcl_idValue_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_149: %SystemBoolean, null
     __intnl_SystemInt64_0: %SystemInt64, null
     __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
     __intnl_SystemString_67: %SystemString, null
     __intnl_SystemObject_89: %SystemObject, null
-    __intnl_SystemBoolean_149: %SystemBoolean, null
+    __intnl_SystemBoolean_150: %SystemBoolean, null
     __intnl_SystemInt32_30: %SystemInt32, null
     __intnl_SystemString_68: %SystemString, null
-    __intnl_SystemBoolean_150: %SystemBoolean, null
     __intnl_SystemBoolean_151: %SystemBoolean, null
     __intnl_SystemBoolean_152: %SystemBoolean, null
     __intnl_SystemBoolean_153: %SystemBoolean, null
     __intnl_SystemBoolean_154: %SystemBoolean, null
-    __intnl_SystemInt32_31: %SystemInt32, null
     __intnl_SystemBoolean_155: %SystemBoolean, null
+    __intnl_SystemInt32_31: %SystemInt32, null
+    __intnl_SystemBoolean_156: %SystemBoolean, null
     __intnl_SystemInt32_32: %SystemInt32, null
     __intnl_SystemInt32_33: %SystemInt32, null
     __intnl_SystemInt32_34: %SystemInt32, null
@@ -1443,54 +1446,63 @@
     __lcl_targetID_SystemInt64_1: %SystemInt64, null
     __intnl_SystemInt32_35: %SystemInt32, null
     __intnl_SystemInt32_36: %SystemInt32, null
-    __intnl_SystemBoolean_156: %SystemBoolean, null
-    __lcl_behaviour_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, null
-    __lcl_idValue_SystemObject_1: %SystemObject, null
     __intnl_SystemBoolean_157: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_2: %SystemType, null
+    __intnl_SystemType_3: %SystemType, null
+    __intnl_SystemBoolean_158: %SystemBoolean, null
+    __lcl_idValue_SystemObject_1: %SystemObject, null
+    __intnl_SystemBoolean_159: %SystemBoolean, null
     __intnl_SystemInt64_1: %SystemInt64, null
     __intnl_UnityEngineComponent_1: %UnityEngineComponent, null
     __lcl_playerInSamePrivateChannel_SystemBoolean_0: %SystemBoolean, null
     __intnl_SystemObject_90: %SystemObject, null
     __intnl_SystemInt32_37: %SystemInt32, null
     __lcl_playerInSamePrivateChannelAllowedToBeHeard_SystemBoolean_0: %SystemBoolean, null
-    __intnl_SystemBoolean_158: %SystemBoolean, null
+    __intnl_SystemBoolean_160: %SystemBoolean, null
     __lcl_otherPlayerNotInAnyPrivateChannel_SystemBoolean_0: %SystemBoolean, null
     __intnl_SystemObject_91: %SystemObject, null
     __intnl_SystemInt32_38: %SystemInt32, null
     __lcl_isOutsiderAndCanBeHeard_SystemBoolean_0: %SystemBoolean, null
-    __intnl_SystemBoolean_159: %SystemBoolean, null
-    __intnl_SystemBoolean_160: %SystemBoolean, null
     __intnl_SystemBoolean_161: %SystemBoolean, null
+    __intnl_SystemBoolean_162: %SystemBoolean, null
+    __intnl_SystemBoolean_163: %SystemBoolean, null
     __lcl_udonBehaviours_UnityEngineComponentArray_2: %UnityEngineComponentArray, null
     __intnl_UnityEngineComponentArray_3: %UnityEngineComponentArray, null
     __lcl_targetID_SystemInt64_2: %SystemInt64, null
     __intnl_SystemInt32_39: %SystemInt32, null
     __intnl_SystemInt32_40: %SystemInt32, null
-    __intnl_SystemBoolean_162: %SystemBoolean, null
+    __intnl_SystemBoolean_164: %SystemBoolean, null
     __lcl_behaviour_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_4: %SystemType, null
+    __intnl_SystemType_5: %SystemType, null
+    __intnl_SystemBoolean_165: %SystemBoolean, null
     __lcl_idValue_SystemObject_2: %SystemObject, null
-    __intnl_SystemBoolean_163: %SystemBoolean, null
+    __intnl_SystemBoolean_166: %SystemBoolean, null
     __intnl_SystemInt64_2: %SystemInt64, null
     __intnl_UnityEngineComponent_2: %UnityEngineComponent, null
-    __intnl_SystemBoolean_164: %SystemBoolean, null
-    __intnl_SystemBoolean_165: %SystemBoolean, null
-    __intnl_SystemBoolean_166: %SystemBoolean, null
+    __intnl_SystemBoolean_167: %SystemBoolean, null
+    __intnl_SystemBoolean_168: %SystemBoolean, null
+    __intnl_SystemBoolean_169: %SystemBoolean, null
     __lcl_productTypeName_SystemStringArray_0: %SystemStringArray, null
     __intnl_SystemInt32_41: %SystemInt32, null
-    __intnl_SystemBoolean_167: %SystemBoolean, null
+    __intnl_SystemBoolean_170: %SystemBoolean, null
     __intnl_SystemInt32_42: %SystemInt32, null
     __intnl_SystemInt32_43: %SystemInt32, null
     __lcl_targetID_SystemInt64_3: %SystemInt64, null
     __intnl_UnityEngineComponentArray_4: %UnityEngineComponentArray, null
     __intnl_SystemInt32_44: %SystemInt32, null
     __intnl_SystemInt32_45: %SystemInt32, null
-    __intnl_SystemBoolean_168: %SystemBoolean, null
+    __intnl_SystemBoolean_171: %SystemBoolean, null
     __lcl_behaviour_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_6: %SystemType, null
+    __intnl_SystemType_7: %SystemType, null
+    __intnl_SystemBoolean_172: %SystemBoolean, null
     __lcl_idValue_SystemObject_3: %SystemObject, null
-    __intnl_SystemBoolean_169: %SystemBoolean, null
+    __intnl_SystemBoolean_173: %SystemBoolean, null
     __intnl_SystemArray_0: %SystemArray, null
     __intnl_SystemInt32_46: %SystemInt32, null
-    __intnl_SystemBoolean_170: %SystemBoolean, null
+    __intnl_SystemBoolean_174: %SystemBoolean, null
     __intnl_UnityEngineComponent_3: %UnityEngineComponent, null
 .data_end
 .code_start
@@ -2677,7 +2689,7 @@
         PUSH, __10__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.TlpBaseBehaviour.OnEvent(string)
-        JUMP, 0x0000BAB0
+        JUMP, 0x0000BB1C
         JUMP, 0x00001BC8
         JUMP, 0x00001B94
         PUSH, __intnl_returnJump_SystemUInt32_0
@@ -2774,7 +2786,7 @@
         PUSH, __12__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x0000BB08
+        JUMP, 0x0000BB74
         PUSH, __intnl_VRCSDKBaseVRCPlayerApi_6
         PUSH, __const_SystemString_36
         PUSH, __11__intnlparam
@@ -2842,7 +2854,7 @@
         PUSH, __intnl_SystemString_19
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x0000BB08
+        JUMP, 0x0000BB74
         PUSH, __intnl_SystemString_19
         PUSH, __11__intnlparam
         PUSH, __intnl_SystemBoolean_26
@@ -2868,7 +2880,7 @@
         PUSH, __12__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x0000BB08
+        JUMP, 0x0000BB74
         PUSH, __gintnl_SystemUInt32_73
 # Cow dirty
         PUSH, __11__intnlparam
@@ -3039,7 +3051,7 @@
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_79
 # Calling TLP.UdonUtils.Runtime.DesignPatterns.MVC.MvcBase.InitializeInternal()
-        JUMP, 0x0000BB6C
+        JUMP, 0x0000BBD8
         PUSH, __13__intnlparam
         PUSH, __0_InitializeInternal__ret
         COPY
@@ -3761,7 +3773,7 @@
         PUSH, __12__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x0000BB08
+        JUMP, 0x0000BB74
         PUSH, __const_SystemString_72
         PUSH, __const_SystemString_67
         PUSH, __const_SystemString_61
@@ -4510,7 +4522,7 @@
         PUSH, __15__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.ToStringSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BBA8
+        JUMP, 0x0000BC14
         PUSH, __gintnl_SystemUInt32_158
         PUSH, __1_playerAudioOverride__param
         PUSH, __5__intnlparam
@@ -4557,7 +4569,7 @@
         PUSH, __15__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.ToStringSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BBA8
+        JUMP, 0x0000BC14
         PUSH, __const_SystemString_103
         PUSH, __14__intnlparam
         PUSH, __intnl_SystemString_38
@@ -4637,7 +4649,7 @@
         PUSH, __15__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.ToStringSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BBA8
+        JUMP, 0x0000BC14
         PUSH, __gintnl_SystemUInt32_163
         PUSH, __1_playerAudioOverride__param
         PUSH, __5__intnlparam
@@ -4923,7 +4935,7 @@
         PUSH, __18__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.IsValidPlayer(int, out VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BDE4
+        JUMP, 0x0000BE50
         PUSH, __18__intnlparam
         PUSH, __lcl_unused_VRCSDKBaseVRCPlayerApi_0
         COPY
@@ -4962,7 +4974,7 @@
         PUSH, __21__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.IntegerUtils.MoveIndexRightLooping(ref int, int, int)
-        JUMP, 0x0000BE3C
+        JUMP, 0x0000BEA8
         PUSH, __19__intnlparam
         PUSH, _playerIndex
         COPY
@@ -4981,7 +4993,7 @@
         PUSH, __18__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.IsValidPlayer(int, out VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BDE4
+        JUMP, 0x0000BE50
         PUSH, __18__intnlparam
         PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
         COPY
@@ -5024,7 +5036,7 @@
         PUSH, __24__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.IntegerUtils.MoveIndexLeftLooping(ref int, int, int)
-        JUMP, 0x0000BEE8
+        JUMP, 0x0000BF54
         PUSH, __22__intnlparam
         PUSH, _playerIndex
         COPY
@@ -5104,7 +5116,7 @@
         PUSH, __intnl_VRCUdonUdonBehaviour_21
         COPY
 # Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.Events.UdonEvent>(UnityEngine.Component)
-        JUMP, 0x0000BFD4
+        JUMP, 0x0000C040
 # Cow dirty
         PUSH, __25__intnlparam
         PUSH, __intnl_VRCUdonUdonBehaviour_22
@@ -5214,7 +5226,7 @@
         PUSH, __26__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentI<TLP.UdonUtils.Runtime.Events.UdonEvent>(UnityEngine.Component)
-        JUMP, 0x0000BFD4
+        JUMP, 0x0000C040
         PUSH, __25__intnlparam
         PUSH, __lcl_masterConfigChangeEvent_VRCUdonUdonBehaviour_0
         COPY
@@ -5414,7 +5426,7 @@
         PUSH, __28__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponent<TLP.UdonUtils.Runtime.DesignPatterns.MVC.DummyView>(UnityEngine.Component)
-        JUMP, 0x0000C054
+        JUMP, 0x0000C0C0
         PUSH, __27__intnlparam
         PUSH, Menu
         COPY
@@ -5442,7 +5454,7 @@
         PUSH, __12__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x0000BB08
+        JUMP, 0x0000BB74
         PUSH, __const_SystemString_129
         PUSH, __11__intnlparam
         PUSH, __intnl_SystemString_44
@@ -5740,7 +5752,7 @@
         PUSH, __34__intnlparam
         COPY
 # Calling TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController.OtherPlayerWithOverrideCanBeHeard(TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioOverride, bool, int, bool, bool)
-        JUMP, 0x0000C250
+        JUMP, 0x0000C328
         PUSH, __29__intnlparam
         JUMP_IF_FALSE, 0x00006ca8
         PUSH, __gintnl_SystemUInt32_194
@@ -6760,7 +6772,7 @@
         PUSH, __15__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.ToStringSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BBA8
+        JUMP, 0x0000BC14
         PUSH, __const_SystemString_165
         PUSH, __14__intnlparam
         PUSH, __const_SystemString_166
@@ -6889,7 +6901,7 @@
         PUSH, __36__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponent<TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioOverrideList>(UnityEngine.Component)
-        JUMP, 0x0000C454
+        JUMP, 0x0000C52C
         PUSH, __35__intnlparam
         PUSH, __lcl_createdOverrideList_VRCUdonUdonBehaviour_0
         COPY
@@ -6966,7 +6978,7 @@
         PUSH, __intnl_SystemString_46
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.ToStringSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BBA8
+        JUMP, 0x0000BC14
         PUSH, __const_SystemString_175
         PUSH, __intnl_SystemString_46
         PUSH, __14__intnlparam
@@ -7106,7 +7118,7 @@
         PUSH, __intnl_SystemString_49
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.ToStringSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BBA8
+        JUMP, 0x0000BC14
         PUSH, __const_SystemString_176
         PUSH, __intnl_SystemString_48
         PUSH, __intnl_SystemString_49
@@ -7155,7 +7167,7 @@
         PUSH, __38__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.IdToVrcPlayer(int)
-        JUMP, 0x0000C650
+        JUMP, 0x0000C794
         PUSH, __37__intnlparam
         PUSH, __lcl_playerApi_VRCSDKBaseVRCPlayerApi_0
         COPY
@@ -7568,7 +7580,7 @@
         PUSH, __15__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.ToStringSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000BBA8
+        JUMP, 0x0000BC14
         PUSH, __const_SystemString_188
         PUSH, __14__intnlparam
         PUSH, __intnl_SystemString_55
@@ -7604,7 +7616,7 @@
         PUSH, __40__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.IsLocalSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000C690
+        JUMP, 0x0000C7D4
         PUSH, __39__intnlparam
         JUMP_IF_FALSE, 0x00009ea4
         PUSH, __intnl_returnJump_SystemUInt32_0
@@ -7669,7 +7681,7 @@
         PUSH, __42__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.PlayerIdSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000C70C
+        JUMP, 0x0000C850
         PUSH, __41__intnlparam
         PUSH, __2_playerId__param
         COPY
@@ -7767,7 +7779,7 @@
         PUSH, __intnl_VRCUdonUdonBehaviour_40
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.PlayerIdSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000C70C
+        JUMP, 0x0000C850
 # Cow dirty
         PUSH, __41__intnlparam
         PUSH, __intnl_SystemInt32_23
@@ -7867,7 +7879,7 @@
         PUSH, __intnl_VRCUdonUdonBehaviour_41
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.PlayerIdSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000C70C
+        JUMP, 0x0000C850
 # Cow dirty
         PUSH, __41__intnlparam
         PUSH, __intnl_SystemInt32_24
@@ -7953,7 +7965,7 @@
         PUSH, __intnl_VRCUdonUdonBehaviour_42
         COPY
 # Calling TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.PlayerIdSafe(VRC.SDKBase.VRCPlayerApi)
-        JUMP, 0x0000C70C
+        JUMP, 0x0000C850
 # Cow dirty
         PUSH, __41__intnlparam
         PUSH, __intnl_SystemInt32_25
@@ -8531,12 +8543,12 @@
         PUSH, __intnl_SystemString_65
         COPY
 # Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
-        JUMP, 0x0000BB08
+        JUMP, 0x0000BB74
         PUSH, __11__intnlparam
         PUSH, __44__intnlparam
         COPY
 # Calling TLP.UdonUtils.Runtime.Common.UdonCommon.UdonTypeNameShort(string)
-        JUMP, 0x0000C790
+        JUMP, 0x0000C8D4
         PUSH, __const_SystemString_201
         PUSH, __intnl_SystemString_65
         PUSH, __43__intnlparam
@@ -8627,30 +8639,44 @@
         PUSH, __intnl_SystemBoolean_147
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_147
-        JUMP_IF_FALSE, 0x0000ba6c
+        JUMP_IF_FALSE, 0x0000bad8
         PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
         PUSH, __intnl_SystemInt32_29
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
         EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
         PUSH, __const_SystemString_205
+        PUSH, __intnl_SystemType_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_1
+        COPY
+        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_1
+        PUSH, __intnl_SystemBoolean_148
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_148
+        JUMP_IF_FALSE, 0x0000b9dc
+        JUMP, 0x0000BAB0
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_205
         PUSH, __lcl_idValue_SystemObject_0
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
         PUSH, __lcl_idValue_SystemObject_0
         PUSH, __const_SystemObject_0
-        PUSH, __intnl_SystemBoolean_148
+        PUSH, __intnl_SystemBoolean_149
         EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_148
-        JUMP_IF_FALSE, 0x0000b9f8
+        PUSH, __intnl_SystemBoolean_149
+        JUMP_IF_FALSE, 0x0000ba64
         PUSH, __lcl_idValue_SystemObject_0
         PUSH, __intnl_SystemInt64_0
         EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
         PUSH, __intnl_SystemInt64_0
         PUSH, __lcl_targetID_SystemInt64_0
-        PUSH, __intnl_SystemBoolean_148
+        PUSH, __intnl_SystemBoolean_149
         EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_148
-        JUMP_IF_FALSE, 0x0000ba44
+        PUSH, __intnl_SystemBoolean_149
+        JUMP_IF_FALSE, 0x0000bab0
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_1
         PUSH, __intnl_UnityEngineComponent_0
         COPY
@@ -8724,10 +8750,10 @@
 # TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.ToStringSafe(VRC.SDKBase.VRCPlayerApi)
 # 
         PUSH, __15__intnlparam
-        PUSH, __intnl_SystemBoolean_149
+        PUSH, __intnl_SystemBoolean_150
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_149
-        JUMP_IF_FALSE, 0x0000bda8
+        PUSH, __intnl_SystemBoolean_150
+        JUMP_IF_FALSE, 0x0000be14
         PUSH, __15__intnlparam
         PUSH, __intnl_SystemInt32_30
         EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
@@ -8751,42 +8777,42 @@
         PUSH, __const_SystemString_209
         EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
         PUSH, __15__intnlparam
-        PUSH, __intnl_SystemBoolean_150
+        PUSH, __intnl_SystemBoolean_151
         EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
         PUSH, __gintnl_SystemObjectArray_0
         PUSH, __const_SystemInt32_3
-        PUSH, __intnl_SystemBoolean_150
+        PUSH, __intnl_SystemBoolean_151
         EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
         PUSH, __gintnl_SystemObjectArray_0
         PUSH, __const_SystemInt32_7
         PUSH, __const_SystemString_210
         EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
         PUSH, __15__intnlparam
-        PUSH, __intnl_SystemBoolean_151
+        PUSH, __intnl_SystemBoolean_152
         EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isMaster__SystemBoolean"
         PUSH, __gintnl_SystemObjectArray_0
         PUSH, __const_SystemInt32_8
-        PUSH, __intnl_SystemBoolean_151
+        PUSH, __intnl_SystemBoolean_152
         EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
         PUSH, __15__intnlparam
-        PUSH, __intnl_SystemBoolean_152
+        PUSH, __intnl_SystemBoolean_153
         EXTERN, "VRCSDKBaseVRCPlayerApi.__IsUserInVR__SystemBoolean"
         PUSH, __gintnl_SystemObjectArray_0
         PUSH, __const_SystemInt32_9
-        PUSH, __intnl_SystemBoolean_152
+        PUSH, __intnl_SystemBoolean_153
         EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
         PUSH, __15__intnlparam
-        PUSH, __intnl_SystemBoolean_153
+        PUSH, __intnl_SystemBoolean_154
         EXTERN, "VRCSDKBaseVRCPlayerApi.__IsPlayerGrounded__SystemBoolean"
         PUSH, __gintnl_SystemObjectArray_0
         PUSH, __const_SystemInt32_10
-        PUSH, __intnl_SystemBoolean_153
+        PUSH, __intnl_SystemBoolean_154
         EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
         PUSH, __const_SystemString_211
         PUSH, __gintnl_SystemObjectArray_0
         PUSH, __14__intnlparam
         EXTERN, "SystemString.__Format__SystemString_SystemObjectArray__SystemString"
-        JUMP, 0x0000BDBC
+        JUMP, 0x0000BE28
         PUSH, __const_SystemString_212
         PUSH, __14__intnlparam
         COPY
@@ -8816,10 +8842,10 @@
 # 
         PUSH, __20__intnlparam
         PUSH, __const_SystemInt32_1
-        PUSH, __intnl_SystemBoolean_154
+        PUSH, __intnl_SystemBoolean_155
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_154
-        JUMP_IF_FALSE, 0x0000be94
+        PUSH, __intnl_SystemBoolean_155
+        JUMP_IF_FALSE, 0x0000bf00
         PUSH, __const_SystemInt32_1
         PUSH, __19__intnlparam
         COPY
@@ -8842,10 +8868,10 @@
 # 
         PUSH, __23__intnlparam
         PUSH, __const_SystemInt32_1
-        PUSH, __intnl_SystemBoolean_155
+        PUSH, __intnl_SystemBoolean_156
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_155
-        JUMP_IF_FALSE, 0x0000bf40
+        PUSH, __intnl_SystemBoolean_156
+        JUMP_IF_FALSE, 0x0000bfac
         PUSH, __const_SystemInt32_1
         PUSH, __22__intnlparam
         COPY
@@ -8883,7 +8909,7 @@
         PUSH, __46__intnlparam
         COPY
 # Calling UdonSharp.Lib.Internal.GetComponentShim.GetUdonSharpComponentInherited<TLP.UdonUtils.Runtime.Events.UdonEvent>(UnityEngine.Component[])
-        JUMP, 0x0000C8EC
+        JUMP, 0x0000CA30
         PUSH, __45__intnlparam
         PUSH, __25__intnlparam
         COPY
@@ -8914,33 +8940,47 @@
         COPY
         PUSH, __intnl_SystemInt32_36
         PUSH, __intnl_SystemInt32_35
-        PUSH, __intnl_SystemBoolean_156
+        PUSH, __intnl_SystemBoolean_157
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_156
-        JUMP_IF_FALSE, 0x0000c214
+        PUSH, __intnl_SystemBoolean_157
+        JUMP_IF_FALSE, 0x0000c2ec
         PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_1
         PUSH, __intnl_SystemInt32_36
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_2
         EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_2
         PUSH, __const_SystemString_205
+        PUSH, __intnl_SystemType_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_3
+        COPY
+        PUSH, __intnl_SystemType_2
+        PUSH, __intnl_SystemType_3
+        PUSH, __intnl_SystemBoolean_158
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_158
+        JUMP_IF_FALSE, 0x0000c1f0
+        JUMP, 0x0000C2C4
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_205
         PUSH, __lcl_idValue_SystemObject_1
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
         PUSH, __lcl_idValue_SystemObject_1
         PUSH, __const_SystemObject_0
-        PUSH, __intnl_SystemBoolean_157
+        PUSH, __intnl_SystemBoolean_159
         EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_157
-        JUMP_IF_FALSE, 0x0000c1a0
+        PUSH, __intnl_SystemBoolean_159
+        JUMP_IF_FALSE, 0x0000c278
         PUSH, __lcl_idValue_SystemObject_1
         PUSH, __intnl_SystemInt64_1
         EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
         PUSH, __intnl_SystemInt64_1
         PUSH, __lcl_targetID_SystemInt64_1
-        PUSH, __intnl_SystemBoolean_157
+        PUSH, __intnl_SystemBoolean_159
         EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_157
-        JUMP_IF_FALSE, 0x0000c1ec
+        PUSH, __intnl_SystemBoolean_159
+        JUMP_IF_FALSE, 0x0000c2c4
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_2
         PUSH, __intnl_UnityEngineComponent_1
         COPY
@@ -8954,7 +8994,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __intnl_SystemInt32_36
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x0000C0C8
+        JUMP, 0x0000C134
         PUSH, __const_SystemObject_0
         PUSH, __27__intnlparam
         COPY
@@ -8979,14 +9019,14 @@
         PUSH, __lcl_playerInSamePrivateChannel_SystemBoolean_0
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __lcl_playerInSamePrivateChannel_SystemBoolean_0
-        PUSH, __intnl_SystemBoolean_158
+        PUSH, __intnl_SystemBoolean_160
         COPY
-        PUSH, __intnl_SystemBoolean_158
-        JUMP_IF_FALSE, 0x0000c2e4
+        PUSH, __intnl_SystemBoolean_160
+        JUMP_IF_FALSE, 0x0000c3bc
         PUSH, __34__intnlparam
-        PUSH, __intnl_SystemBoolean_158
+        PUSH, __intnl_SystemBoolean_160
         EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_158
+        PUSH, __intnl_SystemBoolean_160
         PUSH, __lcl_playerInSamePrivateChannelAllowedToBeHeard_SystemBoolean_0
         COPY
         PUSH, __30__intnlparam
@@ -9001,34 +9041,34 @@
         PUSH, __lcl_otherPlayerNotInAnyPrivateChannel_SystemBoolean_0
         EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __31__intnlparam
-        PUSH, __intnl_SystemBoolean_160
+        PUSH, __intnl_SystemBoolean_162
         COPY
-        PUSH, __intnl_SystemBoolean_160
-        JUMP_IF_FALSE, 0x0000c388
+        PUSH, __intnl_SystemBoolean_162
+        JUMP_IF_FALSE, 0x0000c460
         PUSH, __lcl_otherPlayerNotInAnyPrivateChannel_SystemBoolean_0
-        PUSH, __intnl_SystemBoolean_160
+        PUSH, __intnl_SystemBoolean_162
         COPY
-        PUSH, __intnl_SystemBoolean_160
-        PUSH, __intnl_SystemBoolean_159
+        PUSH, __intnl_SystemBoolean_162
+        PUSH, __intnl_SystemBoolean_161
         COPY
-        PUSH, __intnl_SystemBoolean_159
-        JUMP_IF_FALSE, 0x0000c3c4
+        PUSH, __intnl_SystemBoolean_161
+        JUMP_IF_FALSE, 0x0000c49c
         PUSH, __33__intnlparam
-        PUSH, __intnl_SystemBoolean_159
+        PUSH, __intnl_SystemBoolean_161
         EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_159
+        PUSH, __intnl_SystemBoolean_161
         PUSH, __lcl_isOutsiderAndCanBeHeard_SystemBoolean_0
         COPY
         PUSH, __lcl_playerInSamePrivateChannelAllowedToBeHeard_SystemBoolean_0
-        PUSH, __intnl_SystemBoolean_161
+        PUSH, __intnl_SystemBoolean_163
         COPY
-        PUSH, __intnl_SystemBoolean_161
-        JUMP_IF_FALSE, 0x0000c404
-        JUMP, 0x0000C418
+        PUSH, __intnl_SystemBoolean_163
+        JUMP_IF_FALSE, 0x0000c4dc
+        JUMP, 0x0000C4F0
         PUSH, __lcl_isOutsiderAndCanBeHeard_SystemBoolean_0
-        PUSH, __intnl_SystemBoolean_161
+        PUSH, __intnl_SystemBoolean_163
         COPY
-        PUSH, __intnl_SystemBoolean_161
+        PUSH, __intnl_SystemBoolean_163
         PUSH, __29__intnlparam
         COPY
         PUSH, __intnl_returnJump_SystemUInt32_0
@@ -9058,33 +9098,47 @@
         COPY
         PUSH, __intnl_SystemInt32_40
         PUSH, __intnl_SystemInt32_39
-        PUSH, __intnl_SystemBoolean_162
+        PUSH, __intnl_SystemBoolean_164
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_162
-        JUMP_IF_FALSE, 0x0000c614
+        PUSH, __intnl_SystemBoolean_164
+        JUMP_IF_FALSE, 0x0000c758
         PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_2
         PUSH, __intnl_SystemInt32_40
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_3
         EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_3
         PUSH, __const_SystemString_205
+        PUSH, __intnl_SystemType_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_5
+        COPY
+        PUSH, __intnl_SystemType_4
+        PUSH, __intnl_SystemType_5
+        PUSH, __intnl_SystemBoolean_165
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_165
+        JUMP_IF_FALSE, 0x0000c65c
+        JUMP, 0x0000C730
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_3
+        PUSH, __const_SystemString_205
         PUSH, __lcl_idValue_SystemObject_2
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
         PUSH, __lcl_idValue_SystemObject_2
         PUSH, __const_SystemObject_0
-        PUSH, __intnl_SystemBoolean_163
+        PUSH, __intnl_SystemBoolean_166
         EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_163
-        JUMP_IF_FALSE, 0x0000c5a0
+        PUSH, __intnl_SystemBoolean_166
+        JUMP_IF_FALSE, 0x0000c6e4
         PUSH, __lcl_idValue_SystemObject_2
         PUSH, __intnl_SystemInt64_2
         EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
         PUSH, __intnl_SystemInt64_2
         PUSH, __lcl_targetID_SystemInt64_2
-        PUSH, __intnl_SystemBoolean_163
+        PUSH, __intnl_SystemBoolean_166
         EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_163
-        JUMP_IF_FALSE, 0x0000c5ec
+        PUSH, __intnl_SystemBoolean_166
+        JUMP_IF_FALSE, 0x0000c730
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_3
         PUSH, __intnl_UnityEngineComponent_2
         COPY
@@ -9098,7 +9152,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __intnl_SystemInt32_40
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x0000C4C8
+        JUMP, 0x0000C5A0
         PUSH, __const_SystemObject_0
         PUSH, __35__intnlparam
         COPY
@@ -9124,14 +9178,14 @@
 # TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.IsLocalSafe(VRC.SDKBase.VRCPlayerApi)
 # 
         PUSH, __40__intnlparam
-        PUSH, __intnl_SystemBoolean_164
+        PUSH, __intnl_SystemBoolean_167
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_164
-        JUMP_IF_FALSE, 0x0000c6d0
+        PUSH, __intnl_SystemBoolean_167
+        JUMP_IF_FALSE, 0x0000c814
         PUSH, __40__intnlparam
-        PUSH, __intnl_SystemBoolean_164
+        PUSH, __intnl_SystemBoolean_167
         EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_164
+        PUSH, __intnl_SystemBoolean_167
         PUSH, __39__intnlparam
         COPY
         PUSH, __intnl_returnJump_SystemUInt32_0
@@ -9144,14 +9198,14 @@
 # TLP.UdonUtils.Runtime.Extensions.VrcPlayerApiUtils.PlayerIdSafe(VRC.SDKBase.VRCPlayerApi)
 # 
         PUSH, __42__intnlparam
-        PUSH, __intnl_SystemBoolean_165
+        PUSH, __intnl_SystemBoolean_168
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_165
-        JUMP_IF_FALSE, 0x0000c754
+        PUSH, __intnl_SystemBoolean_168
+        JUMP_IF_FALSE, 0x0000c898
         PUSH, __42__intnlparam
         PUSH, __41__intnlparam
         EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
-        JUMP, 0x0000C768
+        JUMP, 0x0000C8AC
         PUSH, __const_SystemInt32_5
         PUSH, __41__intnlparam
         COPY
@@ -9165,10 +9219,10 @@
 # TLP.UdonUtils.Runtime.Common.UdonCommon.UdonTypeNameShort(string)
 # 
         PUSH, __44__intnlparam
-        PUSH, __intnl_SystemBoolean_166
+        PUSH, __intnl_SystemBoolean_169
         EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_166
-        JUMP_IF_FALSE, 0x0000c7e0
+        PUSH, __intnl_SystemBoolean_169
+        JUMP_IF_FALSE, 0x0000c924
         PUSH, __const_SystemString_197
         PUSH, __43__intnlparam
         COPY
@@ -9185,10 +9239,10 @@
         EXTERN, "SystemArray.__get_Length__SystemInt32"
         PUSH, __intnl_SystemInt32_41
         PUSH, __const_SystemInt32_1
-        PUSH, __intnl_SystemBoolean_167
+        PUSH, __intnl_SystemBoolean_170
         EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_167
-        JUMP_IF_FALSE, 0x0000c8b0
+        PUSH, __intnl_SystemBoolean_170
+        JUMP_IF_FALSE, 0x0000c9f4
         PUSH, __lcl_productTypeName_SystemStringArray_0
         PUSH, __intnl_SystemInt32_42
         EXTERN, "SystemArray.__get_Length__SystemInt32"
@@ -9200,7 +9254,7 @@
         PUSH, __intnl_SystemInt32_43
         PUSH, __43__intnlparam
         EXTERN, "SystemStringArray.__Get__SystemInt32__SystemString"
-        JUMP, 0x0000C8C4
+        JUMP, 0x0000CA08
         PUSH, __44__intnlparam
         PUSH, __43__intnlparam
         COPY
@@ -9227,24 +9281,38 @@
         COPY
         PUSH, __intnl_SystemInt32_45
         PUSH, __intnl_SystemInt32_44
-        PUSH, __intnl_SystemBoolean_168
+        PUSH, __intnl_SystemBoolean_171
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_168
-        JUMP_IF_FALSE, 0x0000caa8
+        PUSH, __intnl_SystemBoolean_171
+        JUMP_IF_FALSE, 0x0000cc58
         PUSH, __intnl_UnityEngineComponentArray_4
         PUSH, __intnl_SystemInt32_45
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_4
         EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_4
         PUSH, __const_SystemString_213
+        PUSH, __intnl_SystemType_6
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_7
+        COPY
+        PUSH, __intnl_SystemType_6
+        PUSH, __intnl_SystemType_7
+        PUSH, __intnl_SystemBoolean_172
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_172
+        JUMP_IF_FALSE, 0x0000cb40
+        JUMP, 0x0000CC30
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_4
+        PUSH, __const_SystemString_213
         PUSH, __lcl_idValue_SystemObject_3
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
         PUSH, __lcl_idValue_SystemObject_3
         PUSH, __const_SystemObject_0
-        PUSH, __intnl_SystemBoolean_169
+        PUSH, __intnl_SystemBoolean_173
         EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_169
-        JUMP_IF_FALSE, 0x0000ca80
+        PUSH, __intnl_SystemBoolean_173
+        JUMP_IF_FALSE, 0x0000cc30
         PUSH, __lcl_idValue_SystemObject_3
         PUSH, __intnl_SystemArray_0
         COPY
@@ -9254,10 +9322,10 @@
         EXTERN, "SystemArray.__IndexOf__SystemArray_SystemObject__SystemInt32"
         PUSH, __intnl_SystemInt32_46
         PUSH, __const_SystemInt32_5
-        PUSH, __intnl_SystemBoolean_170
+        PUSH, __intnl_SystemBoolean_174
         EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_170
-        JUMP_IF_FALSE, 0x0000ca80
+        PUSH, __intnl_SystemBoolean_174
+        JUMP_IF_FALSE, 0x0000cc30
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_4
         PUSH, __intnl_UnityEngineComponent_3
         COPY
@@ -9271,7 +9339,7 @@
         PUSH, __const_SystemInt32_2
         PUSH, __intnl_SystemInt32_45
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x0000C940
+        JUMP, 0x0000CA84
         PUSH, __const_SystemObject_0
         PUSH, __45__intnlparam
         COPY

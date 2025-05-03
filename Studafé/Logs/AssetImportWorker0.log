@@ -15,7 +15,7 @@ D:/Studafe/Studaf√©
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1852
+4359
 Successfully changed project path to: D:/Studafe/Studaf√©
 D:/Studafe/Studaf√©
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ D:/Studafe/Studaf√©
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29476] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3332992791 [EditorId] 3332992791 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [43060] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 4271404698 [EditorId] 4271404698 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29476] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3332992791 [EditorId] 3332992791 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [43060] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 4271404698 [EditorId] 4271404698 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-114514AA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 80.94 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 1.95 ms.
+Refreshing native plugins compatible for Editor in 79.93 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 3.24 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Studafe/Studaf√©/Assets
@@ -71,46 +71,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Trying to register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.054578 seconds.
-- Loaded All Assemblies, in  0.698 seconds
+Registered in 0.062809 seconds.
+- Loaded All Assemblies, in  0.889 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.391 seconds
-Domain Reload Profiling: 1077ms
-	BeginReloadAssembly (259ms)
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1463ms
+	BeginReloadAssembly (322ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (173ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (248ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (187ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (309ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (160ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (241ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (391ms)
+	FinalizeReload (588ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (318ms)
+		SetupLoadedEditorAssemblies (484ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1077ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.697 seconds
-Refreshing native plugins compatible for Editor in 31.32 ms, found 28 plugins.
+- Loaded All Assemblies, in  3.447 seconds
+Refreshing native plugins compatible for Editor in 42.47 ms, found 28 plugins.
 Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -129,7 +129,7 @@ TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Ru
 
 (Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
 
-Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
+Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -138,7 +138,7 @@ TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Ru
 
 (Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
 
-Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
+Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -231,48 +231,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  4.144 seconds
-Domain Reload Profiling: 5828ms
-	BeginReloadAssembly (281ms)
+- Finished resetting the current domain, in  6.528 seconds
+Domain Reload Profiling: 9953ms
+	BeginReloadAssembly (695ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (1250ms)
-		LoadAssemblies (977ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (165ms)
+	LoadAllAssembliesAndSetupDomain (2433ms)
+		LoadAssemblies (2140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (469ms)
-			TypeCache.Refresh (409ms)
-				TypeCache.ScanAssembly (373ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (4145ms)
+		AnalyzeDomain (769ms)
+			TypeCache.Refresh (664ms)
+				TypeCache.ScanAssembly (598ms)
+			ScanForSourceGeneratedMonoScriptInfo (62ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (6529ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2142ms)
+		SetupLoadedEditorAssemblies (2990ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (1023ms)
-			ProcessInitializeOnLoadMethodAttributes (883ms)
-			AfterProcessingInitializeOnLoad (71ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (1541ms)
+			ProcessInitializeOnLoadMethodAttributes (1154ms)
+			AfterProcessingInitializeOnLoad (70ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
 Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 39.61 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.11 ms.
-Unloading 4493 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 247 unused Assets / (7.3 MB). Loaded Objects now: 4950.
-Memory consumption went from 303.6 MB to 296.3 MB.
-Total: 41.619500 ms (FindLiveObjects: 0.471200 ms CreateObjectMapping: 0.245000 ms MarkObjects: 37.154200 ms  DeleteObjects: 3.745600 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.22 seconds
+Refreshing native plugins compatible for Editor in 128.85 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 0.40 ms.
+Unloading 4502 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (2.2 MB). Loaded Objects now: 4997.
+Memory consumption went from 221.1 MB to 219.0 MB.
+Total: 119.836500 ms (FindLiveObjects: 1.328700 ms CreateObjectMapping: 0.294800 ms MarkObjects: 102.800100 ms  DeleteObjects: 15.407300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -289,201 +289,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 341902.146782 seconds.
-  path: Assets/Furniture Pack/Materials
-  artifactKey: Guid(1c50333d533c5494988917ea00ec7311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Materials using Guid(1c50333d533c5494988917ea00ec7311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73cf6185d87cf8fa6b7231e328c2ef7') in 0.002973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5696.652017 seconds.
-  path: Assets/Furniture Pack/Prefabs/Tables_Other_Tables_1.prefab
-  artifactKey: Guid(2b31673fbc03e3648831eb193055d803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Tables_Other_Tables_1.prefab using Guid(2b31673fbc03e3648831eb193055d803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d01c41f067d49fac9b97c1045b009b4') in 0.543187 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Furniture Pack/Prefabs/Tables_Other_Tables_4.prefab
-  artifactKey: Guid(3a0b2649c4ff8964e999ddd5bd20b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Tables_Other_Tables_4.prefab using Guid(3a0b2649c4ff8964e999ddd5bd20b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6655b0a2fd4d5075fdcfc9b36886ede3') in 0.035664 seconds
+  Time since last request: 431203.933343 seconds.
+  path: Assets/Rain Set 1.prefab
+  artifactKey: Guid(b24619f4747b437439b5ba50a7b1faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rain Set 1.prefab using Guid(b24619f4747b437439b5ba50a7b1faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcac8275ecf91d7199de2abc5177fcc') in 0.630834 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Furniture Pack/Prefabs/Tables_Other_Tables_5.prefab
-  artifactKey: Guid(8d58ff54a8f57ab438b6d1dd27de6fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/Prefabs/Tables_Other_Tables_5.prefab using Guid(8d58ff54a8f57ab438b6d1dd27de6fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e4c61db5912ef47eab80b8b71f0402') in 0.031520 seconds
+  Time since last request: 0.043263 seconds.
+  path: Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab
+  artifactKey: Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab using Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f6668a24ec81a8bc1d695fc1c3aefd') in 5.661938 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 29.173979 seconds.
-  path: Assets/SerializedUdonPrograms/00e7195c282b04b40a5f0479e81cd681.asset
-  artifactKey: Guid(61f8db66c94a59f40a4c702c915c81b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/00e7195c282b04b40a5f0479e81cd681.asset using Guid(61f8db66c94a59f40a4c702c915c81b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2839dc0c98238e816277f138805204ae') in 0.003887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.169455 seconds.
-  path: Assets/SerializedUdonPrograms/1acedb947e4c9dc4d8f749557d611c1e.asset
-  artifactKey: Guid(1d0ac8c68be0bea4a9f1dc9b7fc7bac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/1acedb947e4c9dc4d8f749557d611c1e.asset using Guid(1d0ac8c68be0bea4a9f1dc9b7fc7bac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e567d3d496033d19cac7815e05fa42') in 0.003461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SerializedUdonPrograms/02efcf7beabdcf2449eea35ea84fa5c1.asset
-  artifactKey: Guid(001a85cbcca02314085628145cfcbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/02efcf7beabdcf2449eea35ea84fa5c1.asset using Guid(001a85cbcca02314085628145cfcbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce759eec4225587766caa1f856155d0f') in 0.001115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SerializedUdonPrograms/3c9cab8109a3e2d42a5087d5dfe2456a.asset
-  artifactKey: Guid(10587fa130bf60e4db6e2cdda1dbaadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/3c9cab8109a3e2d42a5087d5dfe2456a.asset using Guid(10587fa130bf60e4db6e2cdda1dbaadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fb29ab8b0d4eb5da175e73a3a1df7d') in 0.001474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SerializedUdonPrograms/4f44a12918b543cf95381db6b944c0fc.asset
-  artifactKey: Guid(5646d114386ad754292439670e4e7aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/4f44a12918b543cf95381db6b944c0fc.asset using Guid(5646d114386ad754292439670e4e7aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e917a55eccb396366f43f6959f285d') in 0.002460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SerializedUdonPrograms/4d0835087b932de4981c5df13d287c03.asset
-  artifactKey: Guid(e05c410e807009d43ac46abeeda3b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/4d0835087b932de4981c5df13d287c03.asset using Guid(e05c410e807009d43ac46abeeda3b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70898f2deb2ba62df28f073fde249f2c') in 0.001699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SerializedUdonPrograms/3e7bf5842a194484caeed37a5d21a9b0.asset
-  artifactKey: Guid(6b1bcdac63500a442ac15180cf19eefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/3e7bf5842a194484caeed37a5d21a9b0.asset using Guid(6b1bcdac63500a442ac15180cf19eefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c645e0de8bda97a8c2000b03aca321cc') in 0.003041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SerializedUdonPrograms/7d9bb7b44fb4c1b4da9b7bba05f9f733.asset
-  artifactKey: Guid(b5062ae6c0a47464d9b337236d6c2fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/7d9bb7b44fb4c1b4da9b7bba05f9f733.asset using Guid(b5062ae6c0a47464d9b337236d6c2fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4202d4265352fa9b2da660df2c5d3726') in 0.003630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SerializedUdonPrograms/7e078a054427be046b177e166222c1d3.asset
-  artifactKey: Guid(8214fef5107367541a1a5e6d3d41f650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/7e078a054427be046b177e166222c1d3.asset using Guid(8214fef5107367541a1a5e6d3d41f650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4977016b73159324c2ff4eefd42a5b') in 0.001591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/SerializedUdonPrograms/6e22ae2a5f2443e4499c543af4bc99dc.asset
-  artifactKey: Guid(b5767af17cc70ab419907dc5fe94b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/6e22ae2a5f2443e4499c543af4bc99dc.asset using Guid(b5767af17cc70ab419907dc5fe94b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e484e319c80d8bb2dff1be851acdb745') in 0.001639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/SerializedUdonPrograms/4f48a23baf4f77243ab6afd9f1b2e6a6.asset
-  artifactKey: Guid(9b0dfc80ff52e7b4e95c7b810d3106d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/4f48a23baf4f77243ab6afd9f1b2e6a6.asset using Guid(9b0dfc80ff52e7b4e95c7b810d3106d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5096e2f09376e10afe3b4cc35e61b762') in 0.002619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SerializedUdonPrograms/5f148ea27a961e1418c15d8eeed35976.asset
-  artifactKey: Guid(8268a0d11fc53024286428567c4ff08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/5f148ea27a961e1418c15d8eeed35976.asset using Guid(8268a0d11fc53024286428567c4ff08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dc70fd73ab28bb6fd554c0227a7c4e') in 0.002227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SerializedUdonPrograms/7f85fe3ea0b1c734ebff43a1a7d05f03.asset
-  artifactKey: Guid(796d2d42d42d049409eaf9d8bf4f7766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/7f85fe3ea0b1c734ebff43a1a7d05f03.asset using Guid(796d2d42d42d049409eaf9d8bf4f7766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f87568882b794f596c33f8b7d6a3ea2') in 0.002506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SerializedUdonPrograms/5de68d86d9861694a9c0349fab244d8a.asset
-  artifactKey: Guid(d3935444767d00648b5d54d384336938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SerializedUdonPrograms/5de68d86d9861694a9c0349fab244d8a.asset using Guid(d3935444767d00648b5d54d384336938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8d6cd810cb410f927a0bb675410682') in 0.001690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 28.303994 seconds.
-  path: Assets/Examples/ImageSlideshow/SlideshowFrame.prefab
-  artifactKey: Guid(90a0d5dc4e8c84642a0650e9c0d85806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Examples/ImageSlideshow/SlideshowFrame.prefab using Guid(90a0d5dc4e8c84642a0650e9c0d85806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbb63830c78cf9d5653860ef1428a89') in 0.338181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Samples/YodoHapticSlider_Bloom.prefab
-  artifactKey: Guid(a2bdfd83a02112e4eaba2d2352948576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Samples/YodoHapticSlider_Bloom.prefab using Guid(a2bdfd83a02112e4eaba2d2352948576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba711de126d33197165888d46e7be5d') in 0.156491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000617 seconds.
-  path: Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Prefabs/YodoHapticSlider_NightMode.prefab
-  artifactKey: Guid(308c38e55e57976439fe2f088625935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Prefabs/YodoHapticSlider_NightMode.prefab using Guid(308c38e55e57976439fe2f088625935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e05b273eceb88a448e2188baf9f556c') in 0.033764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Prefabs/YodoHapticSlider_Bloom.prefab
-  artifactKey: Guid(9739359d4d697264c82dd5f6ab8b6955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/È¢ÑÂà∂‰ª∂/Yodokorochan/Yodo_HapticControllers/Prefabs/YodoHapticSlider_Bloom.prefab using Guid(9739359d4d697264c82dd5f6ab8b6955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5e1aba750ff8b2d13a9579e7c798a6') in 0.037245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 7.765000 seconds.
-  path: Assets/CoffeeSet_MiniGreen/Assets/Sprite/Ico_Slice.png
-  artifactKey: Guid(90326cd69c04a604d9adfa67f26cf1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeSet_MiniGreen/Assets/Sprite/Ico_Slice.png using Guid(90326cd69c04a604d9adfa67f26cf1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fcfe751f0b233ce2dae12835d506b6') in 0.152985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 9.849553 seconds.
-  path: Packages/com.vrchat.worlds/Editor/Udon/UnityEditorTests/UdonProgramSources/Resources/SyncedSlider-TestGraph.asset
-  artifactKey: Guid(da113172081f2ba40b9cc46674a846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.vrchat.worlds/Editor/Udon/UnityEditorTests/UdonProgramSources/Resources/SyncedSlider-TestGraph.asset using Guid(da113172081f2ba40b9cc46674a846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cb9c4edb34ae8049ed7de3719b3645') in 0.004472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 235
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.195 seconds
-Refreshing native plugins compatible for Editor in 40.31 ms, found 28 plugins.
+- Loaded All Assemblies, in  1.932 seconds
+Refreshing native plugins compatible for Editor in 39.23 ms, found 28 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -561,431 +385,11 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-ËøõÁ®ãÂ§ñÂØºÂÖ•Êó∂‰∏çÊîØÊåÅ CreateSerializedAsset
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
-UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
-UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
-UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
-UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
-UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
-UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
-UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
-UdonSharpEditor.UdonSharpEditorManager:UpgradeAssetsIfNeeded () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:868)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1689)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
-
-UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
-  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
-  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
-  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
-  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
-  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
-  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
-  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
-  at UdonSharpEditor.UdonSharpEditorManager.UpgradeAssetsIfNeeded () [0x00056] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:868 
-  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x00009] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1689 
-  at UdonSharpEditor.UdonSharpEditorManager.RunPostAssemblyBuildRefresh () [0x0000a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:132 
-  at UnityEditor.AssemblyReloadEvents.OnAfterAssemblyReload () [0x00017] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
-
-(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs Line: 75)
-
-- Finished resetting the current domain, in  5.391 seconds
-Domain Reload Profiling: 7569ms
-	BeginReloadAssembly (936ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (417ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (113ms)
-	LoadAllAssembliesAndSetupDomain (1052ms)
-		LoadAssemblies (1201ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (98ms)
-			TypeCache.Refresh (34ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (5392ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2087ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (164ms)
-			ProcessInitializeOnLoadAttributes (662ms)
-			ProcessInitializeOnLoadMethodAttributes (1142ms)
-			AfterProcessingInitializeOnLoad (83ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonVoiceUtils.Runtime.Core.PlayerAudioController already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Type TLP.UdonUtils.Runtime.Sync.Experimental.NtpClient already exists
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs:15)
-
-(Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
-
-Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 53.04 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 4235 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 206 unused Assets / (7.2 MB). Loaded Objects now: 4991.
-Memory consumption went from 282.1 MB to 274.9 MB.
-Total: 138.533200 ms (FindLiveObjects: 0.473200 ms CreateObjectMapping: 0.228900 ms MarkObjects: 127.315100 ms  DeleteObjects: 10.512300 ms)
-
-Prepare: number of updated asset objects reloaded= 28
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 244.218604 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown.png
-  artifactKey: Guid(ba304f5556a3a4fac98d126883083e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown.png using Guid(ba304f5556a3a4fac98d126883083e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e1c825d1b5f856c9d4beb8c5ee9de6') in 0.072353 seconds
-Number of updated asset objects reloaded before import = 31
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.064690 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@3x.png
-  artifactKey: Guid(985cbca1705a64c80b370afdb30b3ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@3x.png using Guid(985cbca1705a64c80b370afdb30b3ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324b4e1c7fe6d3d6e93e41cbd110a436') in 0.009214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.187492 seconds.
-  path: Packages/com.vrchat.core.vpm-resolver/Editor/com.vrchat.core.vpm-resolver.Editor.asmdef
-  artifactKey: Guid(d1e8c2ba944807d4a9213e2de6930a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.vrchat.core.vpm-resolver/Editor/com.vrchat.core.vpm-resolver.Editor.asmdef using Guid(d1e8c2ba944807d4a9213e2de6930a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574aaa2bcc1a714f999bbe334d01af1f') in 0.001030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronUp@2x.png
-  artifactKey: Guid(57dfdce0eaf2f48a9bd9e60e920e446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronUp@2x.png using Guid(57dfdce0eaf2f48a9bd9e60e920e446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad8496bf748a3af3f7815ee28b79217') in 0.008637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_ChevronDown@3x.png
-  artifactKey: Guid(5d96795fd770f47d69d997b053532730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_ChevronDown@3x.png using Guid(5d96795fd770f47d69d997b053532730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166df111307ea5eec679b9e02da5c00f') in 0.011303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_ChevronDown.png
-  artifactKey: Guid(06ad495fb07444736b59782982d96250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_ChevronDown.png using Guid(06ad495fb07444736b59782982d96250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b578aebb00cae211c98b791b304800') in 0.010214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_ChevronUp@2x.png
-  artifactKey: Guid(a89bfcdeffde84e7ebf930d44b695435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_ChevronUp@2x.png using Guid(a89bfcdeffde84e7ebf930d44b695435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db480c2d1534445c29a9ce7aa819dd85') in 0.010617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_ChevronUp@3x.png
-  artifactKey: Guid(0efecba65ae4341a385cd5d39a2af765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_ChevronUp@3x.png using Guid(0efecba65ae4341a385cd5d39a2af765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6312b50dc14957fc53cf4eb7ba552e1') in 0.011061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@4x.png
-  artifactKey: Guid(d1acbe0a708dc40dc80254764e67ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@4x.png using Guid(d1acbe0a708dc40dc80254764e67ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981e141b1aae44a5e55d6fc792416952') in 0.008890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.247389 seconds.
-  path: Assets/VowganVR/VRoomba/VRoomba.physicMaterial
-  artifactKey: Guid(63e0a7795e7b53143937f13dff7db57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/VRoomba.physicMaterial using Guid(63e0a7795e7b53143937f13dff7db57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659d99eb131f2adfe224625cfbd3b252') in 0.001702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab
-  artifactKey: Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab using Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feffef22f0f8b72a947ecfac8fa0a13') in 0.444000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 235
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/VowganVR/VRoomba/Textures/Vroomba v2_MetallicSmoothness.png
-  artifactKey: Guid(2e77437f1da258049aeb2c94083513b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Textures/Vroomba v2_MetallicSmoothness.png using Guid(2e77437f1da258049aeb2c94083513b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc883e5b358d03b3799144dcafb3d3e') in 0.016182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/VowganVR/VRoomba/Scripts/VRoombaBalloon.asset
-  artifactKey: Guid(ad7b98748ff67174db8b6cb1fc07798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Scripts/VRoombaBalloon.asset using Guid(ad7b98748ff67174db8b6cb1fc07798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540027664ac00109b1b0bd13f271eb47') in 0.001662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/VowganVR/VRoomba/Materials/Vroomba v2 Green.mat
-  artifactKey: Guid(fab510fb655322f4e8024976e7832032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Materials/Vroomba v2 Green.mat using Guid(fab510fb655322f4e8024976e7832032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a12ff0ff5ff4b601d88abd3ac1fdbc9') in 0.369510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/VowganVR/VRoomba/Materials/Vroomba v2 Blue.mat
-  artifactKey: Guid(1a1e816efeb23ef449969658024e3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Materials/Vroomba v2 Blue.mat using Guid(1a1e816efeb23ef449969658024e3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235da04caeca1ba22fffbcc0af8cd5d9') in 0.073569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000664 seconds.
-  path: Assets/VowganVR/VRoomba/Textures/Vroomba v2_Detail.png
-  artifactKey: Guid(33adda2f275c1494fa388eeb6078782f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Textures/Vroomba v2_Detail.png using Guid(33adda2f275c1494fa388eeb6078782f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f340f899de434013462ec12a1c820f6') in 0.013468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/VowganVR/VRoomba/Materials/VRoomba v2 Black.mat
-  artifactKey: Guid(9c20e3510a003a54a99c569a43eb66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Materials/VRoomba v2 Black.mat using Guid(9c20e3510a003a54a99c569a43eb66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f479f46ee5d3b7a182661aaa5e19856') in 0.084905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/VowganVR/VRoomba/Scripts/VRoombaSensor.asset
-  artifactKey: Guid(0dadb1544da71b446bf8bab6741d8002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Scripts/VRoombaSensor.asset using Guid(0dadb1544da71b446bf8bab6741d8002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5083b629244ae18826bed04e299aa5fc') in 0.001698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/VowganVR/VRoomba/Textures/Vroomba v2_AO.png
-  artifactKey: Guid(4d3f2140f7749734d93dda2f5c4daec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Textures/Vroomba v2_AO.png using Guid(4d3f2140f7749734d93dda2f5c4daec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8db751a0a9029258623699c1c1788c') in 0.019071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/VowganVR/VRoomba/Prefabs/VRoomba Military Grade Variant.prefab
-  artifactKey: Guid(a147a71945e75f7409ed21e017b72836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Prefabs/VRoomba Military Grade Variant.prefab using Guid(a147a71945e75f7409ed21e017b72836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d731cc467799f8b902c9718c94aa0e4') in 0.146234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 256
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/VowganVR/VRoomba/Textures/Vroomba v2_Emission.png
-  artifactKey: Guid(3071469a4d0109046a0bd3fc9015c55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Textures/Vroomba v2_Emission.png using Guid(3071469a4d0109046a0bd3fc9015c55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5d72d2465d2e41c910ca01f0784228') in 0.012533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/VowganVR/VRoomba/Textures/Vroomba v2_Normal.png
-  artifactKey: Guid(58a459ad2e5c5aa4fa2164b2debcc015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Textures/Vroomba v2_Normal.png using Guid(58a459ad2e5c5aa4fa2164b2debcc015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e977f596fbe274cfcbf2a67066e8c7') in 0.031574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.025796 seconds.
-  path: Assets/VowganVR/VRoomba/VRoomba
-  artifactKey: Guid(c58dac84abc69454d9944b0f8ea92e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/VRoomba using Guid(c58dac84abc69454d9944b0f8ea92e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48053efaf6fe92d5c16b71a70f2dd56f') in 0.001158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 32.258083 seconds.
-  path: Assets/VowganVR/VRoomba/Prefabs/Attachment Weapons.prefab
-  artifactKey: Guid(03d76ca7eb9c38b45b7a6c330d64b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Prefabs/Attachment Weapons.prefab using Guid(03d76ca7eb9c38b45b7a6c330d64b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa361e5a8e91b4f7e5a1d605ac0a1acf') in 0.021655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 4.034040 seconds.
-  path: Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab
-  artifactKey: Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab using Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a137c9278a943cf5cae2d44a19dd0f') in 0.137457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 235
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.617 seconds
-Refreshing native plugins compatible for Editor in 39.33 ms, found 28 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-jp.ootr.ImageTab.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageTab.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-jp.ootr.ImageDeviceController.Editor.SetObjectReferences must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReferences.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageDeviceController.Editor.SetObjectReferences:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-jp.ootr.ImageDeviceController.Editor.SetObjectReference__ImageDeviceController must be instantiated using the ScriptableObject.CreateInstance method instead of new SetObjectReference__ImageDeviceController.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.ScriptableObject:.ctor ()
-UnityEditor.Editor:.ctor ()
-jp.ootr.ImageDeviceController.Editor.SetObjectReference__ImageDeviceController:.ctor ()
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.RuntimeType:CreateInstanceMono (bool,bool)
-System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
-System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,bool,bool)
-System.Activator:CreateInstance (System.Type,bool)
-System.Activator:CreateInstance (System.Type)
-VRC.SDKBase.Editor.BuildPipeline.VRCBuildPipelineCallbacks:Initialize ()
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[C:\build\output\unity\unity\Runtime\Scripting\Scripting.cpp line 763]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-ËøõÁ®ãÂ§ñÂØºÂÖ•Êó∂‰∏çÊîØÊåÅ CreateSerializedAsset
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
-UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
-UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
-UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
-UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
-UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
-UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
-UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
-UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
-
-[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
+[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: System.IO.IOException: The process cannot access the file 'D:\Studafe\Studaf√©\Assets\UdonSharp\UtilityScripts\Synced\GlobalToggleObject.asset.meta' because it is being used by another process.
+  at System.IO.FileSystem.CopyFile (System.String sourceFullPath, System.String destFullPath, System.Boolean overwrite) [0x00060] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName, System.Boolean overwrite) [0x00062] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UdonSharp.Updater.UdonSharpDataLocator.DeepCopyDirectory (System.String sourcePath, System.String destinationPath) [0x00048] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:99 
+  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x00044] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:70 
   at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
   at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
   at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
@@ -1011,40 +415,40 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  4.872 seconds
-Domain Reload Profiling: 6471ms
-	BeginReloadAssembly (548ms)
+- Finished resetting the current domain, in  7.994 seconds
+Domain Reload Profiling: 9907ms
+	BeginReloadAssembly (654ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (182ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (851ms)
-		LoadAssemblies (1045ms)
+		CreateAndSetChildDomain (242ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (1063ms)
+		LoadAssemblies (1282ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (45ms)
-			TypeCache.Refresh (17ms)
+		AnalyzeDomain (69ms)
+			TypeCache.Refresh (28ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (4874ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (7995ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1924ms)
+		SetupLoadedEditorAssemblies (2378ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (647ms)
-			ProcessInitializeOnLoadMethodAttributes (1032ms)
-			AfterProcessingInitializeOnLoad (63ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (669ms)
+			ProcessInitializeOnLoadMethodAttributes (1386ms)
+			AfterProcessingInitializeOnLoad (94ms)
+			EditorAssembliesLoaded (32ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
 Type TLP.UdonVoiceUtils.Runtime.Examples.VoiceOverrideDoor already exists
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -1073,12 +477,12 @@ TlpDefaultExecutionOrder:.ctor (System.Type,int) (at ./Packages/tlp.udonutils/Ru
 (Filename: ./Packages/tlp.udonutils/Runtime/Attributes/TlpDefaultExecutionOrder.cs Line: 15)
 
 Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 53.72 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 69.06 ms, found 28 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 4231 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 204 unused Assets / (7.2 MB). Loaded Objects now: 5051.
-Memory consumption went from 292.8 MB to 285.6 MB.
-Total: 39.691500 ms (FindLiveObjects: 0.681700 ms CreateObjectMapping: 0.227500 ms MarkObjects: 34.149900 ms  DeleteObjects: 4.630400 ms)
+Unloading 4177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 151 unused Assets / (2.1 MB). Loaded Objects now: 5026.
+Memory consumption went from 190.8 MB to 188.7 MB.
+Total: 90.137400 ms (FindLiveObjects: 0.938700 ms CreateObjectMapping: 0.387200 ms MarkObjects: 86.336300 ms  DeleteObjects: 2.472400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1094,80 +498,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 807.868953 seconds.
-  path: Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab
-  artifactKey: Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab using Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf62c742abd9bac25d261a94c231febd') in 0.355175 seconds
-Number of updated asset objects reloaded before import = 21
-Number of asset objects unloaded after import = 235
-========================================================================
-Received Prepare
-Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 48.25 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
-Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (7.2 MB). Loaded Objects now: 5052.
-Memory consumption went from 240.8 MB to 233.6 MB.
-Total: 141.083300 ms (FindLiveObjects: 1.619100 ms CreateObjectMapping: 0.816200 ms MarkObjects: 134.198700 ms  DeleteObjects: 4.446100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Leviant's Shaders/ScreenSpace Ubershader v2.8': fallback shader 'Particles/Multiply' not found
-Refreshing native plugins compatible for Editor in 42.65 ms, found 28 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (7.2 MB). Loaded Objects now: 5052.
-Memory consumption went from 240.8 MB to 233.6 MB.
-Total: 102.989800 ms (FindLiveObjects: 1.031500 ms CreateObjectMapping: 0.412100 ms MarkObjects: 98.332300 ms  DeleteObjects: 3.212000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 85.692540 seconds.
-  path: Assets/VowganVR/VRoomba/Prefabs/Attachment Weapons.prefab
-  artifactKey: Guid(03d76ca7eb9c38b45b7a6c330d64b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Prefabs/Attachment Weapons.prefab using Guid(03d76ca7eb9c38b45b7a6c330d64b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f7e139b0d391535868c674858be338') in 0.044425 seconds
-Number of updated asset objects reloaded before import = 89
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.066808 seconds.
-  path: Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab
-  artifactKey: Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VowganVR/VRoomba/Prefabs/VRoomba Comfort Grade Variant.prefab using Guid(81baad1e3d4dce546961e78452e67651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382e4d7b3ee3d93495f3e3795320fccb') in 0.134710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 235
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ”…”⁄œﬂ≥ÃÕÀ≥ˆªÚ”¶”√≥Ã–Ú«Î«Û£¨“—÷–÷π I/O ≤Ÿ◊˜°£
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

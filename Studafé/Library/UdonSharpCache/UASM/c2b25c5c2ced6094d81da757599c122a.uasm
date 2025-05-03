@@ -128,8 +128,11 @@
     __intnl_SystemInt32_8: %SystemInt32, null
     __intnl_SystemBoolean_7: %SystemBoolean, null
     __lcl_behaviour_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
-    __lcl_typeID_SystemObject_0: %SystemObject, null
+    __intnl_SystemType_0: %SystemType, null
+    __intnl_SystemType_1: %SystemType, null
     __intnl_SystemBoolean_8: %SystemBoolean, null
+    __lcl_typeID_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
     __intnl_SystemInt64_0: %SystemInt64, null
     __intnl_SystemInt32_9: %SystemInt32, null
     __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
@@ -679,30 +682,44 @@
         PUSH, __intnl_SystemBoolean_7
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_7
-        JUMP_IF_FALSE, 0x00000e1c
+        JUMP_IF_FALSE, 0x00000e88
         PUSH, __3__intnlparam
         PUSH, __intnl_SystemInt32_8
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
         EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
         PUSH, __const_SystemString_18
+        PUSH, __intnl_SystemType_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_1
+        COPY
+        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_1
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000da8
+        JUMP, 0x00000E60
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_18
         PUSH, __lcl_typeID_SystemObject_0
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
         PUSH, __lcl_typeID_SystemObject_0
         PUSH, __const_SystemObject_0
-        PUSH, __intnl_SystemBoolean_8
+        PUSH, __intnl_SystemBoolean_9
         EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_8
-        JUMP_IF_FALSE, 0x00000dc4
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000e30
         PUSH, __lcl_typeID_SystemObject_0
         PUSH, __intnl_SystemInt64_0
         EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
         PUSH, __intnl_SystemInt64_0
         PUSH, __lcl_targetID_SystemInt64_0
-        PUSH, __intnl_SystemBoolean_8
+        PUSH, __intnl_SystemBoolean_9
         EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_8
-        JUMP_IF_FALSE, 0x00000df4
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000e60
         PUSH, __lcl_arraySize_SystemInt32_0
         PUSH, __const_SystemInt32_1
         PUSH, __lcl_arraySize_SystemInt32_0
@@ -729,30 +746,44 @@
         PUSH, __intnl_SystemBoolean_7
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_7
-        JUMP_IF_FALSE, 0x00000fec
+        JUMP_IF_FALSE, 0x000010c4
         PUSH, __3__intnlparam
         PUSH, __intnl_SystemInt32_8
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
         EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
         PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
         PUSH, __const_SystemString_18
+        PUSH, __intnl_SystemType_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_1
+        COPY
+        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_1
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000f9c
+        JUMP, 0x0000109C
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_18
         PUSH, __lcl_typeID_SystemObject_0
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
         PUSH, __lcl_typeID_SystemObject_0
         PUSH, __const_SystemObject_0
-        PUSH, __intnl_SystemBoolean_8
+        PUSH, __intnl_SystemBoolean_9
         EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_8
-        JUMP_IF_FALSE, 0x00000f4c
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00001024
         PUSH, __lcl_typeID_SystemObject_0
         PUSH, __intnl_SystemInt64_0
         EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
         PUSH, __intnl_SystemInt64_0
         PUSH, __lcl_targetID_SystemInt64_0
-        PUSH, __intnl_SystemBoolean_8
+        PUSH, __intnl_SystemBoolean_9
         EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
-        PUSH, __intnl_SystemBoolean_8
-        JUMP_IF_FALSE, 0x00000fc4
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x0000109c
         PUSH, __lcl_targetIdx_SystemInt32_0
         PUSH, __intnl_SystemInt32_9
         COPY
@@ -771,7 +802,7 @@
         PUSH, __const_SystemInt32_1
         PUSH, __intnl_SystemInt32_8
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000E74
+        JUMP, 0x00000EE0
         PUSH, __lcl_foundBehaviours_UnityEngineComponentArray_0
         PUSH, __2__intnlparam
         COPY
