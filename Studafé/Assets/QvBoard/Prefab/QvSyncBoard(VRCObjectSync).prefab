@@ -94,6 +94,12 @@ PrefabInstance:
       propertyPath: _syncMethod
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5235354075895637722, guid: bd82a46bb0206344faf3db26f6fda209,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 484bbe2a90dace44eaf431691793b94b,
+        type: 2}
     - target: {fileID: 6972883281416618342, guid: bd82a46bb0206344faf3db26f6fda209,
         type: 3}
       propertyPath: m_Enabled
@@ -102,7 +108,7 @@ PrefabInstance:
     - target: {fileID: 7795189361254118940, guid: bd82a46bb0206344faf3db26f6fda209,
         type: 3}
       propertyPath: m_Name
-      value: QvPenBoardSync Variant
+      value: QvSyncBoard(VRCObjectSync)
       objectReference: {fileID: 0}
     - target: {fileID: 8746219088046089988, guid: bd82a46bb0206344faf3db26f6fda209,
         type: 3}

@@ -409,7 +409,30 @@ MonoBehaviour:
   - Assets/VowganVR/VRoomba/Models/Room.fbx
   - Assets/VowganVR/VRoomba/Models/Bike Seat.fbx
   - Assets/VowganVR/VRoomba/Models/Balloon.fbx
-  uvOverlapAssetList: 00000000ffffffff010100000101000001010000010100000101000001010000010100000000000000000000
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_coin_01x01x01.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_join_mid_04x06x01.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_steps_4x2x2.FBX
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_cube_08x08x08.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Dependencies/VRChat/Models/damageSphere.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_block_04x04x04.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_join_outer_02x06x02.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_join_inner_01x06x01.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_pillar_01x02x01.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_wall_8x8x1.FBX
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_floor_08x01x08.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_pillar_02x08x02.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_platform_8x1x8.FBX
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_floor_4x1x4.FBX
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_platform_02x01x02.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_ramp_04x02x02.fbx
+  - Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Resources/ClientSim/Avatars/VRC_Utility_FullBody/Avatar_Utility.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_floor_64x01x64.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_platform_04x01x04.fbx
+  - Packages/jp.ootr.image-tab/Assets/Models/tablet.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_house_16x16x24.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_cube_04x04x04.fbx
+  - Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Prototyping/Models/prototype_cube_02x02x02.fbx
+  uvOverlapAssetList: 00000000ffffffff0101000001010000010100000101000001010000010100000101000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 4060 Laptop GPU
