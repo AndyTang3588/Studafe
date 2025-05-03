@@ -18,6 +18,14 @@
 /Studafé/[Ll]ogs/
 /Studafé/[Uu]ser[Ss]ettings/
 
+/Studafé/Library/
+/Studafé/Temp/
+/Studafé/Obj/
+/Studafé/Build/
+/Studafé/Builds/
+/Studafé/Logs/
+/Studafé/UserSettings/
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
