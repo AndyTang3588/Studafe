@@ -70,13 +70,13 @@ namespace HoshinoLabs.IwaSync3
         [SerializeField]
         string playlistUrl;
         [SerializeField]
-        [Tooltip("取得したURLの先頭に設定する文字列を指定します")]
+        [Tooltip("指定要加在获取到的URL开头的字符串")]
         string playlistPrefix;
         [SerializeField]
-        [Tooltip("プレイリストから取得する上限を指定します(0で制限無し)")]
+        [Tooltip("指定从播放列表中获取的上限数量（0为不限制）")]
         int playlistLimitCount;
         [SerializeField]
-        [Tooltip("ショート動画を除外します")]
+        [Tooltip("排除短视频")]
         bool playlistExcludeShortVideo;
 
         [SerializeField]

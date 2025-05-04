@@ -9,33 +9,33 @@ namespace HoshinoLabs.IwaSync3
     {
 #pragma warning disable CS0414
         [SerializeField]
-        [Tooltip("制御元のiwaSync3を指定します")]
+        [Tooltip("指定控制源的iwaSync3")]
         IwaSync3 iwaSync3;
 
         [SerializeField]
-        [Tooltip("反映先のマテリアルが複数ある場合はインデックスを指定します")]
+        [Tooltip("如果目标材质有多个，请指定索引")]
         int materialIndex = 0;
         [SerializeField]
-        [Tooltip("反映したいマテリアルプロパティの名前を指定します")]
+        [Tooltip("指定要应用的材质属性名")]
         string textureProperty = "_MainTex";
         [SerializeField]
-        [Tooltip("アイドル時に表示をオフにするか")]
+        [Tooltip("空闲时是否关闭显示")]
         bool idleScreenOff = false;
         [SerializeField]
-        [Tooltip("アイドル時に指定したテクスチャを表示する場合は設定")]
+        [Tooltip("空闲时若要显示指定纹理，请在此设置")]
         Texture idleScreenTexture = null;
         [SerializeField]
-        [Tooltip("スクリーンのアスペクト比を指定")]
+        [Tooltip("指定屏幕的宽高比")]
         float aspectRatio = 1.777778f;
         [SerializeField]
-        [Tooltip("ミラーに映る映像を反転するかを指定します")]
+        [Tooltip("是否反转镜子中显示的画面")]
         bool defaultMirror = true;
         [SerializeField]
-        [Tooltip("明るさの倍率を指定します")]
+        [Tooltip("指定亮度倍率")]
         [Range(0f, 5f)]
         float defaultEmissiveBoost = 1f;
         [SerializeField]
-        [Tooltip("描画先のレンダラを指定します")]
+        [Tooltip("指定绘制目标的渲染器")]
         Renderer screen;
 #pragma warning restore CS0414
     }

@@ -10,25 +10,25 @@ namespace HoshinoLabs.IwaSync3
     {
 #pragma warning disable CS0414
         [SerializeField]
-        [Tooltip("制御元のiwaSync3を指定します")]
+        [Tooltip("指定控制源的iwaSync3")]
         IwaSync3 iwaSync3;
         [SerializeField]
-        [Tooltip("再生モードごとに使用するかのマスク設定\nそれぞれのモードで使用するかを指定します")]
+        [Tooltip("为每个播放模式设置使用与否的掩码\n可以为各模式指定是否启用")]
         TrackModeMask mask = (TrackModeMask)(-1);
         [SerializeField]
-        [Tooltip("優先スピーカーに設定するか指定します\nVideoの時このスピーカーを優先して使用します")]
+        [Tooltip("指定是否设置为**主扬声器**\n在Video模式时优先使用此扬声器")]
         bool primary = false;
 
         [SerializeField]
-        [Tooltip("音声が最大で聴こえる距離を指定します")]
+        [Tooltip("指定音频最大可听距离")]
         float maxDistance = 12f;
 
         [SerializeField]
-        [Tooltip("立体音響を有効にするか指定します")]
+        [Tooltip("指定是否启用**3D立体音效**")]
         bool spatialize = false;
 
         [SerializeField]
-        [Tooltip("スピーカーに出力する音声信号の種類を指定します")]
+        [Tooltip("指定输出到扬声器的音频信号类型")]
         ChannelMode mode;
 #pragma warning restore CS0414
     }
