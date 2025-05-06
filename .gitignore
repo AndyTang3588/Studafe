@@ -93,3 +93,4 @@ Studafé/Library/PackageCache/com.unity.burst@1.8.12/.Runtime/libburst-llvm-16.d
 
 # System
 .DS_Store
+*/.DS_Store
