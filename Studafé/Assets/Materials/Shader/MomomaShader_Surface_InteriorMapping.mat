@@ -54,6 +54,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _GlassColor: {r: 1, g: 1, b: 1, a: 1}
-    - _InteriorOffset: {r: 3.8, g: 1.1, b: -1.7, a: 0}
-    - _InteriorSize: {r: 4.89, g: 1.23, b: 3.58, a: 2}
+    - _InteriorOffset: {r: 4.18, g: 0.99, b: -2.4, a: 0}
+    - _InteriorSize: {r: 4.89, g: 1.05, b: 4.04, a: 2}
   m_BuildTextureStacks: []
